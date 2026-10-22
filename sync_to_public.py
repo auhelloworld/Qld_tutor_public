@@ -253,6 +253,12 @@ def main() -> int:
                 out = json.dumps(kept, indent=2, ensure_ascii=False) + "\n"
                 jf.write_text(out, encoding="utf-8")
 
+        if not args.dry_run:
+            check_script = dest / "scripts" / "check_exercises.py"
+            if check_script.exists():
+                subprocess.run([sys.executable, str(check_script), "--update-readme"],
+                               cwd=str(dest), capture_output=True)
+
     # ---- 4) 全文扫描验证（正式模式扫 dest；dry-run 只扫内存中的题库逻辑已在上步完成） --
     scan_hits: list[str] = []
     if not args.dry_run:

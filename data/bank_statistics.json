@@ -3,29 +3,29 @@
   "junior": {
     "math": {
       "7": {
-        "total": 985,
+        "total": 974,
         "question_type": {
-          "multi_part": 129,
+          "multi_part": 127,
           "multiple_choice": 62,
-          "reasoning": 271,
-          "short_answer": 523
+          "reasoning": 270,
+          "short_answer": 515
         },
         "difficulty": {
           "AMC": 33,
-          "developing": 570,
+          "developing": 559,
           "extending": 271,
           "foundational": 111
         },
         "complexity": {
-          "complex_familiar": 613,
+          "complex_familiar": 602,
           "complex_unfamiliar": 260,
           "simple_familiar": 112
         },
         "topic_count": 171,
         "topic_item_min": 1,
         "topic_item_max": 28,
-        "open_or_constructed_response_percent": 93.7,
-        "reasoning_or_multipart_percent": 40.6,
+        "open_or_constructed_response_percent": 93.6,
+        "reasoning_or_multipart_percent": 40.8,
         "source_files": [
           "exercise_7_math.json"
         ]
