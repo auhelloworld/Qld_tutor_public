@@ -4,8 +4,8 @@
 
 | 仓 | 可见性 | 内容 | 用途 |
 |---|---|---|---|
-| `Qld_tutor_private`（由现仓改名） | private | 代码 + 全部题库（含 Mathspace 6,444 条）+ 全部配图 | 你和孩子日常使用、开发的唯一仓 |
-| `Qld_tutor`（新建空仓） | public | 代码 + 自有题（约 10,071 条）+ MIT LICENSE | 拿去申请 Codex for OSS、对外展示 |
+| `Qld_tutor`（原仓转 private，本地 `~/Qld_tutor_private`） | private | 代码 + 全部题库（含 Mathspace 6,444 条）+ 全部配图 | 你和孩子日常使用、开发的唯一仓 |
+| `Qld_tutor_public`（新建空仓，本地 `~/Qld_tutor_public`） | public | 代码 + 自有题（约 10,071 条）+ MIT LICENSE | 拿去申请 Codex for OSS、对外展示 |
 
 **铁律：只在自用仓开发；公开仓只进、只通过 `sync_to_public.py` 同步，不手工往公开仓推任何东西。**
 公开仓若收到外部 PR/贡献，先把改动搬回自用仓，再走同步发出来——否则下次镜像同步会把
@@ -26,14 +26,14 @@
 
 ```bash
 # 演练（不写文件，只看会剔多少、跳过什么）
-python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor --dry-run
+python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor_public --dry-run
 
 # 日常同步（之后自己看 git diff 再提交）
-python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor
+python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor_public
 
 # 一键同步+提交+推送（扫描不过自动中止）
-python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor \
-    --commit "sync: public snapshot 2026-10-22" --push
+python3 sync_to_public.py --source ~/Qld_tutor_private --dest ~/Qld_tutor_public \
+    --commit "sync: public snapshot $(date +%F)" --push
 ```
 
 报告里的“剔除 6,444 条”是每次运行的处理量（先镜像原文、再过滤），最终以
