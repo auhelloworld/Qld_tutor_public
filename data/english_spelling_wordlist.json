@@ -1,0 +1,60 @@
+{
+  "description": "Year 7 English spelling word list with common error patterns — 5 categories × 6 words",
+  "categories": {
+    "silent_letters": {
+      "description": "Words with silent letters commonly omitted by Year 7 students",
+      "words": [
+        {"correct": "column", "common_error": "colum", "context_sentence": "The newspaper article was split into a left and right {word}."},
+        {"correct": "knowledge", "common_error": "nowledge", "context_sentence": "Her {word} of Australian history impressed the teacher."},
+        {"correct": "government", "common_error": "goverment", "context_sentence": "The {word} announced new funding for schools."},
+        {"correct": "Wednesday", "common_error": "Wensday", "context_sentence": "The excursion is scheduled for {word} morning."},
+        {"correct": "island", "common_error": "iland", "context_sentence": "We visited a small {word} off the coast of Queensland."},
+        {"correct": "solemn", "common_error": "solem", "context_sentence": "The atmosphere in the hall was quiet and {word}."}
+      ]
+    },
+    "homophones": {
+      "description": "Words that sound the same but have different spellings and meanings",
+      "words": [
+        {"correct": "their", "common_error": "there", "context_sentence": "The students packed {word} bags for the excursion."},
+        {"correct": "its", "common_error": "it's", "context_sentence": "The cat licked {word} paw after the long nap."},
+        {"correct": "affect", "common_error": "effect", "context_sentence": "The drought will {word} crop yields this season."},
+        {"correct": "practice", "common_error": "practise", "context_sentence": "She went to soccer {word} every Tuesday afternoon."},
+        {"correct": "principal", "common_error": "principle", "context_sentence": "The {word} addressed the assembly about school values."},
+        {"correct": "stationary", "common_error": "stationery", "context_sentence": "The car remained {word} at the traffic lights."}
+      ]
+    },
+    "prefix_suffix": {
+      "description": "Words where prefix/suffix spelling rules are commonly misapplied",
+      "words": [
+        {"correct": "definitely", "common_error": "definately", "context_sentence": "We will {word} arrive before sunset."},
+        {"correct": "unnecessary", "common_error": "unecessary", "context_sentence": "The teacher said the extra homework was {word}."},
+        {"correct": "occurring", "common_error": "occuring", "context_sentence": "The event is {word} next Saturday at the showgrounds."},
+        {"correct": "advisable", "common_error": "adviseable", "context_sentence": "It is {word} to bring a hat on the bushwalk."},
+        {"correct": "disappear", "common_error": "dissapear", "context_sentence": "The magician made the coin {word} from his hand."},
+        {"correct": "misspell", "common_error": "mispell", "context_sentence": "It is easy to {word} words with double letters."}
+      ]
+    },
+    "common_misspells": {
+      "description": "High-frequency words with common spelling traps for Year 7",
+      "words": [
+        {"correct": "separate", "common_error": "seperate", "context_sentence": "Please {word} the recyclables from the general waste."},
+        {"correct": "necessary", "common_error": "neccessary", "context_sentence": "A hat and sunscreen are {word} for the sports carnival."},
+        {"correct": "environment", "common_error": "enviroment", "context_sentence": "We must protect our natural {word} for future generations."},
+        {"correct": "embarrass", "common_error": "embarass", "context_sentence": "She did not mean to {word} her little brother at the party."},
+        {"correct": "accommodation", "common_error": "accomodation", "context_sentence": "The {word} at the camp included cabins and tent sites."},
+        {"correct": "receive", "common_error": "recieve", "context_sentence": "Did you {word} the permission note for the excursion?"}
+      ]
+    },
+    "irregular_plurals": {
+      "description": "Irregular plural forms that Year 7 students commonly regularize incorrectly",
+      "words": [
+        {"correct": "children", "common_error": "childrens", "context_sentence": "The {word} played basketball during lunch break."},
+        {"correct": "geese", "common_error": "gooses", "context_sentence": "A flock of {word} flew over the wetlands at sunrise."},
+        {"correct": "mice", "common_error": "mouses", "context_sentence": "The science lab had {word} for the biology experiment."},
+        {"correct": "criteria", "common_error": "criterias", "context_sentence": "The assessment {word} were clearly explained to the class."},
+        {"correct": "phenomena", "common_error": "phenomenons", "context_sentence": "The aurora and eclipses are natural {word} worth studying."},
+        {"correct": "analyses", "common_error": "analysises", "context_sentence": "The students' text {word} showed deep understanding."}
+      ]
+    }
+  }
+}

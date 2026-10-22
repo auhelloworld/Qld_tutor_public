@@ -1,0 +1,407 @@
+{
+  "description": "Exercise bank counts and distributions computed from current data/exercise*.json files.",
+  "junior": {
+    "math": {
+      "7": {
+        "total": 985,
+        "question_type": {
+          "multi_part": 129,
+          "multiple_choice": 62,
+          "reasoning": 271,
+          "short_answer": 523
+        },
+        "difficulty": {
+          "AMC": 33,
+          "developing": 570,
+          "extending": 271,
+          "foundational": 111
+        },
+        "complexity": {
+          "complex_familiar": 613,
+          "complex_unfamiliar": 260,
+          "simple_familiar": 112
+        },
+        "topic_count": 171,
+        "topic_item_min": 1,
+        "topic_item_max": 28,
+        "open_or_constructed_response_percent": 93.7,
+        "reasoning_or_multipart_percent": 40.6,
+        "source_files": [
+          "exercise_7_math.json"
+        ]
+      },
+      "8": {
+        "total": 806,
+        "question_type": {
+          "multi_part": 87,
+          "multiple_choice": 63,
+          "reasoning": 172,
+          "short_answer": 484
+        },
+        "difficulty": {
+          "AMC": 32,
+          "developing": 451,
+          "extending": 217,
+          "foundational": 106
+        },
+        "complexity": {
+          "complex_familiar": 409,
+          "complex_unfamiliar": 215,
+          "simple_familiar": 182
+        },
+        "topic_count": 27,
+        "topic_item_min": 24,
+        "topic_item_max": 39,
+        "open_or_constructed_response_percent": 92.2,
+        "reasoning_or_multipart_percent": 32.1,
+        "source_files": [
+          "exercise_8_math.json"
+        ]
+      },
+      "9": {
+        "total": 1023,
+        "question_type": {
+          "multi_part": 187,
+          "multiple_choice": 107,
+          "reasoning": 326,
+          "short_answer": 403
+        },
+        "difficulty": {
+          "AMC": 93,
+          "developing": 546,
+          "extending": 316,
+          "foundational": 68
+        },
+        "complexity": {
+          "complex_familiar": 558,
+          "complex_unfamiliar": 262,
+          "simple_familiar": 203
+        },
+        "topic_count": 23,
+        "topic_item_min": 36,
+        "topic_item_max": 52,
+        "open_or_constructed_response_percent": 89.5,
+        "reasoning_or_multipart_percent": 50.1,
+        "source_files": [
+          "exercise_9_math.json"
+        ]
+      },
+      "10": {
+        "total": 882,
+        "question_type": {
+          "multi_part": 51,
+          "multiple_choice": 75,
+          "reasoning": 236,
+          "short_answer": 520
+        },
+        "difficulty": {
+          "developing": 576,
+          "extending": 261,
+          "foundational": 45
+        },
+        "complexity": {
+          "complex_familiar": 556,
+          "complex_unfamiliar": 230,
+          "simple_familiar": 96
+        },
+        "topic_count": 181,
+        "topic_item_min": 1,
+        "topic_item_max": 41,
+        "open_or_constructed_response_percent": 91.5,
+        "reasoning_or_multipart_percent": 32.5,
+        "source_files": [
+          "exercise_10_math.json"
+        ]
+      }
+    },
+    "english": {
+      "7": {
+        "total": 606,
+        "question_type": {
+          "multi_part": 137,
+          "multiple_choice": 100,
+          "reasoning": 222,
+          "short_answer": 147
+        },
+        "difficulty": {
+          "developing": 276,
+          "extending": 268,
+          "foundational": 62
+        },
+        "complexity": {
+          "complex_familiar": 288,
+          "complex_unfamiliar": 256,
+          "simple_familiar": 62
+        },
+        "topic_count": 146,
+        "topic_item_min": 1,
+        "topic_item_max": 28,
+        "open_or_constructed_response_percent": 83.5,
+        "reasoning_or_multipart_percent": 59.2,
+        "source_files": [
+          "exercise_7_english.json"
+        ]
+      },
+      "8": {
+        "total": 564,
+        "question_type": {
+          "multi_part": 132,
+          "multiple_choice": 73,
+          "reasoning": 359
+        },
+        "difficulty": {
+          "developing": 227,
+          "extending": 255,
+          "foundational": 82
+        },
+        "complexity": {
+          "complex_familiar": 223,
+          "complex_unfamiliar": 252,
+          "simple_familiar": 89
+        },
+        "topic_count": 61,
+        "topic_item_min": 2,
+        "topic_item_max": 17,
+        "open_or_constructed_response_percent": 87.1,
+        "reasoning_or_multipart_percent": 87.1,
+        "source_files": [
+          "exercise_8_english.json"
+        ]
+      },
+      "9": {
+        "total": 622,
+        "question_type": {
+          "multi_part": 172,
+          "multiple_choice": 54,
+          "reasoning": 225,
+          "short_answer": 171
+        },
+        "difficulty": {
+          "developing": 272,
+          "extending": 298,
+          "foundational": 52
+        },
+        "complexity": {
+          "complex_familiar": 195,
+          "complex_unfamiliar": 356,
+          "simple_familiar": 71
+        },
+        "topic_count": 29,
+        "topic_item_min": 1,
+        "topic_item_max": 45,
+        "open_or_constructed_response_percent": 91.3,
+        "reasoning_or_multipart_percent": 63.8,
+        "source_files": [
+          "exercise_9_english.json"
+        ]
+      },
+      "10": {
+        "total": 653,
+        "question_type": {
+          "multi_part": 179,
+          "multiple_choice": 55,
+          "reasoning": 239,
+          "short_answer": 180
+        },
+        "difficulty": {
+          "developing": 282,
+          "extending": 319,
+          "foundational": 52
+        },
+        "complexity": {
+          "complex_familiar": 199,
+          "complex_unfamiliar": 382,
+          "simple_familiar": 72
+        },
+        "topic_count": 25,
+        "topic_item_min": 20,
+        "topic_item_max": 44,
+        "open_or_constructed_response_percent": 91.6,
+        "reasoning_or_multipart_percent": 64.0,
+        "source_files": [
+          "exercise_10_english.json"
+        ]
+      }
+    },
+    "science": {
+      "7": {
+        "total": 689,
+        "question_type": {
+          "multi_part": 146,
+          "multiple_choice": 120,
+          "reasoning": 252,
+          "short_answer": 171
+        },
+        "difficulty": {
+          "developing": 444,
+          "extending": 142,
+          "foundational": 103
+        },
+        "complexity": {
+          "complex_familiar": 423,
+          "complex_unfamiliar": 93,
+          "simple_familiar": 173
+        },
+        "topic_count": 653,
+        "topic_item_min": 1,
+        "topic_item_max": 15,
+        "open_or_constructed_response_percent": 82.6,
+        "reasoning_or_multipart_percent": 57.8,
+        "source_files": [
+          "exercise_7_science.json"
+        ]
+      },
+      "8": {
+        "total": 720,
+        "question_type": {
+          "multi_part": 64,
+          "multiple_choice": 389,
+          "reasoning": 108,
+          "short_answer": 159
+        },
+        "difficulty": {
+          "developing": 530,
+          "extending": 170,
+          "foundational": 20
+        },
+        "complexity": {
+          "complex_familiar": 601,
+          "complex_unfamiliar": 98,
+          "simple_familiar": 21
+        },
+        "topic_count": 22,
+        "topic_item_min": 5,
+        "topic_item_max": 55,
+        "open_or_constructed_response_percent": 46.0,
+        "reasoning_or_multipart_percent": 23.9,
+        "source_files": [
+          "exercise_8_science.json"
+        ]
+      },
+      "9": {
+        "total": 701,
+        "question_type": {
+          "multi_part": 60,
+          "multiple_choice": 368,
+          "reasoning": 125,
+          "short_answer": 148
+        },
+        "difficulty": {
+          "developing": 548,
+          "extending": 133,
+          "foundational": 20
+        },
+        "complexity": {
+          "complex_familiar": 592,
+          "complex_unfamiliar": 89,
+          "simple_familiar": 20
+        },
+        "topic_count": 20,
+        "topic_item_min": 4,
+        "topic_item_max": 49,
+        "open_or_constructed_response_percent": 47.5,
+        "reasoning_or_multipart_percent": 26.4,
+        "source_files": [
+          "exercise_9_science.json"
+        ]
+      },
+      "10": {
+        "total": 712,
+        "question_type": {
+          "multi_part": 60,
+          "multiple_choice": 360,
+          "reasoning": 126,
+          "short_answer": 166
+        },
+        "difficulty": {
+          "developing": 516,
+          "extending": 142,
+          "foundational": 54
+        },
+        "complexity": {
+          "complex_familiar": 520,
+          "complex_unfamiliar": 137,
+          "simple_familiar": 55
+        },
+        "topic_count": 19,
+        "topic_item_min": 25,
+        "topic_item_max": 51,
+        "open_or_constructed_response_percent": 49.4,
+        "reasoning_or_multipart_percent": 26.1,
+        "source_files": [
+          "exercise_10_science.json"
+        ]
+      }
+    }
+  },
+  "senior_math": {
+    "methods": {
+      "total": 706,
+      "question_type": {
+        "multi_part": 50,
+        "multiple_choice": 57,
+        "reasoning": 215,
+        "short_answer": 384
+      },
+      "difficulty": {
+        "developing": 352,
+        "extending": 130,
+        "foundational": 224
+      },
+      "complexity": {
+        "complex_familiar": 330,
+        "complex_unfamiliar": 125,
+        "simple_familiar": 251
+      },
+      "topic_count": 20,
+      "topic_item_min": 34,
+      "topic_item_max": 38,
+      "open_or_constructed_response_percent": 91.9,
+      "reasoning_or_multipart_percent": 37.5,
+      "source_files": [
+        "exercise_methods_u1_u2.json",
+        "exercise_methods_u3_u4.json"
+      ],
+      "unit_distribution": {
+        "1": 170,
+        "2": 170,
+        "3": 181,
+        "4": 185
+      }
+    },
+    "specialist": {
+      "total": 490,
+      "question_type": {
+        "multi_part": 19,
+        "multiple_choice": 77,
+        "reasoning": 155,
+        "short_answer": 239
+      },
+      "difficulty": {
+        "developing": 279,
+        "extending": 101,
+        "foundational": 110
+      },
+      "complexity": {
+        "complex_familiar": 277,
+        "complex_unfamiliar": 100,
+        "simple_familiar": 113
+      },
+      "topic_count": 20,
+      "topic_item_min": 23,
+      "topic_item_max": 26,
+      "open_or_constructed_response_percent": 84.3,
+      "reasoning_or_multipart_percent": 35.5,
+      "source_files": [
+        "exercise_specialist_u1_u2.json",
+        "exercise_specialist_u3_u4.json"
+      ],
+      "unit_distribution": {
+        "1": 115,
+        "2": 115,
+        "3": 130,
+        "4": 130
+      }
+    }
+  }
+}

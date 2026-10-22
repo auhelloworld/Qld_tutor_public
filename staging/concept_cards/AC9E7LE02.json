@@ -1,0 +1,108 @@
+{
+  "core_rule": "Form opinions on texts by linking character choices to evidence. Compare views with peers using criteria like integrity or loyalty to justify your stance.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What evidence from text supports your view on character action?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Identify <character action>. State if you agree or disagree. Provide <evidence> from text."
+    },
+    {
+      "level": "analogy",
+      "template": "Judging characters is like being a sports referee; you need rules to explain why a player gets a penalty."
+    }
+  ],
+  "worked_example": {
+    "question": "Character X steals bread to feed family. Is this act loyal or wrong? Justify.",
+    "answer": "Act shows loyalty to family but breaks social integrity.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify character action.",
+        "result": "Stealing bread."
+      },
+      {
+        "step": 2,
+        "instruction": "Apply criteria (loyalty vs integrity).",
+        "result": "Loyal to family, lacks integrity."
+      },
+      {
+        "step": 3,
+        "instruction": "Formulate justification.",
+        "result": "Act shows loyalty to family but breaks social integrity."
+      }
+    ],
+    "explanation": "Evidence links action to specific moral criteria."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Identifying character traits",
+      "Locating text evidence"
+    ],
+    "learning_objectives": [
+      "Objective 1: Form opinions on character actions using moral criteria.",
+      "Objective 2: Compare opinions with peers using evidence."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Critical Response?",
+        "body": "Critical response means judging characters. Use criteria like loyalty, honesty, or bravery to explain why characters act as they do.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Justify Opinions",
+        "body": "1. Pick character action. 2. Choose criteria (e.g., integrity). 3. Find quote. 4. Explain link between quote and criteria.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Sam lied to protect his friend. Opinion: Sam shows loyalty, but lacks integrity. Evidence: 'Sam hid the truth to keep Tom safe.'",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Vague Opinions",
+        "body": "Avoid saying 'I just like them.' Always use criteria like 'brave' or 'dishonest' to explain your view.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Integrity",
+        "definition": "Being honest and having strong moral principles."
+      },
+      {
+        "term": "Justify",
+        "definition": "Show or prove an opinion is right using evidence."
+      }
+    ],
+    "common_mistakes": [
+      "Using feelings instead of evidence.",
+      "Ignoring different viewpoints."
+    ],
+    "real_world_connections": [
+      "Debating movie characters with friends.",
+      "Evaluating news stories for bias."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Compare your view on a villain with a peer.",
+        "answer": "Peer says villain is evil; I say villain is misunderstood.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Listen to peer opinion.",
+            "result": "Peer view identified."
+          },
+          {
+            "step": 2,
+            "instruction": "State difference using evidence.",
+            "result": "Comparison formed."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

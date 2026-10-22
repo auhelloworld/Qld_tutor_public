@@ -1,0 +1,306 @@
+{
+  "framework_id": "QCAA_SENIOR_ENGLISH",
+  "sequence": {
+    "is_strict": false,
+    "prerequisites": {},
+    "sequence": [
+      "QCAA_ENGLISH_U3_T1",
+      "QCAA_ENGLISH_U3_T2",
+      "QCAA_ENGLISH_U3_T3",
+      "QCAA_ENGLISH_U4_T1",
+      "QCAA_ENGLISH_U4_T2"
+    ]
+  },
+  "topics": [
+    {
+      "framework": "QCAA_SENIOR_ENGLISH",
+      "topic_id": "QCAA_ENGLISH_U3_T1",
+      "name": "Representation and Cultural Assumptions",
+      "elaborations": [
+        {
+          "elaboration_id": "QCAA_ENGLISH_U3_T1_SM1",
+          "text": "Identify how texts construct perspectives, representations, attitudes, values, beliefs and cultural assumptions for particular audiences and purposes.",
+          "source": "qcaa_official",
+          "source_ref": "QCAA English 2025 v1.3 syllabus"
+        }
+      ],
+      "supplementary_resources": [
+        {
+          "resource_id": "QCAA_ENGLISH_U3_T1_R1",
+          "type": "scaffolded_question",
+          "title": "Representation Check",
+          "content": "Name the perspective being constructed, the audience value it appeals to, and the textual evidence that builds it.",
+          "grade_band": "Years 11-12"
+        }
+      ],
+      "skills": [
+        "Analyse representations",
+        "Identify cultural assumptions",
+        "Explain audience positioning"
+      ],
+      "concept_card": {
+        "core_rule": "A strong senior response explains what representation is constructed, how textual choices construct it, and why that matters for the intended audience.",
+        "hint_levels": [],
+        "worked_example": null,
+        "lesson_content": {
+          "learning_objectives": [
+            "Identify perspectives and representations in senior English tasks",
+            "Connect evidence to attitudes, values and beliefs",
+            "Explain how an audience is positioned"
+          ],
+          "explanation_sections": [
+            {
+              "heading": "Representation",
+              "body": "Move beyond listing a topic. Ask what version of a person, group, place or issue the text constructs, then link that representation to language, structure or selection of details.",
+              "type": "concept"
+            }
+          ],
+          "key_vocabulary": [],
+          "common_mistakes": [
+            "Describing the issue without naming a constructed representation",
+            "Mentioning values without tying them to textual evidence"
+          ],
+          "success_criteria": [
+            "I can name a constructed representation and support it with specific evidence.",
+            "I can explain how audience values shape meaning."
+          ]
+        }
+      },
+      "syllabus_subject": "english",
+      "unit": 3,
+      "topic_number": 1
+    },
+    {
+      "framework": "QCAA_SENIOR_ENGLISH",
+      "topic_id": "QCAA_ENGLISH_U3_T2",
+      "name": "Public Audience Genre Conventions",
+      "elaborations": [
+        {
+          "elaboration_id": "QCAA_ENGLISH_U3_T2_SM1",
+          "text": "Use genre conventions, language features and structures to create public audience texts with clear purpose, context and audience positioning.",
+          "source": "qcaa_official",
+          "source_ref": "QCAA English 2025 v1.3 syllabus"
+        }
+      ],
+      "supplementary_resources": [
+        {
+          "resource_id": "QCAA_ENGLISH_U3_T2_R1",
+          "type": "scaffolded_question",
+          "title": "Public Voice Scaffold",
+          "content": "Draft an opening that establishes context, audience, contention and a public-facing voice in under 120 words.",
+          "grade_band": "Years 11-12"
+        }
+      ],
+      "skills": [
+        "Control public audience voice",
+        "Shape persuasive structure",
+        "Use genre conventions purposefully"
+      ],
+      "concept_card": {
+        "core_rule": "A public audience response needs a recognisable genre voice, a purposeful structure, and persuasive choices shaped for a specific audience rather than a generic essay tone.",
+        "hint_levels": [],
+        "worked_example": null,
+        "lesson_content": {
+          "learning_objectives": [
+            "Select conventions that suit a public audience task",
+            "Create a persuasive structure for a feature article or speech",
+            "Control tone for context and audience"
+          ],
+          "explanation_sections": [
+            {
+              "heading": "Public Purpose",
+              "body": "Public audience texts persuade by combining contention, voice, evidence and audience values. The genre should shape the whole response, not only the introduction.",
+              "type": "technique"
+            }
+          ],
+          "key_vocabulary": [],
+          "common_mistakes": [
+            "Writing a school essay when the task asks for a public article or speech",
+            "Using rhetorical questions without developing evidence or reasoning"
+          ],
+          "success_criteria": [
+            "I can make the audience and publication context clear.",
+            "I can use genre conventions to support a persuasive purpose."
+          ]
+        }
+      },
+      "syllabus_subject": "english",
+      "unit": 3,
+      "topic_number": 2
+    },
+    {
+      "framework": "QCAA_SENIOR_ENGLISH",
+      "topic_id": "QCAA_ENGLISH_U3_T3",
+      "name": "Textual Features and Editing Control",
+      "elaborations": [
+        {
+          "elaboration_id": "QCAA_ENGLISH_U3_T3_SM1",
+          "text": "Control language features, grammar, punctuation, spelling, cohesion and referencing choices to support meaning and audience impact.",
+          "source": "qcaa_official",
+          "source_ref": "QCAA English 2025 v1.3 syllabus"
+        }
+      ],
+      "supplementary_resources": [
+        {
+          "resource_id": "QCAA_ENGLISH_U3_T3_R1",
+          "type": "scaffolded_question",
+          "title": "Senior Edit Pass",
+          "content": "Run three passes: cohesion between paragraphs, precision of analytical or persuasive verbs, then sentence-level spelling and punctuation.",
+          "grade_band": "Years 11-12"
+        }
+      ],
+      "skills": [
+        "Edit for cohesion",
+        "Control grammar and punctuation",
+        "Choose precise senior English vocabulary"
+      ],
+      "concept_card": {
+        "core_rule": "Textual features are assessed through how precisely language, cohesion and mechanics support meaning; editing should target meaning first and surface accuracy second.",
+        "hint_levels": [],
+        "worked_example": null,
+        "lesson_content": {
+          "learning_objectives": [
+            "Improve cohesion within and between paragraphs",
+            "Select precise vocabulary for analytical, persuasive or imaginative tasks",
+            "Edit grammar, punctuation and spelling without flattening voice"
+          ],
+          "explanation_sections": [
+            {
+              "heading": "Editing Sequence",
+              "body": "Edit paragraphs before sentences. Check whether the logic is clear, then sharpen verbs and evidence, then proofread punctuation, spelling and sentence boundaries.",
+              "type": "method"
+            }
+          ],
+          "key_vocabulary": [],
+          "common_mistakes": [
+            "Proofreading only spelling while leaving unclear logic in place",
+            "Using vague verbs such as shows or talks about in analytical writing"
+          ],
+          "success_criteria": [
+            "I can edit cohesion and expression before final proofreading.",
+            "I can choose precise verbs and sentence structures for my task type."
+          ]
+        }
+      },
+      "syllabus_subject": "english",
+      "unit": 3,
+      "topic_number": 3
+    },
+    {
+      "framework": "QCAA_SENIOR_ENGLISH",
+      "topic_id": "QCAA_ENGLISH_U4_T1",
+      "name": "Analytical Thesis and Evidence",
+      "elaborations": [
+        {
+          "elaboration_id": "QCAA_ENGLISH_U4_T1_SM1",
+          "text": "Develop analytical interpretations by selecting, synthesising and evaluating evidence from literary or non-literary texts.",
+          "source": "qcaa_official",
+          "source_ref": "QCAA English 2025 v1.3 syllabus"
+        }
+      ],
+      "supplementary_resources": [
+        {
+          "resource_id": "QCAA_ENGLISH_U4_T1_R1",
+          "type": "scaffolded_question",
+          "title": "Thesis to Evidence",
+          "content": "Write one thesis sentence, then list three evidence points that each prove a different part of the interpretation.",
+          "grade_band": "Years 11-12"
+        }
+      ],
+      "skills": [
+        "Craft analytical thesis statements",
+        "Select and integrate evidence",
+        "Evaluate effects of aesthetic and stylistic features"
+      ],
+      "concept_card": {
+        "core_rule": "Senior analytical writing should make a defensible interpretation, integrate evidence economically, and evaluate how textual choices shape meaning.",
+        "hint_levels": [],
+        "worked_example": null,
+        "lesson_content": {
+          "learning_objectives": [
+            "Write a thesis that answers the analytical task",
+            "Integrate evidence smoothly into analysis",
+            "Evaluate effects rather than only identify techniques"
+          ],
+          "explanation_sections": [
+            {
+              "heading": "Thesis Control",
+              "body": "A thesis is not a topic label. It should make a clear judgement about how meaning is constructed and should guide every body paragraph.",
+              "type": "concept"
+            }
+          ],
+          "key_vocabulary": [],
+          "common_mistakes": [
+            "Starting paragraphs with plot summary instead of argument",
+            "Dropping quotations without explaining their effect"
+          ],
+          "success_criteria": [
+            "I can state an interpretation that answers the question.",
+            "I can use evidence to evaluate how meaning is made."
+          ]
+        }
+      },
+      "syllabus_subject": "english",
+      "unit": 4,
+      "topic_number": 1
+    },
+    {
+      "framework": "QCAA_SENIOR_ENGLISH",
+      "topic_id": "QCAA_ENGLISH_U4_T2",
+      "name": "Imaginative Springboard and Aesthetic Features",
+      "elaborations": [
+        {
+          "elaboration_id": "QCAA_ENGLISH_U4_T2_SM1",
+          "text": "Create imaginative texts by manipulating aesthetic features, stylistic devices, perspectives and genre conventions for a stated purpose.",
+          "source": "qcaa_official",
+          "source_ref": "QCAA English 2025 v1.3 syllabus"
+        }
+      ],
+      "supplementary_resources": [
+        {
+          "resource_id": "QCAA_ENGLISH_U4_T2_R1",
+          "type": "scaffolded_question",
+          "title": "Springboard Plan",
+          "content": "Choose one source feature to transform, one perspective to foreground, and three aesthetic choices that will shape the reader response.",
+          "grade_band": "Years 11-12"
+        }
+      ],
+      "skills": [
+        "Transform a source idea",
+        "Control imaginative voice",
+        "Explain aesthetic choices in a writer's statement"
+      ],
+      "concept_card": {
+        "core_rule": "A senior imaginative response should use a clear springboard from a source or concept, manipulate aesthetic features deliberately, and sustain a purposeful voice.",
+        "hint_levels": [],
+        "worked_example": null,
+        "lesson_content": {
+          "learning_objectives": [
+            "Plan an imaginative response from a source springboard",
+            "Manipulate aesthetic features for reader impact",
+            "Connect creative choices to purpose in a writer's statement"
+          ],
+          "explanation_sections": [
+            {
+              "heading": "Springboard",
+              "body": "Use the source as a launch point rather than a copy. Transform perspective, setting, voice or symbol while keeping the creative purpose clear.",
+              "type": "technique"
+            }
+          ],
+          "key_vocabulary": [],
+          "common_mistakes": [
+            "Copying source events without transformation",
+            "Using decorative imagery that does not support purpose"
+          ],
+          "success_criteria": [
+            "I can identify the source feature I am transforming.",
+            "I can explain how my aesthetic choices shape reader response."
+          ]
+        }
+      },
+      "syllabus_subject": "english",
+      "unit": 4,
+      "topic_number": 2
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "core_rule": "Cohesion is built when writers use overviews, topic sentences, and concluding paragraphs to signal structure and guide the reader through the text.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What tools do writers use to show how a text is organised and help the reader follow it?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Identify the <overview> or opening sentence that tells you what the whole text will be about."
+    },
+    {
+      "level": "analogy",
+      "template": "Text cohesion is like a roadmap that shows you the route before you start driving."
+    }
+  ],
+  "worked_example": {
+    "question": "In the following passage, which sentence acts as the overview that signals the text's structure? 'In today's news, scientists have discovered a new species of frog in the rainforest. This discovery could help protect endangered habitats. The frog's bright colours warn predators of its toxicity.'",
+    "answer": "The first sentence: 'In today's news, scientists have discovered a new species of frog in the rainforest.'",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Read the passage and look for the sentence that introduces the main idea.",
+        "result": "First sentence introduces the discovery of a new frog."
+      },
+      {
+        "step": 2,
+        "instruction": "Check if the sentence gives a general statement about the topic without details.",
+        "result": "It states the discovery broadly, setting up the topic."
+      },
+      {
+        "step": 3,
+        "instruction": "Confirm that this sentence functions as the overview guiding the reader.",
+        "result": "It is the overview."
+      },
+      {
+        "step": 3,
+        "instruction": "Step 3 (final check or answer form).",
+        "result": "Final answer."
+      }
+    ],
+    "explanation": "The overview is the opening sentence that tells the reader what the text will be about, allowing the rest of the text to develop and link ideas."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Objective 1: Identify overviews, topic sentences, and concluding paragraphs in informative texts.",
+      "Objective 2: Write an overview and a concluding paragraph for a short informative paragraph."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is text cohesion?",
+        "body": "Text cohesion is the way writers link ideas so the text flows smoothly. They use devices like overviews at the start, topic sentences in each paragraph, and concluding paragraphs at the end to signal where the text is going and help the reader follow the argument.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to identify cohesion devices",
+        "body": "1. Look for the opening sentence that gives a broad idea of the whole text – that is the overview. 2. In each paragraph, find the sentence that states the main point – that is the topic sentence. 3. At the end of the text, spot the paragraph that sums up the main points – that is the concluding paragraph.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "'Renewable energy is growing fast across Australia. Solar panels on rooftops now power thousands of homes, and wind farms supply clean electricity to cities. This shift reduces greenhouse gases and creates jobs.' Overview: first sentence tells the topic; topic sentence in second sentence highlights solar and wind; concluding idea in last sentence sums up benefits.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Missing overview",
+        "body": "Students sometimes start with a detail instead of a broad idea, leaving the reader unsure of the text's focus. To avoid this, begin with a sentence that states the main topic in general terms before adding specifics.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "overview",
+        "definition": "A sentence at the start of a text that tells the reader what the whole text will be about."
+      },
+      {
+        "term": "topic sentence",
+        "definition": "The sentence in a paragraph that states the main idea of that paragraph."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing the topic sentence with a supporting detail that gives examples or evidence.",
+      "Forgetting to write a concluding paragraph, which leaves the text feeling unfinished."
+    ],
+    "real_world_connections": [
+      "News articles begin with an overview that tells readers what the story is about before giving details.",
+      "School science reports start with an introduction that outlines the experiment and end with a conclusion that summarises findings."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "In the paragraph below, which sentence is the topic sentence? 'Many Australians enjoy surfing on weekends. It improves fitness and connects people with the ocean. Surf clubs also teach safety skills to beginners.'",
+        "answer": "The second sentence: 'It improves fitness and connects people with the ocean.'",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Read each sentence and ask which one states the main point of the paragraph.",
+            "result": "Second sentence gives the main benefit of surfing."
+          },
+          {
+            "step": 2,
+            "instruction": "Check that the other sentences give details or examples that support this main point.",
+            "result": "First and third sentences give examples, confirming the second as topic sentence."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

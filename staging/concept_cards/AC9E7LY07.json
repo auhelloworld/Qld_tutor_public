@@ -1,0 +1,118 @@
+{
+  "core_rule": "Plan and deliver presentations. Use voice (tone, volume, pitch, pace) and multimodal tools. Goal: engage audience.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How voice changes keep audience focus?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Choose <multimodal element> to support <main idea>."
+    },
+    {
+      "level": "analogy",
+      "template": "Presentation like movie trailer. Need right music, images, voice to sell story."
+    }
+  ],
+  "worked_example": {
+    "question": "You are presenting a speech about saving the Great Barrier Reef. How should you change your voice when describing the beauty of the coral versus the threat of bleaching?",
+    "answer": "Use a bright, enthusiastic tone for beauty; shift to a lower, serious tone for threats.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify the different moods or sections within your speech script.",
+        "result": "Two sections: positive (beauty) and negative (threats)."
+      },
+      {
+        "step": 2,
+        "instruction": "Select voice features like pitch and pace that match the positive section.",
+        "result": "Higher pitch and faster pace to show excitement."
+      },
+      {
+        "step": 3,
+        "instruction": "Select voice features that match the negative or serious section.",
+        "result": "Lower pitch and slower pace to show gravity."
+      }
+    ],
+    "explanation": "Tone matches mood. Serious topic needs low pitch. Exciting topic needs high pitch."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic research skills",
+      "Oral communication basics"
+    ],
+    "learning_objectives": [
+      "Identify voice features: pitch, pace, volume, tone",
+      "Create multimodal presentations using images and sound"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Multimodal Presentation?",
+        "body": "Multimodal presentations mix words, images, sound. Goal: grab audience attention. Use speech for story. Use visuals for proof.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Plan and Deliver",
+        "body": "Plan structure first. Select visuals to support ideas. Rehearse voice. High pitch shows excitement. Low pitch shows serious facts. Fast pace builds energy. Slow pace adds drama.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "\"Imagine a world without colour.\" (Spoken slowly with a low, somber tone to create impact). Visual: Black and white photo of a dead reef.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Reading Slides",
+        "body": "Reading from slides. Audience stops listening. Use slides for images or short cues. Use voice to tell story.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Tone",
+        "definition": "Mood or feeling in voice."
+      },
+      {
+        "term": "Pitch",
+        "definition": "How high or low a sound is."
+      },
+      {
+        "term": "Pace",
+        "definition": "Speed of speaking."
+      },
+      {
+        "term": "Multimodal",
+        "definition": "Using many ways to communicate, like text, image, and sound."
+      }
+    ],
+    "common_mistakes": [
+      "Speaking too fast due to nerves.",
+      "Too much text on slides.",
+      "Monotone voice."
+    ],
+    "real_world_connections": [
+      "YouTubers use pace to keep viewers.",
+      "News anchors use tone for serious stories.",
+      "Game streamers use pitch for excitement."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "A student slide has 200 words of text. How to fix for a presentation?",
+        "answer": "Reduce text to three bullet points. Add one high-quality image.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the core message of the 200-word block.",
+            "result": "Main idea found."
+          },
+          {
+            "step": 2,
+            "instruction": "Replace long sentences with short, punchy keywords.",
+            "result": "Bullet points created."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

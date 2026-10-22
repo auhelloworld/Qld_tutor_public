@@ -1,0 +1,26 @@
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+}
+
+@media (max-width: 1180px) {
+  .panelsGrid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .helpColumn {
+    position: static !important;
+    height: min(70vh, 640px) !important;
+    max-height: min(70vh, 640px) !important;
+  }
+}

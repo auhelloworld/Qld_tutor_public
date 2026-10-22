@@ -1,0 +1,147 @@
+{
+  "core_rule": "Create, edit literary texts. Experiment with language features, literary devices to make writing unique, engaging.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How can playing with words and story structure make your writing more exciting and memorable for readers?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Choose a <mood> character. What <unexpected> thing happens to them? How will you show this using a <specific literary device>?"
+    },
+    {
+      "level": "analogy",
+      "template": "Writing a story is like cooking; experimenting with ingredients (words, devices) makes your dish (text) special and delicious."
+    }
+  ],
+  "worked_example": {
+    "question": "Rewrite this sentence to show the character is scared, using a simile: 'The boy ran away.'",
+    "answer": "The boy ran away like a startled kangaroo bounding through the bush.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify the emotion to convey.",
+        "result": "Scared."
+      },
+      {
+        "step": 2,
+        "instruction": "Think of something that acts scared or moves quickly when frightened, suitable for a simile.",
+        "result": "A startled kangaroo, a frightened bird, a possum."
+      },
+      {
+        "step": 3,
+        "instruction": "Integrate the simile into the original sentence, ensuring it makes sense and enhances the image.",
+        "result": "The boy ran away like a startled kangaroo bounding through the bush."
+      }
+    ],
+    "explanation": "The simile 'like a startled kangaroo bounding through the bush' compares the boy's scared running to a kangaroo's sudden, powerful escape, making the fear more vivid for the reader."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Understanding basic story elements (character, setting, plot)",
+      "Recognising simple literary devices (e.g., simile, metaphor)",
+      "Basic sentence structure"
+    ],
+    "learning_objectives": [
+      "Identify various language features and literary devices in texts.",
+      "Experiment with different language features and literary devices in own creative writing.",
+      "Edit and refine literary texts to enhance impact and meaning."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is 'Experimenting with Language'?",
+        "body": "Imagine you are a scientist in a lab, but instead of chemicals, you are mixing words and ideas! 'Experimenting with language' means trying out different ways to use words, sentences, and literary devices to make your writing more interesting, unique, and powerful. It is about playing with how you tell a story or describe something, pushing beyond the usual to create something special. You are not just writing; you are crafting, shaping, and inventing.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Experiment in Your Writing",
+        "body": "To experiment, follow these steps:\n\n1.  **Read and Notice:** Pay attention to how authors use language in books, poems, and stories you enjoy. Do they use vivid imagery? Clever metaphors? Unexpected flashbacks? Collect ideas!\n2.  **Choose Your 'Tool':** Pick a language feature or literary device you want to try. Maybe it is personification (giving human qualities to objects), or perhaps a flashback to reveal a character's past.\n3.  **Brainstorm and Plan:** Think about your story or scene. Where could this device fit? How would it change the reader's experience? For example, if using a flashback, decide what memory is important and when to show it.\n4.  **Draft and Play:** Write your text, focusing on using your chosen device. Do not be afraid to try different word choices or sentence structures. Write a few versions!\n5.  **Review and Refine:** Read your work aloud. Does the experiment work? Does it make your writing better? Ask a friend or teacher for feedback. Edit your text to make sure the device enhances your story, not confuses it.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "The old gum tree stood sentinel, its bark peeling like sunburnt skin, whispering secrets to the wind. Suddenly, a memory flashed: a tiny joey, lost and shivering, nestled at its base years ago.\n\n*Analysis:* This example uses **personification** ('stood sentinel', 'whispering secrets') to give the tree human-like qualities, making it feel alive. It also uses a **simile** ('bark peeling like sunburnt skin') for vivid description. The phrase 'a memory flashed' introduces a **flashback**, hinting at a past event that adds depth to the tree's significance.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Overdoing It",
+        "body": "A common mistake is trying to cram too many literary devices into one sentence or paragraph. This can make your writing sound forced or confusing, like a cake with too many different flavours. Instead, choose one or two devices that truly fit the mood and purpose of your writing, and use them thoughtfully. Less is often more when it comes to powerful language.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Literary Text",
+        "definition": "A piece of writing like a story, poem, or play, created to entertain or express ideas, often using imaginative language."
+      },
+      {
+        "term": "Language Features",
+        "definition": "Specific ways language is used to create meaning or effect, such as word choice, sentence structure, or tone."
+      },
+      {
+        "term": "Literary Devices",
+        "definition": "Techniques writers use to add depth, imagery, or impact to their writing (e.g., simile, metaphor, personification, flashback)."
+      },
+      {
+        "term": "Imagery",
+        "definition": "Language that appeals to the five senses (sight, sound, smell, taste, touch) to create vivid pictures in the reader's mind."
+      },
+      {
+        "term": "Metaphor",
+        "definition": "A figure of speech that directly compares two unlike things without using 'like' or 'as' (e.g., 'The classroom was a zoo')."
+      },
+      {
+        "term": "Simile",
+        "definition": "A figure of speech that compares two unlike things using 'like' or 'as' (e.g., 'The clouds were like cotton wool')."
+      },
+      {
+        "term": "Personification",
+        "definition": "Giving human qualities or actions to inanimate objects or animals (e.g., 'The wind howled')."
+      },
+      {
+        "term": "Flashback",
+        "definition": "A scene in a story that takes the narrative back in time from the current point, often to reveal important past events."
+      },
+      {
+        "term": "Narrative Structure",
+        "definition": "The way a story is organised and told, including the order of events, point of view, and how ideas are linked."
+      }
+    ],
+    "common_mistakes": [
+      "Using literary devices incorrectly or in a way that does not make sense.",
+      "Overusing devices, making the writing sound cluttered or unnatural.",
+      "Forgetting the purpose or audience of the text when experimenting.",
+      "Not editing or refining the experimental language to ensure it works well."
+    ],
+    "real_world_connections": [
+      "Song lyrics often use metaphors and similes to express feelings and ideas creatively.",
+      "Movie scripts use flashbacks to reveal character backstories or important plot points.",
+      "Advertising slogans use clever wordplay and imagery to make products memorable.",
+      "Speeches use powerful language and rhetorical devices to persuade or inspire an audience."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read the following sentence: 'The old car coughed and spluttered down the road.' Identify the literary device used and explain its effect.",
+        "answer": "The literary device is personification. It makes the car seem like a struggling, sick person, highlighting its age and poor condition.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Look for words that describe an object as if it were human or alive.",
+            "result": "'Coughed' and 'spluttered' are human actions."
+          },
+          {
+            "step": 2,
+            "instruction": "Name the literary device that gives human qualities to non-human things.",
+            "result": "Personification."
+          },
+          {
+            "step": 3,
+            "instruction": "Explain what effect this device has on the reader's understanding of the car.",
+            "result": "It makes the car seem old, unwell, and struggling, creating a vivid image of its poor state."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

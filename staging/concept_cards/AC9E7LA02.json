@@ -1,0 +1,114 @@
+{
+  "core_rule": "Evaluative language expresses opinions or judgements about texts. To substantiate, always provide specific evidence from the text or sources.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do you determine if a word shows evaluation rather than simple description in a text?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "When analysing a text, first locate the <evaluative word>, then find the <evidence> that supports it."
+    },
+    {
+      "level": "analogy",
+      "template": "Using evaluative language is like grading a test; you don't just give a score, you justify it with comments on performance."
+    }
+  ],
+  "worked_example": {
+    "question": "Identify the evaluative language in this sentence: 'The villain was utterly despicable, and the author masterfully revealed his cruel intentions through clever dialogue.'",
+    "answer": "Despicable (judgement of villain), masterfully and clever (appreciation of author's skill).",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Read the sentence and identify words that show opinion or feeling.",
+        "result": "Candidate words: despicable, utterly, masterfully, cruel, clever."
+      },
+      {
+        "step": 2,
+        "instruction": "Classify each word as judgement of characters or appreciation of author.",
+        "result": "Judgement: despicable (villain), cruel (intentions); Appreciation: masterfully, clever (author's skill)."
+      },
+      {
+        "step": 3,
+        "instruction": "Select the main evaluative terms and explain their function.",
+        "result": "Evaluative language: despicable (judgement), masterfully and clever (appreciation)."
+      }
+    ],
+    "explanation": "These words express the reader's opinion, with judgement targeting the villain and appreciation targeting the author's technique."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify evaluative language in texts, including words of emotion, judgement, and appreciation.",
+      "Substantiate evaluations by referring to specific evidence from the text or other sources."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Evaluative Language?",
+        "body": "Evaluative language is words we use to express feelings, judgements, or opinions about something. When you read a text and say it's 'amazing' or 'boring', you're using evaluative language. It helps you share your perspective and persuade others. In Year 7, you'll learn to recognise these words and back them up with evidence.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse Evaluative Language",
+        "body": "To analyse evaluative language, follow these steps: 1. Read the text carefully. 2. Circle words that show a personal opinion or emotional response. 3. Determine if they express emotion (e.g., 'excited'), judgement (e.g., 'brave'), or appreciation (e.g., 'beautiful'). 4. Ask yourself: What evidence from the text supports this evaluation? This substantiation makes your analysis stronger.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "In the movie review, the critic wrote: 'The film’s stunning cinematography and compelling performances make it an unforgettable masterpiece.' Here, 'stunning' and 'compelling' are words of appreciation, showing the critic's positive evaluation of the film's qualities. 'Unforgettable' and 'masterpiece' express strong emotional response. The evaluations are substantiated by reference to 'cinematography' and 'performances'.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Confusing Description with Evaluation",
+        "body": "A common mistake is thinking that any describing word (like 'blue' or 'square') is evaluative. Remember: evaluative words express an opinion or feeling, not just fact. For example, 'blue car' is description, but 'beautiful car' is evaluation. To avoid this, ask: Does this word tell you what someone thinks or feels about something? If yes, it's evaluative.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "evaluate",
+        "definition": "To make a judgement about the value or quality of something."
+      },
+      {
+        "term": "substantiate",
+        "definition": "To provide evidence or proof to support an opinion."
+      },
+      {
+        "term": "judgement",
+        "definition": "A word that expresses a critic's approval or disapproval of a character or action."
+      },
+      {
+        "term": "appreciation",
+        "definition": "A word that expresses admiration for the aesthetic or technical qualities of a text."
+      }
+    ],
+    "common_mistakes": [
+      "Using evaluative language without substantiating with evidence.",
+      "Confusing emotional response words with descriptive words."
+    ],
+    "real_world_connections": [
+      "In social media reviews of movies or games, evaluative language is common, such as 'amazing graphics' or 'terrible storyline'.",
+      "Politicians and advertisers use evaluative language to persuade audiences.",
+      "Everyday conversations involve evaluations, like 'This food is delicious'."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read this book blurb: 'An epic tale of friendship and betrayal that will keep you on the edge of your seat.' Identify the evaluative language.",
+        "answer": "Epic (appreciation), keep you on the edge of your seat (emotional response).",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Spot the words that show opinion.",
+            "result": "epic, keep you on the edge of your seat"
+          },
+          {
+            "step": 2,
+            "instruction": "Explain how they evaluate.",
+            "result": "Epic praises the tale; keep you on the edge of your seat describes thrilling effect."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

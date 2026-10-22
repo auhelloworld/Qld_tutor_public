@@ -1,0 +1,492 @@
+MC_M10A_exponent_base_confusion_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Algebra - exponential base/exponent confusion
+  reviewer: batch
+MC_M10A_expand_square_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Algebra - binomial square expansion
+  reviewer: batch
+MC_M10A_growth_decay_linear_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Algebra - exponential growth treated as linear
+  reviewer: batch
+MC_M10A_simultaneous_elimination_sign_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Algebra - simultaneous equations elimination sign
+  reviewer: batch
+MC_M10M_composite_double_count_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Measurement - composite surface area double-count
+  reviewer: batch
+MC_M10M_log_scale_linear_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Measurement - logarithmic scale read linearly
+  reviewer: batch
+MC_M10M_relative_error_units_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Measurement - relative error units
+  reviewer: batch
+MC_M10M_trig_angle_reference_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Measurement - angle reference in trigonometry
+  reviewer: batch
+MC_M10N_error_bounds_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Number - rounded value error bounds
+  reviewer: batch
+MC_M10N_rounding_each_step_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Number - rounding each step
+  reviewer: batch
+MC_M10N_significant_figures_precision_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Number - significant figures vs decimal places
+  reviewer: batch
+MC_M10P_conditional_reversal_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Probability - reversing conditional probability
+  reviewer: batch
+MC_M10P_independent_after_condition_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Probability - independence after conditioning
+  reviewer: batch
+MC_M10P_simulation_condition_filter_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Probability - conditional simulation filtering
+  reviewer: batch
+MC_M10SP_algorithm_case_missing_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Space - missing spatial algorithm cases
+  reviewer: batch
+MC_M10SP_network_edge_vertex_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Space - network edges and vertices
+  reviewer: batch
+MC_M10SP_proof_assumption_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Space - assuming proof conclusion
+  reviewer: batch
+MC_M10ST_correlation_causation_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Statistics - correlation versus causation
+  reviewer: batch
+MC_M10ST_media_bias_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Statistics - media graph bias
+  reviewer: batch
+MC_M10ST_two_way_percentage_base_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 10 Statistics - two-way table percentage base
+  reviewer: batch
+MC_M9A_gradient_order_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Algebra - gradient coordinate order
+  reviewer: batch
+MC_M9A_index_negative_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Algebra - negative index as negative value
+  reviewer: batch
+MC_M9A_parabola_vertex_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Algebra - quadratic graph features
+  reviewer: batch
+MC_M9A_quadratic_factor_pair_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Algebra - monic quadratic factor pair
+  reviewer: batch
+MC_M9M_percentage_error_denominator_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Measurement - percentage error denominator
+  reviewer: batch
+MC_M9M_pythagoras_non_right_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Measurement - Pythagoras conditions
+  reviewer: batch
+MC_M9M_scientific_notation_power_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Measurement - scientific notation direction
+  reviewer: batch
+MC_M9M_surface_volume_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Measurement - surface area vs volume
+  reviewer: batch
+MC_M9N_irrational_decimal_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Number - irrational decimals
+  reviewer: batch
+MC_M9N_real_number_subset_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Number - real number subsets
+  reviewer: batch
+MC_M9N_root_rational_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Number - square roots and rationality
+  reviewer: batch
+MC_M9P_or_overlap_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Probability - inclusive OR overlap
+  reviewer: batch
+MC_M9P_replacement_constant_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Probability - replacement sample space
+  reviewer: batch
+MC_M9P_simulation_short_run_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Probability - short-run simulation variation
+  reviewer: batch
+MC_M9SP_construction_order_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Space - construction algorithm order
+  reviewer: batch
+MC_M9SP_similarity_scale_area_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Space - scale factor for area
+  reviewer: batch
+MC_M9SP_trig_ratio_side_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Space - trigonometric ratio side choice
+  reviewer: batch
+MC_M9ST_biased_sampling_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Statistics - sampling bias
+  reviewer: batch
+MC_M9ST_outlier_mean_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Statistics - outlier effect on mean
+  reviewer: batch
+MC_M9ST_sample_population_01:
+  approved_at: '2026-06-27T00:00:00+10:00'
+  note: Seed misconception for Year 9 Statistics - sample vs population
+  reviewer: batch
+MC_M7A_brackets_not_grouping_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7A_brackets_not_grouping_01
+  reviewer: batch
+MC_M7A_combining_unlike_terms_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7A_combining_unlike_terms_01
+  reviewer: batch
+MC_M7A_equation_one_side_only_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7A_equation_one_side_only_01
+  reviewer: batch
+MC_M7A_inequality_flip_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Algebra - inequality sign flip
+  reviewer: seed
+MC_M7A_inverse_ops_order_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7A_inverse_ops_order_01
+  reviewer: batch
+MC_M7A_pattern_additive_vs_multiplicative_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7A_pattern_additive_vs_multiplicative_01
+  reviewer: batch
+MC_M7A_variable_as_label_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Algebra - variable as label
+  reviewer: seed
+MC_M7M_area_l_w_triangle_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7M_area_l_w_triangle_01
+  reviewer: batch
+MC_M7M_area_perimeter_swap_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Measurement - area/perimeter swap
+  reviewer: seed
+MC_M7M_circle_diam_radius_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Measurement - diameter/radius confusion
+  reviewer: seed
+MC_M7M_parallel_angle_relationship_confusion_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7M_parallel_angle_relationship_confusion_01
+  reviewer: batch
+MC_M7M_ratio_model_no_context_check_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7M_ratio_model_no_context_check_01
+  reviewer: batch
+MC_M7M_triangle_angle_sum_not_180_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7M_triangle_angle_sum_not_180_01
+  reviewer: batch
+MC_M7M_unit_conversion_mult_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7M_unit_conversion_mult_01
+  reviewer: batch
+MC_M7N_decimal_misalign_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - decimal misalignment
+  reviewer: seed
+MC_M7N_fraction_add_denom_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - fraction addition error
+  reviewer: seed
+MC_M7N_hcf_lcm_exponent_choice_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7N_hcf_lcm_exponent_choice_01
+  reviewer: batch
+MC_M7N_multiply_negatives_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - multiplying negatives sign error
+  reviewer: seed
+MC_M7N_negative_squared_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - negative squared confusion
+  reviewer: seed
+MC_M7N_order_of_ops_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - order of operations
+  reviewer: seed
+MC_M7N_prime_factorisation_exponents_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7N_prime_factorisation_exponents_01
+  reviewer: batch
+MC_M7N_ratio_additive_scaling_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7N_ratio_additive_scaling_01
+  reviewer: batch
+MC_M7N_square_root_halving_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7N_square_root_halving_01
+  reviewer: batch
+MC_M7N_subtract_negative_01:
+  approved_at: '2025-01-15T00:00:00+00:00'
+  note: Seed misconception for Year 7 Number - subtracting negatives
+  reviewer: seed
+MC_M7P_complement_calculation_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7P_complement_calculation_01
+  reviewer: batch
+MC_M7P_equiprobable_outcomes_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7P_equiprobable_outcomes_01
+  reviewer: batch
+MC_M7P_prob_greater_than_one_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7P_prob_greater_than_one_01
+  reviewer: batch
+MC_M7P_sample_space_partial_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7P_sample_space_partial_01
+  reviewer: batch
+MC_M7P_short_run_matches_theory_exactly_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7P_short_run_matches_theory_exactly_01
+  reviewer: batch
+MC_M7SP_angle_sum_triangle_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7SP_angle_sum_triangle_01
+  reviewer: batch
+MC_M7SP_coord_xy_swap_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7SP_coord_xy_swap_01
+  reviewer: batch
+MC_M7SP_translation_direction_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7SP_translation_direction_01
+  reviewer: batch
+MC_M7ST_conclusion_without_evidence_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_conclusion_without_evidence_01
+  reviewer: batch
+MC_M7ST_mean_vs_median_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_mean_vs_median_01
+  reviewer: batch
+MC_M7ST_median_unordered_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_median_unordered_01
+  reviewer: batch
+MC_M7ST_outlier_impact_mean_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_outlier_impact_mean_01
+  reviewer: batch
+MC_M7ST_range_max_only_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_range_max_only_01
+  reviewer: batch
+MC_M7ST_stem_leaf_unsorted_or_no_key_01:
+  approved_at: '2026-06-12T19:00:03.519130+10:00'
+  note: Batch approval for MC_M7ST_stem_leaf_unsorted_or_no_key_01
+  reviewer: batch
+MC_M8A_distributive_first_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Distributive law only first term
+  reviewer: seed
+MC_M8A_gradient_swap_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Gradient intercept swap
+  reviewer: seed
+MC_M8A_inequality_flip_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Inequality sign flip
+  reviewer: seed
+MC_M8A_linear_extrapolate_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Linear model extrapolation error
+  reviewer: seed
+MC_M8M_circle_area_diameter_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Circle area diameter error
+  reviewer: seed
+MC_M8M_pythagoras_addition_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Pythagoras linear addition
+  reviewer: seed
+MC_M8M_time_duration_decimal_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Time base-10 decimal conversion
+  reviewer: seed
+MC_M8N_exponent_multiply_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Multiplying exponent exponents
+  reviewer: seed
+MC_M8N_gst_subtraction_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for GST reverse subtraction error
+  reviewer: seed
+MC_M8N_irrational_fraction_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Irrational numbers as fractions
+  reviewer: seed
+MC_M8N_recurring_nine_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Recurring decimal nine
+  reviewer: seed
+MC_M8P_complement_sum_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Complementary events sum
+  reviewer: seed
+MC_M8P_simulation_exact_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Simulation exact matching
+  reviewer: seed
+MC_M8P_tree_add_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Tree diagram branch addition
+  reviewer: seed
+MC_M8SP_congruence_similarity_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Similarity and congruence confusion
+  reviewer: seed
+MC_M8SP_coord_z_axis_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for 3D coordinate axis swap
+  reviewer: seed
+MC_M8SP_quadrilateral_trapezium_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Trapezium parallel sides definition
+  reviewer: seed
+MC_M8ST_outlier_mean_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Outliers do not affect mean
+  reviewer: seed
+MC_M8ST_sample_bias_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Sample size bias assumption
+  reviewer: seed
+MC_M8ST_variation_equal_01:
+  approved_at: '2026-06-02T14:00:00+10:00'
+  note: Seed misconception for Sample variation expectation
+  reviewer: seed
+MC_MTHU3T4_integration_missing_constant_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Indefinite integral written without the constant
+  reviewer: batch
+MC_MTHU1T5_probability_added_not_multiplied_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Adding probabilities of independent events
+  reviewer: batch
+MC_MTHU1T5_complement_confused_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Reporting the complement instead of the probability asked for
+  reviewer: batch
+MC_MTHU1T4_degrees_radians_confused_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Working in degrees where radians are required
+  reviewer: batch
+MC_MTHU2T2_log_of_sum_split_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Log of a sum split into a sum of logs
+  reviewer: batch
+MC_SPEU1T1_permutation_combination_confused_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Counting arrangements when selections were asked for
+  reviewer: batch
+MC_SPEU2T1_i_squared_treated_positive_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Treating i squared as positive one
+  reviewer: batch
+MC_SPEU3T2_induction_assumes_the_target_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Induction step assumes what it is meant to prove
+  reviewer: batch
+MC_SPEU4T5_confidence_interval_probability_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: QCAA senior Maths tranche - Confidence interval read as a probability about the parameter
+  reviewer: batch
+MC_S7U04_heavier_falls_faster_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Heavier objects fall faster
+  reviewer: batch
+MC_S7U05_particles_expand_when_heated_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Particles themselves expand when heated
+  reviewer: batch
+MC_S7U06_melting_confused_with_dissolving_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Melting and dissolving treated as the same change
+  reviewer: batch
+MC_S7U02_energy_recycled_in_food_web_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Energy recycled through a food web
+  reviewer: batch
+MC_S7I03_accuracy_confused_with_precision_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Accuracy and precision treated as interchangeable
+  reviewer: batch
+MC_S8U05_energy_used_up_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Energy is used up rather than transformed
+  reviewer: batch
+MC_S8U03_continents_float_on_liquid_mantle_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Plates floating on a liquid mantle
+  reviewer: batch
+MC_S9U04_sound_travels_through_vacuum_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Sound travelling without a medium
+  reviewer: batch
+MC_S9U06_irradiated_becomes_radioactive_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Irradiated objects become radioactive
+  reviewer: batch
+MC_S10U05_motion_requires_continuous_force_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Continuous force needed to keep moving
+  reviewer: batch
+MC_S10U02_individuals_evolve_in_lifetime_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Individuals evolve during their lifetime
+  reviewer: batch
+MC_S10U01_dominant_allele_is_more_common_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Dominant alleles assumed to be more common
+  reviewer: batch
+MC_E7LE02_opinion_without_evidence_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Judgement about a text with nothing from the text
+  reviewer: batch
+MC_E7LE06_device_named_without_effect_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Literary device named but its effect not explained
+  reviewer: batch
+MC_E7LA02_retells_instead_of_analysing_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Retelling the plot instead of analysing
+  reviewer: batch
+MC_E9LA09_quotation_not_integrated_01:
+  approved_at: '2026-07-30T00:00:00+10:00'
+  note: AC9 Science/English tranche - Quotation dropped in without marks or integration
+  reviewer: batch

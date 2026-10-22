@@ -1,0 +1,102 @@
+{
+  "frameworks": [
+    {
+      "attribution": "© ACARA. Australian Curriculum Version 9.0. Licensed under CC BY 4.0.",
+      "framework_id": "AC9_ENGLISH",
+      "human_name": "Australian Curriculum v9 — English",
+      "jurisdiction": "ACARA",
+      "slice_directory": "ac9_english",
+      "subject_suffix": "english",
+      "supported_subjects": [
+        "english"
+      ],
+      "supported_year_levels": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "attribution": "© ACARA. Australian Curriculum Version 9.0. Licensed under CC BY 4.0.",
+      "framework_id": "AC9_MATHS",
+      "human_name": "Australian Curriculum v9 — Mathematics",
+      "jurisdiction": "ACARA",
+      "slice_directory": "ac9_maths",
+      "subject_suffix": "math",
+      "supported_subjects": [
+        "math"
+      ],
+      "supported_year_levels": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "attribution": "© ACARA. Australian Curriculum Version 9.0. Licensed under CC BY 4.0.",
+      "framework_id": "AC9_SCIENCE",
+      "human_name": "Australian Curriculum v9 — Science",
+      "jurisdiction": "ACARA",
+      "slice_directory": "ac9_science",
+      "subject_suffix": "science",
+      "supported_subjects": [
+        "science"
+      ],
+      "supported_year_levels": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "attribution": "© State of Queensland (Queensland Curriculum & Assessment Authority). Licensed under CC BY 4.0.",
+      "framework_id": "QCAA_SENIOR_ENGLISH",
+      "human_name": "QCAA Senior English",
+      "jurisdiction": "QCAA-Senior",
+      "slice_directory": "qcaa_senior_english",
+      "subject_suffix": "senior_english",
+      "supported_subjects": [
+        "english",
+        "literature",
+        "essential_english",
+        "eal",
+        "literature_extension"
+      ],
+      "supported_year_levels": null
+    },
+    {
+      "attribution": "© State of Queensland (Queensland Curriculum & Assessment Authority). Licensed under CC BY 4.0.",
+      "framework_id": "QCAA_SENIOR_MATHS",
+      "human_name": "QCAA Senior Mathematics",
+      "jurisdiction": "QCAA-Senior",
+      "slice_directory": "qcaa_senior_maths",
+      "subject_suffix": "senior_math",
+      "supported_subjects": [
+        "methods",
+        "general",
+        "specialist",
+        "essential"
+      ],
+      "supported_year_levels": null
+    },
+    {
+      "attribution": "© State of Queensland (Queensland Curriculum & Assessment Authority). Licensed under CC BY 4.0.",
+      "framework_id": "QCAA_SENIOR_SCIENCE",
+      "human_name": "QCAA Senior Science",
+      "jurisdiction": "QCAA-Senior",
+      "slice_directory": "qcaa_senior_science",
+      "subject_suffix": "senior_science",
+      "supported_subjects": [
+        "biology",
+        "chemistry",
+        "physics",
+        "psychology",
+        "earth_environmental_science"
+      ],
+      "supported_year_levels": null
+    }
+  ]
+}

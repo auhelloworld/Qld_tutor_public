@@ -1,0 +1,114 @@
+{
+  "core_rule": "Choose the right text structure and language features to match your purpose and audience when creating texts.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What do you need to think about before you start writing a text for a specific reader?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "First, identify your <purpose> and <audience>, then decide which <text structure> will best organise your ideas."
+    },
+    {
+      "level": "analogy",
+      "template": "Planning a text is like packing a backpack for a hike: you pick the right gear (structure and features) for the trail (purpose and audience)."
+    }
+  ],
+  "worked_example": {
+    "question": "Identify the purpose and audience in this short advertisement: 'Hey mates! Grab the new surf‑ready sunscreen – SPF 50, water‑resistant, and smells like tropical fruit. Perfect for a day at the beach.'",
+    "answer": "Purpose: persuade readers to buy the sunscreen. Audience: teenagers or young adults who enjoy beach activities.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Look for persuasive language and a call to action.",
+        "result": "Words like 'Grab', 'Perfect for' show persuasion."
+      },
+      {
+        "step": 2,
+        "instruction": "Note who is being addressed and what they like.",
+        "result": "The term 'mates' and beach reference point to young, active readers."
+      },
+      {
+        "step": 3,
+        "instruction": "Summarise the purpose and audience in a sentence.",
+        "result": "Purpose: persuade to buy sunscreen; Audience: teens/young adults who like the beach."
+      }
+    ],
+    "explanation": "The advertisement uses friendly, enthusiastic language and mentions a beach setting, aiming to convince young people to purchase the product."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Objective 1: Identify how text structure and language features suit a given purpose and audience.",
+      "Objective 2: Create a short multimodal text (e.g., a poster or podcast script) that matches a chosen purpose and audience using appropriate structures and features."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is planning and creating texts?",
+        "body": "Planning means deciding what you want to say, who will read or view it, and how you will organise your ideas. Creating involves writing, drawing, recording or mixing media to share your message in a way that fits the purpose—whether to inform, persuade, entertain or reflect.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to choose structure and features",
+        "body": "1. State your purpose (inform, persuade, entertain, reflect). 2. Name your audience (age, interests, knowledge). 3. Pick a text structure that helps your purpose (e.g., problem‑solution for persuasion, sequence for instructions). 4. Choose language features (words, tone, literary devices) and visual features (images, colours, layout) that appeal to your audience. 5. Draft, then edit for clarity and impact.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "\"Hey everyone! Today I’m showing you how to make a quick mug cake in under five minutes. First, grab a mug, add flour, sugar, cocoa, milk and oil. Mix, then microwave for 90 seconds. Enjoy your warm, chocolaty treat!\" This vlog script uses a friendly tone, clear steps and enthusiastic language to entertain and inform peers about a simple recipe.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Mismatching purpose and audience",
+        "body": "A frequent mistake is using the same formal report style for a fun Instagram post. This can bore viewers who expect lively language and visuals. To avoid it, always ask: ‘Who will see this and what do they enjoy?’ then adjust your words, tone and pictures accordingly.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "purpose",
+        "definition": "The reason you are creating the text – to inform, persuade, entertain or reflect."
+      },
+      {
+        "term": "audience",
+        "definition": "The specific group of people who will read, view or listen to your text."
+      },
+      {
+        "term": "text structure",
+        "definition": "The way you organise your ideas, such as description, sequence, cause‑effect or compare‑contrast."
+      },
+      {
+        "term": "language features",
+        "definition": "Choices of words, tone, sentence patterns and literary devices that shape how your message sounds."
+      }
+    ],
+    "common_mistakes": [
+      "Using the same structure for all texts regardless of purpose.",
+      "Forgetting to consider who will read or view the text."
+    ],
+    "real_world_connections": [
+      "Advertisements target specific groups with tailored words and images.",
+      "News articles adjust tone and detail for different readers.",
+      "Social media posts use visuals, hashtags and short captions to engage followers."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read this excerpt from a school newsletter: 'Our Year 7 camp was amazing! We hiked, cooked meals, and made new friends. Thanks to Mr Smith for organising.' Identify the purpose and audience.",
+        "answer": "Purpose: inform and reflect on the camp experience. Audience: parents, students and school staff who read the newsletter.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Look for verbs and tone that show feeling or information.",
+            "result": "Words like 'amazing', 'Thanks' show a positive, reflective tone."
+          },
+          {
+            "step": 2,
+            "instruction": "Consider who would receive a school newsletter and what they want to know.",
+            "result": "Parents and staff want updates; students enjoy hearing about friends."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

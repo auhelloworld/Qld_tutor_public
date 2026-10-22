@@ -1,0 +1,109 @@
+{
+  "core_rule": "Cause and effect links show how one event or idea leads to another, helping writers convince readers by explaining why things happen and what results follow.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What connects events in explanations - the reason something happens or the result that follows?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find the <cause> in this sentence, then identify what <effect> follows from it."
+    },
+    {
+      "level": "analogy",
+      "template": "Cause and effect in texts is like dominos falling - when one knocks over, it pushes the next one down."
+    }
+  ],
+  "worked_example": {
+    "question": "Read this sentence: 'Because plastic waste pollutes our oceans, marine animals become trapped in discarded packaging.' Identify the cause and effect.",
+    "answer": "Cause: plastic waste pollutes our oceans. Effect: marine animals become trapped in discarded packaging.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Look for words that show reason or result.",
+        "result": "Found 'because' at the start."
+      },
+      {
+        "step": 2,
+        "instruction": "Split the sentence at the linking word.",
+        "result": "First part explains why, second part explains what happens."
+      },
+      {
+        "step": 3,
+        "instruction": "Label each part as cause or effect.",
+        "result": "Cause leads to effect - pollution causes harm to animals."
+      }
+    ],
+    "explanation": "The word 'because' signals the cause (pollution), and the rest shows the effect (animals trapped). This structure helps readers understand the connection and makes the argument more convincing."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "AC9E5LY03",
+      "AC9E6LY02"
+    ],
+    "learning_objectives": [
+      "Identify cause and effect relationships in explanatory texts to understand how ideas connect.",
+      "Create sentences using cause and effect structures to explain why something happens or what results."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Cause and Effect?",
+        "body": "Cause and effect shows the relationship between why something happens (cause) and what happens next (effect). Writers use this to explain how ideas connect and to convince readers that their explanation makes sense. Think of it like a chain reaction - one thing leads to another.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Spot Cause and Effect",
+        "body": "Step 1: Look for clue words like because, since, therefore, as a result, leads to, causes, results in. Step 2: Ask 'Why did this happen?' (cause) and 'What happened because of this?' (effect). Step 3: Check if the cause logically leads to the effect - does it make sense?",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "'Since social media use increases among teenagers, sleep patterns become disrupted, leading to poorer concentration at school.' The cause (social media use) clearly connects to the effect (sleep disruption), which then leads to another effect (poor concentration). This chain helps readers follow the logic.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Mixing Up Cause and Effect",
+        "body": "Students often get confused about which event happened first. Remember: cause comes before effect. If you're unsure, ask 'What happened first?' - that's usually your cause. The effect is the result that follows.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Cause",
+        "definition": "The reason why something happens - the starting point that makes something else occur."
+      },
+      {
+        "term": "Effect",
+        "definition": "The result or outcome that happens because of the cause."
+      }
+    ],
+    "common_mistakes": [
+      "Putting the effect before the cause in the sentence structure.",
+      "Using cause and effect words incorrectly - like saying 'because' when 'therefore' would be better."
+    ],
+    "real_world_connections": [
+      "News reports use cause and effect to explain events ('Heavy rains caused flooding').",
+      "Science experiments show cause and effect ('Increasing temperature causes faster reaction times').",
+      "Advertisements use cause and effect to persuade ('Use this product because it solves your problem')."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read: 'Regular exercise improves fitness levels, which reduces the risk of heart disease.' What is the effect of regular exercise?",
+        "answer": "Improved fitness levels and reduced risk of heart disease.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Find the main action or result mentioned.",
+            "result": "Exercise improves fitness and reduces disease risk."
+          },
+          {
+            "step": 2,
+            "instruction": "Identify what happens as a result of this action.",
+            "result": "Better health outcomes follow from exercising."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

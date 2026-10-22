@@ -1,0 +1,48 @@
+node_modules
+frontend/node_modules
+frontend/.next
+backend/venv
+.venv
+__pycache__
+*.pyc
+.hypothesis
+.pytest_cache
+.coverage
+.npm-cache/
+.codegraph/
+.tmp/
+.git
+.kiro
+
+# Environment files may contain deployment secrets and must not be sent to a
+# local or remote Docker builder.
+.env
+.env.*
+
+# Runtime/private data: authored content under data/ is included, but mutable
+# student state and credentials must never enter an image layer.
+data/qld_tutor.db*
+data/logs/
+data/credentials.json*
+data/scratch/
+data/content_approvals.yaml
+
+# Development, audit and authoring-only content
+/tests/
+/docs/
+/static/
+/audit_output/
+/audit_runs/
+/scratch/
+/staging/
+/test_tmp_*/
+/ai_tutoring.egg-info/
+*.egg-info/
+/iterative-question-bank-content-audit/
+/qld-tutor-question-bank-generation/
+/qld-tutor-source-digest/
+/scripts/*
+!/scripts/manage_data_backup.py
+/data/sources/
+data/*.bak
+data/*.artefact-backup

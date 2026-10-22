@@ -1,0 +1,121 @@
+{
+  "core_rule": "Visual texts use techniques like vectors, angle, and social distance to shape how viewers see things, creating specific perspective.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How visual choices make viewer feel or think about what seen?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Look at <main subject> in image. What <visual technique> it use?"
+    },
+    {
+      "level": "analogy",
+      "template": "Visual techniques like camera lens, choose what focus on, how close get, guide viewer's eye."
+    }
+  ],
+  "worked_example": {
+    "question": "Advertisement for new sports drink shows close-up of runner's determined face, sweat dripping, eyes look up and right. What perspective this create using angle and social distance?",
+    "answer": "Advertisement creates perspective of intense effort, determination, and aspiration, make viewer feel close to runner's struggle and ambition.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify visual techniques: angle, social distance.",
+        "result": "Close-up (social distance), eyes look up and right (angle/vector)."
+      },
+      {
+        "step": 2,
+        "instruction": "Analyse how each technique make viewer feel or think.",
+        "result": "Close-up: intimacy, feel runner's emotion. Up/right gaze: look towards goal, future, victory."
+      },
+      {
+        "step": 3,
+        "instruction": "Combine effects to describe overall perspective.",
+        "result": "Perspective of intense effort, determination, and aspiration."
+      }
+    ],
+    "explanation": "Close-up social distance makes viewer feel connected to runner's personal struggle, emotion. Upward and rightward gaze (vector) suggests looking towards future goal or victory, imply drink helps achieve this."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Understanding visual texts",
+      "Identifying main idea in images"
+    ],
+    "learning_objectives": [
+      "Analyse how vectors, angle, and social distance create perspective in visual texts.",
+      "Explain how different visual techniques influence viewer's understanding or feeling."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Visual Perspective?",
+        "body": "Visual perspective is how an image makes you see or feel about what is shown. Like a storyteller, but with pictures. It guides your thoughts, makes you feel certain way about characters, objects, or ideas.",
+        "type": "concept"
+      },
+      {
+        "heading": "How Visual Techniques Create Perspective",
+        "body": "Artists, photographers, advertisers use special tricks to shape your view:\n\n**Vectors:** Imaginary lines that guide your eye. A character's gaze, a pointing finger, or a road leading into distance are all vectors. They tell you where to look, what's important, or what's coming next.\n\n**Angle:** This is where the 'camera' or viewer is positioned. \n*   **High Angle:** Look down on subject. Make subject seem small, weak, vulnerable.\n*   **Low Angle:** Look up at subject. Make subject seem big, powerful, heroic.\n*   **Eye-Level Angle:** Look straight at subject. Make subject seem equal, normal, relatable.\n\n**Social Distance:** How close or far subject appears to viewer. \n*   **Close-up:** Very near. Show emotion, intimacy, make viewer feel connected.\n*   **Medium Shot:** Show body from waist up. Show interaction, relationship.\n*   **Long Shot:** Show whole body, surroundings. Give context, show isolation.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Advertisement shows child looking up at towering superhero. Low angle on superhero makes them seem mighty, inspiring. Child's upward gaze (vector) reinforces admiration.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Confusing Technique with Emotion",
+        "body": "Big mistake: just say 'it makes me feel sad'. Better: explain *how* technique creates sadness. For example, 'The high angle makes the character seem small and vulnerable, which creates a feeling of sadness.' Always link the technique to the effect.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Perspective",
+        "definition": "How someone sees or understands something; a particular way of viewing things."
+      },
+      {
+        "term": "Visual Text",
+        "definition": "Any text that uses images to communicate meaning, like photos, advertisements, comics, or films."
+      },
+      {
+        "term": "Vector",
+        "definition": "An imaginary line in a visual text that directs the viewer's eye from one point to another."
+      },
+      {
+        "term": "Angle",
+        "definition": "The position from which a visual text is viewed, influencing how the subject appears."
+      },
+      {
+        "term": "Social Distance",
+        "definition": "The apparent distance between the viewer and the subject in an image, affecting intimacy or detachment."
+      }
+    ],
+    "common_mistakes": [
+      "Describe what happen without explain *how* techniques create meaning.",
+      "Mix up angle (camera position) with direction character look (vector)."
+    ],
+    "real_world_connections": [
+      "Advertisements use these techniques to make products look appealing or trustworthy.",
+      "News photos use them to influence how you feel about event or person.",
+      "Movie scenes use them to build tension, excitement, or empathy."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Graphic novel panel shows villain from low angle, looking down at reader. What perspective this create?",
+        "answer": "This creates perspective of villain being powerful, dominant, and threatening, make reader feel intimidated or inferior.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify angle and implied vector.",
+            "result": "Low angle on villain, villain look down (implied vector)."
+          },
+          {
+            "step": 2,
+            "instruction": "Analyse effect of techniques on viewer.",
+            "result": "Low angle makes villain seem big/strong. Look down makes viewer feel small/threatened."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "schema_version": "2.0",
+  "purpose": "Error taxonomy for a Year 7 English AI-tutor system. Aligned to the Australian Curriculum v9.0 (AC9) and QCAA guidelines, covering Language Conventions (Spelling, Grammar, Punctuation), Reading Comprehension (Literal, Inferential), and Textual Analysis/Composition.",
+  "usage_guidelines": {
+    "allow_multiple_errors_per_response": true,
+    "recommended_fields_for_response_diagnosis": [
+      "primary_error_code",
+      "secondary_error_codes",
+      "subtype_codes",
+      "confidence",
+      "evidence",
+      "recommended_action"
+    ],
+    "severity_levels": {
+      "low": "Minor slip; student likely understands the concept but made a mechanical error.",
+      "medium": "Procedural or structural error showing gaps in rule application; targeted practice recommended.",
+      "high": "Conceptual misunderstanding of reading skills, grammatical rules, or structural analysis; reteaching required."
+    },
+    "confidence_levels": {
+      "low": "Weak evidence; response suggests a possible mistake but could be interpreted differently.",
+      "medium": "Reasonable evidence from the student's typed response.",
+      "high": "Clear, unambiguous evidence of the error from the student's answer or working."
+    }
+  },
+  "error_types": [
+    {
+      "code": "spelling_mechanics",
+      "label": "Spelling and Orthography",
+      "description": "Errors in spelling words correctly, including phonetic slips, silent letters, homophone confusion, prefix/suffix misapplications, or irregular word forms.",
+      "typical_evidence": [
+        "Incorrect spelling of high-frequency or curriculum-appropriate words.",
+        "Confusing words that sound the same but have different spellings and meanings.",
+        "Incorrect plural forms or verb inflections."
+      ],
+      "subtypes": [
+        {
+          "code": "phonetic_spelling_slip",
+          "description": "Spelling a word exactly as it sounds rather than using correct spelling conventions (e.g., 'souvenier' instead of 'souvenir', 'definately' instead of 'definitely')."
+        },
+        {
+          "code": "silent_letters_omission",
+          "description": "Dropping silent letters during writing (e.g., spelling 'column' as 'colum', 'knowledge' as 'nowledge')."
+        },
+        {
+          "code": "homophone_confusion",
+          "description": "Confusing homophones (e.g., using 'their' instead of 'there'/'they\\'re', 'its' instead of 'it\\'s', 'affect' instead of 'effect')."
+        },
+        {
+          "code": "suffix_prefix_misapplication",
+          "description": "Misapplying spelling rules when adding prefixes or suffixes (e.g., forgetting to double consonants like 'running', or dropping silent 'e' like 'advising')."
+        },
+        {
+          "code": "irregular_plurals_verbs",
+          "description": "Applying standard spelling rules to irregular nouns or verbs (e.g., 'childrens', 'gooses', 'flied' instead of 'flew')."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Point out the specific syllable or letter pattern that is incorrect.",
+        "Provide the etymology or morphological breakdown of the word.",
+        "Offer homophone visual mnemonics (e.g., 'here' contains 'ear', 'there' contains 'here')."
+      ]
+    },
+    {
+      "code": "punctuation_mechanics",
+      "label": "Punctuation and Conventions",
+      "description": "Incorrect or missing punctuation markers, including apostrophes, commas, quotation marks, or capitalization boundaries.",
+      "typical_evidence": [
+        "Missing capitals at the start of sentences or for proper nouns.",
+        "Apostrophes placed incorrectly for contractions or possessives.",
+        "Missing or misplaced commas separating clauses or items in lists.",
+        "Incorrect punctuation inside direct speech/dialogue."
+      ],
+      "subtypes": [
+        {
+          "code": "apostrophe_misplacement",
+          "description": "Incorrect use of apostrophes for plural possessives, singular possessives, or contractions (e.g., confusing 'dogs\\' toys' with 'dog\\'s toys' or writing 'should\\'nt')."
+        },
+        {
+          "code": "comma_splice_runon",
+          "description": "Joining two independent clauses with a comma but no coordinating conjunction (e.g., 'I went to school, it was fun')."
+        },
+        {
+          "code": "capitalization_slip",
+          "description": "Failing to capitalize the first word of a sentence, proper nouns (names, locations), or the pronoun 'I'."
+        },
+        {
+          "code": "quotation_mark_misuse",
+          "description": "Misplacing commas or periods relative to dialogue quotation marks, or failing to close speech marks."
+        },
+        {
+          "code": "clause_boundary_comma_missing",
+          "description": "Omitting necessary commas after introductory phrases or to separate non-restrictive clauses."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Prompt the student to locate where one sentence ends and the next begins.",
+        "Ask the student to verify if they are showing possession (owner) or contraction (shortened words).",
+        "Highlight standard conventions for enclosing direct speech."
+      ]
+    },
+    {
+      "code": "grammar_syntax",
+      "label": "Grammar and Sentence Structure",
+      "description": "Structural errors in sentence formation, including agreement slips, tense shifts, pronoun cases, or incomplete sentences.",
+      "typical_evidence": [
+        "Subject and verb do not match in number (singular/plural).",
+        "Shifting tenses inconsistently (e.g., mixing past and present tense in analysis).",
+        "Fragments acting as complete sentences.",
+        "Misplaced modifiers creating ambiguity."
+      ],
+      "subtypes": [
+        {
+          "code": "subject_verb_agreement_slip",
+          "description": "Singular subject paired with plural verb form or vice versa, especially when separated by intervening prepositional phrases."
+        },
+        {
+          "code": "tense_inconsistency",
+          "description": "Unjustified shifting between past and present tenses within a single response or analysis."
+        },
+        {
+          "code": "pronoun_case_or_agreement",
+          "description": "Incorrect pronoun form (e.g., 'Me and him went' instead of 'He and I went') or mismatch between pronoun and antecedent."
+        },
+        {
+          "code": "sentence_fragment",
+          "description": "Writing an incomplete sentence that lacks either a subject, a main verb, or is a subordinate clause left standing alone (e.g., 'Although she tried hard.')."
+        },
+        {
+          "code": "runon_sentence_fused",
+          "description": "Combining two or more independent clauses without any punctuation or coordinating conjunctions."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to identify the main subject and its corresponding verb.",
+        "Review standard tense rules for formal analysis (typically present tense for literary analysis).",
+        "Guide the student to expand fragments into complete clauses."
+      ]
+    },
+    {
+      "code": "vocabulary_register",
+      "label": "Vocabulary and Register",
+      "description": "Inappropriate word choice, informal tone, semantic confusion, or excessive redundancy in academic text.",
+      "typical_evidence": [
+        "Use of slang, abbreviations, or colloquial text-speak in a formal analysis.",
+        "Confusing words with similar shapes but different meanings.",
+        "Overly simplistic, repetitive, or redundant language."
+      ],
+      "subtypes": [
+        {
+          "code": "informal_register_slang",
+          "description": "Using casual language, slang, or conversational idioms (e.g., 'kids' instead of 'children', 'he was heaps mad') in formal writing."
+        },
+        {
+          "code": "word_meaning_confusion",
+          "description": "Confusing words that are semantically distinct (e.g., 'borrow' vs 'lend', 'imply' vs 'infer')."
+        },
+        {
+          "code": "expression_imprecision",
+          "description": "Relying on vague words like 'thing', 'stuff', 'good', or 'nice' instead of precise, descriptive vocabulary."
+        },
+        {
+          "code": "redundancy_tautology",
+          "description": "Repeating the same meaning unnecessarily (e.g., 'advance forward', 'past history', 'revert back')."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Prompt the student to substitute informal words with academic synonyms.",
+        "Explain the semantic difference between the confused words.",
+        "Provide alternative descriptive verbs and adjectives to replace vague terms."
+      ]
+    },
+    {
+      "code": "literal_comprehension",
+      "label": "Literal Comprehension",
+      "description": "Errors in retrieving explicit details, identifying sequence of events, or understanding key factual information from a text.",
+      "typical_evidence": [
+        "Student names the wrong character, location, or time frame mentioned explicitly in the text.",
+        "Student misorders chronological events or misstates cause-and-effect.",
+        "Student overlooks negative qualifiers in the question prompt."
+      ],
+      "subtypes": [
+        {
+          "code": "detail_misretrieval",
+          "description": "Incorrectly identifying facts, descriptions, or data points stated directly in the reading passage."
+        },
+        {
+          "code": "sequence_cause_confusion",
+          "description": "Misunderstanding the order of plot points or failing to link direct causes to explicit effects."
+        },
+        {
+          "code": "negation_overlook",
+          "description": "Missing qualifiers such as 'not', 'except', 'least likely', or 'only' in the question prompt, leading to an incorrect target search."
+        },
+        {
+          "code": "contextual_definition_error",
+          "description": "Defining a vocabulary word based on general knowledge rather than its specific literal meaning in the passage."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to highlight the specific sentence in the text where the answer is found.",
+        "Draw a simple timeline of events with the student.",
+        "Prompt the student to re-read the question and circle any negative key words."
+      ]
+    },
+    {
+      "code": "inferential_comprehension",
+      "label": "Inferential Comprehension",
+      "description": "Errors in drawing logical inferences, interpreting figurative language, understanding subtext, or identifying tone and themes.",
+      "typical_evidence": [
+        "Taking metaphors or idioms literally.",
+        "Misinterpreting character emotions, thoughts, or motivations not explicitly stated.",
+        "Stating a theme that is contradicted by the text or is overgeneralized."
+      ],
+      "subtypes": [
+        {
+          "code": "tone_attitude_misreading",
+          "description": "Misidentifying the tone (e.g., sarcastic, solemn, humorous) or mood established by the author's word choice."
+        },
+        {
+          "code": "figurative_meaning_misinterpretation",
+          "description": "Interpreting similes, metaphors, personification, or idioms literally instead of analysing their symbolic effect."
+        },
+        {
+          "code": "main_idea_skew",
+          "description": "Identifying a minor detail or an unrelated concept as the main theme, or overgeneralizing the text's message."
+        },
+        {
+          "code": "character_perspective_misread",
+          "description": "Misinterpreting the thoughts, feelings, or underlying motivations of characters."
+        }
+      ],
+      "default_severity": "high",
+      "recommended_actions": [
+        "Guide the student to look at connotative word choices to infer tone.",
+        "Scaffold the difference between literal translation and symbolic meaning of a device.",
+        "Encourage the student to ask, 'What is the author trying to teach us overall?' to find the main idea."
+      ]
+    },
+    {
+      "code": "textual_analysis",
+      "label": "Textual Analysis and Evidence",
+      "description": "Errors in applying literary metalanguage, selecting relevant textual evidence, or analysing visual/multimodal features.",
+      "typical_evidence": [
+        "Incorrectly identifying literary or visual devices.",
+        "Making analytical assertions without supporting evidence.",
+        "Selecting quotes that do not support the claim made."
+      ],
+      "subtypes": [
+        {
+          "code": "literary_device_mislabel",
+          "description": "Confusing metalanguage terms (e.g., calling personification a metaphor, or confusing alliteration with assonance)."
+        },
+        {
+          "code": "unsubstantiated_claim",
+          "description": "Providing an analysis of character or theme without quoting or referencing any details from the text."
+        },
+        {
+          "code": "irrelevant_evidence",
+          "description": "Choosing quotes or visual features that fail to support, or directly contradict, the student's argument."
+        },
+        {
+          "code": "multimodal_feature_misread",
+          "description": "Misinterpreting visual grammar features (e.g., vectors, reading path, salience, camera angles, proximity) in graphics or multimodal texts."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Provide definitions and examples of the confused literary devices side-by-side.",
+        "Prompt the student to find a specific word or phrase in the text that 'proves' their statement.",
+        "Guide the student through visual grammar structures (e.g., 'Where does your eye look first and why?')."
+      ]
+    },
+    {
+      "code": "writing_composition",
+      "label": "Writing Structure and Composition",
+      "description": "Errors in structuring paragraphs (e.g., PEEL structure), establishing coherence, or integrating evidence.",
+      "typical_evidence": [
+        "Paragraphs that lack a clear topic sentence, evidence, or linking sentence.",
+        "Quotes dropped into text without contextual integration.",
+        "Disjointed flow of ideas due to lack of logical transition words."
+      ],
+      "subtypes": [
+        {
+          "code": "PEEL_structure_incomplete",
+          "description": "An analytical paragraph that is missing one or more core components: Point (topic sentence), Evidence (quotes), Explanation (analysis), or Link (linking back to the prompt)."
+        },
+        {
+          "code": "coherence_linking_missing",
+          "description": "Failing to use transition words (e.g., 'however', 'consequently', 'furthermore') to connect sentences and paragraphs logically."
+        },
+        {
+          "code": "evidence_integration_error",
+          "description": "Dropping quotes into paragraphs as stand-alone sentences without embedding them within the student's own syntax."
+        }
+      ],
+      "default_severity": "high",
+      "recommended_actions": [
+        "Have the student label each sentence in their paragraph as P, E, E, or L.",
+        "Introduce a list of cohesive transition phrases suited for Year 7.",
+        "Show models of how to introduce a quote (e.g., 'The author demonstrates this when...')."
+      ]
+    },
+    {
+      "code": "weak_text_evidence",
+      "label": "Weak text evidence",
+      "description": "The response makes a claim without precise or relevant evidence from the text.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to quote or paraphrase the specific words that prove their point."
+      ]
+    },
+    {
+      "code": "inference_error",
+      "label": "Inference error",
+      "description": "The response draws a conclusion that is not supported by details in the text.",
+      "default_severity": "high",
+      "recommended_actions": [
+        "Prompt the student to identify which clues support the inference and which clues contradict it."
+      ]
+    },
+    {
+      "code": "grammar_convention",
+      "label": "Grammar convention",
+      "description": "The response shows an error in sentence grammar, agreement, tense, or standard written conventions.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Have the student identify the subject, verb, and tense before rewriting the sentence."
+      ]
+    },
+    {
+      "code": "vocabulary_precision",
+      "label": "Vocabulary precision",
+      "description": "The response uses vague, imprecise, informal, or contextually inaccurate vocabulary.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to replace one vague word with a more precise word from the text or topic."
+      ]
+    },
+    {
+      "code": "punctuation",
+      "label": "Punctuation",
+      "description": "The response has missing or incorrect punctuation that affects clarity or correctness.",
+      "default_severity": "low",
+      "recommended_actions": [
+        "Ask the student to read the sentence aloud and mark where punctuation is needed."
+      ]
+    },
+    {
+      "code": "spelling",
+      "label": "Spelling",
+      "description": "The response includes spelling errors in high-frequency or topic-specific words.",
+      "default_severity": "low",
+      "recommended_actions": [
+        "Have the student correct the word and note the letter pattern or morpheme that caused the error."
+      ]
+    },
+    {
+      "code": "expression_clarity",
+      "label": "Expression clarity",
+      "description": "The response is difficult to follow because the idea, sentence structure, or explanation is unclear.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to rewrite the answer as one clear point followed by one explanation."
+      ]
+    },
+    {
+      "code": "incomplete_answer",
+      "label": "Incomplete answer",
+      "description": "The response does not answer all parts of the question or omits required explanation/evidence.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to tick off each command word or sub-part in the question."
+      ]
+    }
+  ]
+}

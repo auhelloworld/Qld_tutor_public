@@ -1,0 +1,137 @@
+{
+  "core_rule": "Use reading strategies like visualising, predicting, connecting, questioning, inferring, and summarising to understand texts deeply and identify main ideas.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do good readers make sense of tricky texts?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "First, think about <main idea> in <first paragraph>."
+    },
+    {
+      "level": "analogy",
+      "template": "Reading strategies are like a detective's tools; each helps uncover a different clue to solve the text's mystery."
+    }
+  ],
+  "worked_example": {
+    "question": "Read this passage: 'The kookaburra sat on the old gum tree, its laughter echoing through the bush. Below, a sleepy koala clung to a branch, munching on eucalyptus leaves. The sun beat down, warming the red earth.' What is the main idea of this passage?",
+    "answer": "The passage describes a peaceful Australian bush scene with native animals.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Read passage carefully. Visualise scene and identify key elements.",
+        "result": "Kookaburra, gum tree, koala, eucalyptus, sun, red earth. All Australian nature."
+      },
+      {
+        "step": 2,
+        "instruction": "Identify overall feeling or mood. What is author trying to show?",
+        "result": "Peaceful, calm, natural. Focus on animals in their habitat."
+      },
+      {
+        "step": 3,
+        "instruction": "Combine key elements and mood into one summary sentence.",
+        "result": "The passage describes a peaceful Australian bush scene with native animals."
+      }
+    ],
+    "explanation": "Answer combines key details (animals, setting) and overall feeling (peaceful) to capture main idea without including every small detail."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify and apply various comprehension strategies (visualising, predicting, connecting, questioning, inferring, summarising).",
+      "Analyse and summarise information and ideas from different text types."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Reading Smarter? (Comprehension Strategies)",
+        "body": "Good readers don't just read words; they *think* while reading! They use special 'reading superpowers' called comprehension strategies to truly understand a text. Think of it like being a detective, looking for clues and piecing together the puzzle of what you're reading. These strategies help you dig deeper than just the surface words.\n\nHere are your superpowers:\n*   **Visualising**: Making mental pictures in your head as you read. It's like watching a movie of the story!\n*   **Predicting**: Guessing what might happen next based on clues in the text and what you already know.\n*   **Connecting**: Linking what you read to your own life, other books/movies, or things you know about the world.\n*   **Summarising**: Shortening a text to its main ideas, like giving a quick overview.\n*   **Monitoring**: Checking if you understand as you read. If something's confusing, you stop and fix it!\n*   **Questioning**: Asking 'who?', 'what?', 'when?', 'where?', 'why?', and 'how?' about the text to clarify meaning.\n*   **Inferring**: Reading 'between the lines' – using clues from the text and your own knowledge to figure out things the author doesn't directly say.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Use Your Reading Superpowers",
+        "body": "Using these strategies makes you a stronger reader. Here's how to put them into action:\n\n*   **Visualising**: As you read, pause and close your eyes for a moment. What do you see, hear, smell, taste, or feel? Try to build a clear picture in your mind.\n*   **Predicting**: Before you even start reading, look at the title, pictures, or headings. What do you think the text will be about? As you read, make new predictions and see if your old ones were correct.\n*   **Connecting**: Does this part of the story remind you of something that happened to you? A character like someone you know? A problem similar to one in another book? Make those links!\n*   **Summarising**: After each paragraph or chapter, ask yourself: 'What was the most important thing here?' Try to explain it in just one or two sentences, using your own words.\n*   **Monitoring**: If you read a sentence and it doesn't make sense, STOP! Reread it. Look up any words you don't know. Ask yourself: 'Am I understanding this?'\n*   **Questioning**: Be curious! Ask 'Why did the character do that?' or 'How did that event happen?' Look for answers in the text or think about possible reasons.\n*   **Inferring**: Authors don't always tell you everything directly. If a character is shivering and wrapped in a blanket, you can *infer* they are cold, even if the text doesn't say 'they were cold'. Use clues + your brain!",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Let's look at this passage:\n\n'The old lighthouse stood tall on the cliff, its beam sweeping across the stormy sea. Below, waves crashed against the rocks, sending spray high into the air. No ships were visible, but a small, battered fishing boat was due back soon.'\n\n*   **Visualising**: I picture a tall, white lighthouse, dark grey clouds, huge waves hitting sharp rocks, and a small boat struggling in the distance.\n*   **Predicting**: I predict the fishing boat might be in trouble because of the stormy weather.\n*   **Inferring**: I can infer that the people waiting for the boat are probably worried, even though the text doesn't say so directly. The words 'stormy', 'crashed', 'battered' create a feeling of danger.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Just Reading Words",
+        "body": "A common mistake is 'word-by-word reading' without thinking. You might read every word on a page, but then realise you don't remember anything! This happens when you don't use your comprehension strategies. You're not visualising, questioning, or connecting, so the words don't stick. Remember, reading is an active process, not just looking at symbols.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Comprehension",
+        "definition": "Understanding what you read or hear."
+      },
+      {
+        "term": "Visualising",
+        "definition": "Creating mental images or pictures in your mind while reading."
+      },
+      {
+        "term": "Predicting",
+        "definition": "Making an educated guess about what will happen next in a text."
+      },
+      {
+        "term": "Connecting",
+        "definition": "Linking text ideas to your own experiences, other texts, or world knowledge."
+      },
+      {
+        "term": "Summarising",
+        "definition": "Stating the main ideas of a text in a brief, concise way."
+      },
+      {
+        "term": "Monitoring",
+        "definition": "Checking your understanding as you read and identifying when you are confused."
+      },
+      {
+        "term": "Questioning",
+        "definition": "Asking 'who, what, when, where, why, how' about the text to clarify meaning."
+      },
+      {
+        "term": "Inferring",
+        "definition": "Figuring out unstated meaning by using clues from the text and your own knowledge."
+      },
+      {
+        "term": "Analyse",
+        "definition": "To break down a text into its parts to understand how it works and what it means."
+      }
+    ],
+    "common_mistakes": [
+      "Reading too fast without stopping to think or check understanding.",
+      "Not using prior knowledge or personal experiences to connect with the text.",
+      "Confusing a summary with retelling every single detail of the text.",
+      "Not asking questions when confused, leading to misunderstanding."
+    ],
+    "real_world_connections": [
+      "Understanding news articles, social media posts, or online information.",
+      "Following instructions for a game, a recipe, or assembling furniture.",
+      "Making sense of a movie plot, song lyrics, or a conversation with friends.",
+      "Deciding if an advertisement is trying to influence you and how."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read the following sentence: 'Despite the dark clouds gathering, the picnic-goers continued to spread their blanket, laughing loudly.' What can you infer about the picnic-goers?",
+        "answer": "They are optimistic, perhaps a bit careless, or determined to enjoy themselves despite potential rain.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify clues in the sentence.",
+            "result": "'Dark clouds gathering' (suggests bad weather/rain), 'continued to spread their blanket', 'laughing loudly' (suggests ignoring the clouds)."
+          },
+          {
+            "step": 2,
+            "instruction": "Use clues plus your world knowledge to figure out the unstated attitude or feeling.",
+            "result": "They are ignoring the bad weather signs, so they must be optimistic, determined, or perhaps a little foolish/careless."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

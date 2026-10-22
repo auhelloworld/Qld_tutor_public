@@ -1,0 +1,115 @@
+{
+  "core_rule": "Text structure and language features change depending on the text's purpose, such as to inform, persuade, or entertain.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What is the main purpose of this text, and how does it influence its structure?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "First, identify the <purpose> of the text. Then, look for <structural elements> that support this purpose."
+    },
+    {
+      "level": "analogy",
+      "template": "Text structure is like a recipe; different purposes need different ingredients and steps."
+    }
+  ],
+  "worked_example": {
+    "question": "Read the following book review: 'The novel explores themes of friendship and adventure. The characters are well-developed, and the plot keeps you guessing until the end. Overall, this book is a must-read for young adults.' Describe how the structure and language features serve the purpose of the review.",
+    "answer": "The review moves from description to summary to judgement, using evaluative language like 'must-read' to persuade readers.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify the purpose of the review.",
+        "result": "To inform and persuade readers about the book."
+      },
+      {
+        "step": 2,
+        "instruction": "Analyse the structure: how are ideas organised?",
+        "result": "It starts with description of themes, then characters and plot, ending with a judgement."
+      },
+      {
+        "step": 3,
+        "instruction": "Identify language features that enhance the purpose.",
+        "result": "Evaluative phrases like 'well-developed' and 'must-read' create a persuasive tone."
+      }
+    ],
+    "explanation": "The review uses a logical structure to guide readers from understanding to persuasion, with language features emphasising the book's quality."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify how text structures vary according to different purposes.",
+      "Analyse language features that support the purpose of a text."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Text Structure and Purpose?",
+        "body": "Everything you write has a purpose—to tell a story, convince someone, or explain something. The way you organise your words depends on this purpose. For example, a persuasive text often has a strong introduction and conclusion, while a narrative follows a story arc like exposition, rising action, and resolution.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse Text Structures",
+        "body": "Follow these steps: 1. Determine the text's purpose. 2. Look for organisational patterns like headings, paragraphs, or sequences. 3. Identify language features like tone or vocabulary that support the purpose. This helps you understand how the text achieves its goal.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Consider this film review snippet: 'The movie starts with a thrilling chase. The plot develops through suspenseful twists. Ultimately, it delivers a powerful message about friendship.' This structure moves from action to development to reflection, reflecting its purpose to critique and recommend.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Confusing Purpose with Audience",
+        "body": "Students often mix up purpose (why the text is written) with audience (who it's for). Focus on the author's goal—like informing, persuading, or entertaining—rather than the reader's identity. Purpose determines structure; audience influences language.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "text structure",
+        "definition": "The way a text is organised, such as paragraphs, sections, or sequences."
+      },
+      {
+        "term": "purpose",
+        "definition": "The reason a text is written, for example to inform, persuade, or entertain."
+      },
+      {
+        "term": "language features",
+        "definition": "Words and phrases used to achieve a purpose, like adjectives for description or imperatives for commands."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming all texts have the same structure regardless of purpose.",
+      "Ignoring language features when determining how a text achieves its purpose."
+    ],
+    "real_world_connections": [
+      "Advertisements use simple structures and persuasive language to grab attention quickly.",
+      "News articles use the inverted pyramid structure to inform efficiently, starting with the most important information.",
+      "Instruction manuals use step-by-step lists to help users complete tasks easily."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Analyse the structure and language of this persuasive slogan: 'Vote for change. A better future starts now.'",
+        "answer": "It uses short, parallel phrases with positive connotations to inspire action.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the purpose.",
+            "result": "To persuade people to vote for change."
+          },
+          {
+            "step": 2,
+            "instruction": "Analyse the structure.",
+            "result": "It uses two short, balanced phrases for impact."
+          },
+          {
+            "step": 3,
+            "instruction": "Identify language features.",
+            "result": "Positive words like 'better future' and imperative 'Vote' create urgency."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

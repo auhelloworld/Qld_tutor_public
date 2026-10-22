@@ -1,0 +1,109 @@
+{
+  "core_rule": "Keep verb tense same across sentence parts. Stop reader confusion. Ensure all verbs reflect same time frame.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "Do all actions happen at same time?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <verb group> in first clause. Compare to <verb group> in second clause."
+    },
+    {
+      "level": "analogy",
+      "template": "Tense shift like movie character wearing hat in one shot but hat gone in next."
+    }
+  ],
+  "worked_example": {
+    "question": "Fix: Sam ran to beach and catches wave.",
+    "answer": "Sam ran to beach and caught wave.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify all verbs and verb groups in the sentence.",
+        "result": "ran, catches."
+      },
+      {
+        "step": 2,
+        "instruction": "Determine the primary tense of the main clause.",
+        "result": "ran (past tense)."
+      },
+      {
+        "step": 3,
+        "instruction": "Adjust all other verbs to match the primary tense.",
+        "result": "catches becomes caught."
+      }
+    ],
+    "explanation": "Both verbs must be past tense for consistency."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Verbs",
+      "Simple sentences",
+      "Compound sentences"
+    ],
+    "learning_objectives": [
+      "Identify verb tenses in complex sentences",
+      "Maintain tense consistency across clauses"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Tense Consistency?",
+        "body": "Tense shows when action happens. Consistency means staying in same time zone. If story starts in past, stay in past. Mixing tenses confuses reader.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Maintain Tense",
+        "body": "1. Circle verbs. 2. Label tense (past, present, future). 3. Change mismatched verbs to match main clause. Ensure verb groups like 'is running' match 'organise' if both happen in present.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Surfer paddled out while sun was rising. Both 'paddled' and 'was rising' show past action. Flow is smooth.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Accidental Shifting",
+        "body": "Writers start in past but slip into present. Example: 'I walked home and then I see dog.' 'See' should be 'saw'.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Verb Group",
+        "definition": "Word or group of words describing action or state."
+      },
+      {
+        "term": "Consistency",
+        "definition": "Keeping same pattern or time throughout text."
+      }
+    ],
+    "common_mistakes": [
+      "Mixing past and present in one sentence.",
+      "Changing tense in complex clauses without reason."
+    ],
+    "real_world_connections": [
+      "News reports stay in past tense for events.",
+      "Instruction manuals use present tense for steps."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Fix: While team trains hard, they won trophy.",
+        "answer": "While team trained hard, they won trophy.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the tense of the main clause.",
+            "result": "won (past)."
+          },
+          {
+            "step": 2,
+            "instruction": "Adjust the dependent clause verb to match.",
+            "result": "trains becomes trained."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

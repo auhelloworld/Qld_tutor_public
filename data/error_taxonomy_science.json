@@ -1,0 +1,86 @@
+{
+  "schema_version": "2.0",
+  "purpose": "Error taxonomy for Year 7 Science. To be populated with Science-specific error types.",
+  "usage_guidelines": {
+    "allow_multiple_errors_per_response": true,
+    "severity_levels": {
+      "low": "Minor slip; student likely understands the concept.",
+      "medium": "Recurring or meaningful procedural error; targeted practice recommended.",
+      "high": "Conceptual misunderstanding or repeated failure; reteaching/scaffolded remediation recommended."
+    }
+  },
+  "error_types": [
+    {
+      "code": "concept_misunderstanding",
+      "label": "Concept misunderstanding",
+      "description": "The response shows an incorrect or incomplete understanding of the science concept.",
+      "default_severity": "high",
+      "recommended_actions": [
+        "Review the core concept, then ask the student to explain it using a concrete example."
+      ]
+    },
+    {
+      "code": "evidence_mismatch",
+      "label": "Evidence mismatch",
+      "description": "The claim is not supported by the observations, measurements, or data provided.",
+      "default_severity": "high",
+      "recommended_actions": [
+        "Ask the student to point to the exact data value or observation that supports the claim."
+      ]
+    },
+    {
+      "code": "variable_confusion",
+      "label": "Variable confusion",
+      "description": "The student confuses independent, dependent, or controlled variables in an investigation.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Have the student label what was changed, what was measured, and what was kept the same."
+      ]
+    },
+    {
+      "code": "data_interpretation",
+      "label": "Data interpretation",
+      "description": "The response misreads a table, graph, trend, scale, or unit in the data.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to describe the trend in words before calculating or concluding."
+      ]
+    },
+    {
+      "code": "scientific_vocabulary",
+      "label": "Scientific vocabulary",
+      "description": "The response uses everyday wording where precise scientific terminology is needed.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Provide the target scientific term and ask the student to use it in a corrected sentence."
+      ]
+    },
+    {
+      "code": "claim_evidence_reasoning_gap",
+      "label": "Claim-evidence-reasoning gap",
+      "description": "The answer gives a claim without enough evidence or reasoning to explain why it is scientifically valid.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Structure the response as Claim, Evidence, then Reasoning, with one sentence for each."
+      ]
+    },
+    {
+      "code": "safety_or_method_error",
+      "label": "Safety or method error",
+      "description": "The response suggests an unsafe, uncontrolled, or invalid experimental method.",
+      "default_severity": "high",
+      "recommended_actions": [
+        "Ask the student to identify the safety concern or uncontrolled step and propose a safer fair-test method."
+      ]
+    },
+    {
+      "code": "incomplete_answer",
+      "label": "Incomplete answer",
+      "description": "The response omits a required part of the question, such as evidence, units, or explanation.",
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask the student to check each command word and add the missing evidence, unit, or explanation."
+      ]
+    }
+  ]
+}

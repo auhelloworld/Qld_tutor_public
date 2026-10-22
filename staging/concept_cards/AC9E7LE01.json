@@ -1,0 +1,108 @@
+{
+  "core_rule": "Authors write stories from specific times, places, and cultures. Readers must look at context to understand why characters act, think, or speak in certain ways.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "Does character action match world they live in or your own world?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <historical event> or <cultural belief> in text and link to character choice."
+    },
+    {
+      "level": "analogy",
+      "template": "Reading without context is like watching sport without knowing rules."
+    }
+  ],
+  "worked_example": {
+    "question": "In 'The Rabbits' by John Marsden, why do rabbits wear uniforms?",
+    "answer": "Uniforms represent colonial power and military control over land.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify visual symbol.",
+        "result": "Uniforms."
+      },
+      {
+        "step": 2,
+        "instruction": "Connect to historical context of colonisation.",
+        "result": "Military force."
+      },
+      {
+        "step": 3,
+        "instruction": "Synthesise meaning.",
+        "result": "Symbol of control."
+      }
+    ],
+    "explanation": "Uniforms show authority. Context of Australian history explains why these figures take land."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic narrative structure",
+      "Identifying character traits"
+    ],
+    "learning_objectives": [
+      "Objective 1: Identify how historical or cultural context shapes character actions.",
+      "Objective 2: Analyse how authors use setting to reflect social issues."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Context?",
+        "body": "Context is world behind story. Includes time, place, and culture. Shapes how characters see life.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse Context",
+        "body": "1. Note when/where story happens. 2. List character beliefs. 3. Ask: Does history change how they act?",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Bush poem describes heat as 'enemy'. Context: Early settlers struggled with harsh Australian climate. Effect: Shows nature as powerful force.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Judging by Today",
+        "body": "Do not judge past characters by modern rules. Understand their world first.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Context",
+        "definition": "Time, place, and culture surrounding text."
+      },
+      {
+        "term": "Perspective",
+        "definition": "Way character views events."
+      }
+    ],
+    "common_mistakes": [
+      "Ignoring historical setting.",
+      "Applying modern values to past characters."
+    ],
+    "real_world_connections": [
+      "Understanding news reports from different countries.",
+      "Interpreting movies based on true events."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "How does bush setting change character in Australian short story?",
+        "answer": "Bush forces character to be self-reliant.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify setting traits.",
+            "result": "Isolated, harsh."
+          },
+          {
+            "step": 2,
+            "instruction": "Link to character action.",
+            "result": "Must solve problems alone."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

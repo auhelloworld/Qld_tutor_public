@@ -1,0 +1,291 @@
+{
+  "worked_examples": [
+    {
+      "worked_example_id": "WE_MTH_integration_constant_01",
+      "name": "Why an indefinite integral needs + c",
+      "topic_ids": [
+        "QCAA_METHODS_U3_T4"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "Find $\\int 6x^2 \\, dx$, and explain why the constant matters.",
+      "final_answer": "$2x^3 + c$",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Reverse the power rule: raise the index by one and divide by the new index.",
+          "math_latex": "\\int 6x^2\\,dx = \\frac{6x^{3}}{3}"
+        },
+        {
+          "step_number": 2,
+          "prose": "That gives the antiderivative. Now test whether it is the only one: differentiate $2x^3$, and also $2x^3+7$.",
+          "math_latex": "\\frac{d}{dx}(2x^3) = 6x^2 \\quad\\text{and}\\quad \\frac{d}{dx}(2x^3+7) = 6x^2"
+        },
+        {
+          "step_number": 3,
+          "prose": "Both differentiate back to the integrand, so infinitely many functions work. The constant records that whole family.",
+          "math_latex": "\\int 6x^2\\,dx = 2x^3 + c"
+        },
+        {
+          "step_number": 4,
+          "prose": "A definite integral is different: the constants cancel when you subtract, which is why no $+c$ appears there.",
+          "math_latex": "\\int_0^1 6x^2\\,dx = [2x^3]_0^1 = 2"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_MTHU3T4_integration_missing_constant_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_MTH_independent_events_01",
+      "name": "And means multiply, or means add",
+      "topic_ids": [
+        "QCAA_METHODS_U1_T5"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "A component works with probability $0.9$ and, independently, a second works with probability $0.8$. Find the probability that both work.",
+      "final_answer": "$0.72$",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Decide which connective the question uses. 'Both' means A and B, not A or B.",
+          "math_latex": null
+        },
+        {
+          "step_number": 2,
+          "prose": "For independent events, 'and' multiplies.",
+          "math_latex": "P(A \\cap B) = P(A)\\times P(B) = 0.9\\times 0.8"
+        },
+        {
+          "step_number": 3,
+          "prose": "Compute the product.",
+          "math_latex": "= 0.72"
+        },
+        {
+          "step_number": 4,
+          "prose": "Sanity-check by adding instead: $0.9+0.8=1.7$, which is greater than 1 and so cannot be a probability. That check catches the error every time.",
+          "math_latex": "0.9+0.8 = 1.7 > 1"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_MTHU1T5_probability_added_not_multiplied_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_MTH_log_sum_rule_01",
+      "name": "There is no rule for the log of a sum",
+      "topic_ids": [
+        "QCAA_METHODS_U2_T2"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "Is $\\log(a+b) = \\log a + \\log b$? Test it with $a=2$, $b=8$.",
+      "final_answer": "No: $\\log(a+b) \\neq \\log a + \\log b$",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Evaluate the left side with the given numbers.",
+          "math_latex": "\\log(2+8) = \\log 10 = 1"
+        },
+        {
+          "step_number": 2,
+          "prose": "Evaluate the right side.",
+          "math_latex": "\\log 2 + \\log 8 \\approx 0.301 + 0.903 = 1.204"
+        },
+        {
+          "step_number": 3,
+          "prose": "They differ, so the split is invalid. One counterexample is enough to disprove a claimed identity.",
+          "math_latex": "1 \\neq 1.204"
+        },
+        {
+          "step_number": 4,
+          "prose": "The rule that does exist turns a product into a sum, which is what the numbers confirm.",
+          "math_latex": "\\log(ab) = \\log a + \\log b \\;\\Rightarrow\\; \\log 16 = \\log 2 + \\log 8"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_MTHU2T2_log_of_sum_split_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_SPE_permutation_combination_01",
+      "name": "Does rearranging change the outcome?",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U1_T1"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "From 5 students, how many different committees of 3 can be formed? How would the answer change if the three roles were president, secretary and treasurer?",
+      "final_answer": "$10$ committees; $60$ role assignments",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Ask the deciding question: if the same three people are listed in a different order, is it a different outcome? For a committee, no.",
+          "math_latex": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Order does not matter, so count selections.",
+          "math_latex": "^{5}C_{3} = \\frac{5!}{3!\\,2!} = 10"
+        },
+        {
+          "step_number": 3,
+          "prose": "With named roles, swapping two people changes who is president, so order now matters.",
+          "math_latex": "^{5}P_{3} = \\frac{5!}{2!} = 60"
+        },
+        {
+          "step_number": 4,
+          "prose": "The two answers differ by $3! = 6$, the number of ways to order each selected group. Seeing that factor is a quick way to spot which one you computed.",
+          "math_latex": "60 = 10 \\times 3!"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_SPEU1T1_permutation_combination_confused_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_SPE_i_squared_01",
+      "name": "Tracking the i squared sign through an expansion",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U2_T1"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "Expand and simplify $(3+2i)(1-4i)$.",
+      "final_answer": "$11 - 10i$",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Expand all four products first, leaving $i^2$ in place.",
+          "math_latex": "(3+2i)(1-4i) = 3 - 12i + 2i - 8i^{2}"
+        },
+        {
+          "step_number": 2,
+          "prose": "Now substitute the definition. This is the step where the sign is usually lost.",
+          "math_latex": "i^{2} = -1 \\;\\Rightarrow\\; -8i^{2} = -8(-1) = +8"
+        },
+        {
+          "step_number": 3,
+          "prose": "Collect real and imaginary parts.",
+          "math_latex": "(3+8) + (-12+2)i"
+        },
+        {
+          "step_number": 4,
+          "prose": "Simplify. Had $i^2$ been treated as $+1$, the real part would have been $3-8=-5$ instead of $11$ — a 16 unit error from one sign.",
+          "math_latex": "= 11 - 10i"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_SPEU2T1_i_squared_treated_positive_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_SPE_induction_step_01",
+      "name": "What the inductive step is allowed to assume",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U3_T2"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "Prove by induction that $1+2+\\cdots+n = \\frac{n(n+1)}{2}$ for all positive integers $n$.",
+      "final_answer": "True for all $n \\ge 1$",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Base case: check $n=1$ directly.",
+          "math_latex": "1 = \\frac{1(2)}{2} = 1"
+        },
+        {
+          "step_number": 2,
+          "prose": "Inductive assumption: assume the statement for $n=k$ only. Assuming it for $k+1$ would assume the very thing being proved.",
+          "math_latex": "1+2+\\cdots+k = \\frac{k(k+1)}{2}"
+        },
+        {
+          "step_number": 3,
+          "prose": "Add the next term to both sides. This *derives* the $k+1$ case rather than assuming it.",
+          "math_latex": "1+2+\\cdots+k+(k+1) = \\frac{k(k+1)}{2} + (k+1)"
+        },
+        {
+          "step_number": 4,
+          "prose": "Factorise to reach the required form, then conclude.",
+          "math_latex": "= \\frac{(k+1)(k+2)}{2}"
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_SPEU3T2_induction_assumes_the_target_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_SPE_confidence_interval_01",
+      "name": "What the 95% in a confidence interval refers to",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U4_T5"
+      ],
+      "framework": "QCAA_SENIOR_MATHS",
+      "question": "A sample gives a 95% confidence interval of $(4.1, 5.3)$ for a population mean. Interpret it correctly.",
+      "final_answer": "95% of intervals constructed this way contain the population mean; this interval either does or does not.",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Identify what is random. The sample varies from study to study; the population mean is a fixed number.",
+          "math_latex": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Because the parameter is fixed, it cannot have a 95% chance of being in a range — the statement would be about a constant.",
+          "math_latex": null
+        },
+        {
+          "step_number": 3,
+          "prose": "The 95% describes the procedure: repeat the sampling many times, build an interval each time, and about 95% of those intervals capture the true mean.",
+          "math_latex": null
+        },
+        {
+          "step_number": 4,
+          "prose": "So the defensible interpretation names the method, not the probability of this one interval.",
+          "math_latex": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_SPEU4T5_confidence_interval_probability_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    }
+  ]
+}

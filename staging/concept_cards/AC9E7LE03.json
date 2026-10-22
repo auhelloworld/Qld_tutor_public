@@ -1,0 +1,112 @@
+{
+  "core_rule": "Writers use dialogue, imagery and character description to show who people are and make readers feel certain ways about them.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do the words a character speaks tell you about their personality and feelings?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Look at <character's dialogue> and <descriptive words> to find clues about how they are feeling and why."
+    },
+    {
+      "level": "analogy",
+      "template": "Dialogue and description are like a costume party mask - they show you what kind of person someone is without telling you directly."
+    }
+  ],
+  "worked_example": {
+    "question": "In the sentence '\"I'm fine,\" she whispered, avoiding his eyes' - what does the dialogue and action reveal about the character?",
+    "answer": "The character is not actually fine - they are upset or hiding something because they whisper and avoid eye contact.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify what the character says and how they say it.",
+        "result": "Says 'I'm fine' but whispers it."
+      },
+      {
+        "step": 2,
+        "instruction": "Look at what the character does physically.",
+        "result": "Avoids eye contact, suggesting discomfort or dishonesty."
+      },
+      {
+        "step": 3,
+        "instruction": "Combine these clues to understand the character's true state.",
+        "result": "Character is likely upset or hiding something despite claiming to be fine."
+      }
+    ],
+    "explanation": "Writers use what characters say and do to show their real feelings, not just what they claim."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Identifying basic character traits in texts",
+      "Understanding how word choice affects meaning"
+    ],
+    "learning_objectives": [
+      "Identify how dialogue and description create character in literary texts",
+      "Explain how language features influence emotions and opinions about characters"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Character Creation?",
+        "body": "Authors don't just tell us about characters - they show us! Through dialogue (what characters say), description (how they look and act), and imagery (vivid language), writers paint pictures of people in our minds. Think of your favourite movie character - how do you know they're brave, shy, or funny? It's usually through what they say and do!",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Spot Character Clues",
+        "body": "Step 1: Read dialogue carefully - notice tone, word choice and what's left unsaid.\nStep 2: Look at character actions and appearance - do they fidget? Stand tall? Wear certain clothes?\nStep 3: Check descriptive language - adjectives and verbs that paint pictures.\nStep 4: Ask yourself - what is the author trying to make me think or feel about this person?",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Text: '\"Best day ever!\" Jake laughed, but his eyes stayed fixed on the ground.'\nAnalysis: The dialogue suggests happiness, but the action contradicts this. Jake's eyes staying on the ground shows he might be lying or uncomfortable, creating mystery about his true feelings.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Taking Everything at Face Value",
+        "body": "Many students think characters mean exactly what they say. But great writers often use contrast! When dialogue doesn't match actions, that's when characters become interesting. Always look beyond the words to what's really happening.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Dialogue",
+        "definition": "Words spoken by characters in a story that reveal their personality and feelings."
+      },
+      {
+        "term": "Imagery",
+        "definition": "Descriptive language that creates mental pictures using our senses."
+      },
+      {
+        "term": "Characterisation",
+        "definition": "The way authors show us who a character is through their words, actions and appearance."
+      }
+    ],
+    "common_mistakes": [
+      "Only looking at what a character says, not how they behave or speak.",
+      "Missing subtle clues in body language or word choice that reveal true feelings."
+    ],
+    "real_world_connections": [
+      "Movies and TV shows use close-up shots and tone of voice to show character emotions - just like authors use description and dialogue!",
+      "Social media posts often use emojis and word choice to hint at feelings without saying them directly."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Compare: Novel says 'Harry was tall with messy black hair and glasses.' Film shows actor in same outfit but slouching and avoiding eye contact. What's different?",
+        "answer": "The film adds body language that suggests insecurity, while the novel focuses on physical appearance.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify what each version tells us about Harry.",
+            "result": "Novel: physical traits. Film: physical traits plus body language."
+          },
+          {
+            "step": 2,
+            "instruction": "Consider what the film's choices make you think.",
+            "result": "Film suggests Harry is shy or uncomfortable, adding emotional depth."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

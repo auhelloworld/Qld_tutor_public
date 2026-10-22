@@ -1,0 +1,118 @@
+{
+  "core_rule": "Literary devices build layers of meaning. Use metalanguage to name these tools and explain how they shape meaning.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What word patterns change text feel?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <device>. Link to <mood>."
+    },
+    {
+      "level": "analogy",
+      "template": "Devices like filters on photo. Change mood, keep subject."
+    }
+  ],
+  "worked_example": {
+    "question": "Identify sound device in 'The boom of breaking surf' and explain effect.",
+    "answer": "Onomatopoeia ('boom') mimics loud, powerful ocean sound.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Find sound word.",
+        "result": "'Boom'."
+      },
+      {
+        "step": 2,
+        "instruction": "Name device.",
+        "result": "Onomatopoeia."
+      },
+      {
+        "step": 3,
+        "instruction": "Link to meaning.",
+        "result": "Mimics power of waves."
+      }
+    ],
+    "explanation": "Word sounds like noise it describes. Creates immersive experience for reader."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic poetic forms",
+      "Parts of speech"
+    ],
+    "learning_objectives": [
+      "Identify sound devices like alliteration and onomatopoeia",
+      "Explain how imagery creates layers of meaning in First Nations poetry"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What are Literary Devices?",
+        "body": "Tools authors use. Go beyond literal meaning. Sound, rhythm, imagery make text more than words. Metalanguage names these tools.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse Layers",
+        "body": "1. Spot device. 2. Name with metalanguage. 3. Connect to theme or mood. Ask: why this sound here? How does image change my view?",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "'The campfire crackles in cold night.' Onomatopoeia ('crackles') and alliteration ('c' sound) create sharp, crisp atmosphere. Reader feels chill and hears fire.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Device Spotting",
+        "body": "Do not just list devices. Explain why they matter. List is shopping receipt. Analysis is food review.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Alliteration",
+        "definition": "Repetition of consonant sounds at start of words."
+      },
+      {
+        "term": "Imagery",
+        "definition": "Vivid description creating mental pictures."
+      },
+      {
+        "term": "Onomatopoeia",
+        "definition": "Words that mimic sounds."
+      },
+      {
+        "term": "Meter",
+        "definition": "Rhythmic structure of poem lines."
+      }
+    ],
+    "common_mistakes": [
+      "Naming device without explaining effect.",
+      "Confusing rhythm with rhyme.",
+      "Ignoring how imagery links to culture or context."
+    ],
+    "real_world_connections": [
+      "Song lyrics use rhythm and rhyme to stay catchy.",
+      "Adverts use alliteration to make brands memorable.",
+      "First Nations storytelling uses imagery to link people to Country."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Analyse imagery in 'The red earth bled under the sun'.",
+        "answer": "Personification and colour imagery show harshness of land.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify visual words.",
+            "result": "'Red earth', 'bled'."
+          },
+          {
+            "step": 2,
+            "instruction": "Explain layer of meaning.",
+            "result": "Land feels alive and suffering."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "core_rule": "Use interaction skills to speak clearly, listen actively, and adapt your language for different audiences and purposes.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What is the key to effective discussion? How do you ensure your ideas are understood?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "When presenting an argument, first consider your <audience> and then choose <evidence> to support your ideas."
+    },
+    {
+      "level": "analogy",
+      "template": "Interaction skills are like a toolkit – you need the right tool for the right job, like adjusting your tone for formal or informal settings."
+    }
+  ],
+  "worked_example": {
+    "question": "In the following discussion, identify the key evidence used by the speaker to support their argument. Dialogue: Student A: 'I think we should have more group work in class. Research shows that group work improves learning outcomes.' Student B: 'But group work can be distracting and not everyone participates equally.'",
+    "answer": "The key evidence is 'Research shows that group work improves learning outcomes.'",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Read the discussion and identify the main argument of Student A.",
+        "result": "Student A argues for more group work."
+      },
+      {
+        "step": 2,
+        "instruction": "Find the fact or example that Student A uses to support this argument.",
+        "result": "Student A mentions 'Research shows that group work improves learning outcomes.'"
+      },
+      {
+        "step": 3,
+        "instruction": "Confirm that this is the key evidence provided.",
+        "result": "Yes, the research finding is the evidence used to support the argument."
+      }
+    ],
+    "explanation": "Student A uses research as evidence to strengthen their argument, making it more convincing and credible."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify interaction strategies such as clarifying and rephrasing in spoken texts.",
+      "Apply interaction skills by adapting language and using evidence in a discussion."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What Are Interaction Skills?",
+        "body": "Interaction skills are the tools you use when talking and listening to others. They help you communicate effectively, whether in a casual chat or a formal presentation. These skills include speaking clearly, listening actively, and adjusting your language to suit your audience.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Use Interaction Skills in Discussions",
+        "body": "To use interaction skills well, first identify your audience and purpose. Choose vocabulary and sentence structures that match the formality. When discussing, listen to others and clarify their points if needed. Support your arguments with evidence like facts or examples.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Dialogue: 'I believe we need to reduce plastic use because it harms marine life. For instance, a study found that 100,000 marine animals die from plastic each year.' Here, the speaker states a clear argument and supports it with statistical evidence.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Not Adapting Your Language",
+        "body": "A common mistake is using slang or informal language in formal situations, like a school presentation. To avoid this, practice switching between register depending on your audience. Always consider who you are speaking to.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "interaction skills",
+        "definition": "The abilities used to communicate effectively when speaking and listening."
+      },
+      {
+        "term": "audience",
+        "definition": "The people you are communicating with, whose needs you must consider."
+      },
+      {
+        "term": "evidence",
+        "definition": "Facts, examples, or data that support an argument."
+      },
+      {
+        "term": "register",
+        "definition": "The level of formality in language, from casual to formal."
+      }
+    ],
+    "common_mistakes": [
+      "Using informal language in formal settings without realising.",
+      "Failing to listen and respond to others' points in a discussion."
+    ],
+    "real_world_connections": [
+      "Debate teams use interaction skills to persuade judges.",
+      "Workplace meetings require clear communication and evidence.",
+      "Social media interactions need careful adaptation for different audiences."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "How might you adapt the following statement for a formal presentation: 'Yeah, so like, climate change is bad and we should do stuff about it.'",
+        "answer": "Climate change is a serious issue that requires immediate action. Research shows that rising temperatures threaten ecosystems globally.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the informal elements.",
+            "result": "Casual words like 'yeah', 'like', 'stuff'."
+          },
+          {
+            "step": 2,
+            "instruction": "Replace with formal vocabulary.",
+            "result": "Use 'serious issue', 'immediate action', 'research shows'."
+          },
+          {
+            "step": 3,
+            "instruction": "Add specific evidence.",
+            "result": "Include a fact about rising temperatures."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

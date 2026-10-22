@@ -1,0 +1,124 @@
+{
+  "core_rule": "Words have both everyday uses and specialised technical meanings. Recognising context helps you use them accurately in subjects.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "Think about a word like 'force' in everyday talk versus in a science class. What clues help you tell the difference?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "When you see the word <term> in a sentence, ask yourself: Is this an everyday use or a specialised technical use? What context words hint at its meaning?"
+    },
+    {
+      "level": "analogy",
+      "template": "Words are like containers; some hold everyday stuff like water, while others hold specific tools for a job."
+    }
+  ],
+  "worked_example": {
+    "question": "Read this sentence from a science textbook: 'The force of gravity pulls objects towards the Earth.' Explain the meaning of 'force' in this context. Is it an everyday or technical meaning?",
+    "answer": "Technical meaning – the scientific concept of a push or pull that causes acceleration.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify the word 'force' in the sentence.",
+        "result": "Word 'force' is found in a science context."
+      },
+      {
+        "step": 2,
+        "instruction": "Determine the context: science textbook discussing gravity.",
+        "result": "Context is scientific, not everyday."
+      },
+      {
+        "step": 3,
+        "instruction": "Recognise that 'force' here has a specific technical meaning related to physics.",
+        "result": "Meaning is push or pull, not strength or power."
+      },
+      {
+        "step": 4,
+        "instruction": "Confirm the answer: technical meaning.",
+        "result": "Force has a technical meaning in this context."
+      }
+    ],
+    "explanation": "In science, 'force' has a specific technical meaning related to physics, while in everyday language it might mean strength or power. The context of a textbook and gravity indicates the technical use."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify words that have both everyday and technical meanings in various subjects.",
+      "Analyse context to determine the intended meaning of vocabulary with dual usage."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Specialist Vocabulary?",
+        "body": "Specialist vocabulary includes words that have precise meanings in specific subjects. For example, in English, 'theme' means the main idea of a story, but in art, 'theme' might mean a central concept. In science, 'volume' refers to space, not loudness. Learning these technical meanings helps you understand and communicate better in each subject area.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Identify Everyday vs. Technical Meanings",
+        "body": "Follow these steps: 1. Look at the subject of the text (e.g., science, history, maths). 2. Notice surrounding words – technical terms often appear with other specialist words. 3. Think about the main idea of the passage. 4. If unsure, use a dictionary or glossary for the subject. This 'Context Clue Check' helps you decide quickly!",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Consider this sentence: 'In the science experiment, we measured the volume of water in the beaker.' Here, 'volume' means the amount of space the water takes up (technical meaning in science). If someone says 'Turn up the volume on the TV,' it means loudness (everyday meaning). The context of 'science experiment' and 'measured' tells us it's the technical use.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Mixing Up Meanings",
+        "body": "A common mistake is using the everyday meaning when a technical one is needed. For example, in a history essay, if you write 'The society was very loud,' instead of 'The society had a significant social impact,' you might confuse readers. Always check the subject and context to choose the right meaning. Practice with examples from different subjects!",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Vocabulary",
+        "definition": "The set of words used in a language or subject."
+      },
+      {
+        "term": "Technical meaning",
+        "definition": "The precise, specialised meaning of a word in a specific field like science or maths."
+      },
+      {
+        "term": "Everyday meaning",
+        "definition": "The common, general meaning of a word used in daily conversation."
+      },
+      {
+        "term": "Context",
+        "definition": "The words and sentences around a word that help determine its meaning."
+      }
+    ],
+    "common_mistakes": [
+      "Assuming the everyday meaning is always correct, without considering the subject context.",
+      "Not using technical vocabulary correctly in subject writing, leading to vague or inaccurate statements."
+    ],
+    "real_world_connections": [
+      "Doctors use technical terms like 'diagnosis' and 'prognosis' to communicate precisely about health.",
+      "In computing, words like 'mouse' and 'window' have technical meanings different from everyday use.",
+      "In legal contexts, words like 'sentence' and 'appeal' have specific technical meanings."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Read these two sentences: 'This is a serious matter.' and 'Matter is made of atoms.' Explain the meaning of 'matter' in each context.",
+        "answer": "In the first sentence, 'matter' has an everyday meaning of 'topic or issue'. In the second sentence, it has a technical meaning in science of 'substance that has mass and takes up space'.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the word 'matter' in each sentence.",
+            "result": "'Matter' appears in both, but contexts differ."
+          },
+          {
+            "step": 2,
+            "instruction": "Analyse the context: first is everyday conversation, second is science.",
+            "result": "Context determines meaning: everyday vs technical."
+          },
+          {
+            "step": 3,
+            "instruction": "Define each usage based on context.",
+            "result": "Everyday: topic or issue. Technical: substance made of atoms."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

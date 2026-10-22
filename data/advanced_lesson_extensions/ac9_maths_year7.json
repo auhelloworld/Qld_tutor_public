@@ -1,0 +1,516 @@
+{
+  "AC9M7N01": {
+    "why_it_works": [
+      "Squaring a number and taking the square root are inverse operations. A perfect square is the area of a square with integer side lengths, while its square root represents the side length.",
+      "For any positive integer $n$, $\\sqrt{n^2} = n$. Perfect squares like $1, 4, 9, 16, \\dots$ have integer square roots, whereas non-perfect squares have irrational square roots."
+    ],
+    "alternate_methods": [
+      "Prime factorisation (grouping prime factors into pairs)",
+      "Visual square grid representation",
+      "Estimation using nearest perfect squares"
+    ],
+    "challenge_prompts": [
+      "A square garden has an area of $144\\text{ m}^2$. If we double the side length, what is the new area? Explain the relationship.",
+      "Explain why $\\sqrt{-16}$ is not a real number, while $-(\\sqrt{16})$ is real.",
+      "A number $x$ is between $5$ and $6$. What can you say about the value of $\\sqrt{x}$? Give an example."
+    ],
+    "parent_note": "Help your child visualize squares and square roots by drawing grids of squares (e.g., a $4 \\times 4$ grid has 16 blocks, so $\\sqrt{16} = 4$)."
+  },
+  "AC9M7N02": {
+    "why_it_works": [
+      "Prime factorisation is unique, so comparing exponents lets us find HCF and LCM systematically.",
+      "Each prime power records an independent divisibility choice. This makes factor counting, divisibility tests, and perfect square checks more efficient than listing factors."
+    ],
+    "alternate_methods": [
+      "Repeated division table",
+      "Factor tree comparison",
+      "Exponent comparison Venn diagram"
+    ],
+    "challenge_prompts": [
+      "How would the prime factor rule change for perfect cubes? For example, what must be true about every exponent?",
+      "Find a number with exactly 12 factors. Explain your construction using prime factors.",
+      "Create two different pairs of numbers with HCF 18 and LCM 540. Explain how the prime powers constrain your choices."
+    ],
+    "parent_note": "Ask your child to explain why HCF uses the smaller exponent and LCM uses the larger exponent."
+  },
+  "AC9M7N03": {
+    "why_it_works": [
+      "Our base-10 number system is positional. Each place value to the left is 10 times larger, representing an increasing power of 10 (e.g., $10^0, 10^1, 10^2, \\dots$).",
+      "Expanded notation makes the structural composition of large numbers clear, which helps in understanding scientific notation and polynomial structure in algebra."
+    ],
+    "alternate_methods": [
+      "Place value chart",
+      "Abacus representation",
+      "Exponential expansion formula"
+    ],
+    "challenge_prompts": [
+      "Write $430,205$ in expanded notation using powers of 10. Explain why we do not need to write a term for the tens place.",
+      "How does the value of the digit $7$ change when moving from $1,700$ to $17,000$? Explain using powers of 10.",
+      "If a number is written as $3 \\times 10^4 + 5 \\times 10^2 + 8 \\times 10^0$, what is its standard form? Explain why there is a zero in the tens place."
+    ],
+    "parent_note": "Encourage your child to read large numbers by grouping digits in threes and associating each group with its power of 10 (thousands, millions)."
+  },
+  "AC9M7N04": {
+    "why_it_works": [
+      "Rational numbers can be written in multiple equivalent forms (fractions, decimals, percentages) because they represent the same division relationship.",
+      "A number line is a continuous scale where every point corresponds to a unique real number. Placing numbers on a line visually demonstrates their relative order and size."
+    ],
+    "alternate_methods": [
+      "Fraction strips and area models",
+      "Division algorithm to convert fraction to decimal",
+      "Scaling number line intervals"
+    ],
+    "challenge_prompts": [
+      "Show that $\\frac{3}{4}$, $0.75$, and $75\\%$ all represent the same point on a number line. Explain your reasoning.",
+      "Place the numbers $-\\frac{1}{2}$, $-0.6$, and $-\\frac{3}{5}$ in order on a number line. Which is closest to zero?",
+      "Find a fraction that lies exactly halfway between $\\frac{1}{3}$ and $\\frac{1}{2}$. Explain how you found it."
+    ],
+    "parent_note": "Draw a number line from 0 to 1 and ask your child to place various representations (like $0.5$, $\\frac{1}{4}$, $80\\%$) on it."
+  },
+  "AC9M7N05": {
+    "why_it_works": [
+      "Rounding simplifies numbers while keeping their values close to the original, making calculations manageable and estimates quick.",
+      "Estimation provides a sanity check. If your calculated answer is far from your estimate, it signals a calculation error."
+    ],
+    "alternate_methods": [
+      "Number line rounding (identifying the nearest benchmark)",
+      "Rounding rule (look to the digit to the right: 5 or more rounds up)",
+      "Front-end estimation"
+    ],
+    "challenge_prompts": [
+      "A student calculates $12.45 \\times 8.9$ and gets $1108.05$. Without doing the exact math, explain why this answer is unreasonable.",
+      "Round $0.00762$ to 2 decimal places and to 2 significant figures. Explain why these two results are different.",
+      "If you round two numbers first and then multiply them, is the result always the same as multiplying first and then rounding? Prove your answer with an example."
+    ],
+    "parent_note": "Practice estimation at the grocery store. Ask your child to round prices to the nearest dollar and estimate the total bill."
+  },
+  "AC9M7N06": {
+    "why_it_works": [
+      "Fractions, decimals, and percentages are interchangeable representations. Choosing the representation that fits the numbers simplifies calculations (e.g., multiplying by $0.25$ is easier as dividing by $4$).",
+      "The order of operations and properties like commutativity and distributivity apply universally to all rational numbers."
+    ],
+    "alternate_methods": [
+      "Common denominator method for fractions",
+      "Decimal-fraction conversion",
+      "Mental math strategies (e.g., compensation)"
+    ],
+    "challenge_prompts": [
+      "Evaluate $\\frac{3}{5} \\div 0.2$ using two different methods: one using fractions and one using decimals.",
+      "Explain why dividing a number by $\\frac{1}{2}$ is the same as multiplying it by $2$.",
+      "A recipe calls for $1\\frac{3}{4}\\text{ cups}$ of flour. If you want to make $2.5$ batches of the recipe, how much flour do you need? Show your working."
+    ],
+    "parent_note": "Ask your child if they prefer working with fractions or decimals for a given problem and why. Learning to switch between them builds mathematical flexibility."
+  },
+  "AC9M7N07": {
+    "why_it_works": [
+      "Integers include positive numbers, negative numbers, and zero. Adding a negative integer is equivalent to subtracting its absolute value, and subtracting a negative integer is equivalent to adding its absolute value.",
+      "The number line is a visual guide: adding moves to the right, and subtracting moves to the left."
+    ],
+    "alternate_methods": [
+      "Number line walks",
+      "Two-colour counters (zero pairs model)",
+      "Real-world analogies (temperature, elevation, bank accounts)"
+    ],
+    "challenge_prompts": [
+      "A diver is $15\\text{ m}$ below sea level. They ascend $8\\text{ m}$, then descend another $5\\text{ m}$. Write an integer expression for their final position and solve it.",
+      "Explain why $-5 - (-8) = 3$. Use a number line or counter model in your explanation.",
+      "Create two different addition or subtraction expressions using negative numbers that result in a final answer of $-10$."
+    ],
+    "parent_note": "Use temperature as an example: ask what happens when it is $-3^\\circ\\text{C}$ and the temperature drops by $5^\\circ\\text{C}$, or rises by $8^\\circ\\text{C}$."
+  },
+  "AC9M7N08": {
+    "why_it_works": [
+      "Percentages, fractions, decimals, and ratios are different representations of the same multiplicative relationship.",
+      "A percentage change uses the original value as the reference point, so reversing a discount or increase usually requires division, not another subtraction."
+    ],
+    "alternate_methods": [
+      "Unitary method",
+      "Double number line",
+      "Multiplier method",
+      "Ratio table"
+    ],
+    "challenge_prompts": [
+      "A jacket is discounted by 20% and then increased by 20%. Is it back to the original price? Prove your answer with a multiplier.",
+      "Design two different recipes that taste the same but serve different numbers of people. Explain the scale factor.",
+      "A \\$60 item has GST included at 10%. What was the pre-GST price? Explain why subtracting 10% of 60 is not exact."
+    ],
+    "parent_note": "Ask your child to state the original amount before calculating any percentage change. This catches many reverse-percentage errors."
+  },
+  "AC9M7N09": {
+    "why_it_works": [
+      "Mathematical modelling involves translating a real-world scenario (like simple interest, discounts, tax, or budgeting) into a mathematical structure, solving it, and validating the results against the original situation.",
+      "Using decimals as multipliers (e.g., $1.05$ for a $5\\%$ increase) makes multi-step financial calculations efficient."
+    ],
+    "alternate_methods": [
+      "Unitary calculation method",
+      "Spreadsheet formulas for interest and discounts",
+      "Bar models for visualizing parts of a total"
+    ],
+    "challenge_prompts": [
+      "You deposit \\$200 in a bank account that earns $4\\%$ simple interest per year. How much interest will you earn in $3$ years? Show how the formula works.",
+      "A store offers a 'buy one, get the second one at half price' deal. Compare this to a flat $25\\%$ discount on both items. Which deal is better, and under what conditions?",
+      "Create a simple budget model for a student earning \\$50 a week who wants to save $30\\%$ of their income. How long will it take to buy a item costing \\$120?"
+    ],
+    "parent_note": "Talk through real-life finances with your child, such as calculating discounts during sales or showing them how simple interest works on a savings account."
+  },
+  "AC9M7M06": {
+    "why_it_works": [
+      "Ratios describe the relative sizes of two or more values. Scaling a ratio involves multiplying or dividing all terms by the same factor, which preserves the multiplicative relationship.",
+      "Modelling with ratios allows us to solve scaling problems in geography (maps), science (dilutions), and construction (scale models)."
+    ],
+    "alternate_methods": [
+      "Equivalent ratios method",
+      "Unit rate method",
+      "Cross-multiplication of fractions"
+    ],
+    "challenge_prompts": [
+      "On a map, a scale is given as $1:250,000$. If two towns are $6\\text{ cm}$ apart on the map, what is their actual distance in kilometres? Show your conversion steps.",
+      "To mix concrete, the ratio of cement to sand to gravel is $1:2:4$. If you have $15\\text{ kg}$ of cement, how many kilograms of sand and gravel do you need, and what will be the total weight?",
+      "A photo with dimensions $10\\text{ cm} \\times 15\\text{ cm}$ is scaled up so that its width is $25\\text{ cm}$. Find the new height and explain why the aspect ratio must be preserved."
+    ],
+    "parent_note": "Use cooking recipes to discuss ratios. Ask your child how to scale up a recipe that serves 4 people to serve 6 or 10 people."
+  },
+  "AC9M7A01": {
+    "why_it_works": [
+      "Variables are symbols (usually letters) that represent numbers. They allow us to write general formulas that work for any set of inputs, moving from arithmetic to generalized mathematics.",
+      "Substitution involves replacing variables with specific numerical values to calculate a result."
+    ],
+    "alternate_methods": [
+      "Word formulas (e.g., Area = length times width)",
+      "Function machines",
+      "Substitution tables"
+    ],
+    "challenge_prompts": [
+      "The perimeter of a rectangle is given by $P = 2(l + w)$. Calculate $P$ when $l = 8.5\\text{ cm}$ and $w = 4.2\\text{ cm}$.",
+      "Write an algebraic formula for the cost $C$ of buying $x$ apples at \\$0.80 each and $y$ oranges at \\$1.20 each.",
+      "Given the formula $v = u + at$, find the value of $v$ when $u = 5$, $a = 9.8$, and $t = 3$. Explain what each variable represents in this context."
+    ],
+    "parent_note": "Ask your child to create a simple formula for their screen time or pocket money based on variables (e.g., $P = 5 \\times d$ where $d$ is days)."
+  },
+  "AC9M7A02": {
+    "why_it_works": [
+      "Algebraic expressions translate verbal descriptions into mathematical language. The order of operations, controlled by brackets, determines which calculations must be done first.",
+      "Unlike equations, expressions do not have an equals sign; they represent a quantity rather than a complete statement of equality."
+    ],
+    "alternate_methods": [
+      "Algebra tiles",
+      "Verbal translation tables",
+      "Flow diagrams"
+    ],
+    "challenge_prompts": [
+      "Translate this phrase into an algebraic expression: 'Five more than twice a number, all multiplied by three'.",
+      "Explain the difference in meaning and structure between the expressions $2x + 10$ and $2(x + 5)$.",
+      "A taxi company charges \\$5 base fee plus \\$2 per kilometre. Write an expression for the cost of a trip of $k$ kilometres. How does the expression change if the base fee increases by \\$2?"
+    ],
+    "parent_note": "Help your child translate real-world sentences into math. For example, 'double your age plus three' becomes $2a + 3$."
+  },
+  "AC9M7A03": {
+    "why_it_works": [
+      "Solving a linear equation means preserving equality while isolating the unknown.",
+      "Inverse operations undo each other, but the same operation must be applied to both sides so the balance of the equation is unchanged."
+    ],
+    "alternate_methods": [
+      "Balance model",
+      "Backtracking flowchart",
+      "Substitution check",
+      "Bar model"
+    ],
+    "challenge_prompts": [
+      "Create two different equations with the solution x = 7. One should require two steps and the other should include brackets.",
+      "Explain why 3x + 5 = 26 and 3(x + 5) = 26 do not have the same solution.",
+      "Find and fix the error: 4x - 3 = 17, so 4x = 14, so x = 3.5."
+    ],
+    "parent_note": "Ask your child to check the final answer by substituting it back into the original equation, not just the simplified line."
+  },
+  "AC9M7A04": {
+    "why_it_works": [
+      "Graphs visualize how two variables change in relation to each other. They allow us to identify trends, rates of change, and relationships (like linear growth, decay, or cycles) at a glance.",
+      "The independent variable is plotted on the horizontal axis ($x$-axis) and the dependent variable is plotted on the vertical axis ($y$-axis)."
+    ],
+    "alternate_methods": [
+      "Reading coordinate values",
+      "Creating a trend line",
+      "Drawing rate-of-change triangles"
+    ],
+    "challenge_prompts": [
+      "Look at a graph of temperature over 24 hours. Explain how you would find the time of day when the temperature was rising fastest.",
+      "A graph shows water height in a bathtub over time. Explain what a horizontal flat line represents in terms of the tap and drain.",
+      "Sketch a qualitative graph showing your distance from home during a typical school day. Explain what each segment of your graph represents."
+    ],
+    "parent_note": "Point out graphs in news reports or weather apps. Ask your child what the axes represent and what the overall trend of the curve tells us."
+  },
+  "AC9M7A05": {
+    "why_it_works": [
+      "A table of values links an input ($x$) to an output ($y$) using a mathematical rule. Each pair of values forms a coordinate $(x, y)$ that can be plotted as a point on the Cartesian plane.",
+      "Plotting these points reveals the geometric shape of the relationship (e.g., a straight line for linear functions)."
+    ],
+    "alternate_methods": [
+      "Pattern rule extraction",
+      "Coordinate plotting grid",
+      "Digital graphing tools"
+    ],
+    "challenge_prompts": [
+      "A function rule is $y = 2x - 3$. Create a table of values for $x = -2, -1, 0, 1, 2$ and plot the points. Explain why they form a straight line.",
+      "A pattern of blocks grows by adding 3 blocks at each step. If the first step has 5 blocks, write the algebraic rule and find the coordinate for step 10.",
+      "How does changing the rule from $y = x$ to $y = -x$ affect the direction of the plotted line? Describe its reflection on the axes."
+    ],
+    "parent_note": "Draw a grid on paper. Give your child a simple rule like $y = x + 2$, have them make a table, and plot the coordinates together to see the line emerge."
+  },
+  "AC9M7A06": {
+    "why_it_works": [
+      "Systematic variation helps us understand how changing one variable affects another in a multi-variable formula. Digital tools (like spreadsheets or graphing calculators) let us change variables in real-time to observe these relationships.",
+      "For example, in the formula $I = PRT$, doubling the rate $R$ will double the interest $I$ if the principal $P$ and time $T$ remain constant."
+    ],
+    "alternate_methods": [
+      "Spreadsheet cell variable tables",
+      "Algebraic rearrangement",
+      "Graphing slider controls"
+    ],
+    "challenge_prompts": [
+      "In the formula $A = l \\times w$, if you double the length and halve the width, what happens to the area? Prove your answer.",
+      "Using the simple interest formula $I = PRT$, if you want to double the interest earned without changing the principal $P$ or rate $R$, what must you do to the time $T$?",
+      "Design a spreadsheet formula to calculate BMI ($BMI = \\frac{w}{h^2}$). Describe how a small increase in height affects BMI compared to a small increase in weight."
+    ],
+    "parent_note": "Use digital sliders or a simple spreadsheet to show your child how changing a single input changes the final result instantly."
+  },
+  "AC9M7M01": {
+    "why_it_works": [
+      "The area of a parallelogram is $A = b \\times h$ because a parallelogram can be dissected and rearranged into a rectangle of the same base and height.",
+      "A triangle is exactly half of a parallelogram with the same base and height, which is why its area formula is $A = \\frac{1}{2} \\times b \\times h$."
+    ],
+    "alternate_methods": [
+      "Grid paper counting and cutting",
+      "Formula application",
+      "Decomposition (splitting complex shapes into rectangles and triangles)"
+    ],
+    "challenge_prompts": [
+      "A triangle and a parallelogram have the same base of $8\\text{ cm}$ and the same area of $32\\text{ cm}^2$. Compare their perpendicular heights and explain why they differ.",
+      "Draw a parallelogram and show geometrically how cutting off a right triangle from one side and sliding it to the other forms a rectangle.",
+      "Find the area of a right-angled triangle with sides $6\\text{ cm}$, $8\\text{ cm}$, and $10\\text{ cm}$. Explain which side lengths you must choose as the base and height and why."
+    ],
+    "parent_note": "Cut a rectangular piece of paper diagonally in half. Show your child how the two resulting triangles are identical, proving the 'half' in the triangle area formula."
+  },
+  "AC9M7M02": {
+    "why_it_works": [
+      "Area and volume formulas work because they count repeated equal units in a structured shape.",
+      "For prisms, volume is the area of the cross-section multiplied by the length, so triangular and rectangular prisms follow the same underlying idea."
+    ],
+    "alternate_methods": [
+      "Decompose into rectangles or triangles",
+      "Use base area times height",
+      "Draw and label a net",
+      "Track units through each multiplication"
+    ],
+    "challenge_prompts": [
+      "Two different triangular prisms have the same volume. Design possible dimensions and explain the trade-off.",
+      "A parallelogram and a triangle have the same base and height. Compare their areas and justify with a diagram.",
+      "A prism's dimensions are all doubled. Predict what happens to volume before calculating."
+    ],
+    "parent_note": "Ask your child to say the unit at each stage: square units for area first, then cubic units for volume."
+  },
+  "AC9M7M03": {
+    "why_it_works": [
+      "The number $\\pi$ (pi) is a mathematical constant representing the ratio of any circle's circumference $C$ to its diameter $d$ ($\\pi = \\frac{C}{d}$).",
+      "This ratio is constant for all circles, regardless of their size, which gives rise to the formulas $C = \\pi d = 2\\pi r$."
+    ],
+    "alternate_methods": [
+      "Measuring circular objects with string and ruler",
+      "Rolling a wheel along a line to measure circumference",
+      "Graphing circumference versus diameter for multiple circles"
+    ],
+    "challenge_prompts": [
+      "If a bicycle wheel has a radius of $30\\text{ cm}$, how far does it travel in 10 full rotations? Use $\\pi \\approx 3.14$.",
+      "Explain why wrapping a string around a circle and dividing the length by its width across always results in approximately $3.14$.",
+      "If you double the radius of a circle, what happens to its circumference? What happens to its area?"
+    ],
+    "parent_note": "Find a circular lid, measure its circumference with string, and its diameter with a ruler. Divide them together to show your child how close it is to $\\pi$."
+  },
+  "AC9M7M04": {
+    "why_it_works": [
+      "A transversal line crossing parallel lines creates eight angles with special geometric relationships. Pairs of these angles are either equal or supplementary ($180^\\circ$) due to translation symmetry along the transversal.",
+      "Corresponding angles are equal (F-pattern), alternate angles are equal (Z-pattern), and co-interior angles add up to $180^\\circ$ (C-pattern)."
+    ],
+    "alternate_methods": [
+      "Angle tracing and overlaying",
+      "Colour-coding matching angle regions",
+      "Dynamic geometry software measurement"
+    ],
+    "challenge_prompts": [
+      "Two parallel lines are cut by a transversal. If one of the angles is $75^\\circ$, find the sizes of all other seven angles. Give geometric reasons for your answers.",
+      "Explain why alternate interior angles must be equal by combining corresponding angles and vertically opposite angles.",
+      "Look at a roof truss design with parallel horizontal beams. Explain how transversal angle rules help engineers ensure the support beams are parallel."
+    ],
+    "parent_note": "Look for parallel lines in window frames or railway tracks. Ask your child to point out matching angles formed when a line crosses them."
+  },
+  "AC9M7M05": {
+    "why_it_works": [
+      "The interior angles of any triangle in a flat plane always add up to $180^\\circ$. This can be demonstrated by tearing the corners off a paper triangle and lining them up along a straight line.",
+      "Any polygon can be dissected into triangles. Since each triangle contributes $180^\\circ$, a polygon with $n$ sides has an angle sum of $(n - 2) \\times 180^\\circ$."
+    ],
+    "alternate_methods": [
+      "Paper corner folding / tearing demonstration",
+      "Parallel line construction proof",
+      "Dynamic geometry manipulation"
+    ],
+    "challenge_prompts": [
+      "A triangle has angles in the ratio $1:2:3$. Find the size of each angle and classify the triangle.",
+      "Prove that the interior angle sum of a quadrilateral is $360^\\circ$ by dividing it into two triangles.",
+      "An irregular pentagon has four angles measuring $90^\\circ, 110^\\circ, 120^\\circ,$ and $85^\\circ$. Calculate the size of the fifth angle."
+    ],
+    "parent_note": "Draw a triangle on paper, cut it out, tear off the three corners, and place them together. They will form a perfect straight line ($180^\\circ$)."
+  },
+  "AC9M7SP01": {
+    "why_it_works": [
+      "Three-dimensional objects can be represented on a two-dimensional sheet using different drawing conventions, such as isometric drawings, oblique drawings, and orthographic projections (top, front, and side views).",
+      "Each view highlights different features (e.g., orthographic views show exact dimensions, while isometric views show realistic depth)."
+    ],
+    "alternate_methods": [
+      "Orthographic projections (multiview drawing)",
+      "Isometric grid drawing",
+      "Oblique drawing on square grid"
+    ],
+    "challenge_prompts": [
+      "Draw the top, front, and side views of a simple staircase model built of blocks. Discuss why a builder needs these views instead of just a 3D sketch.",
+      "Compare isometric and perspective drawing. Which is more useful for a technical blueprint, and which is better for an artistic sketch? Explain why.",
+      "Given the orthographic views of an object, construct its 3D shape using isometric grid paper."
+    ],
+    "parent_note": "Build a simple shape with toy blocks. Ask your child to draw what it looks like from directly above (top view) and from the side."
+  },
+  "AC9M7SP02": {
+    "why_it_works": [
+      "Polygons are classified based on their geometric properties, such as side lengths (equilateral, isosceles, scalene) and interior angles (acute, right, obtuse).",
+      "Classifying shapes helps us organize geometric knowledge hierarchically (e.g., all squares are rectangles, and all rectangles are parallelograms)."
+    ],
+    "alternate_methods": [
+      "Venn diagrams of shape hierarchies",
+      "Flowcharts for shape sorting",
+      "Geometric property tables"
+    ],
+    "challenge_prompts": [
+      "Explain why a square can be classified as a regular rhombus and a regular rectangle, but a rectangle is not always a square.",
+      "A triangle has two sides of length $5\\text{ cm}$ and one angle of $90^\\circ$. Classify this triangle by both its side and angle properties.",
+      "Create a classification hierarchy for quadrilaterals. Where do trapeziums fit in relation to parallelograms?"
+    ],
+    "parent_note": "Ask your child to define what makes a shape a rectangle versus a square. Guide them to see that a square is just a special rectangle with equal sides."
+  },
+  "AC9M7SP03": {
+    "why_it_works": [
+      "Geometric transformations change the position or orientation of a shape on the Cartesian plane. Translations shift points horizontally/vertically, reflections flip points across an axis, and rotations turn points around a center.",
+      "We can track these changes algebraically by applying rules to the coordinates (e.g., reflecting $(x, y)$ across the $x$-axis gives $(x, -y)$)."
+    ],
+    "alternate_methods": [
+      "Tracing paper overlay",
+      "Coordinate mapping formulas",
+      "Grid mirror reflection line"
+    ],
+    "challenge_prompts": [
+      "A triangle has vertices at $A(1, 2)$, $B(4, 2)$, and $C(1, 5)$. Translate it $3$ units left and $4$ units down. Write down the new coordinates of its vertices.",
+      "Point $P(3, -4)$ is reflected across the $y$-axis, and then reflected across the $x$-axis. Find its final coordinates and describe a single transformation that does the same job.",
+      "Explain how the coordinates of point $Q(2, 5)$ change when rotated $90^\\circ$ counterclockwise around the origin $(0,0)$."
+    ],
+    "parent_note": "Use chess coordinates or grid paper. Ask your child to 'translate' a piece (e.g., 'move 2 steps right and 3 steps up') and read the new grid coordinates."
+  },
+  "AC9M7SP04": {
+    "why_it_works": [
+      "Algorithms are step-by-step procedures or decision trees used to solve a problem. Using yes/no questions about properties (like parallel sides, equal angles, or line symmetry), we can sort and identify shapes systematically.",
+      "This logical structure forms the foundation of computer programming and database organization."
+    ],
+    "alternate_methods": [
+      "Flowcharts with decision diamonds",
+      "Pseudocode instructions",
+      "Sorting keys (e.g., Carroll diagrams)"
+    ],
+    "challenge_prompts": [
+      "Create a flowchart algorithm that can take any quadrilateral and sort it into one of: Square, Rectangle, Rhombus, Parallelogram, or Kite.",
+      "Write pseudocode for an algorithm that decides whether a triangle is equilateral, isosceles, or scalene based on three input side lengths.",
+      "An algorithm asks: 'Are opposite sides parallel?' If YES, it asks: 'Are all four angles right angles?' Identify which shapes would reach the end of this path."
+    ],
+    "parent_note": "Play a game of '20 Questions' with shapes. Have your child ask yes/no questions (like 'Does it have 4 sides?', 'Are the diagonals equal?') to guess the shape."
+  },
+  "AC9M7ST01": {
+    "why_it_works": [
+      "Mean, median, and mode describe different meanings of typical, so the best measure depends on the data and the question being asked.",
+      "Outliers pull the mean more than the median, which is why a data set can have two honest but different summaries."
+    ],
+    "alternate_methods": [
+      "Ordered data list",
+      "Dot plot before calculation",
+      "Balance-point interpretation of mean",
+      "Compare summaries with and without outliers"
+    ],
+    "challenge_prompts": [
+      "Create a data set where the mean is higher than the median. Explain which value caused that result.",
+      "A sports team reports the average score as the mean. When might the median be more informative?",
+      "Change one value in a five-number data set so the mean changes but the median stays the same."
+    ],
+    "parent_note": "Ask your child which measure is most suitable and why. A strong answer mentions the context and whether outliers are present."
+  },
+  "AC9M7ST02": {
+    "why_it_works": [
+      "Data displays like stem-and-leaf plots, dot plots, and histograms organize raw numbers to reveal the shape, center, spread, and outliers of a distribution.",
+      "A stem-and-leaf plot preserves the original data values while showing their frequency distribution, making it easy to find the median and range."
+    ],
+    "alternate_methods": [
+      "Sorted value frequency table",
+      "Stem-and-leaf splitting (tens as stem, units as leaf)",
+      "Software-generated histograms"
+    ],
+    "challenge_prompts": [
+      "Create a stem-and-leaf plot for these test scores: $52, 61, 65, 70, 72, 72, 78, 85, 91, 99$. Identify the median score directly from your plot.",
+      "Look at a data display that is skewed to the right. Explain what this shape tells you about the relationship between the mean and median.",
+      "Explain why a stem-and-leaf plot is more useful than a standard bar chart when you need to calculate the exact range and median of a data set."
+    ],
+    "parent_note": "Help your child create a simple stem-and-leaf plot using family ages or daily high temperatures. Point out how the 'leaves' grow to show the most common age group."
+  },
+  "AC9M7ST03": {
+    "why_it_works": [
+      "A statistical investigation follows a structured cycle: formulate a question, collect data (discrete or continuous), organize and display the data, analyze trends, and interpret the results to answer the question.",
+      "Understanding the difference between discrete data (counted) and continuous data (measured) determines the choice of display and summary statistics."
+    ],
+    "alternate_methods": [
+      "Statistical investigation cycle (PPDAC - Problem, Plan, Data, Analysis, Conclusion)",
+      "Random sampling techniques",
+      "Data collection tally sheets"
+    ],
+    "challenge_prompts": [
+      "Design an investigation to find out if students who study with music get different test scores. Write a suitable statistical question and outline your data collection plan.",
+      "Explain the difference between discrete numerical data (e.g., number of siblings) and continuous numerical data (e.g., height in cm) and how it affects your graph choice.",
+      "A survey of 10 students finds their travel times to school are: $5, 10, 10, 15, 15, 20, 20, 25, 30, 90\\text{ minutes}$. Write a short report summarizing the center, spread, and any outliers."
+    ],
+    "parent_note": "Encourage your child to conduct a mini-investigation at home, such as recording the height of family plants or counting traffic colors, and discussing what the data shows."
+  },
+  "AC9M7P01": {
+    "why_it_works": [
+      "The sample space is the set of all possible outcomes of a chance experiment. The probability of an event is a measure of the likelihood that it will occur, represented as a value from $0$ (impossible) to $1$ (certain).",
+      "For equally likely outcomes, the probability is $P(E) = \\frac{\\text{number of favourable outcomes}}{\\text{total number of outcomes}}$."
+    ],
+    "alternate_methods": [
+      "Listing outcomes systematically",
+      "Probability scale (0 to 1 decimal/fraction/percentage)",
+      "Theoretical probability calculation"
+    ],
+    "challenge_prompts": [
+      "List the sample space for rolling a standard six-sided die. Find the probability of rolling a prime number. Express it as a fraction, decimal, and percentage.",
+      "A bag contains $4$ red, $3$ blue, and $5$ green marbles. If you select one marble at random, what is the probability that it is NOT blue? Show your working.",
+      "If the probability of rain tomorrow is $0.15$, how many rainy days would you expect to observe over a period of $60$ days?"
+    ],
+    "parent_note": "Use a deck of cards or colored candies to talk about probability. Ask your child what the chances are of drawing a red card or a specific color candy."
+  },
+  "AC9M7P02": {
+    "why_it_works": [
+      "Observed results (experimental probability) in real experiments or simulations often differ from predicted results (theoretical probability) due to random chance. However, as the number of trials increases, the experimental probability approaches the theoretical probability (the Law of Large Numbers).",
+      "Simulations using digital tools allow us to conduct thousands of trials instantly to verify theoretical models."
+    ],
+    "alternate_methods": [
+      "Tossing a physical coin or rolling a die",
+      "Digital random number generator simulations",
+      "Relative frequency calculation tables"
+    ],
+    "challenge_prompts": [
+      "You flip a coin 10 times and get 8 heads. Explain why this experimental result differs from the theoretical probability of $0.5$, and predict what would happen if you flipped the coin 10,000 times.",
+      "Run a simulation of rolling a die 600 times. How close are the observed frequencies to the predicted frequency of 100 for each number? Explain any variations.",
+      "Design a digital simulation using a spreadsheet to model the probability of winning a simple game of chance with a $30\\%$ success rate."
+    ],
+    "parent_note": "Roll a die 20 times with your child and record the results. Compare the frequencies of each number to the theoretical prediction ($3$ to $4$ times each) and talk about why they differ."
+  }
+}

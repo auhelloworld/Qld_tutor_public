@@ -1,0 +1,131 @@
+{
+  "core_rule": "Break words into parts (prefix, root, suffix) to understand meaning, spell new words, and expand vocabulary.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How word parts build meaning?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "First, find <starting> part of word. Then, find <middle> part. Finally, find <ending> part."
+    },
+    {
+      "level": "analogy",
+      "template": "Word parts like LEGO bricks; combine them to build new structures, new meanings."
+    }
+  ],
+  "worked_example": {
+    "question": "Break down the word 'autobiography'. Explain its meaning using its parts.",
+    "answer": "An autobiography is a story of a person's life written by that person.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify prefix 'auto-'.",
+        "result": "'Auto-' means 'self'."
+      },
+      {
+        "step": 2,
+        "instruction": "Identify root word 'bio'.",
+        "result": "'Bio' means 'life'."
+      },
+      {
+        "step": 3,
+        "instruction": "Identify root word 'graph'.",
+        "result": "'Graph' means 'write' or 'record'."
+      },
+      {
+        "step": 4,
+        "instruction": "Combine meanings.",
+        "result": "Self + life + write = writing about one's own life."
+      }
+    ],
+    "explanation": "Breaking 'autobiography' into 'auto-' (self), 'bio' (life), and 'graph' (write) reveals its meaning: a life story written by oneself. This method helps decode complex words."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify prefixes, suffixes, base words, and root words in unfamiliar vocabulary.",
+      "Use knowledge of word parts to determine meaning and improve spelling of new words."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Word Power?",
+        "body": "Words are like puzzles. Each piece, or 'part', holds meaning. Understanding these parts gives you 'word power'. You can unlock new words, guess meanings, and spell better. Think of words having a core meaning, then bits added to the start or end to change it.\n\n**Base Words:** Stand alone. Have full meaning. Example: 'happy', 'read', 'act'.\n\n**Root Words:** Core meaning. Often from Greek or Latin. Cannot always stand alone. Need other parts. Example: 'vis' (see), 'aud' (hear), 'port' (carry).\n\n**Prefixes:** Added to start of word. Change meaning. Example: 'un-' (not) in 'unhappy', 're-' (again) in 'rewrite'.\n\n**Suffixes:** Added to end of word. Change word type (e.g., noun to adjective). Example: '-able' (can be) in 'readable', '-tion' (state of) in 'action'.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Unlock New Words",
+        "body": "When you meet a new word, do not panic! Use these steps:\n\n1.  **Look for Familiar Chunks:** Scan word for parts you know. Is there a prefix? A suffix? A root you have seen before?\n2.  **Separate the Parts:** Mentally (or physically!) break word into prefix, root/base, suffix.\n3.  **Define Each Part:** What does 'un-' mean? What does '-able' mean? What is the core meaning of the root?\n4.  **Combine Meanings:** Put the definitions together. Does it make sense?\n5.  **Check Spelling:** Knowing parts helps spelling. If 'un-' is a prefix, it is always 'un-', not 'uhn'. If a root ends in 'e' before a suffix, sometimes 'e' drops (e.g., 'love' + '-able' = 'lovable').",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "The **invisible** creature made an **audible** sound, causing the **disoriented** explorers to **retrace** their steps.\n\n*   **Invisible:** 'in-' (not) + 'vis' (see) + '-ible' (able to be) = not able to be seen.\n*   **Audible:** 'aud' (hear) + '-ible' (able to be) = able to be heard.\n*   **Disoriented:** 'dis-' (not/apart) + 'orient' (position) + '-ed' (past tense) = not knowing one's position.\n*   **Retrace:** 're-' (again) + 'trace' (follow) = follow again.\n\nSee how breaking words down helps understand the whole sentence?",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Guessing Meanings",
+        "body": "Many students guess a word's meaning from the sentence around it. This is 'context clues'. Context clues are good, but not always exact. Relying only on context can lead to wrong understanding. Using word parts (prefixes, roots, suffixes) gives a more precise meaning. Combine both methods for best results. First, break word down. Then, check if that meaning fits the sentence.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Prefix",
+        "definition": "Letters added to start of a word, changing its meaning."
+      },
+      {
+        "term": "Suffix",
+        "definition": "Letters added to end of a word, changing its type or meaning."
+      },
+      {
+        "term": "Base Word",
+        "definition": "A word that can stand alone and has its own meaning."
+      },
+      {
+        "term": "Root Word",
+        "definition": "The core part of a word, often from Greek or Latin, carrying its main meaning. May not stand alone."
+      },
+      {
+        "term": "Etymology",
+        "definition": "The study of word origins and how their meanings have changed over time."
+      }
+    ],
+    "common_mistakes": [
+      "Confusing prefixes with suffixes.",
+      "Ignoring word parts and only guessing meaning from context.",
+      "Misspelling words by not recognising common prefixes/suffixes (e.g., 'unecessary' instead of 'unnecessary').",
+      "Not knowing common Greek/Latin roots."
+    ],
+    "real_world_connections": [
+      "Reading science textbooks: many scientific terms use Greek/Latin roots (e.g., 'biology', 'telescope').",
+      "Understanding medical terms: doctors and nurses use words built from specific roots (e.g., 'cardiology', 'dermatitis').",
+      "Learning new words in books or games: breaking them down helps you learn faster.",
+      "Improving your own writing: choosing words with precise meanings makes your message clearer."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "How does knowing word parts help spell 'disappear' correctly?",
+        "answer": "Knowing 'dis-' is a prefix and 'appear' is a base word helps you remember the double 's' is not needed, and 'a' comes after 'pp'.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify prefix 'dis-'.",
+            "result": "Prefix 'dis-' means 'not' or 'apart'."
+          },
+          {
+            "step": 2,
+            "instruction": "Identify base word 'appear'.",
+            "result": "Base word 'appear' means 'to come into sight'."
+          },
+          {
+            "step": 3,
+            "instruction": "Combine for spelling.",
+            "result": "Prefix 'dis-' attaches directly to 'appear'. No double 's'. Correct spelling: 'disappear'."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

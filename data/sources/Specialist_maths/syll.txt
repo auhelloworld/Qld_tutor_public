@@ -1,0 +1,2285 @@
+Specialist Mathematics 2025 v1.4
+General senior syllabus
+March 2026
+
+
+
+
+                                   231433
+        © State of Queensland (QCAA) 2026
+Licence: https://creativecommons.org/licenses/by/4.0 | Copyright notice: www.qcaa.qld.edu.au/copyright —
+lists the full terms and conditions, which specify certain exceptions to the licence. |
+Attribution (include the link): © State of Queensland (QCAA) 2026 www.qcaa.qld.edu.au/copyright.
+
+
+
+
+Queensland Curriculum & Assessment Authority
+PO Box 307 Spring Hill QLD 4004 Australia
+Phone: (07) 3864 0299
+Email: office@qcaa.qld.edu.au
+Website: www.qcaa.qld.edu.au
+Contents
+Queensland syllabuses for senior subjects ____________________ 1
+Course overview __________________________________________ 2
+Rationale .....................................................................................................................2
+Syllabus objectives ......................................................................................................3
+Designing a course of study in Specialist Mathematics ...............................................4
+Reporting ................................................................................................................... 13
+
+Units ___________________________________________________ 15
+Unit 1: Combinatorics, proof, vectors and matrices ................................................... 15
+Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+.................................................................................................................................. 20
+Unit 3: Further complex numbers, proof, vectors and matrices ................................. 25
+Unit 4: Further calculus and statistical inference ....................................................... 30
+
+Assessment _____________________________________________ 35
+Internal assessment 1: Problem-solving and modelling task (20%)........................... 35
+Internal assessment 2: Examination — short response (15%) .................................. 39
+Internal assessment 3: Examination — short response (15%) .................................. 43
+External assessment: Examination — combination response (50%)......................... 47
+
+Glossary ________________________________________________ 50
+
+References ______________________________________________ 50
+Version history __________________________________________ 52
+           Queensland syllabuses for senior subjects
+           In Queensland, a syllabus for a senior subject is an official ‘map’ of a senior school subject. A
+           syllabus’s function is to support schools in delivering the Queensland Certificate of Education
+           (QCE) system through high-quality and high-equity curriculum and assessment.
+           Syllabuses are based on design principles developed from independent international research
+           about how excellence and equity are promoted in the documents teachers use to develop and
+           enliven the curriculum.
+           Syllabuses for senior subjects build on student learning in the Prep to Year 10 Australian
+           Curriculum and include General, General (Extension), Senior External Examination (SEE),
+           Applied, Applied (Essential) and Short Course syllabuses.
+           More information about syllabuses for senior subjects is available at www.qcaa.qld.edu.au/senior/
+           senior-subjects and in the ‘Queensland curriculum’ section of the QCE and QCIA policy and
+           procedures handbook.
+           Teaching, learning and assessment resources will support the implementation of a syllabus for a
+           senior subject. More information about professional resources for senior syllabuses is available
+           on the QCAA website and via the QCAA Portal.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                      Queensland syllabuses
+General senior syllabus | March 2026                                                                     for senior subjects
+                                                          Page 1 of 52
+           Course overview
+           Rationale
+           Mathematics is a unique and powerful intellectual discipline that is used to investigate patterns,
+           order, generality and uncertainty. It is a way of thinking in which problems are explored and
+           solved through observation, reflection and logical reasoning. It uses a concise system of
+           communication, with written, symbolic, spoken and visual components. Mathematics is creative,
+           requires initiative and promotes curiosity in an increasingly complex and data-driven world. It is
+           the foundation of all quantitative disciplines.
+           To prepare students with the knowledge, skills and confidence to participate effectively in the
+           community and the economy requires the development of skills that reflect the demands of the
+           21st century. Students undertaking Mathematics will develop their critical and creative thinking,
+           oral and written communication, information & communication technologies (ICT) capability,
+           ability to collaborate, and sense of personal and social responsibility — ultimately becoming
+           lifelong learners who demonstrate initiative when facing a challenge. The use of technology to
+           make connections between mathematical theory, practice and application has a positive effect on
+           the development of conceptual understanding and student disposition towards mathematics.
+           Mathematics teaching and learning practices range from practising essential mathematical
+           routines to develop procedural fluency, through to investigating scenarios, modelling the real
+           world, solving problems and explaining reasoning. When students achieve procedural fluency,
+           they carry out procedures flexibly, accurately and efficiently. When factual knowledge and
+           concepts come to mind readily, students are able to make more complex use of knowledge to
+           successfully formulate, represent and solve mathematical problems. Problem-solving helps to
+           develop an ability to transfer mathematical skills and ideas between different contexts. This
+           assists students to make connections between related concepts and adapt what they already
+           know to new and unfamiliar situations. With appropriate effort and experience, through
+           discussion, collaboration and reflection of ideas, students should develop confidence and
+           experience success in their use of mathematics.
+           The major domains of mathematical knowledge in Specialist Mathematics are Vectors and
+           matrices, Real and complex numbers, Trigonometry, Statistics and Calculus. Topics are
+           developed systematically, with increasing levels of sophistication, complexity and connection,
+           building on functions, calculus, statistics from Mathematical Methods, while vectors, complex
+           numbers and matrices are introduced. Functions and calculus are essential for creating models of
+           the physical world. Statistics are used to describe and analyse phenomena involving probability,
+           uncertainty and variation. Matrices, complex numbers and vectors are essential tools for
+           explaining abstract or complex relationships that occur in scientific and technological endeavours.
+           Students who undertake Specialist Mathematics will develop confidence in their mathematical
+           knowledge and ability, and gain a positive view of themselves as mathematics learners. They will
+           gain an appreciation of the true nature of mathematics, its beauty and its power.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                          Course overview
+General senior syllabus | March 2026                                                                             Rationale
+                                                         Page 2 of 52
+           Syllabus objectives
+           The syllabus objectives outline what students have the opportunity to learn.
+           1.   Recall mathematical knowledge.
+                When students recall mathematical knowledge, they recognise features of remembered
+                information. They recognise relevant concepts, rules, definitions, techniques and algorithms.
+           2.   Use mathematical knowledge.
+                When students use mathematical knowledge, they put into effect relevant concepts, rules,
+                definitions, techniques and algorithms. They perform calculations with and without
+                technology.
+           3.   Communicate mathematical knowledge.
+                When students communicate mathematical knowledge, they use mathematical language
+                (terminology, symbols, conventions and representations) and everyday language. They
+                organise and present information in graphical and symbolic form, and describe and represent
+                mathematical models.
+           4.   Evaluate the reasonableness of solutions.
+                When students evaluate the reasonableness of solutions, they interpret their mathematical
+                results in the context of the situation and reflect on whether the problem has been solved.
+                They verify results by using estimation skills and checking calculations, with and without
+                technology. They make an appraisal by assessing implications, strengths and limitations of
+                solutions and/or models, and use this to consider if alternative methods or refinements are
+                required.
+           5.   Justify procedures and decisions.
+                When students justify procedures and decisions, they explain their mathematical reasoning in
+                detail. They make relationships evident, logically organise mathematical arguments, and
+                provide reasons for choices made and conclusions reached.
+           6.   Solve mathematical problems.
+                When students solve mathematical problems, they analyse the context of the problem to
+                translate information into mathematical forms. They make decisions about the concepts,
+                techniques and technology to be used and apply these to develop a solution. They develop,
+                refine and use mathematical models, where applicable.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                          Course overview
+General senior syllabus | March 2026                                                                     Syllabus objectives
+                                                         Page 3 of 52
+           Designing a course of study in Specialist
+           Mathematics
+           Syllabuses are designed for teachers to make professional decisions to tailor curriculum and
+           assessment design and delivery to suit their school context and the goals, aspirations and
+           abilities of their students within the parameters of Queensland’s senior phase of learning.
+           The syllabus is used by teachers to develop curriculum for their school context. The term course
+           of study describes the unique curriculum and assessment that students engage with in each
+           school context. A course of study is the product of a series of decisions made by a school to
+           select, organise and contextualise subject matter, integrate complementary and important
+           learning, and create assessment tasks in accordance with syllabus specifications.
+           It is encouraged that, where possible, a course of study is designed such that teaching, learning
+           and assessment activities are integrated and enlivened in an authentic setting.
+
+           Course structure
+           Specialist Mathematics is a General senior syllabus. It contains four QCAA-developed units from
+           which schools develop their course of study.
+           Each unit has been developed with a notional time of 55 hours of teaching and learning, including
+           assessment.
+           Students should complete Unit 1 and Unit 2 before beginning Units 3 and 4. Units 3 and 4 are
+           studied as a pair.
+           More information about the requirements for administering senior syllabuses is available in the
+           ‘Queensland curriculum’ section of the QCE and QCIA policy and procedures handbook.
+
+           Curriculum
+           Senior syllabuses set out only what is essential while being flexible so teachers can make
+           curriculum decisions to suit their students, school context, resources and expertise.
+           Within the requirements set out in this syllabus and the QCE and QCIA policy and procedures
+           handbook, schools have autonomy to decide:
+           • how and when subject matter is delivered
+           • how, when and why learning experiences are developed, and the context in which learning
+             occurs
+           • how opportunities are provided in the course of study for explicit and integrated teaching and
+             learning of complementary skills.
+           These decisions allow teachers to develop a course of study that is rich, engaging and relevant
+           for their students.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                Course overview
+General senior syllabus | March 2026                                         Designing a course of study in Specialist Mathematics
+                                                         Page 4 of 52
+           Assessment
+           Senior syllabuses set out only what is essential while being flexible so teachers can make
+           assessment decisions to suit their students, school context, resources and expertise.
+           General senior syllabuses contain assessment specifications and conditions for the assessment
+           instruments that must be implemented with Units 3 and 4. These specifications and conditions
+           ensure comparability, equity and validity in assessment.
+           Within the requirements set out in this syllabus and the QCE and QCIA policy and procedures
+           handbook, schools have autonomy to decide:
+           • specific assessment task details
+           • assessment contexts to suit available resources
+           • how the assessment task will be integrated with teaching and learning activities
+           • how authentic the task will be.
+           In Unit 1 and Unit 2, schools:
+           • develop at least two but no more than four assessments
+           • complete at least one assessment for each unit
+           • ensure that each unit objective is assessed at least once.
+           In Units 3 and 4, schools develop three assessments using the assessment specifications and
+           conditions provided in the syllabus.
+           More information about assessment in senior syllabuses is available in ‘The assessment system’
+           section of the QCE and QCIA policy and procedures handbook.
+
+           Subject matter
+           Each unit contains a unit description, unit objectives and subject matter. Subject matter is the
+           body of information, mental procedures and psychomotor procedures (see Marzano & Kendall
+           2007, 2008) that are necessary for students’ learning and engagement with the subject. Subject
+           matter itself is not the specification of learning experiences but provides the basis for the design
+           of student learning experiences.
+           Subject matter has a direct relationship with the unit objectives and provides statements of
+           learning that have been constructed in a similar way to objectives.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                  Course overview
+General senior syllabus | March 2026                                           Designing a course of study in Specialist Mathematics
+                                                          Page 5 of 52
+           Aboriginal perspectives and Torres Strait Islander perspectives
+           The QCAA is committed to reconciliation. As part of its commitment, the QCAA affirms that:
+           • Aboriginal peoples and Torres Strait Islander peoples are the first Australians, and have the
+             oldest living cultures in human history
+           • Aboriginal peoples and Torres Strait Islander peoples have strong cultural traditions and speak
+             diverse languages and dialects, other than Standard Australian English
+           • teaching and learning in Queensland schools should provide opportunities for students to
+             deepen their knowledge of Australia by engaging with the perspectives of Aboriginal peoples
+             and Torres Strait Islander peoples
+           • positive outcomes for Aboriginal students and Torres Strait Islander students are supported by
+             successfully embedding Aboriginal perspectives and Torres Strait Islander perspectives
+             across planning, teaching and assessing student achievement.
+           Guidelines about Aboriginal perspectives and Torres Strait Islander perspectives and resources
+           for teaching are available at www.qcaa.qld.edu.au/k-12-policies/aboriginal-torres-strait-islander-
+           perspectives.
+           Where appropriate, Aboriginal perspectives and Torres Strait Islander perspectives have been
+           embedded in the subject matter.
+
+           Complementary skills
+           Opportunities for the development of complementary skills have been embedded throughout
+           subject matter. These skills, which overlap and interact with syllabus subject matter, are derived
+           from current education, industry and community expectations and encompass the knowledge,
+           skills, capabilities, behaviours and dispositions that will help students live and work successfully
+           in the 21st century.
+           These complementary skills are:
+           • literacy — the knowledge, skills, behaviours and dispositions about language and texts
+             essential for understanding and conveying English language content
+           • numeracy — the knowledge, skills, behaviours and dispositions that students need to use
+             mathematics in a wide range of situations, to recognise and understand the role of
+             mathematics in the world, and to develop the dispositions and capacities to use mathematical
+             knowledge and skills purposefully
+           • 21st century skills — the attributes and skills students need to prepare them for higher
+             education, work, and engagement in a complex and rapidly changing world. These skills
+             include critical thinking, creative thinking, communication, collaboration and teamwork,
+             personal and social skills, and digital literacy. The explanations of associated skills are
+             available at www.qcaa.qld.edu.au/senior/senior-subjects/general-subjects/21st-century-skills.
+           It is expected that aspects of literacy, numeracy and 21st century skills will be developed by
+           engaging in the learning outlined in this syllabus. Teachers may choose to create additional
+           explicit and intentional opportunities for the development of these skills as they design the course
+           of study.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                  Course overview
+General senior syllabus | March 2026                                           Designing a course of study in Specialist Mathematics
+                                                          Page 6 of 52
+           Additional subject-specific information
+           Additional subject-specific information has been included to support and inform the development
+           of a course of study.
+
+           Assumed knowledge, prior learning or experience
+           Specialist Mathematics is to be undertaken in conjunction with, or on completion of, Mathematical
+           Methods. It is assumed that work covered in Mathematical Methods will be known before it is
+           required in Specialist Mathematics.
+           Assumed knowledge refers to the subject matter that teachers can expect students to know prior
+           to beginning this subject. Emphasis is placed on the mastery of content, ensuring key concepts or
+           procedures are learnt fully so they will not need reteaching.
+           Developing mastery often involves multiple approaches to teaching and conceptualising the same
+           mathematical concept. When students have a good understanding of a key concept or procedure,
+           they are more easily able to make connections to related new subject matter and apply what they
+           already know to new problems.
+           Subject matter from previous unit/s is assumed for subsequent unit/s.
+           The following is a non-exhaustive list of assumed knowledge based on the subject matter in the
+           P–10 Australian Curriculum version 9.
+           • Describe the results of two- and three-step chance experiments.
+           • List all outcomes for compound events, both with and without replacement.
+           • Determine probabilities of events.
+           • Substitute values into formulas to determine an unknown.
+           • Recognise the effect of using approximations of real numbers in repeated calculations.
+           • Calculate and interpret percentage errors including investigating error as a percentage of the
+             exact value.
+           • Rational and irrational numbers.
+           • Solve problems involving the surface area of right prisms and cylinders using appropriate
+             units.
+           • Apply angle properties and scale.
+           • Solve right-angled triangle problems.
+           • Identify conditions and apply properties of congruence and similarity of triangles.
+           • Apply Pythagoras’ theorem and trigonometry in right-angled triangles including problems
+             involving direction and angles of elevation and depression.
+           • Apply deductive reasoning to proofs involving shapes in the plane.
+           • Translate word problems to mathematical form.
+           • Solve linear inequalities and simultaneous linear equations in 2 variables.
+           • Expand, factorise and simplify algebraic expressions, including monic quadratic expressions.
+           • Solve equations algebraically, applying exponent laws involving products, quotients and
+             powers of variables, and apply the commutative and the distributive laws.
+           • Apply the four operations to simple algebraic fractions with numerical denominators.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                 Course overview
+General senior syllabus | March 2026                                          Designing a course of study in Specialist Mathematics
+                                                         Page 7 of 52
+           Recommended knowledge
+           Recommended knowledge refers to the subject matter from the optional content for post–Year 10
+           mathematics pathways that will enhance students’ understanding of this subject’s foundational
+           content.
+           The following is a non-exhaustive list of recommended knowledge based on the subject matter in
+           the optional content for post–Year 10 mathematics pathways from the P–10 Australian
+           Curriculum version 9.
+           • Operations on numbers involving fractional exponents and surds including
+                                                                     3+√7
+               – rationalising the denominator of a quotient, e.g. 3−√7 = 8 + 3√7
+
+           • The solution of a variety of algebraic representations of quadratic functions including
+               – use of the quadratic formula
+               – use of the discriminant to identify the number and nature of the roots
+               – recognising conjugate pairs of irrational roots of a quadratic equation.
+           • Properties of circles including
+               – identifying relationships, angles between tangents and chords,
+               – identifying angles subtended by a chord with respect to the centre of a circle and with
+                 respect to a point on the circumference
+               – exploring how deductive reasoning and diagrams are used in proving geometric theorems
+                 related to circles.
+           • Counting principles that provide efficient counting in multiplicative contexts including
+               – the application of the multiplication principle
+               – use of the definition of 𝑛!
+               – calculation of probabilities related to sampling, with and without replacement.
+           • Sketching functions including quadratic, sine and cosine functions.
+
+           Problem-solving and mathematical modelling
+           A key aspect of learning mathematics is to develop strategic competence; that is, to formulate,
+           represent and solve mathematical problems (Kilpatrick, Swafford & Bradford 2001). As such,
+           problem-solving is a focus of mathematics education research, curriculum and teaching (Sullivan
+           2011). This focus is not to the exclusion of routine exercises, which are necessary for practising,
+           attaining mastery and being able to respond automatically. But mathematics education in the 21st
+           century goes beyond this to include innovative problems that are complex, unfamiliar and non-
+           routine (Mevarech & Kramarski 2014).
+           Problem-solving in mathematics can be set in purely mathematical contexts or real-world
+           contexts. When set in the real world, problem-solving in mathematics involves mathematical
+           modelling.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                  Course overview
+General senior syllabus | March 2026                                           Designing a course of study in Specialist Mathematics
+                                                           Page 8 of 52
+           Problem-solving
+           Problem-solving is required when a task or goal has limiting conditions placed upon it or an
+           obstacle blocking the path to a solution (Marzano & Kendall 2007). It involves:
+           • knowledge of the relevant details
+           • using generalisations and principles to identify, define and interpret the problem
+           • mental computation and estimation
+           • critical, creative and lateral thinking
+           • creating or choosing a strategy
+           • making decisions
+           • testing, monitoring and evaluating solutions.
+           Problem-solving requires students to explain their mathematical thinking and develop strong
+           conceptual foundations. They must do more than follow set procedures and mimic examples
+           without understanding. Through problem-solving, students will make connections between
+           mathematics topics, across the curriculum and with the real world, and see the value and
+           usefulness of mathematics. Problems may be real-world or abstract, and presented to students
+           as issues, statements or questions that may require them to use primary or secondary data.
+
+           Mathematical modelling
+           Mathematical modelling begins from an assumption that mathematics is everywhere in the world
+           around us — a challenge is to identify where it is present, access it and apply it productively.
+           Models are developed in order to better understand real-world phenomena, to make predictions
+           and answer questions. A mathematical model depicts a situation by expressing relationships
+           using mathematical concepts and language. It refers to the set of simplifying assumptions (such
+           as the relevant variables or the shape of something); the set of assumed relationships between
+           variables; and the resulting representation (such as a formula) that can be used to generate an
+           answer (Stacey 2015).
+           Mathematical modelling involves:
+           • formulating a mathematical representation of a problem derived from within a real-world
+             context
+           • using mathematics concepts and techniques to obtain results
+           • interpreting the results by referring back to the original problem context
+           • revising the model (where necessary) (Geiger, Faragher & Goos 2010).
+           Through developing and applying mathematical models, students cumulatively become real-world
+           problem-solvers. Ultimately, this means that not only can they productively address problems set
+           by others, but also that they develop the ability to identify and address problems and answer
+           questions that matter to them.
+           The following section outlines an approach to problem-solving and mathematical modelling.1
+           Problems must be real-world, and can be presented to students as issues, statements or
+           questions that may require them to use primary or secondary data.
+
+           1 A wide variety of frameworks for problem-solving and modelling exist in mathematics education literature. The
+
+             approach outlined here aligns with and is informed by other approaches, such as Polya (1957) in How to Solve
+             It: A new aspect of mathematical method (1957), the Australian Curriculum (ACARA 2015a) Statistical
+             investigation process, the OECD/PISA Mathematics framework (OECD 2015, 2003) and A framework for
+             success in implementing mathematical modelling in the secondary classroom (Stillman et al. 2007). For further
+             reading see Blum et al. (2007); Kaiser et al. (2011); and Stillman et al. (2013).
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                          Course overview
+General senior syllabus | March 2026                                                   Designing a course of study in Specialist Mathematics
+                                                                Page 9 of 52
+           Figure 1: An approach to problem-solving and mathematical modelling
+
+
+                                        Once students understand what the problem is asking, they must
+                                        design a plan to solve the problem. Students translate the problem
+                                        into a mathematically purposeful representation by first determining
+                                        the applicable mathematical knowledge that is required to make
+                                        progress with the problem. Important assumptions, variables and
+                                        observations are identified and justified, based on the logic of a
+                                        proposed solution and/or model.
+                                        In mathematical modelling, formulating a model involves the process
+                                        of mathematisation — moving from the real world to the mathematical
+                                        world.
+
+
+
+                                        Students select and apply mathematical knowledge previously learnt
+                                        to solve the problem. Possible approaches are wide-ranging and
+                                        include synthesising and refining existing models, and generating and
+                                        testing hypotheses with primary or secondary data and information, to
+                                        produce a complete solution.
+                                        Solutions can be found using algebraic, graphic, arithmetic and/or
+                                        numeric methods, with and/or without technology.
+
+
+
+
+                                        Once a possible solution has been achieved, students need to
+                                        consider the reasonableness of the solution and/or the utility of the
+                                        model in terms of the problem. They verify their results and evaluate
+                                        the reasonableness of the solution to the problem in relation to the
+                                        original issue, statement or question.
+                                        This involves exploring the strengths and limitations of the solution
+                                        and/or model. Where necessary, this will require going back through
+                                        the process to further refine the solution and/or model. In
+                                        mathematical modelling, students must check that the output of their
+                                        model provides a complete solution to the real-world problem it has
+                                        been designed to address.
+                                        This stage emphasises the importance of methodological rigour and
+                                        the fact that problem-solving and mathematical modelling is not
+                                        usually linear and involves an iterative process.
+
+
+
+                                        The development of solutions and/or models to abstract and real-
+                                        world problems must be capable of being evaluated and used by
+                                        others and so need to be communicated and justified clearly and fully.
+                                        Students communicate findings logically and concisely using
+                                        mathematical and everyday language. They draw conclusions,
+                                        discussing the results, strengths and limitations of the solution and/or
+                                        model. Students could offer further explanation, justification, and/or
+                                        recommendations, framed in the context of the initial problem.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                Course overview
+General senior syllabus | March 2026                                         Designing a course of study in Specialist Mathematics
+                                                     Page 10 of 52
+           Approaches to problem-solving and mathematical modelling in the classroom
+           When teaching problem-solving and mathematical modelling, teachers should consider teaching
+           for and learning through problem-solving and mathematical modelling. When teaching for,
+           students are taught the specific mathematical rules, definitions, procedures, problem-solving
+           strategies and critical elements of the model that are needed to solve a given problem. When
+           learning through, students are presented with problems to solve, but must apply the knowledge
+           and skills they have previously been taught to solve it. By solving these problems, students are
+           able to develop new mathematical understanding and skills. This requires an explicit and
+           connected approach to teaching problem-solving and mathematical modelling that necessitates
+           fluency of critical facts and processes at each step.
+           The following describes three different approaches to teaching problem-solving and mathematical
+           modelling2 along the continua between teaching for and learning through:
+
+             Approach           Description                                                           Teaching for or
+                                                                                                      learning through
+
+             Dependent          The teacher explicitly demonstrates and teaches the concepts and      Teaching for
+                                techniques required to solve the problem, and/or develop a
+                                mathematical model. This usually involves students solving (stage
+                                2) and evaluating and verifying (stage 3).
+
+             Guided             The teacher influences the choice of concepts and techniques,         Moving towards
+                                and/or model that students use to solve the problem. Guidance is      learning through
+                                provided and all stages of the approach are used.
+
+             Independent        The teacher cedes control and students work independently,            Learning through
+                                choosing their own solution and/or model, and working at their
+                                own level of mathematics. The independent approach is the most
+                                challenging.
+
+           These approaches are not mutually exclusive. An independent approach (learning through) might
+           be undertaken as an extension of a dependent or guided activity that students have previously
+           undertaken (teaching for). Students need to have attained the relevant foundational
+           understanding and skills before working independently during a problem-solving and modelling
+           task. This capacity needs to be built over time through the course of study with teachers closely
+           monitoring student progress.
+
+
+
+
+           2 Based on Galbraith (1989).
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                        Course overview
+General senior syllabus | March 2026                                                 Designing a course of study in Specialist Mathematics
+                                                               Page 11 of 52
+           Strategies for retaining and recalling information for assessment
+           The following practices3 can support preparation for senior assessment in Specialist
+           Mathematics.
+
+           The spacing effect
+           The spacing effect draws on research about forgetting and learning curves. By recalling and
+           revisiting information at intervals, rather than at the end of a study cycle, students remember a
+           greater percentage of the information with a higher level of accuracy. Exposing students to
+           information and materials numerous times over multiple spaced intervals solidifies long-term
+           memory, positively affecting retention and recall.
+           Teachers should plan teaching and learning sequences that allow time to revisit previously taught
+           information and skills at several intervals. These repeated learning opportunities also provide
+           opportunities for teachers to provide formative feedback to students.
+
+           The retrieval effect
+           The retrieval effect helps students to practise remembering through quick, regular, low-stakes
+           questioning or quizzes that exercise their memories and develop their ability to engage in the
+           deliberate act of recalling information. This has been shown to be more effective at developing
+           long-term memories than activities that require students to search through notes or other
+           resources.
+           Students may see an inability to remember as an obstacle, but they should be encouraged to
+           understand that this is an opportunity for learning to take place. By trying to recall information,
+           students exercise or strengthen their memory and may also identify gaps in their learning. The
+           more difficult the retrieval practice, the better it can be for long-term learning.
+
+           Interleaving
+           Interleaving involves interspersing the concepts, categories, skills or types of questions that
+           students focus on in class or revision. This is in contrast to blocking, in which these elements are
+           grouped together in a block of time. For example, for concepts A, B and C:
+           • Blocking                  AAAAABBBBBCCCCC
+           • Interleaving              ABCBCABACACBCAB
+           Studies have found that interleaving in instruction or revision produces better long-term recall of
+           subject matter. Interleaving also ensures that spacing occurs, as instances of practice are spread
+           out over time.
+           Additionally, because exposure to one concept is interleaved with exposure to another, students
+           have more opportunities to distinguish between related concepts. This highlighting of differences
+           may explain why studies have found that interleaving enhances inductive learning, where
+           participants use exemplars to develop an understanding of broader concepts or categories.
+           Spacing without interleaving does not appear to benefit this type of learning.
+           Interleaving can seem counterintuitive — even in studies where interleaving enhanced learning,
+           participants often felt that they had learnt more with blocked study. Despite this, their
+           performance in testing indicated greater learning through the interleaving approach.
+
+
+
+           3 Based on Agarwal, Roediger, McDaniel & McDermott (2020); Birnbaum, Kornell, Ligon Bjork & Bjork (2013);
+
+             Carpenter & Agarwal (2020); Chen, Paas & Sweller (2021); Ebbinghaus (1885); Rohrer (2012);
+             Taylor & Rohrer (2010).
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                       Course overview
+General senior syllabus | March 2026                                                Designing a course of study in Specialist Mathematics
+                                                             Page 12 of 52
+           Reporting
+           General information about determining and reporting results for senior syllabuses is provided in
+           the ‘Determining and reporting results’ section of the QCE and QCIA policy and procedures
+           handbook.
+
+           Reporting standards
+           Reporting standards are summary statements that describe typical performance at each of the
+           five levels (A–E).
+
+             A
+
+             The student recalls, uses and communicates comprehensive mathematical knowledge drawn from
+             Vectors and matrices, Real and complex numbers, Trigonometry, Statistics and Calculus in simple
+             familiar, complex familiar and complex unfamiliar situations.
+             The student evaluates the reasonableness of solutions, justifies procedures and decisions, and solves
+             mathematical problems in simple familiar, complex familiar and complex unfamiliar situations.
+
+             B
+
+             The student recalls, uses and communicates thorough mathematical knowledge drawn from Vectors and
+             matrices, Real and complex numbers, Trigonometry, Statistics and Calculus in simple familiar and
+             complex familiar situations.
+             The student evaluates the reasonableness of solutions, justifies procedures and decisions, and solves
+             mathematical problems in simple familiar and complex familiar situations.
+
+             C
+
+             The student recalls, uses and communicates mathematical knowledge drawn from Vectors and matrices,
+             Real and complex numbers, Trigonometry, Statistics and Calculus in simple familiar situations.
+             The student evaluates the reasonableness of solutions, justifies procedures and decisions, and solves
+             mathematical problems in simple familiar situations.
+
+             D
+
+             The student recalls, uses and communicates partial mathematical knowledge drawn from Vectors and
+             matrices, Real and complex numbers, Trigonometry, Statistics and Calculus in simple familiar situations.
+             The student sometimes evaluates the reasonableness of solutions, sometimes justifies procedures and
+             decisions, and solves some mathematical problems in simple familiar situations.
+
+             E
+
+             The student recalls, uses and communicates isolated mathematical knowledge drawn from Vectors and
+             matrices, Real and complex numbers, Trigonometry, Statistics and Calculus in simple familiar situations.
+             The student rarely evaluates the reasonableness of solutions, and infrequently justifies procedures and
+             decisions in simple familiar situations.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                  Course overview
+General senior syllabus | March 2026                                                                                     Reporting
+                                                             Page 13 of 52
+           Determining and reporting results
+           Unit 1 and Unit 2
+           Schools make judgments on individual assessment instruments using a method determined by
+           the school. They may use the reporting standards or develop an instrument-specific marking
+           guide (ISMG). Marks are not required for determining a unit result for reporting to the QCAA.
+           The unit assessment program comprises the assessment instrument/s designed by the school to
+           allow the students to demonstrate the unit objectives. The unit judgment of A–E is made using
+           reporting standards.
+           Schools report student results for Unit 1 and Unit 2 to the QCAA as satisfactory (S) or
+           unsatisfactory (U). Where appropriate, schools may also report a not rated (NR).
+
+           Units 3 and 4
+           Schools mark each of the three internal assessment instruments implemented in Units 3 and 4
+           using ISMGs.
+           Schools report a provisional mark by criterion to the QCAA for each internal assessment.
+           Once confirmed by the QCAA, these results will be combined with the result of the external
+           assessment developed and marked by the QCAA.
+           The QCAA uses these results to determine each student’s subject result as a mark out of 100
+           and as an A–E.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                        Course overview
+General senior syllabus | March 2026                                                                           Reporting
+                                                         Page 14 of 52
+           Units
+           Unit 1: Combinatorics, proof, vectors and matrices
+           In Unit 1, students will develop the mathematical understandings and skills to solve problems
+           relating to:
+           • Topic 1: Combinatorics
+           • Topic 2: Introduction to proof
+           • Topic 3: Vectors in the plane
+           • Topic 4: Algebra of vectors in two dimensions
+           • Topic 5: Matrices.
+           Combinatorics provides techniques that are useful in many areas of mathematics, including
+           probability and algebra. Introduction to proof provides the opportunity to establish students’
+           understanding of the nature of proof, and is of great benefit in the study of other topics in the
+           course. Vectors in the plane and the Algebra of vectors in two dimensions provide new
+           perspectives for working with two-dimensional space, and serve as an introduction to techniques
+           that will extend to three-dimensional space in Unit 3. Matrices introduces basic operations and
+           matrix algebra properties that involve matrices of up to dimension 2 × 2.
+           These five topics considerably broaden students’ mathematical experience and enhance their
+           awareness of the breadth and utility of the subject. They contain procedures and processes that
+           will be required for later topics. All these topics develop students’ ability to construct mathematical
+           arguments and enable students to increase their mathematical flexibility and versatility.
+
+           Unit objectives
+           1.   Recall mathematical knowledge.
+           2.   Use mathematical knowledge.
+           3.   Communicate mathematical knowledge.
+           4.   Evaluate the reasonableness of solutions.
+           5.   Justify procedures and decisions.
+           6.   Solve mathematical problems.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                               Units
+General senior syllabus | March 2026                                               Unit 1: Combinatorics, proof, vectors and matrices
+                                                          Page 15 of 52
+           Subject matter
+           Topic 1: Combinatorics
+
+           Sub-topic: Introduction to counting techniques (4 hours)
+           • Use the inclusion-exclusion principle formulas to determine the number of elements in the
+             union of two and the union of three sets.
+                   ▪ |A ∪ B| = |A| + |B| − |A ∩ B|]
+                   ▪ |A ∪ B ∪ C| = |A| + |B| + |C| − |A ∩ B| − |A ∩ C| − |B ∩ C| + |A ∩ B ∩ C|
+           • Use the multiplication principle.
+           • Use the addition principle.
+
+           Sub-topic: Permutations (ordered arrangements) and combinations (unordered selections)
+           (8 hours)
+           • Define and use permutations.
+           • Use factorial notation.
+           • Use the notation 𝑛𝑃𝑟 to represent the number of ways of selecting 𝑟 objects from 𝑛 distinct
+             objects where order is important.
+                       𝑛          𝑛!
+                   ▪       𝑃𝑟 = (𝑛−𝑟)! = 𝑛 × (𝑛 − 1) × (𝑛 − 2) × … × (𝑛 − 𝑟 + 1)
+
+           • Solve problems that involve permutations.
+           • Solve problems that involve permutations with restrictions including repeated objects, specific
+             objects grouped together and selection from multiple groups.
+           • Define and use combinations.
+                                       𝑛
+           • Use the notation ( ) and 𝑛𝐶𝑟 to represent the number of ways of selecting 𝑟 objects from 𝑛
+                                       𝑟
+               distinct objects where order is not important.
+                       𝑛         𝑛       𝑛!
+                   ▪       𝐶𝑟 = ( ) = 𝑟!(𝑛−𝑟)!
+                                 𝑟
+           • Solve problems that involve combinations.
+           • Solve problems that involve combinations with restrictions including specific objects grouped
+             together and selection from multiple groups.
+           • Model and solve problems that involve permutations and combinations including probability
+             problems, with and without technology.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                Units
+General senior syllabus | March 2026                                                Unit 1: Combinatorics, proof, vectors and matrices
+                                                             Page 16 of 52
+           Topic 2: Introduction to proof
+
+           Sub-topic: The nature of proof (5 hours)
+           • Use implication, converse, equivalence, negation, contrapositive.
+           • Use proof by contradiction.
+           • Use the symbols for implication ( ⇒ ), equivalence ( ⟺ ), and equality ( = ).
+           • Use the quantifiers ‘for all’ (∀) and ‘there exists’ (∃).
+           • Define and use set notation of number systems, including integers (ℤ), positive integers (ℤ+ ),
+             negative integers (ℤ− ), rational numbers (ℚ), irrational numbers (ℚ′ ), and real numbers (ℝ).
+           • Use the set notation symbol ‘is an element of’ (∈).
+           • Use examples and counterexamples.
+
+           Sub-topic: Rational and irrational numbers (5 hours)
+           • Prove results involving integers, e.g. proving that the product of two consecutive odd numbers
+             is an odd number and 5𝑛2 + 3𝑛 + 6 ∀𝑛 ∈ ℤ is an even number.
+           • Express rational numbers as terminating or eventually recurring decimals and vice versa.
+           • Prove irrationality by contradiction.
+
+           Topic 3: Vectors in the plane
+
+           Sub-topic: Representing vectors in the plane by directed line segments (5 hours)
+           • Examine examples of vectors including displacement, velocity and force.
+           • Understand the difference between a scalar and a vector including distance and displacement,
+             speed and velocity, and magnitude of force and force.
+           • Define and use the magnitude and direction of a vector.
+
+           • Understand and use vector notation: 𝐴𝐵      𝑐 , 𝒅 and unit vector notation 𝒏
+                                                 ⃗⃗⃗⃗⃗ , ~                              ̂.
+           • Understand and use vector equality.
+           • Represent and use a scalar multiple of a vector.
+           • Use the triangle rule to represent the resultant vector from the sum and difference of two
+             vectors.
+           • Represent a vector in the plane using a combination of the sum, difference and scalar multiple
+             of other vectors.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                              Units
+General senior syllabus | March 2026                                              Unit 1: Combinatorics, proof, vectors and matrices
+                                                          Page 17 of 52
+           Sub-topic: Vectors in two dimensions (5 hours)
+                                                                          𝑥
+           • Use ordered pair notation (𝑥, 𝑦) and column vector notation (𝑦) to represent a position vector
+               in two dimensions.
+           • Calculate the magnitude and direction of a vector.
+                           𝑎1
+               ▪ |𝒂| = |(𝑎 )| = √𝑎1 2 + 𝑎2 2
+                            2
+                                  𝑦
+                   ▪ tan(𝜃) = , 𝑥 ≠ 0
+                                  𝑥
+
+           • Calculate and use a unit vector, ̂
+                                              𝒏, in the plane.
+                             𝒏
+                   ▪ ̂
+                     𝒏 = |𝒏|
+
+           • Define and use unit vectors and the perpendicular unit vectors 𝒊̂ and 𝒋̂.
+           • Express a vector in Cartesian (component) form using the unit vectors 𝒊̂ and 𝒋̂.
+           • Understand and express a vector in the plane in polar form using the notation (𝑟, 𝜃).
+           • Convert between Cartesian form and polar form, with and without technology.
+           • Understand and use the Cartesian form and polar form of a vector.
+
+           Topic 4: Algebra of vectors in two dimensions
+
+           Sub-topic: Algebra of vectors in two dimensions (12 hours)
+           • Examine and use addition and subtraction of vectors in Cartesian form.
+           • Define and use multiplication by a scalar of a vector in Cartesian form.
+           • Determine a vector between two points.
+           • Define and use a vector representing a section of a line segment, including the midpoint of a
+             line segment.
+           • Define and use the scalar (dot) product.
+                   ▪ 𝒂 ⋅ 𝒃 = |𝒂||𝒃| cos(𝜃)
+                      𝑎1     𝑏
+                   ▪ (𝑎 ) ⋅ ( 1 ) = 𝑎1 𝑏1 + 𝑎2 𝑏2
+                       2     𝑏2
+           • Examine properties of parallel and perpendicular vectors and determine if two vectors are
+             parallel or perpendicular.
+           • Define and use scalar and vector projections of vectors.
+                                                                    ̂
+                   ▪ scalar projection of 𝒂 on 𝒃 : |𝒂| cos(𝜃) = 𝒂 ⋅ 𝒃
+                                                                            𝒂⋅𝒃
+                   ▪ vector projection of 𝒂 on 𝒃 : |𝒂| cos(𝜃) ̂
+                                                              𝒃 = (𝒂 ⋅ ̂ ̂ = ( )𝒃
+                                                                       𝒃)𝒃    𝒃⋅𝒃
+
+           • Apply the scalar product to vectors expressed in Cartesian form.
+           • Resolve vectors into 𝒊̂ and 𝒋̂ components.
+           • Model and solve problems that involve displacement, force, velocity and relative velocity using
+             the above concepts.
+           • Model and solve problems that involve motion of a body in equilibrium situations, including
+             vector applications related to smooth inclined planes (excluding situations with pulleys and
+             connected bodies).
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                Units
+General senior syllabus | March 2026                                                Unit 1: Combinatorics, proof, vectors and matrices
+                                                           Page 18 of 52
+           Topic 5: Matrices
+
+           Sub-topic: Matrix arithmetic and algebra (11 hours)
+           • Understand the matrix definition and notation.
+           • Define and use addition and subtraction of matrices, scalar multiplication, matrix multiplication,
+             multiplicative identity and multiplicative inverse.
+           • Use matrix algebra properties, including
+                   ▪ 𝑨+𝑩=𝑩+𝑨                      (commutative law for addition)
+                   ▪ 𝑨+0=𝑨                        (additive identity)
+                   ▪ 𝑨 + (−𝑨) = 0                 (additive inverse)
+                   ▪ 𝑨𝑰 = 𝑨 = 𝑰𝑨                  (multiplicative identity)
+                   ▪ 𝑨𝑨−1 = 𝑰 = 𝑨−1 𝑨             (multiplicative inverse)
+                   ▪ 𝑨(𝑩 + 𝑪) = 𝑨𝑩 + 𝑨𝑪 (left distributive law)
+                   ▪ (𝑩 + 𝑪)𝑨 = 𝑩𝑨 + 𝑪𝑨 (right distributive law)
+           • Recognise that matrix multiplication in general is not commutative.
+           • Calculate the determinant and multiplicative inverse of 2 × 2 matrices, with and without
+             technology.
+                             𝑎         𝑏
+                   ▪ If 𝑨 = [            ] then det(𝑨) = 𝑎𝑑 − 𝑏𝑐
+                              𝑐        𝑑
+                            𝑎          𝑏 −1    1     𝑑    −𝑏
+                   ▪ 𝑨−1 = [             ] =       [         ] , det(𝑨) ≠ 0
+                             𝑐         𝑑     det(𝑨) −𝑐    𝑎
+           • Use matrix algebra to solve matrix equations that involve matrices of up to dimension 2 × 2,
+             including those of the form 𝑨𝑿 = 𝑩, 𝑿𝑨 = 𝑩 and 𝑨𝑿 + 𝑩𝑿 = 𝑪, with and without technology.
+           • Model and solve problems that involve matrices of up to dimension 2 × 2, including the
+             solution of systems of linear equations, with and without technology.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                               Units
+General senior syllabus | March 2026                                               Unit 1: Combinatorics, proof, vectors and matrices
+                                                                   Page 19 of 52
+           Unit 2: Complex numbers, further proof,
+           trigonometry, functions and transformations
+           In Unit 2, students will develop the mathematical understandings and skills to solve problems
+           relating to:
+           • Topic 1: Complex numbers
+           • Topic 2: Complex arithmetic and algebra
+           • Topic 3: Circle and geometric proofs.
+           • Topic 4: Trigonometry and functions
+           • Topic 5: Matrices and transformations.
+           Complex numbers and Complex arithmetic and algebra introduce complex arithmetic, the
+           complex (Argand) plane, and complex algebra, including conjugate roots. Circle proof provides
+           the opportunity to summarise and extend students’ studies in circles and deductive Euclidean
+           geometry. Geometric proof serves as an introduction to vector proofs in two-dimensional space
+           that will extend to three-dimensional space in Unit 3. Trigonometry and functions introduces the
+           absolute value function and reciprocal trigonometric functions, the sketching of graphs and builds
+           on the nature of proof using trigonometric identities. Matrices and transformations extends the
+           application of matrices to linear transformations in the plane.
+           These topics further develop the thinking techniques and mathematical rigour introduced in Unit
+           1, and provide opportunities to further nurture curiosity about the nature and utility of
+           mathematics.
+
+           Unit objectives
+           1.   Recall mathematical knowledge.
+           2.   Use mathematical knowledge.
+           3.   Communicate mathematical knowledge.
+           4.   Evaluate the reasonableness of solutions.
+           5.   Justify procedures and decisions.
+           6.   Solve mathematical problems.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                   Units
+General senior syllabus | March 2026                  Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+                                                        Page 20 of 52
+           Subject matter
+           Topic 1: Complex numbers
+
+           Sub-topic: Introduction to complex numbers (4 hours)
+           • Define the imaginary number 𝑖 as a root (solution) of the equation 𝑥 2 = −1.
+           • Define and use set notation of the number system for complex numbers (ℂ).
+           • Use complex numbers in the form 𝑎 + 𝑏𝑖 where 𝑎 and 𝑏 are the real and imaginary parts
+             (components) Re(𝑧) and Im(𝑧) of a complex number 𝑧.
+           • Determine and use complex conjugates.
+           • Perform complex-number arithmetic: addition, subtraction, multiplication and division, with and
+             without technology.
+
+           Sub-topic: The complex plane (the Argand plane) (6 hours)
+           • Sketch and use complex numbers as points in the complex plane with real and imaginary
+             parts as Cartesian coordinates.
+           • Understand and use addition of complex numbers as vector addition in the complex plane.
+           • Understand and use location of complex conjugates in the complex plane.
+           • Understand and use multiplication by a complex number as a linear transformation in the
+             complex plane.
+
+           Topic 2: Complex arithmetic and algebra
+
+           Sub-topic: Complex arithmetic using polar form (4 hours)
+           • Use the modulus |𝑧| of a complex number 𝑧 and the principal argument Arg(𝑧) of a non-zero
+             complex number 𝑧.
+
+                   ▪ |𝑧| = √𝑎2 + 𝑏2
+                                                 𝑏
+                   ▪ Arg(𝑧) = 𝜃, tan(𝜃) =            , −𝜋 < 𝜃 ≤ 𝜋, 𝑎 ≠ 0
+                                                 𝑎
+
+           • Understand the difference between the argument, arg(𝑧), and the principal argument, Arg(𝑧)
+             of a non-zero complex number 𝑧.
+                   ▪ arg(𝑧) = Arg(𝑧) + 2𝜋𝑛, 𝑛 ∈ ℤ
+           • Express a complex number in Cartesian form 𝑧 = 𝑎 + 𝑏𝑖 and polar form.
+                   ▪ 𝑧 = 𝑟 (cos(𝜃) + 𝑖 sin(𝜃)) or 𝑧 = 𝑟 cis(𝜃)
+           • Convert between Cartesian form and polar form.
+           • Understand and use multiplication, division of complex numbers in polar form and the
+             geometric interpretation of these.
+                   ▪ 𝑧1 𝑧2 = 𝑟1 𝑟2 cis(𝜃1 + 𝜃2 )
+                       𝑧1     𝑟
+                   ▪   𝑧2
+                            = 𝑟1 cis(𝜃1 − 𝜃2 )
+                                  2
+
+           • Sketch and use complex numbers in polar form as polar coordinates.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                            Units
+General senior syllabus | March 2026                           Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+                                                                 Page 21 of 52
+           Sub-topic: Subsets of the complex plane (the Argand plane) (3 hours)
+           •    Identify and sketch subsets of the complex plane determined by straight lines and circles, e.g.
+                             𝜋            3𝜋
+                |𝑧 − 3𝑖| < 4, ≤ Arg(𝑧) ≤ , Re(𝑧) > Im(𝑧) and |𝑧 − 1| = 2|𝑧 − 𝑖|.
+                                4          4
+
+
+           Sub-topic: Roots of real quadratic equations (4 hours)
+           • Determine complex conjugate solutions of real quadratic equations with real coefficients using
+             factorisation, completing the square and the quadratic formula, with and without technology.
+           • Determine and use linear factors of quadratic polynomials with real coefficients that involve the
+             complex conjugate root theorem, e.g. determine the coefficients of a real quadratic equation
+             given one complex root.
+
+           Topic 3: Circle and geometric proofs
+
+           Sub-topic: Circle properties and their proofs (6 hours)
+           • Prove the circle properties
+               – the angle at the centre subtended by an arc of a circle is twice the angle at the
+                 circumference subtended by the same arc
+               – an angle in a semicircle is a right angle
+               – angles at the circumference of a circle subtended by the same arc are equal
+               – the alternate segment theorem
+               – the opposite angles of a cyclic quadrilateral are supplementary and its converse
+               – a tangent drawn to a circle is perpendicular to the radius at the point of contact and its
+                 converse.
+           •    Solve problems finding unknown angles and lengths and prove further results using the circle
+                properties listed above.
+
+           Sub-topic: Geometric proofs using vectors (6 hours)
+           • Prove the diagonals of a parallelogram meet at right angles if and only if it is a rhombus.
+           • Prove midpoints of the sides of a quadrilateral join to form a parallelogram.
+           • Prove the sum of the squares of the lengths of a parallelogram’s diagonals is equal to the sum
+             of the squares of the lengths of the sides.
+           • Prove an angle in a semicircle is a right angle.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                     Units
+General senior syllabus | March 2026                    Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+                                                          Page 22 of 52
+           Topic 4: Trigonometry and functions
+
+           Sub-topic: Sketching graphs (3 hours)
+           • Use and apply the notation |𝑥| for the absolute value for the real number 𝑥 and the graph of
+             𝑦 = |𝑥|.
+           • Understand and use the relationship between the graph of 𝑦 = 𝑓(𝑥) and the graphs of
+                 1
+             𝑦=     , 𝑦 = |𝑓(𝑥)| and 𝑦 = 𝑓(|𝑥|).
+                    𝑓(𝑥)
+
+
+           Sub-topic: The reciprocal trigonometric functions, secant, cosecant and cotangent (3
+           hours)
+           • Define and use the reciprocal trigonometric functions to determine their simplified exact values
+             and sketch their graphs.
+
+           Sub-topic: Trigonometric identities (6 hours)
+           • Prove and apply the Pythagorean identities.
+                   ▪ sin2(𝐴) + cos 2(𝐴) = 1
+                   ▪ tan2(𝐴) + 1 = sec 2(𝐴)
+                   ▪ cot2(𝐴) + 1 = cosec 2 (𝐴)
+           • Prove and apply the angle sum, difference and double-angle identities for sines and cosines.
+                   ▪ sin(𝐴 + 𝐵) = sin(𝐴) cos(𝐵) + cos(𝐴) sin(𝐵)
+                   ▪ sin(𝐴 − 𝐵) = sin(𝐴) cos(𝐵) − cos(𝐴) sin(𝐵)
+                   ▪ cos(𝐴 + 𝐵) = cos(𝐴) cos(𝐵) − sin(𝐴) sin(𝐵)
+                   ▪ cos(𝐴 − 𝐵) = cos(𝐴) cos(𝐵) + sin(𝐴) sin(𝐵)
+                   ▪ sin(2𝐴) = 2 sin(𝐴) cos(𝐴)
+
+                   ▪ cos(2𝐴) = cos2 (𝐴) − sin2 (𝐴)
+
+                                  = 1 − 2 sin2 (𝐴)
+
+                                  = 2 cos2(𝐴) − 1
+
+           • Prove and apply the identities for products of sines and cosines expressed as sums and
+             differences.
+                                         1
+                   ▪ sin(𝐴) sin(𝐵) = 2 (cos(𝐴 − 𝐵) − cos(𝐴 + 𝐵))
+                                         1
+                   ▪ cos(𝐴) cos(𝐵) = (cos(𝐴 − 𝐵) + cos(𝐴 + 𝐵))
+                                         2
+                                         1
+                   ▪ sin(𝐴) cos(𝐵) = 2 (sin(𝐴 + 𝐵) + sin(𝐴 − 𝐵))
+                                         1
+                   ▪ cos(𝐴) sin(𝐵) = 2 (sin(𝐴 + 𝐵) − sin(𝐴 − 𝐵))
+
+           • Convert sums 𝑎 cos(𝑥) + 𝑏 sin(𝑥) to 𝑅 cos(𝑥 ± 𝛼) or 𝑅 sin(𝑥 ± 𝛼) and apply these to sketch
+             graphs.
+           • Model and solve problems that involve equations of the form 𝑎 cos(𝑥) + 𝑏 sin(𝑥) = 𝑐.
+           • Prove and apply multi-angle trigonometric identities up to angles of 4𝑥 using the identities
+             listed above, e.g. cos(4𝑥) = 8 cos 4(𝑥) − 8 cos 2(𝑥) + 1 and cosec(2𝑥) − cot(2𝑥) = tan(𝑥).
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                    Units
+General senior syllabus | March 2026                   Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+                                                         Page 23 of 52
+           Topic 5: Matrices and transformations
+
+           Sub-topic: Transformations in the plane (10 hours)
+           • Understand translations and their representation as column vectors.
+           • Use basic linear transformations: dilations of the form (𝑥, 𝑦) → (𝑎𝑥, 𝑏𝑦), rotations about the
+             origin and reflection in a line that passes through the origin, and the representations of these
+             transformations by 2 × 2 matrices.
+                                                                                                       𝑎            0
+                   ▪ dilation of factor 𝑎 parallel to the 𝑥-axis and factor 𝑏 parallel to the 𝑦-axis: [               ]
+                                                                                                        0           𝑏
+                                                                          cos(𝜃)           − sin(𝜃)
+                   ▪ rotation of angle 𝜃 anticlockwise about the origin: [                          ]
+                                                                           sin(𝜃)            cos(𝜃)
+                                                           cos(2𝜃)    sin(2𝜃)
+                   ▪ reflection in the line 𝑦 = 𝑥 tan(𝜃): [                   ]
+                                                            sin(2𝜃) − cos(2𝜃)
+           • Apply these transformations to points in the plane and polygons.
+           • Understand and use composition of linear transformations and the corresponding matrix
+             products.
+           • Understand and use inverses of linear transformations and the relationship with the matrix
+             inverse.
+           • Understand and use the relationship between the determinant and the effect of a linear
+             transformation on area.
+           • Determine geometric results by matrix multiplications, e.g. showing that the combined effect of
+             two reflections in lines through the origin is a rotation.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                        Units
+General senior syllabus | March 2026                       Unit 2: Complex numbers, further proof, trigonometry, functions and transformations
+                                                             Page 24 of 52
+           Unit 3: Further complex numbers, proof, vectors and
+           matrices
+           In Unit 3, students will develop the mathematical understandings and skills to solve problems
+           relating to:
+           • Topic 1: Further complex numbers
+           • Topic 2: Mathematical induction and trigonometric proofs
+           • Topic 3: Vectors in two and three dimensions
+           • Topic 4: Vector calculus
+           • Topic 5: Further matrices.
+           Unit 1 introduced vectors with a focus on vectors in two-dimensional space, matrices with a focus
+           on basic operations and matrix algebra properties that involve matrices of up to dimension 2 × 2.
+           In Unit 3, students study three-dimensional vectors, are introduced to Cartesian equations, vector
+           equations and equations of planes, enabling students to solve geometric problems, and explore
+           applications of matrices beyond dimension 2 × 2. Vector calculus extends students’ knowledge of
+           calculus from Mathematical Methods and allows them to apply calculus to solve problems
+           involving motion in two- and three-dimensional space.
+           Unit 2 introduced complex numbers; Unit 3 extends the study of complex numbers to include
+           complex arithmetic using polar form and roots of complex numbers. Mathematical induction and
+           trigonometric proofs continue the developmental concept of proof from Units 1 and 2.
+           These topics build on prior knowledge to enable a greater depth of analytical thinking and
+           metacognition.
+
+           Unit objectives
+           1.   Recall mathematical knowledge.
+           2.   Use mathematical knowledge.
+           3.   Communicate mathematical knowledge.
+           4.   Evaluate the reasonableness of solutions.
+           5.   Justify procedures and decisions.
+           6.   Solve mathematical problems.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                              Units
+General senior syllabus | March 2026                                    Unit 3: Further complex numbers, proof, vectors and matrices
+                                                        Page 25 of 52
+           Subject matter
+           Topic 1: Further complex numbers
+
+           Sub-topic: Complex arithmetic using polar form (3 hours)
+           • Prove complex number identities involving modulus and argument, e.g.
+             𝑧 𝑧̅ = |𝑧|2, |𝑧1 | |𝑧2 | = |𝑧1 𝑧2| and arg(𝑧1 𝑧2 ) = arg(𝑧1 ) + arg(𝑧2 ).
+           • Use De Moivre’s theorem for integral powers.
+                   ▪ 𝑧 𝑛 = 𝑟 𝑛 cis (𝑛𝜃)
+
+           Sub-topic: Roots of complex numbers (3 hours)
+           • Determine and examine the 𝑛th roots of unity and their location on the unit circle.
+           • Determine and examine the 𝑛th roots of complex numbers and their location in the complex
+             plane.
+
+           Sub-topic: Factorisation of polynomials (5 hours)
+           • Apply the factor theorem and the remainder theorem for polynomials.
+           • Understand and use the complex conjugate root theorem for polynomials with real coefficients,
+             e.g. factorise a cubic polynomial with real coefficients given one factor.
+           • Solve polynomial equations over ℂ to order 4 including those with real and imaginary
+             coefficients, e.g. solve 𝑧 4 + 𝑧 3 − 𝑧 2 + 𝑧 − 2 = 0 and 𝑧 3 − 2𝑖 𝑧 2 + 𝑧 − 2𝑖 = 0.
+
+           Topic 2: Mathematical induction and trigonometric proofs
+
+           Sub-topic: Mathematical induction (8 hours)
+           • Understand the nature of inductive proof including the use of initial statement, assumption
+             statement, inductive step and conclusion.
+           • Use sigma notation (Σ) to represent a sum, e.g.
+
+
+
+                                          and
+           • Prove results for sums for any positive integer 𝑛.
+           • Prove divisibility results for any positive integer 𝑛.
+           • Prove De Moivre’s theorem for powers of positive integers.
+
+           Sub-topic: Trigonometric proofs using De Moivre’s theorem (2 hours)
+           • Prove multi-angle trigonometric identities up to angles of 4𝑥 by equating parts using the
+             binomial expansion and De Moivre’s theorem, e.g. cos(3𝑥) = 4 cos3(𝑥) − 3 cos(𝑥) and
+             sin(3𝑥) = 3 sin(𝑥) − 4 sin3 (𝑥).
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                 Units
+General senior syllabus | March 2026                                       Unit 3: Further complex numbers, proof, vectors and matrices
+                                                           Page 26 of 52
+           Topic 3: Vectors in two and three dimensions
+
+           Sub-topic: Vectors in three dimensions (3 hours)
+           • Use Cartesian coordinates for three-dimensional space, including plotting points.
+                                                                               𝑥
+           • Use ordered triple notation (𝑥, 𝑦, 𝑧) and column vector notation (𝑦) to represent a position
+                                                                               𝑧
+             vector in three dimensions.
+           • Calculate the magnitude of a vector
+                             𝑎1
+                   ▪ |𝒂| = |(𝑎2 )| = √𝑎1 2 + 𝑎2 2 + 𝑎3 2
+                             𝑎3
+           • Calculate and use a unit vector, ̂
+                                              𝒏 , in three-dimensional space.
+                             𝒏
+                   ▪ ̂
+                     𝒏 = |𝒏|
+
+                                                                                       ̂.
+           • Define and use unit vectors and the perpendicular unit vectors 𝒊̂, 𝒋̂ and 𝒌
+                                                                                              ̂.
+           • Express a vector in Cartesian (component) form using the unit vectors 𝒊̂, 𝒋̂ and 𝒌
+           • Define and use the altitude angle 𝜑.
+
+           Sub-topic: Algebra of vectors in three dimensions (3 hours)
+           • Examine and use addition and subtraction of vectors in Cartesian form.
+           • Use multiplication by a scalar of a vector in Cartesian form.
+           • Determine a vector between two points.
+           • Use a vector representing a section of a line segment, including the midpoint of a line
+             segment.
+           • Use the scalar (dot) product.
+                   ▪ 𝒂 ⋅ 𝒃 = |𝒂||𝒃| cos(𝜃)
+                      𝑎1      𝑏1
+                   ▪ (𝑎2 ) ⋅ (𝑏2 ) = 𝑎1 𝑏1 + 𝑎2 𝑏2 + 𝑎3 𝑏3
+                      𝑎3      𝑏3
+           • Examine properties of parallel and perpendicular vectors and determine if two vectors are
+             parallel or perpendicular.
+           • Use scalar and vector projections of vectors.
+                                                                    ̂
+                   ▪ scalar projection of 𝒂 on 𝒃 : |𝒂| cos(𝜃) = 𝒂 ⋅ 𝒃
+                                                                                 𝒂⋅𝒃
+                   ▪ vector projection of 𝒂 on 𝒃 : |𝒂| cos(𝜃) ̂
+                                                              𝒃 = (𝒂 ⋅ ̂ ̂ = ( )𝒃
+                                                                       𝒃)𝒃    𝒃⋅𝒃
+
+           • Apply the scalar product to vectors expressed in Cartesian form.
+           • Model and solve problems that involve displacement, force, velocity and relative velocity using
+             the above concepts.
+           • Use vectors to prove geometric results in two dimensions (other than those listed in Unit 2
+             Topic 3) and in three dimensions.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                   Units
+General senior syllabus | March 2026                                         Unit 3: Further complex numbers, proof, vectors and matrices
+                                                             Page 27 of 52
+           Sub-topic: Vector and Cartesian equations (7 hours)
+           • Understand and use equations of spheres.
+                   ▪ equation of sphere: (𝑥 − ℎ)2 + (𝑦 − 𝑘)2 + (𝑧 − 𝑙)2 = 𝑟 2
+           • Use vector equations of curves in two or three dimensions involving a parameter, and
+             determine a ‘corresponding’ Cartesian equation in the two-dimensional case.
+           • Determine vector, parametric and Cartesian equations of straight lines and straight-line
+             segments given the position of two points, or equivalent information, in both two and three
+             dimensions.
+                   ▪ vector equation of line: 𝒓 = 𝒂 + 𝑡𝒅
+                   ▪ parametric equations of line: 𝑥 = 𝑎1 + 𝑡 𝑑1
+                                                   𝑦 = 𝑎2 + 𝑡 𝑑2
+                                                   𝑧 = 𝑎3 + 𝑡 𝑑3
+                                                       𝑥−𝑎1        𝑦−𝑎2       𝑧−𝑎3
+                   ▪ Cartesian equation of line:               =          =
+                                                         𝑑1         𝑑2         𝑑3
+
+           •    Define and use the vector (cross) product to determine a vector normal to a given plane, with
+                and without technology.
+                   ▪ 𝒂 × 𝒃 = |𝒂| |𝒃| sin(𝜃) ̂
+                                            𝒏
+                              𝑎1      𝑏1      𝑎2 𝑏3 − 𝑎3 𝑏2
+                              𝑎
+                   ▪ 𝒂 × 𝒃 = ( 2 ) × (𝑏2 ) = (𝑎3 𝑏1 − 𝑎1 𝑏3 )
+                              𝑎3      𝑏3      𝑎1 𝑏2 − 𝑎2 𝑏1
+           • Use vector methods in applications, including areas of shapes and determining vector and
+             Cartesian equations of a plane and of regions in a plane.
+                   ▪ vector equation of plane: 𝒓 ⋅ 𝒏 = 𝒂 ⋅ 𝒏
+                   ▪ Cartesian equation of plane: 𝑎𝑥 + 𝑏𝑦 + 𝑐𝑧 + 𝑑 = 0
+
+           Topic 4: Vector calculus
+
+           Sub-topic: Vector calculus (9 hours)
+           • Understand and use position of vectors as a function of time.
+           • Understand and use the Cartesian equation of a path given as a vector equation in two
+             dimensions, including circles, ellipses and hyperbolas.
+                   ▪ equation of circle: (𝑥 − ℎ)2 + (𝑦 − 𝑘)2 = 𝑟 2
+                                            (𝑥−ℎ)2       (𝑦−𝑘)2
+                   ▪ equation of ellipse:            +             =1
+                                             𝑎2           𝑏2
+                                               (𝑥−ℎ)2         (𝑦−𝑘)2                (𝑦−𝑘)2       (𝑥−ℎ)2
+                   ▪ equation of hyperbola:       𝑎2
+                                                          −    𝑏2
+                                                                         = 1 or      𝑎2
+                                                                                             −     𝑏2
+                                                                                                          =1
+
+           • Understand and use the position of two particles, each described as a vector function of time,
+             and determine if their paths cross or if the particles meet.
+           • Differentiate and integrate a vector function with respect to time.
+           • Use vector calculus to determine equations of motion of a particle travelling in a straight line
+             with both constant and variable acceleration.
+           • Apply vector calculus to model and solve problems that involve motion in a plane, including
+             projectile and circular motion, with and without technology.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                                   Units
+General senior syllabus | March 2026                                                         Unit 3: Further complex numbers, proof, vectors and matrices
+                                                                     Page 28 of 52
+           Topic 5: Further matrices
+
+           Sub-topic: Matrix algebra and systems of equations (5 hours)
+           • Calculate the determinant and multiplicative inverse of square matrices of any order, with
+             technology.
+           • Use the determinant to determine whether a square matrix of any order is singular or non-
+             singular.
+           • Use matrix algebra to solve matrix equations that involve matrices of beyond dimension 2 × 2,
+             including those of the form 𝑨𝑿 = 𝑩, 𝑿𝑨 = 𝑩 and 𝑨𝑿 + 𝑩𝑿 = 𝑪 , with technology.
+           • Model and solve problems that involve matrices of beyond dimension 2 × 2, including the
+             solution of systems of linear equations, with technology.
+           • Recognise the general form of a system of linear equations in several variables and use
+             Gaussian techniques of elimination on an augmented matrix to solve a system of linear
+             equations, with and without technology.
+           • Examine the three cases for solutions of systems of equations — a unique solution, no
+             solution and infinitely many solutions — and the geometric interpretation of a solution of a
+             system of equations with three variables including
+                   ▪ a unique solution
+
+
+
+
+                   ▪ no solution
+
+
+
+
+                   ▪ infinitely many solutions
+
+
+
+
+           Sub-topic: Applications of matrices (7 hours)
+           • Model and solve problems that involve real-life situations using matrices, including Dominance
+             and Leslie matrices.
+           • Investigate how matrices have been applied in other real-life situations, e.g. Leontief, Markov,
+             area, cryptology, eigenvectors and eigenvalues.
+           Note: The external examination may assess only Dominance and Leslie matrices.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                              Units
+General senior syllabus | March 2026                                    Unit 3: Further complex numbers, proof, vectors and matrices
+                                                        Page 29 of 52
+           Unit 4: Further calculus and statistical inference
+           In Unit 4, students will develop the mathematical understandings and skills to solve problems
+           relating to:
+           • Topic 1: Integration techniques
+           • Topic 2: Applications of integral calculus
+           • Topic 3: Rates of change and differential equations
+           • Topic 4: Modelling motion
+           • Topic 5: Statistical inference.
+           Integration techniques and Applications of integral calculus extend students’ knowledge of
+           calculus and examine the complex processes of integration techniques and their uses. Rates of
+           change and differential equations and Modelling motion further extend students’ knowledge of
+           calculus and examine the complex processes of calculus techniques. This knowledge is applied
+           to simple differential equations in contexts found in areas such as biology and kinematics. In this
+           unit, the students’ previous experience working with probability and statistics is drawn together in
+           the study of Statistical inference for the distribution of sample means and confidence intervals for
+           sample means. Learning in this unit reinforces the real-world applications of the mathematics
+           used throughout Specialist Mathematics. These topics build on the critical and creative thinking
+           techniques introduced in the previous units to facilitate the transition to further studies.
+
+           Unit objectives
+           1.   Recall mathematical knowledge.
+           2.   Use mathematical knowledge.
+           3.   Communicate mathematical knowledge.
+           4.   Evaluate the reasonableness of solutions.
+           5.   Justify procedures and decisions.
+           6.   Solve mathematical problems.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                 Units
+General senior syllabus | March 2026                                                Unit 4: Further calculus and statistical inference
+                                                          Page 30 of 52
+           Subject matter
+           Topic 1: Integration techniques
+
+           Sub-topic: Integration techniques (10 hours)
+                                                                                                1
+           • Integrate using the trigonometric identities sin2 (𝑥) = (1 − cos(2𝑥)),
+                                                                                                2
+                     2 (𝑥)     1
+               cos           = (1 + cos(2𝑥)), 1 + tan2(𝑥) = sec 2 (𝑥) and cot 2(𝑥) + 1 = cosec2 (𝑥).
+                               2
+
+           • Establish and use the formula ∫ sec 2(𝑥) 𝑑𝑥 = tan(𝑥) + 𝑐.
+           • Use substitution 𝑢 = 𝑔(𝑥) to integrate expressions of the form 𝑓(𝑔(𝑥))𝑔′ (𝑥).
+                                                             1                                      𝑓 ′ (𝑥)
+           • Establish and use the formula ∫                     𝑑𝑥 = ln|𝑥| + 𝑐 for 𝑥 ≠ 0 and ∫               𝑑𝑥 = ln|𝑓(𝑥)| + 𝑐
+                                                             𝑥                                      𝑓(𝑥)
+               for 𝑓(𝑥) ≠ 0.
+           • Understand and use the inverse trigonometric functions: arcsine, arccosine and arctangent.
+           • Use the derivative of the inverse trigonometric functions: arcsine, arccosine and arctangent.
+                        𝑑            𝑥         1
+                   ▪          sin−1 (𝑎) =
+                        𝑑𝑥                  √𝑎2 −𝑥 2
+                        𝑑            𝑥         −1
+                   ▪          cos−1 (𝑎) =
+                        𝑑𝑥                  √𝑎2 −𝑥2
+                        𝑑            𝑥        𝑎
+                   ▪    𝑑𝑥
+                              tan−1 (𝑎) = 𝑎2 +𝑥2
+                                                                   ±1               𝑎
+           • Integrate expressions of the form                              and             .
+                                                                 √𝑎2 −𝑥 2         𝑎2 +𝑥 2
+                               1                    𝑥
+                   ▪ ∫ 2 2 𝑑𝑥 = sin−1 ( ) + 𝑐
+                      √𝑎 −𝑥            𝑎
+                              −1                        𝑥
+                   ▪ ∫ 2 2 𝑑𝑥 = cos−1 ( ) + 𝑐
+                      √𝑎 −𝑥            𝑎
+                              𝑎                     𝑥
+                   ▪ ∫ 2 2 𝑑𝑥 = tan−1 ( ) + 𝑐
+                      𝑎 +𝑥             𝑎
+
+           • Use partial fractions for integration involving two distinct linear factors in the denominator, e.g.
+                  2𝑥−1
+               (𝑥+1)(𝑥−2)
+                         .
+
+           • Integrate by parts.
+                              𝑑𝑣                        𝑑𝑢
+                   ▪ ∫ 𝑢 𝑑𝑥 𝑑𝑥 = 𝑢𝑣 − ∫ 𝑣 𝑑𝑥 𝑑𝑥
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                                       Units
+General senior syllabus | March 2026                                                                      Unit 4: Further calculus and statistical inference
+                                                                             Page 31 of 52
+           Topic 2: Applications of integral calculus
+
+           Sub-topic: Applications of integral calculus (10 hours)
+           • Apply techniques from Unit 4 Topic 1 Sub-topic: Integration techniques to calculate areas
+             between curves determined by functions, with and without technology.
+           • Determine volumes of solids of revolution about either axis, with and without technology.
+                                                   𝑏
+                   ▪ about the 𝑥-axis: 𝑉 = 𝜋 ∫𝑎 [𝑓(𝑥)]2 𝑑𝑥
+                                                   𝑏
+                   ▪ about the 𝑦-axis: 𝑉 = 𝜋 ∫𝑎 [𝑓(𝑦)]2 𝑑𝑦
+
+           • Use Simpson’s rule to approximate an area and the value of a definite integral, with and
+             without technology.
+                        𝑏                  𝑤
+                   ▪ ∫𝑎 𝑓(𝑥) 𝑑𝑥 ≈ 3 [𝑓(𝑥0 ) + 4[𝑓(𝑥1) + 𝑓(𝑥3 )+ . . . ] + 2[𝑓(𝑥2 ) + 𝑓(𝑥4 )+ . . . ] + 𝑓(𝑥𝑛 )]
+                                       𝑏−𝑎
+                       where 𝑤 =       𝑛
+
+           • Understand and use the probability density function, 𝑓(𝑡) = 𝜆𝑒 −𝜆𝑡 for 𝑡 ≥ 0, of the exponential
+             random variable with parameter 𝜆 > 0.
+                               1
+                   ▪ mean: 𝜆
+                                               1
+                   ▪ standard deviation:
+                                               𝜆
+
+           • Model and solve problems that involve exponential random variables and associated
+             probabilities and quantiles, with and without technology.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                       Units
+General senior syllabus | March 2026                                                      Unit 4: Further calculus and statistical inference
+                                                              Page 32 of 52
+           Topic 3: Rates of change and differential equations
+
+           Sub-topic: Rates of change (3 hours)
+           • Use implicit differentiation to determine the gradient of curves whose equations are given in
+             implicit form.
+           • Model and solve related rates problems as instances of the chain rule including situations that
+             involve surface area and volume of cones, pyramids and spheres, with and without
+             technology.
+
+           Sub-topic: Differential equations (8 hours)
+           • Determine general and particular solutions of first-order differential equations of the form
+               𝑑𝑦                                                𝑑𝑦
+               𝑑𝑥
+                    = 𝑓(𝑥), differential equations of the form 𝑑𝑥 = 𝑔(𝑦) and differential equations of the form
+               𝑑𝑦
+                    = 𝑓(𝑥)𝑔(𝑦) using separation of variables.
+               𝑑𝑥
+
+           • Understand and use slope (direction or gradient) fields of a first-order differential equation.
+           • Model and solve problems using provided differential equations, including the logistic
+             equation, Newton’s law of cooling and radioactive decay, with and without technology.
+
+           Topic 4: Modelling motion
+
+           Sub-topic: Modelling motion (11 hours)
+           • Understand and use momentum, constant force, non-constant force, resultant force, action
+             and reaction.
+           • Understand and use motion of a body in non-equilibrium situations under concurrent forces.
+                                                       𝑑𝑣 𝑑2 𝑥        𝑑𝑣    𝑑   1
+           • Understand and use the expressions 𝑑𝑡 , 𝑑𝑡 2 , 𝑣 𝑑𝑥 and 𝑑𝑥 (2 𝑣 2 ) to represent the acceleration of
+               an object moving in a straight line.
+           • Model and solve problems that involve motion in a straight line with both constant and non-
+             constant acceleration, including simple harmonic motion, vertical motion under gravity with
+             and without air resistance, and motion of a body in non-equilibrium situations on a smooth
+             inclined plane (excluding situations with pulleys and connected bodies).
+                         𝑑2 𝑥
+                    ▪ If 𝑑𝑡 2 = −𝜔2 𝑥 then 𝑥 = 𝐴 sin(𝜔𝑡 + 𝛼) or 𝑥 = 𝐴 cos(𝜔𝑡 + 𝛽)
+
+                    ▪ 𝑣 2 = 𝜔2 (𝐴2 − 𝑥 2 )
+                            2𝜋
+                    ▪ 𝑇= 𝜔
+                            1
+                    ▪ 𝑓=𝑇
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                    Units
+General senior syllabus | March 2026                                                   Unit 4: Further calculus and statistical inference
+                                                            Page 33 of 52
+           Topic 5: Statistical inference
+
+           Sub-topic: Sample means (7 hours)
+
+           • Understand the concept of the sample mean 𝑋 as a random variable whose value varies
+             between samples where 𝑋 is a random variable with mean 𝜇 and the standard deviation 𝜎.
+           • Use repeated random sampling data from a variety of distributions and a range of sample
+               sizes to examine properties of the distribution of 𝑋 across samples of a fixed size 𝑛, including
+                                                          𝜎
+               its mean 𝜇, its standard deviation              (where 𝜇 and 𝜎 are the mean and standard deviation
+                                                          √𝑛
+               of 𝑋) and its approximate normality if 𝑛 is large.
+           • Recognise and use the link between the normal distribution of the sample mean and the
+                                                𝜎2
+               statistical notation 𝑋 ~ 𝑁 (𝜇,        ).
+                                                𝑛
+
+           • Use repeated random sampling data from a variety of distributions and a range of sample
+                                                                                    𝑋−𝜇
+               sizes to examine the approximate standard normality of                𝑠    for large samples (𝑛 ≥ 30),
+                                                                                    √𝑛
+               where 𝑠 is the sample standard deviation (Central limit theorem).
+           • Model and solve problems that involve sample means, with and without technology.
+
+           Sub-topic: Confidence intervals for means (6 hours)
+           • Understand the concept of an interval estimate for a parameter associated with a random
+             variable.
+                                                                                              𝑠              𝑠
+           • Understand and use the approximate confidence interval (𝑥̅ − 𝑧                       , 𝑥̅ + 𝑧        ), as an interval
+                                                                                             √𝑛              √𝑛
+               estimate for 𝜇, the population mean, where 𝑧 is the appropriate quantile for the standard
+               normal distribution.
+           • Understand and use the approximate margin of error.
+                               𝑠
+                   ▪ 𝐸=𝑧
+                              √𝑛
+
+           • Understand and use the relationship between margin of error, level of confidence and sample
+             size.
+           • Understand and use the concept that there are variations in confidence intervals between
+             samples and that most but not all confidence intervals contain 𝜇.
+           • Use 𝑥̅ and 𝑠 to estimate 𝜇 and 𝜎, to obtain approximate intervals covering desired proportions
+             of values of a normal random variable and compare with an approximate confidence interval
+             for 𝜇.
+           • Model and solve problems that involve interval estimates for sample means, with and without
+             technology.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                               Units
+General senior syllabus | March 2026                                                              Unit 4: Further calculus and statistical inference
+                                                                    Page 34 of 52
+           Assessment
+
+           Internal assessment 1: Problem-solving and
+           modelling task (20%)
+           Students provide a written response to a specific mathematical investigative scenario or context
+           using subject matter from at least one of the topics in Unit 3 or Unit 4. While students may
+           undertake some research, it is not the focus of this task.
+
+           Assessment objectives
+           1.   Recall mathematical knowledge.
+           2.   Use mathematical knowledge.
+           3.   Communicate mathematical knowledge.
+           4.   Evaluate the reasonableness of solutions.
+           5.   Justify procedures and decisions.
+           6.   Solve mathematical problems.
+
+           Specifications
+           This assessment may draw on subject matter from Units 3 and 4.
+           This task requires students to:
+           • independently respond to a specific mathematical investigative scenario or context that
+             highlights a real-life application of mathematics
+           • use relevant stimulus material involving the selected subject matter
+           • address all the stages of the problem-solving and mathematical modelling approach
+           • respond with a range of understanding and skills, such as using mathematical language,
+             appropriate calculations, tables of data, graphs and diagrams.
+
+           Conditions
+           • Students will use 3 hours of class time and their own time out of class to develop their
+             response.
+           • This is an individual task.
+           • Data may be provided or collected individually or collected in groups.
+           • Appendixes can include raw data, repeated calculations, evidence of authentication and
+             student notes (appendixes are not marked).
+           • Students must use technology, e.g. scientific calculator, graphics calculator, spreadsheet
+             program and/or other mathematical software; use of technology must go beyond simple
+             computation or word processing.
+
+           Response requirements
+           Written: up to 10 A4 pages, up to 2000 words
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                      Assessment
+General senior syllabus | March 2026                                      Internal assessment 1: Problem-solving and modelling task
+                                                        Page 35 of 52
+           Mark allocation
+             Criterion                                 Assessment objectives              Marks
+
+             Formulate                                 1, 5                               4
+
+             Solve                                     1, 2, 6                            7
+
+             Evaluate                                  4, 5                               5
+
+             Communicate                               3, 5                               4
+
+                                                                       Total marks:       20
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                    Assessment
+General senior syllabus | March 2026                    Internal assessment 1: Problem-solving and modelling task
+                                       Page 36 of 52
+           Instrument-specific marking guide (IA1)
+             Formulate                                                                                                Marks
+
+             The student response has the following characteristics:
+
+             • justified statements of important assumptions                                                          3–4
+             • justified statements of important observations
+             • justified mathematical translation of important aspects of the task
+
+             • statement of a relevant assumption                                                                     1–2
+             • statement of a relevant observation
+             • mathematical translation of an aspect of the task.
+
+             The student response does not match any of the descriptors above.                                        0
+
+
+             Solve                                                                                                    Marks
+
+             The student response has the following characteristics:
+
+             • accurate use of mathematical knowledge for important aspects of the task                               6–7
+             • efficient use of technology
+             • a complete solution
+
+             • use of mathematical knowledge for an important aspect of the task                                      4–5
+             • use of technology
+             • substantial progress towards a solution
+
+             • simplistic use of mathematical knowledge relevant to the task                                          2–3
+             • simplistic use of technology
+             • progress towards a solution
+
+             • inappropriate use of mathematical knowledge or technology.                                             1
+
+             The student response does not match any of the descriptors above.                                        0
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                                 Assessment
+General senior syllabus | March 2026                                                 Internal assessment 1: Problem-solving and modelling task
+                                                               Page 37 of 52
+             Evaluate                                                                                            Marks
+
+             The student response has the following characteristics:
+
+             • verified results                                                                                  4–5
+             • justified statements about the reasonableness of the solution by considering the
+               assumptions
+             • justified statements about the reasonableness of the solution by considering the
+               observations
+             • justified statements of relevant strengths of the solution
+             • justified statements of relevant limitations of the solution
+
+             • a verified result                                                                                 2–3
+             • statement about the reasonableness of the solution by considering an assumption or
+               observation
+             • statement of a relevant strength or relevant limitation of the solution
+
+             • statement about the reasonableness of a result or the solution                                    1
+             • statement of a strength or limitation.
+
+             The student response does not match any of the descriptors above.                                   0
+
+
+             Communicate                                                                                         Marks
+
+             The student response has the following characteristics:
+
+             • correct use of appropriate mathematical language                                                  3–4
+             • logical organisation of the response, which can be read independently of the task sheet
+             • justification of decisions using mathematical reasoning
+
+             • use of some appropriate mathematical language                                                     1–2
+             • adequate organisation of the response
+             • statement of a relevant decision.
+
+             The student response does not match any of the descriptors above.                                   0
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                            Assessment
+General senior syllabus | March 2026                                            Internal assessment 1: Problem-solving and modelling task
+                                                             Page 38 of 52
+           Internal assessment 2: Examination — short
+           response (15%)
+           Assessment objectives
+           1.    Recall mathematical knowledge.
+           2.    Use mathematical knowledge.
+           3.    Communicate mathematical knowledge.
+           4.    Evaluate the reasonableness of solutions.
+           5.    Justify procedures and decisions.
+           6.    Solve mathematical problems.
+
+           Specifications
+           The teacher provides an examination that:
+           • asks students to respond to a number of unseen short response questions
+           • representatively samples subject matter from any three of the five topics in Unit 3
+           • provides opportunities for both technology-free and technology-active responses
+           • may ask students to respond using single words, sentences or paragraphs
+           • may ask students to
+                – interpret unseen stimulus
+                – calculate using algorithms
+                – draw or label graphs, tables or diagrams
+                – use assumed knowledge from Units 1 and 2
+                – use assumed knowledge from Mathematical Methods.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                   Assessment
+General senior syllabus | March 2026                                         Internal assessment 2: Examination — short response
+                                                         Page 39 of 52
+           Question specifications
+           The examination must be aligned to the specifications provided in the table below.
+
+             Degree        Mark         Objectives    In these questions, students:
+             of            allocation
+             difficulty    (± 2%)
+
+             Simple        60%          Typically,    respond to situations where:
+             familiar                   these         • relationships and interactions are obvious and have few
+                                        questions       elements; and
+                                        focus on
+                                                      • all of the information to solve the problem is identifiable, that
+                                        Objectives
+                                                        is
+                                        1, 2 and 3.
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          These         respond to situations where:
+             familiar                   questions     • relationships and interactions have a number of elements,
+                                        can focus       such that connections are made with subject matter within
+                                        on any of       and/or across the domains of mathematics; and
+                                        the
+                                                      • all of the information to solve the problem is identifiable, that
+                                        objectives.
+                                                        is
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          Typically,    respond to situations where:
+             unfamiliar                 these         • relationships and interactions have a number of elements,
+                                        questions       such that connections are made with subject matter within
+                                        focus on        and/or across the domains of mathematics; and
+                                        Objectives
+                                                      • all the information to solve the problem is not immediately
+                                        4, 5 and 6.
+                                                        identifiable, that is
+                                                        - the required procedure is not clear from the way the
+                                                           problem is posed; and
+                                                        - in a context in which students have had limited prior
+                                                           experience.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                            Assessment
+General senior syllabus | March 2026                                                  Internal assessment 2: Examination — short response
+                                                             Page 40 of 52
+           Conditions
+           • This is an individual supervised task.
+           • The task may be delivered in two consecutive sessions only if
+               – questions in each session are unseen
+               – teaching or feedback is not provided between the sessions.
+           • Time allowed
+               – Perusal time: 5 minutes
+               – Working time: 90 minutes
+           • The teacher must provide the QCAA Specialist Mathematics formula book.
+           • Students
+               – are required to use technology
+               – must not bring notes into the examination.
+
+           Mark allocation
+             Criterion                                                    Assessment objectives             Marks
+
+             Foundational knowledge and problem-solving                   1, 2, 3, 4, 5, 6                  15
+
+                                                                                             Total marks:   15
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                      Assessment
+General senior syllabus | March 2026                                            Internal assessment 2: Examination — short response
+                                                          Page 41 of 52
+           Instrument-specific marking guide (IA2)
+             Foundational knowledge and problem-solving                                            Cut-off     Marks
+
+             The student response has the following characteristics:
+
+             • consistently correct recall and use of mathematical knowledge; authoritative and    > 93%       15
+               accurate communication of mathematical knowledge; astute evaluation of the
+               reasonableness of solutions; use of mathematical reasoning to correctly justify
+               procedures and decisions; and fluent application of mathematical knowledge to
+                                                                                                   > 87%       14
+               solve problems in a comprehensive range of simple familiar, complex familiar and
+               complex unfamiliar situations
+
+             • correct recall and use of mathematical knowledge; clear communication of            > 80%       13
+               mathematical knowledge; considered evaluation of the reasonableness of
+               solutions; use of mathematical reasoning to justify procedures and decisions; and
+               proficient application of mathematical knowledge to solve problems in simple        > 73%       12
+               familiar, complex familiar and complex unfamiliar situations
+
+             • thorough recall and use of mathematical knowledge; communication of                 > 67%       11
+               mathematical knowledge; evaluation of the reasonableness of solutions; use of
+               mathematical reasoning to justify procedures and decisions; and application of
+               mathematical knowledge to solve problems in simple familiar and complex             > 60%       10
+               familiar situations
+
+             • recall and use of mathematical knowledge; communication of mathematical             > 53%       9
+               knowledge; evaluation of the reasonableness of some solutions; some use of
+               mathematical reasoning; and some application of mathematical knowledge to
+                                                                                                   > 47%       8
+               make progress towards solving problems in simple familiar situations
+
+             • some recall and use of mathematical knowledge; and basic communication of           > 40%       7
+               mathematical knowledge
+                                                                                                   > 33%       6
+
+             • infrequent recall and use of mathematical knowledge; and basic communication        > 27%       5
+               of some mathematical knowledge
+                                                                                                   > 20%       4
+
+             • isolated recall and use of mathematical knowledge; and partial communication of     > 13%       3
+               rudimentary mathematical knowledge
+                                                                                                   > 7%        2
+
+             • isolated and inaccurate recall and use of mathematical knowledge; and disjointed    > 0%        1
+               and unclear communication of mathematical knowledge.
+
+             The student response does not match any of the descriptors above.                                 0
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                         Assessment
+General senior syllabus | March 2026                                               Internal assessment 2: Examination — short response
+                                                             Page 42 of 52
+           Internal assessment 3: Examination — short
+           response (15%)
+           Assessment objectives
+           1.    Recall mathematical knowledge.
+           2.    Use mathematical knowledge.
+           3.    Communicate mathematical knowledge.
+           4.    Evaluate the reasonableness of solutions.
+           5.    Justify procedures and decisions.
+           6.    Solve mathematical problems.
+
+           Specifications
+           The teacher provides an examination that:
+           • asks students to respond to a number of unseen short response questions
+           • representatively samples subject matter from any three of the five topics in Unit 4
+           • provides opportunities for both technology-free and technology-active responses
+           • may ask students to respond using single words, sentences or paragraphs
+           • may ask students to
+                – interpret unseen stimulus
+                – calculate using algorithms
+                – draw or label graphs, tables or diagrams
+                – use assumed knowledge from Units 1, 2 and 3
+                – use assumed knowledge from Mathematical Methods.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                   Assessment
+General senior syllabus | March 2026                                         Internal assessment 3: Examination — short response
+                                                         Page 43 of 52
+           Question specifications
+           The examination must be aligned to the specifications provided in the table below.
+
+             Degree        Mark         Objectives    In these questions, students:
+             of            allocation
+             difficulty    (± 2%)
+
+             Simple        60%          Typically,    respond to situations where:
+             familiar                   these         • relationships and interactions are obvious and have few
+                                        questions       elements; and
+                                        focus on
+                                                      • all of the information to solve the problem is identifiable, that
+                                        Objectives
+                                                        is
+                                        1, 2 and 3.
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          These         respond to situations where:
+             familiar                   questions     • relationships and interactions have a number of elements,
+                                        can focus       such that connections are made with subject matter within
+                                        on any of       and/or across the domains of mathematics; and
+                                        the
+                                                      • all of the information to solve the problem is identifiable, that
+                                        objectives.
+                                                        is
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          Typically,    respond to situations where:
+             unfamiliar                 these         • relationships and interactions have a number of elements,
+                                        questions       such that connections are made with subject matter within
+                                        focus on        and/or across the domains of mathematics; and
+                                        Objectives
+                                                      • all the information to solve the problem is not immediately
+                                        4, 5 and 6.
+                                                        identifiable, that is
+                                                        - the required procedure is not clear from the way the
+                                                           problem is posed; and
+                                                        - in a context in which students have had limited prior
+                                                           experience.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                            Assessment
+General senior syllabus | March 2026                                                  Internal assessment 3: Examination — short response
+                                                             Page 44 of 52
+           Conditions
+           • This is an individual supervised task.
+           • The task may be delivered in two consecutive sessions only if
+               – questions in each session are unseen
+               – teaching or feedback is not provided between the sessions.
+           • Time allowed
+               – Perusal time: 5 minutes
+               – Working time: 90 minutes
+           • The teacher must provide the QCAA Specialist Mathematics formula book.
+           • Students
+               – are required to use technology
+               – must not bring notes into the examination.
+
+           Mark allocation
+             Criterion                                                    Assessment objectives             Marks
+
+             Foundational knowledge and problem-solving                   1, 2, 3, 4, 5, 6                  15
+
+                                                                                             Total marks:   15
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                      Assessment
+General senior syllabus | March 2026                                            Internal assessment 3: Examination — short response
+                                                          Page 45 of 52
+           Instrument-specific marking guide (IA3)
+             Foundational knowledge and problem-solving                                            Cut-off     Marks
+
+             The student response has the following characteristics:
+
+             • consistently correct recall and use of mathematical knowledge; authoritative and    > 93%       15
+               accurate communication of mathematical knowledge; astute evaluation of the
+               reasonableness of solutions; use of mathematical reasoning to correctly justify
+               procedures and decisions; and fluent application of mathematical knowledge to
+                                                                                                   > 87%       14
+               solve problems in a comprehensive range of simple familiar, complex familiar and
+               complex unfamiliar situations
+
+             • correct recall and use of mathematical knowledge; clear communication of            > 80%       13
+               mathematical knowledge; considered evaluation of the reasonableness of
+               solutions; use of mathematical reasoning to justify procedures and decisions; and
+               proficient application of mathematical knowledge to solve problems in simple        > 73%       12
+               familiar, complex familiar and complex unfamiliar situations
+
+             • thorough recall and use of mathematical knowledge; communication of                 > 67%       11
+               mathematical knowledge; evaluation of the reasonableness of solutions; use of
+               mathematical reasoning to justify procedures and decisions; and application of
+               mathematical knowledge to solve problems in simple familiar and complex             > 60%       10
+               familiar situations
+
+             • recall and use of mathematical knowledge; communication of mathematical             > 53%       9
+               knowledge; evaluation of the reasonableness of some solutions; some use of
+               mathematical reasoning; and some application of mathematical knowledge to
+                                                                                                   > 47%       8
+               make progress towards solving problems in simple familiar situations
+
+             • some recall and use of mathematical knowledge; and basic communication of           > 40%       7
+               mathematical knowledge
+                                                                                                   > 33%       6
+
+             • infrequent recall and use of mathematical knowledge; and basic communication        > 27%       5
+               of some mathematical knowledge
+                                                                                                   > 20%       4
+
+             • isolated recall and use of mathematical knowledge; and partial communication of     > 13%       3
+               rudimentary mathematical knowledge
+                                                                                                   > 7%        2
+
+             • isolated and inaccurate recall and use of mathematical knowledge; and disjointed    > 0%        1
+               and unclear communication of mathematical knowledge.
+
+             The student response does not match any of the descriptors above.                                 0
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                         Assessment
+General senior syllabus | March 2026                                               Internal assessment 3: Examination — short response
+                                                             Page 46 of 52
+           External assessment: Examination — combination
+           response (50%)
+           External assessment is developed and marked by the QCAA. The external assessment in
+           Specialist Mathematics is common to all schools and administered under the same conditions, at
+           the same time, on the same day.
+
+           Assessment objectives
+           1.    Recall mathematical knowledge.
+           2.    Use mathematical knowledge.
+           3.    Communicate mathematical knowledge.
+           4.    Evaluate the reasonableness of solutions.
+           5.    Justify procedures and decisions.
+           6.    Solve mathematical problems.
+
+           Specifications
+           This examination:
+           • consists of two papers: Paper 1 — technology-free, Paper 2 — technology-active
+           • asks students to respond to a number of unseen questions relating to Units 3 and 4
+           • may ask students to respond using
+                – multiple choice
+                – single words, sentences or paragraphs
+           • may ask students to
+                – interpret unseen stimulus
+                – calculate using algorithms
+                – draw or label graphs, tables or diagrams
+                – use assumed knowledge from Units 1 and 2
+                – use assumed knowledge from Mathematical Methods.
+
+           Paper 1
+           • Weighted at 25%
+           • Contains short response and multiple choice questions
+           • Technology-free
+
+           Paper 2
+           • Weighted at 25%
+           • Contains short response and multiple choice questions
+           • Technology-active
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                    Assessment
+General senior syllabus | March 2026                                      External assessment: Examination — combination response
+                                                          Page 47 of 52
+           Question specifications
+           The examination will be aligned to the specifications provided in the table below.
+
+             Degree        Mark         Objectives    In these questions, students:
+             of            allocation
+             difficulty    (± 2%)
+
+             Simple        60%          Typically,    respond to situations where:
+             familiar                   these         • relationships and interactions are obvious and have few
+                                        questions       elements; and
+                                        focus on
+                                                      • all of the information to solve the problem is identifiable, that
+                                        Objectives
+                                                        is
+                                        1, 2 and 3.
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          These         respond to situations where:
+             familiar                   questions     • relationships and interactions have a number of elements,
+                                        can focus       such that connections are made with subject matter within
+                                        on any of       and/or across the domains of mathematics; and
+                                        the
+                                                      • all of the information to solve the problem is identifiable, that
+                                        objectives.
+                                                        is
+                                                        - the required procedure is clear from the way the problem is
+                                                           posed, or
+                                                        - in a context that has been a focus of prior learning
+
+             Complex       20%          Typically,    respond to situations where:
+             unfamiliar                 these         • relationships and interactions have a number of elements,
+                                        questions       such that connections are made with subject matter within
+                                        focus on        and/or across the domains of mathematics; and
+                                        Objectives
+                                                      • all the information to solve the problem is not immediately
+                                        4, 5 and 6.
+                                                        identifiable, that is
+                                                        - the required procedure is not clear from the way the
+                                                           problem is posed; and
+                                                        - in a context in which students have had limited prior
+                                                           experience.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                          Assessment
+General senior syllabus | March 2026                                            External assessment: Examination — combination response
+                                                             Page 48 of 52
+           Conditions
+           Paper 1
+           • Mode: written
+           • Time allowed
+               – Perusal time: 5 minutes
+               – Working time: 90 minutes
+           • The QCAA provides the QCAA Specialist Mathematics formula book.
+           • Students must not bring notes, calculators, technology or other resources into the
+             examination.
+
+           Paper 2
+           • Mode: written
+           • Time allowed
+               – Perusal time: 5 minutes
+               – Working time: 90 minutes
+           • The QCAA provides the QCAA Specialist Mathematics formula book.
+           • Students
+               – may use a handheld QCAA-approved graphics calculator (no CAS functionality) and/or a
+                 handheld QCAA-approved scientific calculator
+               – must not bring notes or other resources into the examination.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                                  Assessment
+General senior syllabus | March 2026                                    External assessment: Examination — combination response
+                                                        Page 49 of 52
+           Glossary
+           The syllabus glossary is available at www.qcaa.qld.edu.au/downloads/senior-
+           qce/common/snr_glossary_cognitive_verbs.pdf.
+
+
+
+           References
+           Agarwal, PK, Roediger, HL, McDaniel, MA & McDermott, KB 2020, ‘How to use retrieval practice
+             to improve learning’, Retrieval Practice,
+             http://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf.
+           Australian Curriculum, Assessment and Reporting Authority (ACARA) 2015, Australian
+             Curriculum Senior Secondary Curriculum: Specialist Mathematics, Version 7.5, http://v7-
+             5.australiancurriculum.edu.au/seniorsecondary/mathematics/specialist-
+             mathematics/curriculum/seniorsecondary.
+           ——2015a, Australian Curriculum Senior Secondary Curriculum: General Mathematics Glossary,
+            Version 7.5, http://v7-5.australiancurriculum.edu.au/seniorsecondary/mathematics/general-
+            mathematics/curriculum/seniorsecondary.
+           Birnbaum, MS, Kornell, N, Ligon Bjork, E & Bjork, RA 2013, ‘Why interleaving enhances inductive
+              learning: The roles of discrimination and retrieval’, Memory & Cognition, vol. 41, pp. 392–402,
+              https://doi.org/10.3758/s13421-012-0272-7.
+           Blum, W, Galbraith, PL, Henn, HW & Niss, M 2007, Modelling and applications in mathematics
+              education, Springer, New York.
+           Carpenter, SK & Agarwal, PK 2020, ‘How to use spaced retrieval practice to boost learning’,
+             Retrieval Practice, http://pdf.retrievalpractice.org/SpacingGuide.pdf.
+           Chen, O, Paas, F, & Sweller, J 2021, ‘Spacing and interleaving effects require distinct theoretical
+             bases: A systematic review testing the cognitive load and discriminative-contrast hypotheses’,
+             Educational Psychology Review, vol. 33, pp. 1499–1522, https://doi.org/10.1007/s10648-021-
+             09613-w.
+           Ebbinghaus, H 1885, Memory: A contribution to experimental psychology, HA Ruger & CE
+             Bussenius (trans.), Columbia University, New York, 1913,
+             https://psychclassics.yorku.ca/Ebbinghaus/index.htm.
+           Galbraith, P 1989, ‘From applications to modelling’, in D Blane & M Evans (eds), Mathematical
+             modelling for the senior years, The Mathematical Association of Victoria, Parkville, pp. 78–86.
+           Geiger, V, Faragher, R & Goos, M 2010, ‘CAS-enabled technologies as “agents provocateurs” in
+             teaching and learning mathematical modelling in secondary school classrooms’, Mathematics
+             Education Research Journal, vol. 22, no. 2, pp. 48–68, doi.org/10.1007/BF03217565.
+           Goos, M 2014, ‘Mathematics classroom assessment’, Encyclopedia of Mathematics Education,
+             Springer, Dordrecht, pp. 413–417.
+           ——Geiger, V & Dole, S 2012, ‘Auditing the numeracy demands of the middle years curriculum’,
+            Mathematics Education: Expanding horizons — Proceedings of the 35th annual conference of
+            the Mathematics Education Research Group of Australasia, Mathematics Education Research
+            Group of Australasia, Singapore, pp. 314–321.
+           Grønmo, LS, Lindquist, M, Arora, A & Mullis, IVS 2015, ‘TIMSS 2015 Mathematics Framework’,
+             TIMSS 2015 Assessment Frameworks, International Study Center, Boston,
+             http://timssandpirls.bc.edu/timss2015/frameworks.html.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                      Glossary, References,
+General senior syllabus | March 2026                                                                        Version history
+                                                         Page 50 of 52
+           Kaiser, G, Blum, W, Ferri, RB & Stillman, G (eds) 2011, Trends in teaching and learning of
+              mathematical modelling: ICTMA14, International perspectives on the teaching and learning of
+              mathematical modelling, vol. 1, Springer, Vancouver.
+           Kilpatrick, J, Swafford, J, & Bradford, F (eds) 2001, Adding It Up: Helping children learn
+              mathematics, National Academies Press, Washington, DC.
+           Marzano, RJ & Kendall, JS 2008, Designing and Assessing Educational Objectives: Applying the
+             new taxonomy, Corwin Press, USA.
+           ——2007, The New Taxonomy of Educational Objectives, 2nd edn, Corwin Press, USA.
+           Mevarech, Z, & Kramarski, B 2014, Critical Maths for Innovative Societies: The role of
+             metacognitive pedagogies, OECD Publishing, Paris.
+           Norton, S, & O’Connor, BR 2016, Literature review for senior syllabus revisions: Mathematics,
+             Queensland Curriculum and Assessment Authority, Brisbane.
+           OECD 2015, PISA 2015 Mathematics Framework, OECD Publishing, Paris.
+           ——2012, ‘Numeracy’, in Literacy, Numeracy and Problem Solving in Technology-Rich
+            Environments — Framework for the OECD Survey of Adult Skills, OECD,
+            doi.org/10.1787/9789264128859-en.
+           ——2003, PISA 2003 Assessment Framework, OECD Publishing, Paris.
+           Polya, G 1957, How to Solve It: A new aspect of mathematical method, 2nd edn, Princeton
+              University Press, NJ.
+           Rohrer, D 2012, ‘Interleaving helps students distinguish among similar concepts’, Educational
+             Psychology Review, vol. 24, pp. 355–367, http://dx.doi.org/10.1007/s10648-012-9201-3.
+           Shafer, MC & Foster, S 1997, ‘What’s up on the web: The changing face of assessment’,
+             Principled Practice in Mathematics and Science Education: Fall 1997, vol. 1, no. 2, pp. 1–8,
+             http://ncisla.wceruw.org/publications/index.html#newsletters.
+           Stacey, K 2015, ‘The Real World and the Mathematical World’, in Stacey, K & Turner, R (eds),
+              Assessing Mathematical Literacy: The PISA experience, Springer, Switzerland, pp. 57–84,
+              doi.org/10.1007/978-3-319-10121-7_3.
+           Steen, LA 2001, ‘The case for quantitative literacy’, in Mathematics and Democracy: The case for
+              quantitative literacy, National Council on Education and the Disciplines, Princeton, NJ, pp. 1–
+              22.
+           Stillman, G, Galbraith, P, Brown, J & Edwards, I 2007, ‘A framework for success in implementing
+               mathematical modelling in the secondary classroom’, Mathematics: Essential research,
+               essential practice, vol. 2, pp. 688–697.
+           ——Kaiser, G, Blum, W and Brown, JP (eds) 2013, Teaching Mathematical Modelling:
+            Connecting to research and practice, Springer, Vancouver.
+           Sullivan, P 2011, Teaching Mathematics: Using research-informed strategies, ACER Press,
+              Camberwell, Vic.
+           Taylor, K & Rohrer, D 2010, ‘The effects of interleaved practice’, Applied Cognitive Psychology,
+             vol. 24, issue 6, pp. 837–848, https://psycnet.apa.org/doi/10.1002/acp.1598.
+           Verhage, H & de Lange, J 1997, ‘Mathematics education and assessment’, Pythagoras, vol. 42,
+             pp. 14–20.
+           Webb, DC 2009, ‘Designing professional development for assessment’, Educational Designer,
+             vol. 1, no. 2, pp. 1–26, www.educationaldesigner.org/ed/volume1/issue2/article6.
+           White, P, Sullivan, P, Warren, E & Quinlan, C 2000, ‘To investigate or not to investigate? The use
+             of content-specific open-ended tasks’, The Australian Mathematics Teacher, vol. 56, no. 2, pp.
+             6–9, http://aamt.edu.au/Journals/Journals-Index/The-Australian-Mathematics-Teacher/AMT-
+             56-2-6.
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                        Glossary, References,
+General senior syllabus | March 2026                                                                          Version history
+                                                         Page 51 of 52
+           Version history
+             Version      Date of change   Information
+
+             1.0          January 2024     Released for familiarisation and planning (with implementation
+                                           starting in 2025)
+
+             1.1          July 2024        Released for implementation with minor updates
+
+             1.2          October 2024     ISBN removed and minor updates
+
+             1.3          January 2026     File metadata changes to support new Syllabuses application
+                                           functionality
+
+             1.4          March 2026       For subject matter in Unit 4 Topic 1:
+                                           • integrated expressions changed to add ‘dx’
+
+
+
+
+Specialist Mathematics 2025 v1.4                                                                            Glossary, References,
+General senior syllabus | March 2026                                                                              Version history
+                                                         Page 52 of 52
+

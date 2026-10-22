@@ -1,0 +1,2301 @@
+{
+  "misconceptions": [
+    {
+      "misconception_id": "MC_M10A_expand_square_01",
+      "name": "Squaring a binomial term-by-term",
+      "description": "Student expands $(a+b)^2$ as $a^2+b^2$ and misses the middle term.",
+      "student_facing_explanation": "Squaring a binomial means multiplying the whole binomial by itself: $(a+b)^2=a^2+2ab+b^2$.",
+      "topic_ids": [
+        "AC9M10A01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "binomial|square|middle term",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10A_exponent_base_confusion_01",
+      "name": "Confusing base and exponent",
+      "description": "Student changes the base or exponent incorrectly when solving exponential equations.",
+      "student_facing_explanation": "In an exponential relation, the base and exponent have different roles. Rewrite using common bases or logarithms only when the operation is valid.",
+      "topic_ids": [
+        "AC9M10A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "exponential|base|exponent",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10A_growth_decay_linear_01",
+      "name": "Treating exponential growth as linear",
+      "description": "Student adds a constant amount each step instead of multiplying by a growth or decay factor.",
+      "student_facing_explanation": "Linear change adds a constant difference. Exponential change multiplies by a constant factor each period.",
+      "topic_ids": [
+        "AC9M10A04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "growth|decay|linear|exponential",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10A_simultaneous_elimination_sign_01",
+      "name": "Elimination sign error",
+      "description": "Student adds or subtracts simultaneous equations without matching signs correctly.",
+      "student_facing_explanation": "Before eliminating a variable, check whether coefficients are equal or opposite. Choose addition or subtraction accordingly.",
+      "topic_ids": [
+        "AC9M10A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "simultaneous|elimination|sign",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10M_composite_double_count_01",
+      "name": "Double-counting composite faces",
+      "description": "Student adds surface areas of solids without removing hidden or shared faces.",
+      "student_facing_explanation": "For composite solids, include only exposed faces. Shared internal faces should not be counted in external surface area.",
+      "topic_ids": [
+        "AC9M10M01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "composite|surface area|hidden face",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10M_log_scale_linear_01",
+      "name": "Reading logarithmic scales linearly",
+      "description": "Student treats equal distances on a logarithmic scale as equal additive changes.",
+      "student_facing_explanation": "On a logarithmic scale, equal distances represent equal multiplicative factors, not equal additions.",
+      "topic_ids": [
+        "AC9M10M02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "logarithmic scale|linear scale|factor",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10M_relative_error_units_01",
+      "name": "Relative error with units",
+      "description": "Student gives relative or percentage error with measurement units, or uses absolute error as percentage error.",
+      "student_facing_explanation": "Absolute error has units. Relative error is a ratio, and percentage error is that ratio multiplied by 100%.",
+      "topic_ids": [
+        "AC9M10M04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "relative error|percentage error|absolute error",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10M_trig_angle_reference_01",
+      "name": "Wrong angle of elevation/depression reference",
+      "description": "Student measures the angle from the vertical or wrong horizontal line in navigation/elevation problems.",
+      "student_facing_explanation": "Angles of elevation and depression are measured from a horizontal line. Draw the reference line before choosing a trig ratio.",
+      "topic_ids": [
+        "AC9M10M03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "angle of elevation|angle of depression|horizontal",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10N_error_bounds_01",
+      "name": "Ignoring error bounds",
+      "description": "Student treats a rounded measurement as exact and does not consider the possible interval of true values.",
+      "student_facing_explanation": "A rounded value represents a range of possible true values. Use lower and upper bounds when accuracy affects the conclusion.",
+      "topic_ids": [
+        "AC9M10N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "error bound|upper bound|lower bound",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10N_rounding_each_step_01",
+      "name": "Rounding at every step",
+      "description": "Student rounds intermediate values repeatedly, causing accumulated approximation error.",
+      "student_facing_explanation": "Keep extra digits during working and round only the final answer unless the context requires otherwise. Repeated rounding can move the answer away from the true value.",
+      "topic_ids": [
+        "AC9M10N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "rounding|approximation|intermediate",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10N_significant_figures_precision_01",
+      "name": "Confusing significant figures and decimal places",
+      "description": "Student reports precision using decimal places when significant figures are required, or the reverse.",
+      "student_facing_explanation": "Decimal places count digits after the decimal point. Significant figures count meaningful digits from the first non-zero digit.",
+      "topic_ids": [
+        "AC9M10N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "significant figures|decimal places|precision",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10P_conditional_reversal_01",
+      "name": "Reversing conditional probability",
+      "description": "Student treats $P(A|B)$ as the same as $P(B|A)$.",
+      "student_facing_explanation": "Conditional probability depends on what is already known. $P(A|B)$ and $P(B|A)$ usually have different denominators.",
+      "topic_ids": [
+        "AC9M10P01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "conditional probability|given|reverse",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10P_independent_after_condition_01",
+      "name": "Assuming independence after conditioning",
+      "description": "Student assumes events remain independent after extra information is given.",
+      "student_facing_explanation": "Conditioning can change the sample space and can make probabilities different from the original probabilities.",
+      "topic_ids": [
+        "AC9M10P01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "independent|condition|sample space",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10P_simulation_condition_filter_01",
+      "name": "Not filtering simulation trials by condition",
+      "description": "Student estimates a conditional probability using all simulation trials rather than only trials satisfying the condition.",
+      "student_facing_explanation": "For conditional probability simulations, first filter to trials where the condition occurred, then count the target event within that group.",
+      "topic_ids": [
+        "AC9M10P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "simulation|conditional|filter",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10SP_algorithm_case_missing_01",
+      "name": "Missing cases in spatial algorithm",
+      "description": "Student writes an algorithm that works for one diagram but omits special cases or boundary conditions.",
+      "student_facing_explanation": "A spatial algorithm should handle all relevant cases, including boundary cases, not just the sample diagram.",
+      "topic_ids": [
+        "AC9M10SP03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "algorithm|case|boundary",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10SP_network_edge_vertex_01",
+      "name": "Confusing vertices and edges in networks",
+      "description": "Student counts regions, paths or intersections as edges/vertices inconsistently.",
+      "student_facing_explanation": "Vertices are nodes; edges are connections between nodes. Define them consistently before applying network rules.",
+      "topic_ids": [
+        "AC9M10SP02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "network|vertex|edge",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10SP_proof_assumption_01",
+      "name": "Assuming what must be proved",
+      "description": "Student starts a deductive geometry proof by assuming the target conclusion.",
+      "student_facing_explanation": "A proof must start from given facts or established theorems, then logically derive the conclusion.",
+      "topic_ids": [
+        "AC9M10SP01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "proof|assume|deductive",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10ST_correlation_causation_01",
+      "name": "Correlation treated as causation",
+      "description": "Student claims one variable causes another just because a scatterplot shows association.",
+      "student_facing_explanation": "Association does not prove causation. Consider confounding variables, study design and context before making causal claims.",
+      "topic_ids": [
+        "AC9M10ST03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "correlation|causation|association",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10ST_media_bias_01",
+      "name": "Ignoring media graph bias",
+      "description": "Student accepts a media claim without checking scale, sample, wording or omitted context.",
+      "student_facing_explanation": "Check graph scales, source, sample and wording. A display can be technically correct but still misleading.",
+      "topic_ids": [
+        "AC9M10ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "media|bias|misleading",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M10ST_two_way_percentage_base_01",
+      "name": "Wrong percentage base in two-way tables",
+      "description": "Student compares percentages using different row or column totals without noticing.",
+      "student_facing_explanation": "In two-way tables, choose the correct denominator: row total, column total or grand total, depending on the question.",
+      "topic_ids": [
+        "AC9M10ST04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "two-way table|percentage|row total|column total",
+          "notes": "Seed Year 10 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_brackets_not_grouping_01",
+      "name": "Ignoring brackets as grouped quantities",
+      "description": "Student writes an expression such as 3n + 2 when the context requires 3(n + 2), treating only the variable term as repeated.",
+      "student_facing_explanation": "Brackets show a whole group is repeated. If there are 3 bags and each bag has n + 2 marbles, multiply the whole group: 3(n + 2), not just 3n + 2.",
+      "topic_ids": [
+        "AC9M7A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "missing_grouping_brackets",
+          "notes": "Student omits brackets or repeats only the variable part when the whole grouped quantity repeats."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7A_expression_grouping_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_combining_unlike_terms_01",
+      "name": "Combining unlike terms",
+      "description": "Student simplifies expressions by adding terms with different variables or variables with constants, e.g., 2a + 3b = 5ab or 2x + 3 = 5x.",
+      "student_facing_explanation": "You can only add or subtract terms that are 'like terms' (they have the exact same variable part). For example, 2a and 3b are unlike terms and cannot be simplified further. Just like 2 apples and 3 bananas cannot be added to make 5 apple-bananas! Similarly, 2x + 3 cannot be simplified because 3 has no variable.",
+      "topic_ids": [
+        "AC9M7A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^5ab$",
+          "notes": "Simplifies 2a + 3b to 5ab"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_equation_one_side_only_01",
+      "name": "Equation inverse operation applied to one side only",
+      "description": "Student tries to solve a one-variable equation by undoing an operation on only one side, breaking equality.",
+      "student_facing_explanation": "An equation is like a balance. If you add, subtract, multiply or divide to undo something, you must do the same operation to both sides so the two sides remain equal.",
+      "topic_ids": [
+        "AC9M7A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "equation_inverse_one_side_only",
+          "notes": "Student changes one side of an equation without applying the same operation to the other side."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7A_equation_balance_one_side_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_inequality_flip_01",
+      "name": "Inequality sign flip forgotten",
+      "description": "Student forgets to flip the inequality sign when multiplying or dividing both sides by a negative number.",
+      "student_facing_explanation": "When you multiply or divide both sides of an inequality by a NEGATIVE number, you must flip the sign. For example: -2x > 6 becomes x < -3 (not x > -3). The sign flips because multiplying by a negative reverses the order.",
+      "topic_ids": [
+        "AC9M7A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "inequality_flip_forgotten",
+          "notes": "Detects flipped inequality operator"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7A_inequality_flip_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_inverse_ops_order_01",
+      "name": "Incorrect inverse operation order",
+      "description": "Student applies inverse operations in the wrong order when solving a two-step equation, e.g., solving 2x + 3 = 11 by dividing by 2 first without dividing the constant term.",
+      "student_facing_explanation": "When solving a two-step equation like 2x + 3 = 11, it is usually easiest to undo the addition or subtraction first. If you divide by 2 first, you must divide EVERY term by 2, which gives x + 1.5 = 5.5. It's much simpler to subtract 3 first: 2x = 8, then divide by 2 to get x = 4!",
+      "topic_ids": [
+        "AC9M7A04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^4.5$",
+          "notes": "Student gets 4.5 by dividing 11/2 - 3 instead of (11-3)/2"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_pattern_additive_vs_multiplicative_01",
+      "name": "Growing pattern rule ignores fixed starting amount",
+      "description": "Student uses only the repeated growth in a visual pattern and omits the constant starting amount, such as writing 3n instead of 3n + 1.",
+      "student_facing_explanation": "A pattern rule often has two parts: the part that grows each step and the fixed part that is already there. Look for what changes and what stays the same before writing the rule.",
+      "topic_ids": [
+        "AC9M7A05"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "linear_pattern_missing_constant",
+          "notes": "Student rule has correct growth coefficient but missing or incorrect constant term."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7A_pattern_missing_constant_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7A_variable_as_label_01",
+      "name": "Variable as label misconception",
+      "description": "Student treats algebraic variables as labels rather than unknowns, e.g. interpreting '3a' as '3 apples' rather than '3 × a'.",
+      "student_facing_explanation": "In algebra, letters like 'a' or 'x' represent unknown NUMBERS, not labels. So '3a' means '3 times a', not '3 apples'. When you see 2a + 3a, you're adding 2 lots of the number plus 3 lots = 5 lots, so 5a.",
+      "topic_ids": [
+        "AC9M7A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "\\d+\\s*(apples|oranges|items|things|objects)",
+          "notes": "Student writes a unit label instead of algebraic expression"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_area_l_w_triangle_01",
+      "name": "Triangle area using length times width",
+      "description": "Student calculates the area of a triangle as base × height, forgetting to divide by 2.",
+      "student_facing_explanation": "A triangle is half of a rectangle (or parallelogram) with the same base and height. The formula for the area of a triangle is Area = (base × height) ÷ 2. Don't forget to divide by 2 at the end!",
+      "topic_ids": [
+        "AC9M7M02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "numeric",
+          "pattern": "{\"op\": \"off_by_factor\", \"factor\": 2}",
+          "notes": "Off by factor of 2 (student forgot to divide by 2)"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_area_perimeter_swap_01",
+      "name": "Area/perimeter swap",
+      "description": "Student computes area when asked for perimeter or vice versa. Confuses the two measurement concepts.",
+      "student_facing_explanation": "Perimeter is the distance AROUND a shape (add all the sides). Area is the space INSIDE a shape (usually length × width for rectangles). They give different numbers — make sure you read what the question is asking for!",
+      "topic_ids": [
+        "AC9M7M01",
+        "AC9M7M02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "area_perimeter_swap",
+          "notes": "Detects area/perimeter confusion via diagram labels"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7M_area_perimeter_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_circle_diam_radius_01",
+      "name": "Circle diameter/radius confusion",
+      "description": "Student uses diameter where radius is needed (or vice versa), giving an answer that is exactly double or half the correct value.",
+      "student_facing_explanation": "The radius is the distance from the centre to the edge. The diameter goes all the way across — it's TWICE the radius. If a question gives you the diameter, divide by 2 to get the radius before using area or circumference formulas.",
+      "topic_ids": [
+        "AC9M7M03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "numeric",
+          "pattern": "{\"op\": \"off_by_factor\", \"factor\": 2}",
+          "notes": "Answer is exactly double or half the correct value"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_parallel_angle_relationship_confusion_01",
+      "name": "Confusing alternate, corresponding and co-interior angle rules",
+      "description": "Student treats all angle pairs on parallel lines as equal, including co-interior angles that should sum to 180 degrees.",
+      "student_facing_explanation": "Not every angle pair is equal. Corresponding and alternate angles are equal, but co-interior angles add to 180°. Name the relationship before calculating.",
+      "topic_ids": [
+        "AC9M7M04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "cointerior_treated_as_equal",
+          "notes": "Student gives the known angle instead of 180 minus the known angle for co-interior pairs."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7M_parallel_angle_relationships_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_ratio_model_no_context_check_01",
+      "name": "Ratio modelling answer not interpreted in context",
+      "description": "Student completes ratio arithmetic but does not check units, total amount, or reasonableness in the original modelling context.",
+      "student_facing_explanation": "In modelling, the number is not finished until it is interpreted in the situation. Check that the parts add to the total, the units match the question, and the answer is reasonable for the context.",
+      "topic_ids": [
+        "AC9M7M06"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "ratio_model_missing_context_interpretation",
+          "notes": "Correct or near-correct arithmetic with missing units/context or shares not summing to total."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7M_ratio_model_context_check_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_triangle_angle_sum_not_180_01",
+      "name": "Triangle angle sum not used as 180 degrees",
+      "description": "Student adds known angles but forgets to subtract from 180 degrees, or assumes the missing angle equals one of the known angles without a geometric reason.",
+      "student_facing_explanation": "Every triangle’s interior angles add to 180°. Add the known angles first, then subtract from 180° to find the missing angle.",
+      "topic_ids": [
+        "AC9M7M05"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "triangle_missing_angle_no_subtract_from_180",
+          "notes": "Student gives sum of known angles, copied known angle, or unsupported guess instead of 180 minus known sum."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7M_triangle_angle_sum_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7M_unit_conversion_mult_01",
+      "name": "Multiplying instead of dividing for unit conversion",
+      "description": "Student multiplies when converting from a smaller unit to a larger unit, e.g., converting 500 cm to m as 50000 cm instead of 5 m.",
+      "student_facing_explanation": "When converting from a smaller unit to a larger unit (like centimetres to metres), the number should get SMALLER, so you need to divide. For example, 500 cm = 500 ÷ 100 = 5 m. You only multiply when converting from a larger unit to a smaller unit!",
+      "topic_ids": [
+        "AC9M7M05"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^50000$",
+          "notes": "Multiplies by 100 when converting cm to m"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_decimal_misalign_01",
+      "name": "Decimal place value misalignment",
+      "description": "Student adds decimals without aligning decimal points, treating digits as if they were whole numbers.",
+      "student_facing_explanation": "When adding decimals like 1.5 + 2.35, line up the decimal points first! Write 1.50 + 2.35 so the tenths are under tenths and hundredths under hundredths. Then add column by column.",
+      "topic_ids": [
+        "AC9M7N06"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "decimal_place_value_misalignment",
+          "notes": "Detects misaligned decimal addition"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_decimal_align_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_fraction_add_denom_01",
+      "name": "Fraction addition — adding denominators",
+      "description": "Student adds both numerators and denominators when adding fractions: 1/2 + 1/3 = 2/5 instead of finding a common denominator.",
+      "student_facing_explanation": "When adding fractions like 1/2 + 1/3, you can't just add the top and bottom numbers. You need a common denominator first. Find the LCD (6), convert: 3/6 + 2/6 = 5/6.",
+      "topic_ids": [
+        "AC9M7N04",
+        "AC9M7N06"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "fraction_addition_added_denominators",
+          "notes": "Detects naive numerator+denominator addition"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_fraction_addition_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_hcf_lcm_exponent_choice_01",
+      "name": "HCF and LCM exponent choices reversed",
+      "description": "Student uses the larger prime-power exponents for HCF or the smaller exponents for LCM when comparing prime factorisations.",
+      "student_facing_explanation": "For HCF, choose the common prime factors with the smaller powers because the factor must fit inside both numbers. For LCM, choose every prime factor with the larger powers because the multiple must contain both numbers.",
+      "topic_ids": [
+        "AC9M7N02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "hcf_lcm_exponents_reversed",
+          "notes": "Student swaps smaller/larger exponent choices when calculating HCF or LCM from prime factorisations."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_hcf_lcm_exponent_choice_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_multiply_negatives_01",
+      "name": "Multiplying negatives — sign error",
+      "description": "Student believes negative × negative = negative, giving e.g. (-4) × (-3) = -12 instead of +12.",
+      "student_facing_explanation": "When you multiply two negative numbers, the answer is POSITIVE. Think: negative × negative = positive. So (-4) × (-3) = +12. Only an odd number of negatives gives a negative result.",
+      "topic_ids": [
+        "AC9M7N04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "numeric",
+          "pattern": "{\"op\": \"sign_flip\"}",
+          "notes": "Student gives negative when answer should be positive"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_negative_squared_01",
+      "name": "Negative squared confusion",
+      "description": "Student treats (-3)² as -(3²), giving +9 instead of -9. Confuses the scope of the exponent with the sign.",
+      "student_facing_explanation": "When you see (-3)², the brackets mean you square the whole thing including the negative sign. So (-3)² = (-3) × (-3) = 9. But -(3²) means you square 3 first then make it negative: -(9) = -9. Watch the brackets carefully!",
+      "topic_ids": [
+        "AC9M7N04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "negative_squared",
+          "notes": "Detects student giving abs(correct) when correct is negative"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_negative_squared_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_order_of_ops_01",
+      "name": "Order of operations — left-to-right addition before multiplication",
+      "description": "Student evaluates expressions left-to-right ignoring operator precedence, e.g. 2 + 3 × 4 = 20 instead of 14.",
+      "student_facing_explanation": "Remember BODMAS/BIDMAS: Brackets, Orders (powers), Division/Multiplication (left to right), Addition/Subtraction (left to right). So 2 + 3 × 4 = 2 + 12 = 14, not 5 × 4 = 20.",
+      "topic_ids": [
+        "AC9M7N04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^20$",
+          "notes": "Common wrong answer for 2+3×4 type questions"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_prime_factorisation_exponents_01",
+      "name": "Prime factorisation records factors but not powers",
+      "description": "Student writes repeated prime factors without grouping them into exponent notation, or drops a repeated factor when converting a factor tree into prime powers.",
+      "student_facing_explanation": "Prime factorisation should include every prime factor. After a factor tree, group matching primes and use powers: 2 × 2 × 2 × 3 is 2³ × 3, not 2 × 3 or 2² × 3.",
+      "topic_ids": [
+        "AC9M7N02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "prime_factorisation_missing_repeated_factor_or_power",
+          "notes": "Look for missing repeated primes or ungrouped factors when exponent notation is required."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_prime_factorisation_exponents_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_ratio_additive_scaling_01",
+      "name": "Ratio scaled additively instead of multiplicatively",
+      "description": "Student makes equivalent ratios by adding the same amount to each part instead of multiplying or dividing every part by the same factor.",
+      "student_facing_explanation": "Equivalent ratios keep the same multiplicative relationship. To change 2:3 into an equivalent ratio, multiply both parts by the same number, such as 4:6 or 6:9. Adding 2 to both parts gives 4:5, which changes the relationship.",
+      "topic_ids": [
+        "AC9M7N08"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "ratio_additive_scaling",
+          "notes": "Detect additive changes such as 2:3 -> 4:5 where multiplicative scaling is required."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_ratio_additive_scaling_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_square_root_halving_01",
+      "name": "Square root treated as halving",
+      "description": "Student treats a square root as dividing by two rather than finding the number that multiplies by itself to give the original value.",
+      "student_facing_explanation": "A square root is not half. It asks: what number times itself gives this value? For example, √36 = 6 because 6 × 6 = 36, not 18.",
+      "topic_ids": [
+        "AC9M7N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "square_root_as_half",
+          "notes": "Student answer is often target/2 for perfect-square root questions."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7N_square_root_halving_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7N_subtract_negative_01",
+      "name": "Subtracting a negative — double negative confusion",
+      "description": "Student treats 5 - (-3) as 5 - 3 = 2 instead of 5 + 3 = 8. Does not recognise that subtracting a negative is addition.",
+      "student_facing_explanation": "Subtracting a negative is the same as adding! Think of it as removing a debt. 5 - (-3) = 5 + 3 = 8. Two negatives next to each other become a positive.",
+      "topic_ids": [
+        "AC9M7N04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "numeric",
+          "pattern": "{\"op\": \"sign_flip\"}",
+          "notes": "Detects student giving correct-2*negative_operand"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7P_complement_calculation_01",
+      "name": "Incorrect complement calculation",
+      "description": "Student fails to subtract the probability of an event from 1 to find the probability of its complement (not happening), or subtracts from an incorrect number.",
+      "student_facing_explanation": "The probability of an event happening plus the probability of it NOT happening (the complement) must always equal exactly 1 (or 100%). To find P(not A), you calculate 1 - P(A). For example, if P(rain) = 0.3, then P(no rain) = 1 - 0.3 = 0.7.",
+      "topic_ids": [
+        "AC9M7P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "complement error",
+          "notes": "Detects incorrect complement probability"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7P_equiprobable_outcomes_01",
+      "name": "Assuming all outcomes are equally likely",
+      "description": "Student assumes all outcomes in a sample space are equally likely, even when they have different probabilities (e.g. spinning a spinner with unequal sections).",
+      "student_facing_explanation": "Just because there are different outcomes doesn't mean they all have the same chance of happening! For example, if a bag has 9 red balls and 1 blue ball, the outcomes are 'red' or 'blue', but they are not equally likely. The probability of red is 9/10, while blue is only 1/10.",
+      "topic_ids": [
+        "AC9M7P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "equally likely assumption",
+          "notes": "Detects assumption of equal likelihood"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7P_prob_greater_than_one_01",
+      "name": "Probability greater than one",
+      "description": "Student calculates a probability value greater than 1 (or 100%), or less than 0, which is mathematically impossible.",
+      "student_facing_explanation": "Probability is always a value between 0 (impossible) and 1 (certain). It can never be greater than 1, and it can never be negative. If you express it as a percentage, it must be between 0% and 100%. Check your fraction numerator is not larger than the denominator!",
+      "topic_ids": [
+        "AC9M7P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^[1-9]\\d*\\.\\d+$",
+          "notes": "Detects probability values greater than 1"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7P_sample_space_partial_01",
+      "name": "Incomplete sample space listing",
+      "description": "Student lists only a subset of possible outcomes for a sample space, e.g., missing some combinations or outcomes when tossing coins or rolling dice.",
+      "student_facing_explanation": "A sample space must list EVERY possible outcome of an experiment without leaving any out. For example, if you flip a coin twice, the possible outcomes are {HH, HT, TH, TT}. Listing only {HH, HT, TT} is incomplete because it misses TH!",
+      "topic_ids": [
+        "AC9M7P01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "incomplete sample space",
+          "notes": "Detects incomplete sample space listing"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7P_sample_space_partial_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7P_short_run_matches_theory_exactly_01",
+      "name": "Expecting short-run probability to match theory exactly",
+      "description": "Student thinks an experimental result is wrong whenever a small number of trials does not exactly match the theoretical probability.",
+      "student_facing_explanation": "Short-run results can vary because outcomes are random. The theoretical probability describes what we expect in the long run, not what must happen exactly in every small experiment.",
+      "topic_ids": [
+        "AC9M7P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "short_run_must_match_theory",
+          "notes": "Student rejects plausible relative-frequency variation in a small simulation."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7P_simulation_variation_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7SP_angle_sum_triangle_01",
+      "name": "Angle sum of triangle incorrect",
+      "description": "Student assumes the angles in a triangle sum to 360 degrees or another incorrect value instead of 180 degrees.",
+      "student_facing_explanation": "The interior angles of any triangle always add up to exactly 180 degrees. If you know two angles, you can find the third by subtracting their sum from 180. The 360 degrees rule is for four-sided shapes (quadrilaterals), not triangles!",
+      "topic_ids": [
+        "AC9M7SP01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^360$",
+          "notes": "Uses 360 degrees for triangle angle sum"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7SP_coord_xy_swap_01",
+      "name": "Coordinate x and y axis swap",
+      "description": "Student reads or plots a coordinate point (x, y) by swapping the horizontal (x) and vertical (y) values, e.g., plotting (2, 3) at (3, 2).",
+      "student_facing_explanation": "Coordinates are always written in alphabetical order: (x, y). The first number tells you how far to go along the horizontal x-axis (left or right). The second number tells you how far to go along the vertical y-axis (up or down). Remember: walk along the hallway first, then go up the stairs!",
+      "topic_ids": [
+        "AC9M7SP03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "xy_swap",
+          "notes": "Detects swapped x and y coordinates"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7SP_translation_direction_01",
+      "name": "Translation direction confusion",
+      "description": "Student translates a shape in the opposite direction of the given vector or instruction, e.g., moving left instead of right for a positive translation.",
+      "student_facing_explanation": "When translating a shape, pay close attention to the directions! A positive change in x moves the shape RIGHT, and a negative change moves it LEFT. A positive change in y moves it UP, and a negative change moves it DOWN.",
+      "topic_ids": [
+        "AC9M7SP02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "opposite direction",
+          "notes": "Detects translation direction error"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_conclusion_without_evidence_01",
+      "name": "Statistical conclusion without evidence",
+      "description": "Student gives a general conclusion but does not cite a statistic or distribution feature that supports it.",
+      "student_facing_explanation": "A statistical conclusion needs evidence. Use words such as median, range, shape, cluster or outlier, and quote the relevant value from the data display or summary.",
+      "topic_ids": [
+        "AC9M7ST03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "statistical_conclusion_missing_evidence",
+          "notes": "Conclusion lacks cited median/range/shape/outlier evidence."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7ST_investigation_conclusion_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_mean_vs_median_01",
+      "name": "Confusing mean and median",
+      "description": "Student calculates the mean when asked for the median, or vice versa, due to confusing the names of measures of center.",
+      "student_facing_explanation": "Mean and median are different ways to find the 'middle' of data. To find the median, list the numbers in order and pick the exact middle one. To find the mean, add all the numbers together and divide by how many numbers there are. Mode is the most frequent number.",
+      "topic_ids": [
+        "AC9M7ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "confused mean median",
+          "notes": "Detects mean/median confusion"
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7ST_mean_vs_median_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_median_unordered_01",
+      "name": "Median of unordered data",
+      "description": "Student finds the middle number in a dataset without sorting the numbers in ascending or descending order first.",
+      "student_facing_explanation": "Before finding the median, you must write the numbers in order from smallest to largest! If you have the data 5, 2, 8, 1, 9, you can't just pick 8 as the middle. Rearrange them first: 1, 2, 5, 8, 9. The true median is 5.",
+      "topic_ids": [
+        "AC9M7ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "unordered median",
+          "notes": "Detects median calculation from unsorted data"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_outlier_impact_mean_01",
+      "name": "Outlier impact misunderstanding",
+      "description": "Student believes outliers affect the median more than the mean, or that outliers have no effect on either.",
+      "student_facing_explanation": "An outlier is a value that is much higher or lower than the rest of the data. Outliers have a big effect on the mean because they pull the total sum up or down. But they have very little effect on the median, which only looks at the middle position. This is why the median is often better for skewed data!",
+      "topic_ids": [
+        "AC9M7ST03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "outlier median impact",
+          "notes": "Detects misunderstanding of outlier impact"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_range_max_only_01",
+      "name": "Range as maximum value only",
+      "description": "Student identifies the range of a dataset as simply the maximum value, rather than the difference between the maximum and minimum values.",
+      "student_facing_explanation": "The range is a single number that shows how spread out your data is. It is the difference between the highest (maximum) and lowest (minimum) values. So, Range = Maximum - Minimum. Don't just list the highest number!",
+      "topic_ids": [
+        "AC9M7ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "range max only",
+          "notes": "Detects range identified as max value"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-04T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M7ST_stem_leaf_unsorted_or_no_key_01",
+      "name": "Stem-and-leaf plot leaves unsorted or missing key",
+      "description": "Student constructs a stem-and-leaf plot but leaves are not ordered, or the key is missing so the display is ambiguous.",
+      "student_facing_explanation": "In a stem-and-leaf plot, leaves must be in order for each stem, and the key explains the place value. For example, 6|4 = 64 if the data are two-digit scores.",
+      "topic_ids": [
+        "AC9M7ST02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "stem_leaf_unsorted_or_missing_key",
+          "notes": "Stem-and-leaf display has unordered leaves or no place-value key."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_M7ST_stem_leaf_key_order_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8A_distributive_first_01",
+      "name": "Distributive law only first term",
+      "description": "Student only multiplies the coefficient with the first term inside brackets: a(b + c) = ab + c.",
+      "student_facing_explanation": "The term outside the brackets must multiply EVERY term inside the brackets! So, 3(x + 5) expands to 3 × x + 3 × 5 = 3x + 15, not 3x + 5.",
+      "topic_ids": [
+        "AC9M8A01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^3x\\s*\\+\\s*5$",
+          "notes": "Detects partial expansion"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8A_gradient_swap_01",
+      "name": "Gradient intercept swap",
+      "description": "Student swaps the gradient and y-intercept in the slope-intercept equation y = mx + c.",
+      "student_facing_explanation": "In the equation y = mx + c, the number m multiplied by x is ALWAYS the gradient (slope), and the constant c is the y-intercept. For y = 3x + 4, gradient is 3, y-intercept is 4.",
+      "topic_ids": [
+        "AC9M8A02",
+        "AC9M8A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "gradient is 4",
+          "notes": "Detects swapped parameters"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8A_inequality_flip_01",
+      "name": "Inequality sign flip",
+      "description": "Student forgets to reverse the inequality sign when multiplying or dividing by a negative number.",
+      "student_facing_explanation": "Whenever you multiply or divide both sides of an inequality by a negative number, you must flip the inequality sign! For example, -2x < 6 becomes x > -3.",
+      "topic_ids": [
+        "AC9M8A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "x < -3",
+          "notes": "Detects unflipped inequality sign"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8A_linear_extrapolate_01",
+      "name": "Linear model extrapolation error",
+      "description": "Student assumes a linear relationship continues indefinitely for all extreme input values without checking physical bounds.",
+      "student_facing_explanation": "A linear model only makes sense within a certain range of values! For example, if a plant grows 2cm per week, a linear model predicts it will be 100m tall after 100 years, which is impossible.",
+      "topic_ids": [
+        "AC9M8A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "indefinitely",
+          "notes": "Detects unconstrained linear modeling"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8M_circle_area_diameter_01",
+      "name": "Circle area diameter error",
+      "description": "Student calculates circle area using diameter instead of radius, e.g. A = π × d².",
+      "student_facing_explanation": "The formula for the area of a circle is A = π × r², where r is the radius (half the diameter). If you are given diameter, divide it by 2 first to get the radius, then square it.",
+      "topic_ids": [
+        "AC9M8M03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "314",
+          "notes": "Detects diameter squared in area calculation"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8M_pythagoras_addition_01",
+      "name": "Pythagoras linear addition",
+      "description": "Student adds side lengths directly: a + b = c instead of squaring them first in Pythagoras' theorem.",
+      "student_facing_explanation": "Pythagoras' theorem relates the squares of the sides, not their lengths directly! The formula is a² + b² = c². You must square a and b, add them, and then take the square root to find c.",
+      "topic_ids": [
+        "AC9M8M06"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^7$",
+          "notes": "Detects 3 + 4 = 7 instead of √25 = 5"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8M_time_duration_decimal_01",
+      "name": "Time base-10 decimal conversion",
+      "description": "Student treats minutes as decimals directly: e.g. 2 hours 15 minutes is 2.15 hours, or 1.5 hours + 30 min = 1.80 hours.",
+      "student_facing_explanation": "Time is in base 60, not base 10! To convert minutes to a decimal, divide by 60. For example, 15 minutes is 15/60 = 0.25 hours, so 2 hours 15 minutes is 2.25 hours.",
+      "topic_ids": [
+        "AC9M8M04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "2.15",
+          "notes": "Detects base-10 minutes conversion"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8N_exponent_multiply_01",
+      "name": "Multiplying exponent exponents",
+      "description": "Student multiplies the exponents when multiplying powers with the same base (e.g. 2^3 × 2^4 = 2^12 instead of 2^7).",
+      "student_facing_explanation": "When multiplying terms with the same base, you ADD the exponents (e.g. a^m × a^n = a^(m+n)). You only multiply exponents when raising a power to a power, like (a^m)^n = a^(m×n).",
+      "topic_ids": [
+        "AC9M8N02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^2\\^12$",
+          "notes": "Detects multiplied exponents"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8N_gst_subtraction_01",
+      "name": "GST reverse subtraction error",
+      "description": "Student calculates the price before GST by subtracting 10% from the price with GST (e.g. price \\$110, thinks GST-free price is \\$99 instead of \\$100).",
+      "student_facing_explanation": "To find the price before GST, you cannot just subtract 10%! The price with GST is 110% of the original price. To find the original price, you must divide the total price by 1.10.",
+      "topic_ids": [
+        "AC9M8N05"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "^99$",
+          "notes": "Detects subtraction of 10% instead of division by 1.1"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8N_irrational_fraction_01",
+      "name": "Irrational numbers as fractions",
+      "description": "Student thinks all real numbers, including irrational ones like √2 or π, can be written as simple fractions of integers.",
+      "student_facing_explanation": "Irrational numbers cannot be written as simple fractions like p/q where p and q are whole numbers. Their decimals go on forever without repeating a pattern, unlike rational numbers.",
+      "topic_ids": [
+        "AC9M8N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "fraction",
+          "notes": "Detects confusion of irrational representation"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8N_recurring_nine_01",
+      "name": "Recurring decimal nine",
+      "description": "Student believes recurring decimal 0.999... is strictly less than 1.",
+      "student_facing_explanation": "Mathematically, the recurring decimal 0.999... is exactly equal to 1. Since 1/3 = 0.333..., multiplying both sides by 3 gives 3/3 = 0.999..., which means 1 = 0.999...",
+      "topic_ids": [
+        "AC9M8N03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "less than 1",
+          "notes": "Detects 0.999... < 1 confusion"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8P_complement_sum_01",
+      "name": "Complementary events sum",
+      "description": "Student thinks the sum of an event and its complement is not equal to 1.",
+      "student_facing_explanation": "An event either happens or it doesn't. Therefore, the probability of it happening plus the probability of it NOT happening must always equal exactly 1 (100% chance).",
+      "topic_ids": [
+        "AC9M8P01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "not 1",
+          "notes": "Detects complement sum error"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8P_simulation_exact_01",
+      "name": "Simulation exact matching",
+      "description": "Student expects experimental probability from a simulation to match the theoretical probability exactly.",
+      "student_facing_explanation": "A simulation generates random outcomes, so experimental results fluctuate. They will get closer to the theoretical probability as you run more trials, but rarely match it exactly.",
+      "topic_ids": [
+        "AC9M8P03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "must match",
+          "notes": "Detects exact match expectation"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8P_tree_add_01",
+      "name": "Tree diagram branch addition",
+      "description": "Student adds probabilities along path branches of a tree diagram instead of multiplying them to find compound probability.",
+      "student_facing_explanation": "To find the probability of a sequence of events (e.g., getting a Head AND then another Head), you must MULTIPLY the probabilities along the path branches, not add them.",
+      "topic_ids": [
+        "AC9M8P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "add branch",
+          "notes": "Detects incorrect branch addition"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8SP_congruence_similarity_01",
+      "name": "Similarity and congruence confusion",
+      "description": "Student confuses congruence (same size and shape) with similarity (same shape, different size), thinking similar triangles are congruent.",
+      "student_facing_explanation": "Congruent shapes are identical copy-pastes: they have the exact same angles AND the exact same side lengths. Similar shapes have the same angles, but their side lengths are scaled (larger or smaller).",
+      "topic_ids": [
+        "AC9M8SP01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "congruent",
+          "notes": "Detects similarity mislabelled as congruence"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8SP_coord_z_axis_01",
+      "name": "3D coordinate axis swap",
+      "description": "Student misplots 3D coordinates by swapping the horizontal (y) and depth (z) axes.",
+      "student_facing_explanation": "In 3D coordinates (x, y, z), x represents width (left/right), y represents depth (forwards/backwards), and z represents height (up/down). Double-check which axis you are moving on!",
+      "topic_ids": [
+        "AC9M8SP03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "swap y and z",
+          "notes": "Detects axis swapping"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8SP_quadrilateral_trapezium_01",
+      "name": "Trapezium parallel sides definition",
+      "description": "Student treats trapezium as a parallelogram, assuming opposite sides are parallel when only one pair is.",
+      "student_facing_explanation": "A trapezium has exactly ONE pair of parallel sides. A parallelogram has TWO pairs of parallel sides. Watch the parallel arrows carefully!",
+      "topic_ids": [
+        "AC9M8SP02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "parallelogram",
+          "notes": "Detects trapezium confused with parallelogram"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8ST_outlier_mean_01",
+      "name": "Outliers do not affect mean",
+      "description": "Student believes outliers have no influence on the mean, or confuses the mean's sensitivity with the median.",
+      "student_facing_explanation": "The mean is highly sensitive to outliers because it uses the actual values of all data points. A single extremely large or small number will pull the mean towards it, whereas the median remains stable.",
+      "topic_ids": [
+        "AC9M8ST02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "no effect on mean",
+          "notes": "Detects outlier impact confusion"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8ST_sample_bias_01",
+      "name": "Sample size bias assumption",
+      "description": "Student assumes a small, convenient sample (e.g. asking 5 friends) accurately represents the preferences of an entire population.",
+      "student_facing_explanation": "To make accurate predictions about a population, your sample must be large enough and random! A sample of 5 friends is biased because friends often share similar opinions.",
+      "topic_ids": [
+        "AC9M8ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "representative",
+          "notes": "Detects small sample bias assumption"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M8ST_variation_equal_01",
+      "name": "Sample variation expectation",
+      "description": "Student expects two different random samples of the same size to yield identical results.",
+      "student_facing_explanation": "Random samples are subject to natural variation; different samples will yield slightly different results. However, larger sample sizes will reduce this variation and get closer to the true population value.",
+      "topic_ids": [
+        "AC9M8ST03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "identical",
+          "notes": "Detects lack of expectation of variance"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2026-06-02T14:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9A_gradient_order_01",
+      "name": "Reversing gradient formula",
+      "description": "Student calculates gradient using run over rise or mixes coordinate order.",
+      "student_facing_explanation": "Gradient is rise over run: $(y_2-y_1)/(x_2-x_1)$. Keep the same point order in numerator and denominator.",
+      "topic_ids": [
+        "AC9M9A03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "gradient|rise|run",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9A_index_negative_01",
+      "name": "Negative index as negative value",
+      "description": "Student interprets $x^{-a}$ as a negative number instead of a reciprocal.",
+      "student_facing_explanation": "A negative index means reciprocal: $x^{-a}=1/x^a$ for $x\\neq0$. It does not make the value automatically negative.",
+      "topic_ids": [
+        "AC9M9A01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "negative index|negative exponent|reciprocal",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9A_parabola_vertex_01",
+      "name": "Misreading quadratic graph features",
+      "description": "Student confuses intercepts, turning point and axis of symmetry on a parabola.",
+      "student_facing_explanation": "The turning point is the vertex, the axis of symmetry passes through it, and intercepts are where the graph crosses the axes.",
+      "topic_ids": [
+        "AC9M9A04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "parabola|turning point|vertex|axis",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9A_quadratic_factor_pair_01",
+      "name": "Wrong factor pair for monic quadratic",
+      "description": "Student chooses factors that multiply to the constant but do not add to the middle coefficient.",
+      "student_facing_explanation": "For $x^2+Bx+C$, the two numbers must multiply to $C$ and add to $B$. Both conditions are needed.",
+      "topic_ids": [
+        "AC9M9A02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "factor|multiply.*add|add.*multiply",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9M_percentage_error_denominator_01",
+      "name": "Wrong denominator in percentage error",
+      "description": "Student divides error by the measured value instead of the accepted or reference value when context requires the reference.",
+      "student_facing_explanation": "Percentage error compares absolute error to the accepted or reference value: error divided by reference, then multiplied by 100%.",
+      "topic_ids": [
+        "AC9M9M04"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "percentage error|relative error|accepted value",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9M_pythagoras_non_right_01",
+      "name": "Using Pythagoras on non-right triangles",
+      "description": "Student applies $a^2+b^2=c^2$ without confirming the triangle is right-angled.",
+      "student_facing_explanation": "Pythagoras only applies to right triangles. First identify the right angle and the hypotenuse.",
+      "topic_ids": [
+        "AC9M9M03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "pythagoras|right.?angled|hypotenuse",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9M_scientific_notation_power_01",
+      "name": "Scientific notation power direction error",
+      "description": "Student moves the decimal in the wrong direction when converting scientific notation.",
+      "student_facing_explanation": "A positive power of 10 makes the number larger; a negative power makes it smaller. Count decimal places carefully.",
+      "topic_ids": [
+        "AC9M9M02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "scientific notation|power of 10|decimal",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9M_surface_volume_01",
+      "name": "Surface area and volume mix-up",
+      "description": "Student uses a volume formula when surface area is required, or reverses the two quantities.",
+      "student_facing_explanation": "Surface area covers the outside faces and uses square units. Volume fills the solid and uses cubic units.",
+      "topic_ids": [
+        "AC9M9M01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "surface area|volume|square units|cubic units",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9N_irrational_decimal_01",
+      "name": "Treating all decimals as rational",
+      "description": "Student assumes every decimal can be written as a fraction because terminating and recurring decimals can.",
+      "student_facing_explanation": "Some decimals terminate or recur, so they are rational. Irrational decimals never terminate and never repeat, so they cannot be written as a ratio of integers.",
+      "topic_ids": [
+        "AC9M9N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "irrational|non.?recurring|not rational",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9N_real_number_subset_01",
+      "name": "Confusing real number subsets",
+      "description": "Student places integers, rationals and irrationals in overlapping or impossible categories.",
+      "student_facing_explanation": "Integers are rational because they can be written over 1. Irrational numbers are real numbers too, but they are not rational.",
+      "topic_ids": [
+        "AC9M9N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "integer|rational|irrational",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9N_root_rational_01",
+      "name": "Assuming every square root is irrational",
+      "description": "Student treats all square roots as irrational and misses perfect square roots.",
+      "student_facing_explanation": "Square roots of perfect squares are rational, such as $\\sqrt{49}=7$. Square roots of non-perfect squares, such as $\\sqrt{2}$, are irrational.",
+      "topic_ids": [
+        "AC9M9N01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "perfect square|square root|sqrt",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9P_or_overlap_01",
+      "name": "Inclusive OR overlap double-counted",
+      "description": "Student adds probabilities for OR events without subtracting overlap.",
+      "student_facing_explanation": "For inclusive OR, outcomes in both events are counted twice unless the overlap is subtracted.",
+      "topic_ids": [
+        "AC9M9P02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "inclusive or|overlap|double count",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9P_replacement_constant_01",
+      "name": "Replacement does not change probability",
+      "description": "Student treats without-replacement events as if probabilities stay the same each draw.",
+      "student_facing_explanation": "With replacement keeps the sample space the same. Without replacement changes the number of possible outcomes after each draw.",
+      "topic_ids": [
+        "AC9M9P01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "without replacement|with replacement|sample space",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9P_simulation_short_run_01",
+      "name": "Short-run simulation expected to match theory",
+      "description": "Student expects a small number of trials to match theoretical probability exactly.",
+      "student_facing_explanation": "Short simulations can vary a lot. More trials usually make relative frequency closer to theoretical probability.",
+      "topic_ids": [
+        "AC9M9P03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "simulation|relative frequency|theoretical probability",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9SP_construction_order_01",
+      "name": "Ignoring construction dependencies",
+      "description": "Student writes geometric construction steps out of order so later steps rely on missing points or lines.",
+      "student_facing_explanation": "A construction algorithm must create each point, ray or circle before using it in a later step. Order matters.",
+      "topic_ids": [
+        "AC9M9SP03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "construction|algorithm|compass|straightedge",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9SP_similarity_scale_area_01",
+      "name": "Using length scale factor for area",
+      "description": "Student applies the linear scale factor directly to area or volume.",
+      "student_facing_explanation": "For similar figures, area scale factor is the square of the length scale factor; volume scale factor is the cube.",
+      "topic_ids": [
+        "AC9M9SP02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "scale factor|area|volume|similar",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9SP_trig_ratio_side_01",
+      "name": "Choosing the wrong trig ratio",
+      "description": "Student chooses sine, cosine or tangent without matching opposite, adjacent and hypotenuse to the angle.",
+      "student_facing_explanation": "Label sides relative to the given angle first. Then choose sine, cosine or tangent from the side pair involved.",
+      "topic_ids": [
+        "AC9M9SP01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "sin|cos|tan|opposite|adjacent",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9ST_biased_sampling_01",
+      "name": "Ignoring sampling bias",
+      "description": "Student trusts survey results even when the sampling method favours one group.",
+      "student_facing_explanation": "Sampling bias occurs when some groups are overrepresented or excluded. The method matters as much as the sample size.",
+      "topic_ids": [
+        "AC9M9ST02"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "bias|survey|sample",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9ST_outlier_mean_01",
+      "name": "Ignoring outlier effect on mean",
+      "description": "Student compares means without noticing an outlier that changes the centre.",
+      "student_facing_explanation": "Outliers can pull the mean. Compare median, range and distribution shape before deciding which statistic is most useful.",
+      "topic_ids": [
+        "AC9M9ST03"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "outlier|mean|median",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_M9ST_sample_population_01",
+      "name": "Sample treated as whole population",
+      "description": "Student generalises from a sample without considering whether it represents the population.",
+      "student_facing_explanation": "A sample can estimate a population only if it is selected in a way that reduces bias and is large enough for the question.",
+      "topic_ids": [
+        "AC9M9ST01"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "sample|population|estimate",
+          "notes": "Seed Year 9 coverage signature"
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-06-27T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    }
+  ]
+}

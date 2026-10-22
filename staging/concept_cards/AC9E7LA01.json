@@ -1,0 +1,119 @@
+{
+  "core_rule": "Language shows who you are and which groups you belong to. Words build identity.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do the words you choose show others who you are and who your community is?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Think about <adjective> words you use. What <clause> do they show about you?"
+    },
+    {
+      "level": "analogy",
+      "template": "Language is like a team uniform — it shows which group you belong to."
+    }
+  ],
+  "worked_example": {
+    "question": "Read this dialogue. What does 'No worries, mate, she'll be right' tell you about the speaker's identity?",
+    "answer": "Speaker is Australian, relaxed, optimistic, and friendly.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify specific words and phrases. Look for slang or common sayings.",
+        "result": "'No worries, mate', 'she'll be right'."
+      },
+      {
+        "step": 2,
+        "instruction": "Connect these phrases to cultural background or common attitudes.",
+        "result": "Australian idioms. 'No worries' means 'it's okay'. 'She'll be right' means 'it will be fine'."
+      },
+      {
+        "step": 3,
+        "instruction": "Synthesise findings to describe the speaker's personal and social identity.",
+        "result": "Speaker uses Australian slang, showing they are likely Australian. Phrases suggest a relaxed, friendly, and optimistic attitude (personal identity) and connection to Australian culture (social identity)."
+      }
+    ],
+    "explanation": "Specific Australian idioms like 'No worries, mate' and 'she'll be right' reveal the speaker's Australian social identity and a personal identity of being relaxed and optimistic."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [],
+    "learning_objectives": [
+      "Identify how language choices express personal and social identities.",
+      "Create dialogue that reveals character identity through specific language."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Language and Identity?",
+        "body": "Your identity is who you are. It's your unique self (personal identity) and the groups you belong to (social identity). Language is the words you use, how you say them, and even your accent. Language and identity are linked. The words you choose, the slang you use, and your tone of voice all tell people about you. They show your personality, where you're from, your interests, and who your friends are. For example, using local idioms like 'fair dinkum' shows you're Australian and part of that social group.",
+        "type": "concept"
+      },
+      {
+        "heading": "How Language Builds Identity",
+        "body": "Language builds identity in many ways:\n1.  **Word Choice:** Do you use formal words or casual slang? 'G'day' versus 'Hello' shows different identities.\n2.  **Idioms:** These are phrases where the meaning isn't obvious from the individual words (e.g., 'spill the beans' means 'tell a secret'). Using local idioms connects you to a social group.\n3.  **Tone of Voice:** How you say words. A friendly tone shows a friendly identity. A sarcastic tone shows a different one.\n4.  **Dialogue:** In stories, comics, or animations, what characters say and how they say it reveals who they are. A character who says 'Crikey!' might be adventurous and Australian, like Steve Irwin.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Character A: \"Oi, mate! Chuck us the footy, will ya?\"\nCharacter B: \"Nah, too busy. Gotta finish this assignment, it's due tomorrow, full stop.\"\n\n**Analysis:** Character A uses Australian slang ('Oi, mate', 'chuck us', 'footy'), showing a casual, Australian social identity. Character B uses more formal language ('Gotta finish', 'assignment', 'full stop'), suggesting a more serious, perhaps studious, personal identity.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Stereotypes",
+        "body": "A common mistake is using language to create stereotypes. A stereotype is an oversimplified and often unfair idea about a whole group of people. For example, assuming everyone from Queensland says 'how good is this!' all the time. When you create characters or describe people, make sure their language shows a unique identity, not just a simple, untrue stereotype. Language is complex; people are complex.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "identity",
+        "definition": "Who a person is; their unique qualities and beliefs."
+      },
+      {
+        "term": "personal identity",
+        "definition": "The unique traits, beliefs, and personality that make you, you."
+      },
+      {
+        "term": "social identity",
+        "definition": "The groups you belong to, like your family, friends, school, or country."
+      },
+      {
+        "term": "idiom",
+        "definition": "A phrase where the meaning is not obvious from the individual words (e.g., 'kick the bucket')."
+      },
+      {
+        "term": "dialogue",
+        "definition": "Conversation between two or more characters in a story or play."
+      }
+    ],
+    "common_mistakes": [
+      "Not noticing subtle language cues (like tone or specific word choices) that reveal identity.",
+      "Using language that creates unfair or oversimplified stereotypes about people or groups."
+    ],
+    "real_world_connections": [
+      "How you talk to your friends versus your teachers shows different identities.",
+      "Characters in TV shows, movies, and books use specific language to show who they are.",
+      "Social media posts and comments use language to build a personal online identity.",
+      "Different accents and slang in Australia show where people are from and their social groups."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Imagine a new student from a big city joins your class. Write two lines of dialogue for them that show they are perhaps a bit overwhelmed but also trying to fit in.",
+        "answer": "Student: \"Wow, this place is huge! So, what's the go with lunch? Is there a good spot?\"",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Think about words a new, overwhelmed person might use. Consider their questions.",
+            "result": "'Wow, huge', 'what's the go', 'good spot'."
+          },
+          {
+            "step": 2,
+            "instruction": "Combine words to show both feelings (overwhelmed) and actions (trying to fit in/ask questions).",
+            "result": "Dialogue shows surprise ('huge') and an attempt to use local slang ('what's the go') while asking practical questions."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

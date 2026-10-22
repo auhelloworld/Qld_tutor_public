@@ -1,0 +1,2317 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+@import 'katex/dist/katex.min.css';
+@import 'mafs/core.css';
+
+/* Prevent unexpected line breaks inside KaTeX math */
+.katex { white-space: nowrap; }
+.katex-display { white-space: normal; }
+/* Allow long inline math to scroll horizontally in chat bubbles instead of overflowing */
+.chat-bubble {
+  overflow-x: auto;
+}
+.chat-bubble .katex {
+  white-space: nowrap;
+}
+
+:root {
+  /* Fresh, bright premium light mode color scheme */
+  --bg-primary: #f1f5f9; /* Slate 100 */
+  --bg-secondary: #ffffff; /* Pure white */
+  --bg-glass: rgba(255, 255, 255, 0.75); /* High-end translucent white glass */
+  --bg-glass-hover: rgba(255, 255, 255, 0.85);
+  
+  --text-primary: #0f172a; /* Slate 900 */
+  --text-secondary: #334155; /* Slate 700 */
+  --text-muted: #64748b; /* Slate 500 */
+  
+  /* Vibrant accent gradients */
+  --accent-color: #4f46e5; /* Indigo 600 */
+  --accent-hover: #4338ca; /* Indigo 700 */
+  --accent-purple: #9333ea;
+  --accent-pink: #db2777;
+  
+  --accent-gradient: linear-gradient(135deg, #3b82f6 0%, #4f46e5 50%, #8b5cf6 100%);
+  --accent-glow: 0 4px 20px rgba(99, 102, 241, 0.15);
+  
+  --success: #059669; /* Emerald 600 */
+  --success-glow: 0 4px 16px rgba(5, 150, 105, 0.15);
+  --error: #dc2626; /* Red 600 */
+  --error-glow: 0 4px 16px rgba(220, 38, 38, 0.15);
+  
+  --border-color: rgba(99, 102, 241, 0.12);
+  --border-glow: rgba(99, 102, 241, 0.15);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide fixed-position theme toggle on home page (inline toggle in welcome bar) */
+body:has(.app-container) > .theme-toggle-btn {
+  display: none !important;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: clamp(15px, 0.9vw + 8px, 18px);
+  background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(59, 130, 246, 0.12) 0px, transparent 60%),
+    radial-gradient(at 50% 0%, rgba(168, 85, 247, 0.08) 0px, transparent 60%),
+    radial-gradient(at 100% 100%, rgba(244, 63, 94, 0.08) 0px, transparent 60%);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  box-shadow: 
+    0 10px 30px rgba(99, 102, 241, 0.05),
+    0 1px 3px rgba(0, 0, 0, 0.02);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover {
+  border-color: rgba(99, 102, 241, 0.25);
+  box-shadow: 
+    0 15px 35px rgba(99, 102, 241, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+/*
+ * Maths Lab two-column shell.
+ *
+ * The canvas is square (MafsStage caps its width at the canvas height), so a
+ * visual column wider than the canvas leaves dead space on both sides of the
+ * graph. We therefore cap the visual track at the canvas size plus the card's
+ * 2 x 16px padding and give every remaining pixel to the control rail.
+ *
+ * `--lab-visual-max` must track the canvas sizes in src/app/lab/page.tsx:
+ *   >= 1200px viewport -> 720px canvas, 768-1199px -> 552px canvas.
+ * The 60% guard only engages below roughly 1250px of content width, where it
+ * shrinks the canvas rather than starving the control rail.
+ * Both tracks have a 0 minimum so the grid can never overflow its container.
+ */
+.lab-tab-grid {
+  --lab-visual-max: 752px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, min(var(--lab-visual-max), 60%));
+  gap: clamp(18px, 2vw, 32px);
+  align-items: start;
+  min-width: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .lab-tab-grid {
+    --lab-visual-max: 584px;
+  }
+}
+
+.lab-tab-grid > * {
+  min-width: 0;
+  width: 100%;
+}
+
+.lab-tab-grid > .glass-panel,
+.lab-tab-grid > .lab-control-column {
+  width: 100%;
+  max-width: none;
+}
+
+.lab-control-column,
+.lab-visual-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  width: 100%;
+}
+
+/* Keep chart cards and explanation/readout cards aligned to the visual column. */
+.lab-visual-column > * {
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+}
+
+.lab-visual-info {
+  width: 100%;
+  max-width: none;
+}
+
+.lab-page-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.lab-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.lab-scene-control {
+  padding: 12px 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+}
+
+/* ─── LabControlCard tokens ─────────────────────────────────────────────── */
+.lab-control-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 16px;
+}
+.lab-control-card--compact {
+  padding: 16px;
+  gap: 10px;
+}
+.lab-control-card__title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.lab-control-card__desc {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* ─── LabSliderInput tokens ────────────────────────────────────────────── */
+.lab-slider-input {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.lab-slider-input__label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.lab-slider-input__row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.lab-slider-input__range {
+  flex: 1 1 160px;
+  min-width: 0;
+}
+.lab-slider-input__number {
+  width: 76px;
+  flex: 0 0 76px;
+  padding: 4px 8px;
+  font-size: 13px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+
+.lab-control-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.lab-compact-control-row,
+.lab-angle-control-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lab-topic-selector {
+  margin-bottom: 4px;
+}
+
+/* Keep the desktop arrangement explicit even when other responsive layout rules are loaded later. */
+@media (min-width: 768px) {
+  .lab-tab-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, min(var(--lab-visual-max), 60%)) !important;
+    gap: clamp(18px, 2vw, 32px) !important;
+  }
+
+  .lab-tab-grid > .glass-panel,
+  .lab-tab-grid > .lab-control-column {
+    max-height: min(720px, calc(100vh - 220px));
+    overflow-y: auto;
+    padding-right: 4px;
+  }
+}
+
+
+/* Custom scrollbar — higher contrast for light mode (track was nearly invisible before) */
+:root {
+  --scrollbar-size: 12px;
+  --scrollbar-track: rgba(148, 163, 184, 0.35); /* slate-400 @ 35% */
+  --scrollbar-thumb: rgba(79, 70, 229, 0.65); /* indigo accent */
+  --scrollbar-thumb-hover: rgba(67, 56, 202, 0.9);
+  /* Pressed/drag: stay dark indigo — browser default active often goes pale grey */
+  --scrollbar-thumb-active: #3730a3; /* indigo-800 solid */
+  --scrollbar-thumb-border: rgba(241, 245, 249, 0.95);
+}
+
+::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-track:active {
+  background: rgba(148, 163, 184, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 9999px;
+  border: 2px solid var(--scrollbar-thumb-border);
+  background-clip: padding-box;
+  min-height: 20px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+  border: 2px solid var(--scrollbar-thumb-border);
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-thumb-active);
+  border: 2px solid var(--scrollbar-thumb-border);
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+/* Left curriculum column + practice (question) column — extra-visible scrollbars */
+.sidebar-column,
+.tutor-question-column,
+.curriculum-tree-desktop .glass-panel,
+.tutor-main-layout {
+  scrollbar-width: auto;
+  scrollbar-color: var(--scrollbar-thumb-hover) var(--scrollbar-track);
+}
+.sidebar-column::-webkit-scrollbar,
+.tutor-question-column::-webkit-scrollbar,
+.curriculum-tree-desktop .glass-panel::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+.sidebar-column::-webkit-scrollbar-track,
+.tutor-question-column::-webkit-scrollbar-track,
+.curriculum-tree-desktop .glass-panel::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+  border-radius: 8px;
+  margin: 4px 0;
+}
+.sidebar-column::-webkit-scrollbar-thumb,
+.tutor-question-column::-webkit-scrollbar-thumb,
+.curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6366f1 0%, #4f46e5 100%);
+  border-radius: 8px;
+  border: 3px solid var(--bg-secondary, #fff);
+  background-clip: padding-box;
+  min-height: 24px;
+  box-shadow: inset 0 0 0 1px rgba(79, 70, 229, 0.35);
+}
+.sidebar-column::-webkit-scrollbar-thumb:hover,
+.tutor-question-column::-webkit-scrollbar-thumb:hover,
+.curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #4f46e5 0%, #4338ca 100%);
+  border: 3px solid var(--bg-secondary, #fff);
+  background-clip: padding-box;
+}
+.sidebar-column::-webkit-scrollbar-thumb:active,
+.tutor-question-column::-webkit-scrollbar-thumb:active,
+.curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb:active {
+  /* Dragging must stay high-contrast (not OS pale highlight) */
+  background: linear-gradient(180deg, #4338ca 0%, #312e81 100%);
+  border: 3px solid var(--bg-secondary, #fff);
+  background-clip: padding-box;
+}
+
+/* Base App Layout */
+
+/* Global minimum font size for readability (student-facing) */
+.app-container, .glass-panel {
+  font-size: max(14px, 1rem);
+}
+
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 15px rgba(99, 102, 241, 0.2); }
+  50% { box-shadow: 0 0 30px rgba(99, 102, 241, 0.4); }
+  100% { box-shadow: 0 0 15px rgba(99, 102, 241, 0.2); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.animate-pulse {
+  animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-in {
+  animation: slideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Buttons & Inputs */
+button {
+  cursor: pointer;
+  border: none;
+  background: var(--accent-gradient);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  letter-spacing: -0.01em;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 8px 20px rgba(99, 102, 241, 0.4),
+    0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+button:disabled {
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  color: #94a3b8;
+  box-shadow: none;
+  cursor: not-allowed;
+  transform: none;
+}
+
+input:not([type="radio"]):not([type="checkbox"]), textarea {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+  padding: 14px;
+  border-radius: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+input:not([type="radio"]):not([type="checkbox"]):focus, textarea:focus {
+  border-color: var(--accent-color);
+  background: #ffffff;
+  box-shadow: 
+    inset 0 1px 3px rgba(0, 0, 0, 0.05),
+    0 0 0 4px rgba(99, 102, 241, 0.15);
+}
+
+/* Radio & checkbox: preserve native appearance */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  accent-color: var(--accent-color);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  padding: 10px 20px;
+  background: var(--accent-gradient);
+  color: white;
+  z-index: 9999;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0 0 12px 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Focus Visible */
+:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ===== Utility Classes (Task 13) ===== */
+.glass-card {
+  background: var(--bg-glass);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  box-shadow: 
+    0 10px 30px rgba(99, 102, 241, 0.06),
+    0 1px 3px rgba(0, 0, 0, 0.02);
+  padding: 24px;
+}
+
+.btn-primary {
+  cursor: pointer;
+  border: none;
+  background: var(--accent-gradient);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+}
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+}
+.btn-primary:disabled {
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  color: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btn-secondary {
+  cursor: pointer;
+  background: #f8fafc;
+  color: var(--text-primary);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  border: 1px solid var(--border-color);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 44px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.btn-secondary:hover {
+  background: #f1f5f9;
+  border-color: rgba(99, 102, 241, 0.25);
+  transform: translateY(-1px);
+}
+.btn-secondary:disabled {
+  color: var(--text-muted);
+  cursor: not-allowed;
+  background: transparent;
+  border-color: transparent;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.sidebar-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 360px;
+  flex-shrink: 0;
+  min-height: 0;
+  align-self: stretch; /* match main tutor panel height (exercise + AI feedback) */
+  overflow-y: auto;
+}
+
+.app-container > .glass-panel {
+  min-height: 0;
+  align-self: stretch;
+}
+
+.tutor-main-layout {
+  display: flex;
+  flex: 1;
+  min-height: 0; /* allow children to fill remaining height under the header */
+  overflow: hidden;
+  border-radius: 0 0 20px 20px;
+  align-items: stretch; /* exercise column and AI feedback share the same height */
+}
+
+.tutor-question-column {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: 28px;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  overflow-y: auto;
+  font-size: 16px;
+}
+
+.tutor-feedback-column {
+  width: 420px;
+  flex-shrink: 0;
+  min-height: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  font-size: 15px;
+  line-height: 1.6;
+  overflow: hidden; /* messages area scrolls inside */
+}
+
+.tutor-feedback-mobile-header {
+  display: none;
+}
+
+.tutor-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.tutor-actions {
+  display: flex;
+  gap: 12px;
+}
+
+/* ===== Resizable sidebar splitter ===== */
+.sidebar-resize-handle {
+  width: 20px;
+  cursor: ew-resize;
+  flex-shrink: 0;
+  position: relative;
+  background: transparent;
+  transition: background 0.15s ease;
+}
+.sidebar-resize-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3px;
+  height: 40px;
+  border-radius: 2px;
+  background: var(--border-color);
+  transition: background 0.15s ease, height 0.15s ease;
+}
+.sidebar-resize-handle:hover::after,
+.sidebar-resize-handle:active::after {
+  background: var(--accent-color);
+  height: 56px;
+}
+.sidebar-resize-handle:hover,
+.sidebar-resize-handle:active {
+  background: rgba(99, 102, 241, 0.06);
+}
+
+/* ===== Resizable feedback/question splitter ===== */
+.feedback-resize-handle {
+  width: 20px;
+  cursor: ew-resize;
+  flex-shrink: 0;
+  position: relative;
+  background: transparent;
+  transition: background 0.15s ease;
+}
+.feedback-resize-handle::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3px;
+  height: 40px;
+  border-radius: 2px;
+  background: var(--border-color);
+  transition: background 0.15s ease, height 0.15s ease;
+}
+.feedback-resize-handle:hover::after,
+.feedback-resize-handle:active::after {
+  background: var(--accent-color);
+  height: 56px;
+}
+.feedback-resize-handle:hover,
+.feedback-resize-handle:active {
+  background: rgba(99, 102, 241, 0.06);
+}
+
+/* The empty practice state links to Today's Study only where the sidebar,
+   which holds the Today card, is a closed drawer (1200px and below). */
+@media (min-width: 1201px) {
+  .today-empty-cta {
+    display: none !important;
+  }
+}
+
+/* Today's Study plan page: one centred column at every width. A wide screen
+   uses the width inside each step row (name, details and the button on one
+   line), not a second column, so the page reads top to bottom. */
+.today-plan {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 18px 48px;
+  display: grid;
+  gap: 16px;
+}
+
+/* The scope label and Exit share one line. The right padding keeps Exit clear
+   of the fixed theme button. */
+.today-plan__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-right: 60px;
+}
+
+.today-step {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) auto;
+  gap: 4px 14px;
+  align-items: center;
+  padding: 12px 4px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.today-step:last-child {
+  border-bottom: 0;
+}
+
+.today-step__action {
+  justify-self: end;
+}
+
+/* The topic chooser needs the full row width. */
+.today-step__wide {
+  grid-column: 2 / -1;
+}
+
+@media (max-width: 640px) {
+  .today-step {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+
+  .today-step__action {
+    grid-column: 2;
+    justify-self: start;
+  }
+}
+
+/* Today practice page. One column on a narrow screen. With help open on a
+   wide screen, the help sits next to the question and stays in view, so the
+   student does not scroll between the question and the chat. */
+.today-practice {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px 16px 48px;
+  display: grid;
+  gap: 14px;
+}
+
+.today-practice--help {
+  max-width: 1320px;
+}
+
+.today-practice__heading {
+  padding: 0 4px;
+}
+
+.today-practice__heading h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.today-practice__heading p {
+  margin: 3px 0 0;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.today-practice__body,
+.today-practice__main {
+  display: grid;
+  gap: 14px;
+  align-items: start;
+  min-width: 0;
+}
+
+.today-practice__help {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  height: min(78vh, 640px);
+  /* Scrolled into view below the sticky session bar, not under it. */
+  scroll-margin-top: 84px;
+}
+
+@media (min-width: 1100px) {
+  .today-practice--help .today-practice__body {
+    grid-template-columns: minmax(0, 3fr) minmax(340px, 2fr);
+  }
+
+  /* Sticky below the session bar. The height fits the screen from where the
+     panel starts (below the bar and the heading), so the chat input is in
+     view without a scroll. */
+  .today-practice__help {
+    position: sticky;
+    top: 88px;
+    height: max(420px, calc(100vh - 192px));
+  }
+}
+
+.today-practice__note {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.22);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.today-practice__note--good {
+  background: rgba(16, 185, 129, 0.09);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+/* Today session bar: sticky, so the next step stays in reach while the page
+   scrolls. The right padding keeps the action clear of the fixed theme button. */
+.today-session-bar {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  flex-shrink: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px 16px;
+  align-items: center;
+  padding: 13px 76px 13px 16px;
+  border-bottom: 1px solid rgba(99, 102, 241, 0.28);
+  background: linear-gradient(90deg, rgba(99, 102, 241, 0.13), rgba(14, 165, 233, 0.06)), var(--bg-secondary);
+}
+
+.today-session-bar__line {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.today-session-bar__title {
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.today-session-bar__meta {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.today-session-bar__badge {
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.today-session-bar__action {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.today-session-bar__action-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Phones: one compact row, so the sticky bar does not cover the question. */
+@media (max-width: 767px) {
+  .today-session-bar {
+    gap: 8px;
+    padding: 8px 64px 8px 12px;
+  }
+
+  .today-session-bar__line {
+    display: block;
+  }
+
+  .today-session-bar__title,
+  .today-session-bar__meta {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .today-session-bar__meta {
+    font-size: 11px;
+  }
+
+  .today-session-bar__badge {
+    display: none;
+  }
+
+  .today-session-bar__action {
+    max-width: 46vw;
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+}
+
+/* ===== Compact Desktop (13" laptop, 1201px – 1400px) ===== */
+/* Reduces feedback column width so question column has enough room for LaTeX */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .tutor-feedback-column {
+    width: 400px;
+  }
+
+  .tutor-question-column {
+    padding: 22px;
+  }
+}
+
+/* ===== Large Screen (27"+, min-width: 1920px) ===== */
+/* Layout scales up but inner content stays readable */
+@media (min-width: 1920px) {
+  .app-container {
+    width: 100%;
+  }
+
+  .sidebar-column {
+    width: 420px;
+  }
+
+  .tutor-feedback-column {
+    width: 460px;
+  }
+
+  .tutor-question-column {
+    padding: 32px;
+    font-size: 17px;
+  }
+
+  .glass-panel {
+    border-radius: 24px;
+  }
+}
+
+/* ===== Tablet / iPad Responsive (768px – 1200px) ===== */
+/* Targets iPad 11" portrait (~834px), iPad 11" landscape (~1180px), and
+   iPad Pro 11" landscape (~1080px). Sidebar becomes a slide-out drawer.
+   Desktop (>1200px) is completely unaffected by these rules. */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .app-container {
+    padding: 14px;
+    gap: 14px;
+  }
+
+  /* Sidebar: collapse into a slide-out drawer when hidden */
+  .sidebar-column {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 340px !important;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 16px;
+    background: var(--bg-primary);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.08);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 12px;
+  }
+
+  .sidebar-column.sidebar-open {
+    transform: translateX(0);
+  }
+
+  /* Overlay behind sidebar when open */
+  .sidebar-overlay.visible {
+    display: block;
+  }
+
+  /* Hamburger toggle — visible on tablet only */
+  .sidebar-toggle {
+    display: flex !important;
+  }
+
+  /* Hide resize handles on tablet */
+  .sidebar-resize-handle,
+  .feedback-resize-handle {
+    display: none;
+  }
+
+  /* Make room for hamburger toggle */
+  .tutor-header {
+    padding-left: 66px;
+  }
+
+  /* Tutor layout: give more room to the question column */
+  .tutor-feedback-column {
+    width: 380px !important;
+  }
+
+  .tutor-question-column {
+    padding: 20px !important;
+  }
+
+  /* Reduce glass-panel border radius for tighter fit */
+  .glass-panel {
+    border-radius: 16px;
+  }
+
+  .tutor-main-layout {
+    border-radius: 0 0 16px 16px;
+  }
+}
+
+/* ===== Mobile Responsive (max-width: 767px) ===== */
+/* Targets phones and very small viewports. iPads use the tablet breakpoint above. */
+@media (max-width: 767px) {
+  .app-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  /* Keep the question as the page body; study choices live in a drawer. */
+  .sidebar-column {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: min(360px, calc(100vw - 28px)) !important;
+    height: 100dvh;
+    overflow-y: auto;
+    padding: 16px;
+    background: var(--bg-primary);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.16);
+    transform: translateX(-100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 12px;
+  }
+
+  .sidebar-column.sidebar-open {
+    transform: translateX(0);
+  }
+
+  .sidebar-toggle {
+    display: flex !important;
+  }
+
+  .sidebar-overlay.visible {
+    display: block;
+  }
+
+  .lab-tab-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .lab-tab-grid > .glass-panel {
+    max-width: none;
+  }
+
+  .glass-panel {
+    width: 100%;
+    max-height: none;
+  }
+
+  #practice-area {
+    width: 100%;
+    /* On phones the document should scroll through the whole question. */
+    flex: none !important;
+    min-height: auto !important;
+    overflow: visible !important;
+  }
+
+  .tutor-main-layout {
+    flex-direction: column;
+    overflow: visible;
+    height: auto;
+  }
+
+  .tutor-question-column {
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    overflow-y: visible;
+    flex: none;
+    padding: 20px;
+  }
+
+  .tutor-feedback-column {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 300px;
+    max-height: 60vh;
+    flex: none;
+    overflow-y: auto;
+  }
+
+  .tutor-header {
+    display: block !important;
+    padding: 0;
+  }
+
+  .tutor-header-question {
+    width: 100%;
+    padding: 20px 20px 20px 66px !important;
+    border-right: none !important;
+  }
+
+  .app-container.today-session .tutor-header-question {
+    padding-left: 20px !important;
+  }
+
+  .tutor-header-spacer,
+  .tutor-header-feedback {
+    display: none !important;
+  }
+
+  .tutor-feedback-mobile-header {
+    display: block;
+    flex-shrink: 0;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+    background: rgba(255, 255, 255, 0.15);
+  }
+
+  .tutor-actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .tutor-actions button {
+    flex: 1 1 calc(50% - 10px);
+    justify-content: center;
+  }
+
+  .sidebar-resize-handle,
+  .feedback-resize-handle {
+    display: none;
+  }
+
+  .tutor-feedback-column textarea {
+    min-height: 80px !important;
+  }
+}
+
+/* Ensure min touch targets globally */
+button, a, [role="button"], select {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+/* Sidebar toggle & overlay — shown by the tablet and mobile drawer breakpoints. */
+.sidebar-toggle {
+  display: none;
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 101;
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 0;
+  cursor: pointer;
+  color: var(--text-primary);
+}
+.sidebar-toggle:hover {
+  background: rgba(99, 102, 241, 0.06);
+  transform: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: none;
+  backdrop-filter: blur(2px);
+  transform: none;
+}
+.sidebar-overlay:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* MCQ Choice Labels */
+.choice-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  background: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 15px;
+  user-select: none;
+}
+
+.choice-label:hover {
+  background: rgba(99, 102, 241, 0.05);
+  border-color: rgba(99, 102, 241, 0.35);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.08);
+}
+
+.choice-label-selected {
+  background: rgba(99, 102, 241, 0.12) !important;
+  border-color: var(--accent-color) !important;
+  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.15);
+}
+
+.choice-label p {
+  margin: 0;
+  padding: 0;
+}
+
+/* AI Tutor Feedback transcript (continuous log; one shared scroll) */
+.tutor-feedback-transcript {
+  scrollbar-gutter: stable;
+}
+
+.tutor-transcript-entry {
+  max-width: 100%;
+}
+
+.tutor-transcript-body {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.tutor-transcript-body .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Legacy bubble classes kept for any remaining non-tutor uses */
+.chat-bubble {
+  max-width: 100%;
+  padding: 10px 0;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.chat-bubble-tutor {
+  color: var(--text-primary);
+}
+
+.chat-bubble-student {
+  color: var(--text-primary);
+}
+
+/* Mafs Interactive Graph theme overrides for clean light mode */
+.mafs-container {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.mafs-container svg {
+  background: var(--bg-secondary) !important;
+}
+
+.mafs-container svg g {
+  --mafs-bg: var(--bg-secondary);
+  --mafs-fg: var(--text-primary);
+  --mafs-line-color: rgba(100, 116, 139, 0.8) !important;
+  --mafs-line-color: color-mix(in srgb, var(--text-muted) 80%, transparent) !important;
+  --grid-line-subdivision-color: rgba(100, 116, 139, 0.24) !important;
+  --grid-line-subdivision-color: color-mix(in srgb, var(--text-muted) 24%, transparent) !important;
+  --mafs-origin-color: var(--text-muted) !important;
+  --mafs-axis-stroke-width: 1px;
+}
+
+
+/* Keep grid lines visually light at every Mafs zoom/viewBox scale. */
+.mafs-stage .MafsView g[stroke='var(--mafs-line-color)'] line {
+  stroke-width: 0.55px;
+  vector-effect: non-scaling-stroke;
+}
+
+/*
+ * Mafs lays out axis labels from the mathematical viewBox rather than the
+ * screen width. On a 320px phone a wide viewBox can therefore put every
+ * negative tick label on top of its neighbour. Keep every other tick at the
+ * narrow breakpoint; the grid and axis remain visible, as do authored labels
+ * such as points, vectors and curve readouts outside .mafs-axis.
+ */
+@media (max-width: 480px) {
+  .mafs-stage .MafsView .mafs-axis > g > text:nth-child(even) {
+    display: none;
+  }
+
+  /* Mafs splits a dense axis into adjacent groups; restart-safe hiding removes
+     the duplicated boundary tick (for example, 7/8 or -2/-1) at each join. */
+  .mafs-stage .MafsView .mafs-axis > g + g > text:first-child {
+    display: none;
+  }
+}
+
+.mafs-stage .MafsView g[stroke='var(--grid-line-subdivision-color)'] line {
+  stroke-width: 0.35px;
+  vector-effect: non-scaling-stroke;
+}
+
+.mafs-stage .MafsView g[stroke='var(--mafs-origin-color)'] line {
+  vector-effect: non-scaling-stroke;
+}
+.mafs-stage .MafsView foreignObject > div {
+  /* Keep graph mathematics readable without returning to the oversized Mafs 1.3em default. */
+  color: var(--text-primary) !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  white-space: nowrap;
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+.mafs-stage .MafsView foreignObject > div .katex {
+  /* KaTeX otherwise multiplies the outer size by another 1.21. */
+  font-size: 1em;
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+/* Role-specific graph labels: key object names need more emphasis than routine readouts. */
+.mafs-stage .mafs-label--key foreignObject > div {
+  font-size: 17px !important;
+  font-weight: 650;
+}
+
+/* Axis readouts use fixed screen-space clearance so pan/zoom cannot put them on tick labels. */
+.mafs-stage .MafsView .mafs-label--axis-readout {
+  transform: translate(0, -30px);
+}
+
+.mafs-stage .MafsView .mafs-label--axis-readout.mafs-label--offset-right {
+  transform: translate(22px, -30px);
+}
+
+/* Keep the large hit target, but show its ring only during explicit interaction. */
+.mafs-stage .mafs-movable-point-ring {
+  fill-opacity: 0;
+  transition: r 0.2s ease, fill-opacity 0.15s ease;
+}
+
+.mafs-stage .mafs-movable-point:hover .mafs-movable-point-ring,
+.mafs-stage .mafs-movable-point:focus-visible .mafs-movable-point-ring,
+.mafs-stage .mafs-movable-point-dragging .mafs-movable-point-ring {
+  fill-opacity: 0.14;
+}
+
+/* Pixel offsets remain clear of the fixed 15px Mafs drag ring at every zoom level. */
+.mafs-stage .mafs-point-label--nw foreignObject > div {
+  transform: translate(-24px, -24px);
+}
+
+.mafs-stage .mafs-point-label--ne foreignObject > div {
+  transform: translate(24px, -24px);
+}
+
+.mafs-stage .mafs-point-label--sw foreignObject > div {
+  transform: translate(-24px, 24px);
+}
+
+.mafs-stage .mafs-point-label--se foreignObject > div {
+  transform: translate(24px, 24px);
+}
+
+.mafs-container svg text {
+  fill: var(--text-primary) !important;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 13px !important;
+  paint-order: normal !important;
+  stroke: none !important;
+  stroke-width: 0;
+  text-shadow: none !important;
+  filter: none !important;
+}
+
+/* ===== Math Lab mobile responsive ===== */
+.lab-directory-card:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 2px var(--bg-primary), 0 0 0 5px var(--accent-color);
+}
+
+.lab-tablist {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-color) transparent;
+}
+
+@media (max-width: 768px) {
+  .lab-tab-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .lab-tab-grid > .lab-visual-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .lab-tab-grid > .lab-visual-column > * {
+    grid-column: auto;
+    grid-row: auto;
+    max-width: none;
+  }
+  .lab-tab-grid > .lab-control-column {
+    max-height: none;
+    overflow: visible;
+  }
+  .psmt-layout {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Force MCQ choice label children to stay inline but protect KaTeX internals */
+.choice-label > span,
+.choice-label > span > span:first-child {
+  display: inline !important;
+}
+.choice-label .katex {
+  display: inline-block !important;
+}
+.choice-label input[type="radio"] {
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+}
+
+.choice-label input[type="radio"] {
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+}
+
+/* Explicit fine-tuning for Mafs coordinate lines */
+.mafs-grid, .mafs-grid line, .mafs-grid path {
+  stroke: rgba(99, 102, 241, 0.18) !important;
+  stroke-width: 0.5px !important;
+  opacity: 0.7 !important;
+}
+
+.mafs-axis, .mafs-axis line, .mafs-axis path {
+  stroke: rgba(15, 23, 42, 0.35) !important;
+  stroke-width: 2px !important;
+  opacity: 1 !important;
+}
+
+/* ===== Dark Mode Theme Overrides ===== */
+.dark {
+  --bg-primary: #0b0f19; /* Deeper slate/navy for premium feel */
+  --bg-secondary: #161e2e; /* Dark slate 800 */
+  --bg-glass: rgba(22, 30, 46, 0.75); /* Translucent dark glass */
+  --bg-glass-hover: rgba(22, 30, 46, 0.85);
+  
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #cbd5e1; /* Slate 300 */
+  --text-muted: #94a3b8; /* Slate 400 */
+  
+  /* Vibrant accent gradients - Indigo/Violet shifted slightly brighter for dark backgrounds */
+  --accent-color: #6366f1; /* Indigo 500 */
+  --accent-hover: #4f46e5; /* Indigo 600 */
+  --accent-purple: #a855f7;
+  --accent-pink: #f43f5e;
+  
+  --accent-gradient: linear-gradient(135deg, #60a5fa 0%, #6366f1 50%, #a855f7 100%);
+  --accent-glow: 0 4px 20px rgba(99, 102, 241, 0.3);
+  
+  --success: #10b981; /* Emerald 500 */
+  --success-glow: 0 4px 16px rgba(16, 185, 129, 0.3);
+  --error: #ef4444; /* Red 500 */
+  --error-glow: 0 4px 16px rgba(239, 68, 68, 0.3);
+  
+  --border-color: rgba(99, 102, 241, 0.25);
+  --border-glow: rgba(99, 102, 241, 0.3);
+
+  /* Scrollbars: pale indigo thumb on dark track */
+  --scrollbar-track: rgba(30, 41, 59, 0.95);
+  --scrollbar-thumb: rgba(165, 180, 252, 0.8);
+  --scrollbar-thumb-hover: rgba(199, 210, 254, 0.95);
+  --scrollbar-thumb-active: #c7d2fe; /* pressed: brighter, still on-brand */
+  --scrollbar-thumb-border: rgba(15, 23, 42, 0.95);
+}
+
+.dark .sidebar-column::-webkit-scrollbar-thumb,
+.dark .tutor-question-column::-webkit-scrollbar-thumb,
+.dark .curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #a5b4fc 0%, #818cf8 100%);
+  border-color: var(--bg-secondary);
+}
+.dark .sidebar-column::-webkit-scrollbar-thumb:hover,
+.dark .tutor-question-column::-webkit-scrollbar-thumb:hover,
+.dark .curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #c7d2fe 0%, #a5b4fc 100%);
+  border-color: var(--bg-secondary);
+}
+.dark .sidebar-column::-webkit-scrollbar-thumb:active,
+.dark .tutor-question-column::-webkit-scrollbar-thumb:active,
+.dark .curriculum-tree-desktop .glass-panel::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #e0e7ff 0%, #a5b4fc 100%);
+  border-color: var(--bg-secondary);
+}
+
+/* Base body background override for dark mode */
+.dark body {
+  background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.08) 0px, transparent 60%),
+    radial-gradient(at 50% 0%, rgba(168, 85, 247, 0.05) 0px, transparent 60%),
+    radial-gradient(at 100% 100%, rgba(244, 63, 94, 0.05) 0px, transparent 60%);
+}
+
+/* Form inputs & interactive components in dark mode */
+.dark input:not([type="radio"]):not([type="checkbox"]),
+.dark textarea,
+.dark select {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+.dark input:not([type="radio"]):not([type="checkbox"]):focus,
+.dark textarea:focus,
+.dark select:focus {
+  background: var(--bg-secondary) !important;
+  border-color: var(--accent-color) !important;
+}
+
+/* MCQ choice options */
+.dark .choice-label {
+  background: var(--bg-secondary) !important;
+  border-color: var(--border-color) !important;
+  color: var(--text-primary) !important;
+}
+.dark .choice-label:hover {
+  background: rgba(99, 102, 241, 0.08) !important;
+  border-color: var(--accent-color) !important;
+}
+.dark .choice-label-selected {
+  background: rgba(99, 102, 241, 0.18) !important;
+  border-color: var(--accent-color) !important;
+}
+
+/* Chat bubble overrides */
+.dark .tutor-transcript-body {
+  color: var(--text-primary);
+}
+
+/* Dialogue panel column and header overrides */
+.dark .tutor-feedback-column {
+  background: rgba(22, 30, 46, 0.5) !important;
+}
+.dark .tutor-header {
+  background: rgba(22, 30, 46, 0.4) !important;
+}
+
+.dark .tutor-header > div:last-child {
+  background: rgba(22, 30, 46, 0.35) !important;
+}
+.dark .sidebar-column {
+  background: var(--bg-primary) !important;
+}
+
+/* Mafs Math Lab graph overrides for dark mode */
+.dark .mafs-container,
+.dark .mafs-container svg {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+.dark .mafs-container svg g {
+  --mafs-bg: var(--bg-secondary);
+  --mafs-fg: var(--text-primary);
+  --mafs-line-color: rgba(255, 255, 255, 0.45) !important;
+  --mafs-origin-color: var(--text-muted) !important;
+}
+.dark .mafs-grid, .dark .mafs-grid line, .dark .mafs-grid path {
+  stroke: rgba(255, 255, 255, 0.15) !important;
+  opacity: 0.6 !important;
+}
+.dark .mafs-axis, .dark .mafs-axis line, .dark .mafs-axis path {
+  stroke: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1 !important;
+  stroke-width: 2px !important;
+}
+.dark .mafs-container svg text {
+  fill: #f8fafc !important;
+  stroke: none !important;
+}
+
+/* Button hover transitions for secondary elements */
+.dark .btn-secondary {
+  background: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+.dark .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border-color: var(--accent-color) !important;
+}
+
+/* ===== Responsive curriculum tree disclosure ===== */
+/* Desktop/tablet: show direct tree, hide "Choose topic manually" */
+@media (min-width: 768px) {
+  .curriculum-tree-desktop {
+    display: block;
+  }
+  .curriculum-tree-mobile {
+    display: none;
+  }
+}
+/* Mobile: hide direct tree, show "Choose topic manually" */
+@media (max-width: 767px) {
+  .curriculum-tree-desktop {
+    display: none;
+  }
+  .curriculum-tree-mobile {
+    display: block;
+  }
+}
+
+
+
+/* ===== Science Lab layout contract =====
+ * Learn nests Inquiry | Scene around the shared Controls | Visual grid. The
+ * scene must therefore respond to its own inline size, not the viewport: near
+ * a 1024px viewport its share can be less than 600px even though the shared
+ * desktop media query has already activated.
+ *
+ * The second Learn child is the scene host. The `:has()` selectors also find
+ * the equivalent host in Explore without adding route-specific markup. Maths
+ * Lab never contains `.science-scene-*`, so its shared grid remains unchanged.
+ */
+.science-lab-learn-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+  min-width: 0;
+}
+
+.science-lab-learn-grid > * {
+  min-width: 0;
+  width: 100%;
+}
+
+.science-lab-learn-grid > :last-child,
+*:has(> .lab-tab-grid .science-scene-svg),
+*:has(> .lab-tab-grid .science-scene-canvas) {
+  container-name: science-lab-scene;
+  container-type: inline-size;
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .science-lab-learn-grid {
+    grid-template-columns: minmax(0, 360px) minmax(0, 1fr);
+  }
+}
+
+@media (min-width: 1500px) {
+  .science-lab-learn-grid {
+    grid-template-columns: minmax(0, 400px) minmax(0, 1fr);
+  }
+}
+
+/* Science controls use the document scroll. This overrides the shared Maths
+ * rail's fixed-height scroller and avoids trapping wheel/touch input inside a
+ * second vertical scrolling context. */
+.lab-tab-grid:has(:is(.science-scene-svg, .science-scene-canvas)) > .lab-control-column {
+  max-height: none;
+  overflow: visible;
+  padding-right: 0;
+}
+
+/* Collapse the inner Controls | Visual grid when the scene itself is narrow.
+ * 900px leaves useful room for both controls and readable diagram labels. */
+@container science-lab-scene (max-width: 899px) {
+  .lab-tab-grid:has(:is(.science-scene-svg, .science-scene-canvas)) {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: clamp(16px, 3cqi, 24px) !important;
+  }
+
+  .lab-tab-grid:has(:is(.science-scene-svg, .science-scene-canvas)) > * {
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+/* Compatibility fallback: phones always stack, and browsers without container
+ * queries collapse the nested Learn scene before it becomes a squeezed three-
+ * column composition. All selectors remain Science-only. */
+@media (max-width: 899px) {
+  .lab-tab-grid:has(:is(.science-scene-svg, .science-scene-canvas)) {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 16px !important;
+  }
+}
+
+@supports not (container-type: inline-size) {
+  @media (min-width: 900px) and (max-width: 1399px) {
+    .science-lab-learn-grid .lab-tab-grid {
+      grid-template-columns: minmax(0, 1fr) !important;
+      gap: 20px !important;
+    }
+  }
+}
+
+/* On genuinely wide scenes, keep only the visual card in view. The control and
+ * data columns remain normal document content, and short/narrow screens never
+ * activate sticky positioning. */
+@media (min-height: 760px) {
+  @container science-lab-scene (min-width: 900px) {
+    .lab-visual-column > :has(:is(.science-scene-svg, .science-scene-canvas)) {
+      position: sticky;
+      top: clamp(12px, 2vh, 24px);
+      align-self: start;
+    }
+  }
+}
+
+/* Scene visuals scale with their column without letterboxing. Normal visuals
+ * preserve native touch panning/zooming; only elements that actually initiate
+ * an existing drag suppress browser gestures. `!important` also neutralises
+ * legacy inline touchAction values on non-draggable canvases/SVGs. */
+.science-scene-svg,
+.science-scene-canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  touch-action: auto !important;
+}
+
+.science-scene-svg [data-science-drag-handle],
+.science-scene-svg [data-force-drag-handle] {
+  touch-action: none !important;
+}
+
+.science-scene-figure {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+/* Scoped foundations for forthcoming notebook/data-table blocks. These only
+ * provide shrinkability and local horizontal overflow; they intentionally
+ * reuse the existing visual system. */
+.science-lab-notebook,
+.science-lab-data-table {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.science-lab-data-table {
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+.science-lab-data-table > table {
+  width: 100%;
+  min-width: max-content;
+  border-collapse: collapse;
+}
+
+.science-inquiry-notebook {
+  padding: 14px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.science-inquiry-notebook__header,
+.science-inquiry-notebook__observation-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.science-inquiry-notebook__header h3,
+.science-inquiry-notebook__header p {
+  margin: 0;
+}
+
+.science-inquiry-notebook__eyebrow {
+  color: #10b981;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.science-inquiry-notebook__header h3 {
+  margin-top: 2px;
+  font-size: 16px;
+}
+
+.science-inquiry-notebook__save-status {
+  max-width: 190px;
+  color: var(--text-muted);
+  font-size: 11px;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.science-inquiry-notebook__save-status--saved {
+  color: #059669;
+}
+
+.science-inquiry-notebook__save-status--unavailable {
+  color: #b45309;
+}
+
+.science-inquiry-notebook__checklist {
+  margin: 12px 0;
+  padding: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background: var(--bg-primary);
+  font-size: 11px;
+}
+
+.science-inquiry-notebook__checklist ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px 10px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.science-inquiry-notebook__checklist li {
+  display: flex;
+  gap: 5px;
+  min-width: 0;
+  color: var(--text-muted);
+  line-height: 1.35;
+}
+
+.science-inquiry-notebook__checklist li[data-complete="true"] {
+  color: #059669;
+}
+
+.science-inquiry-notebook__section {
+  border-top: 1px solid var(--border-color);
+}
+
+.science-inquiry-notebook__section:last-child {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.science-inquiry-notebook__section > summary {
+  padding: 10px 2px;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.science-inquiry-notebook__section-body {
+  display: grid;
+  gap: 6px;
+  padding: 2px 2px 12px;
+}
+
+.science-inquiry-notebook__section-body label {
+  margin-top: 4px;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.science-inquiry-notebook__section-body :is(input, textarea, select) {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  padding: 7px 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font: inherit;
+  font-size: 12px;
+}
+
+.science-inquiry-notebook__section-body textarea {
+  resize: vertical;
+}
+
+.science-inquiry-notebook__section-body :is(input, textarea, select):focus-visible,
+.science-inquiry-notebook button:focus-visible,
+.science-inquiry-notebook summary:focus-visible {
+  outline: 2px solid var(--accent-color, #10b981);
+  outline-offset: 2px;
+}
+
+.science-inquiry-notebook__field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.science-inquiry-notebook__field-grid > div {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.science-inquiry-notebook__observation-actions {
+  align-items: flex-start;
+  color: var(--text-muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.science-inquiry-notebook__observation-actions button,
+.science-inquiry-notebook__delete {
+  flex: none;
+  padding: 6px 9px;
+  border: 1px solid rgba(16, 185, 129, 0.45);
+  border-radius: 6px;
+  background: rgba(16, 185, 129, 0.12);
+  color: #059669;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 750;
+}
+
+.science-inquiry-notebook__observation-actions button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.science-inquiry-notebook .science-lab-data-table {
+  margin-top: 4px;
+}
+
+.science-inquiry-notebook .science-lab-data-table :is(th, td) {
+  padding: 6px 8px;
+  border: 1px solid var(--border-color);
+  font-size: 10px;
+  text-align: left;
+}
+
+.science-inquiry-notebook .science-lab-data-table th {
+  background: var(--bg-primary);
+  font-weight: 750;
+}
+
+.science-inquiry-notebook__delete {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.08);
+  color: #dc2626;
+}
+
+.science-inquiry-notebook__hint,
+.science-inquiry-notebook__empty {
+  margin: 2px 0;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-style: italic;
+}
+
+.science-inquiry-notebook__sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 520px) {
+  .science-inquiry-notebook__header,
+  .science-inquiry-notebook__observation-actions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .science-inquiry-notebook__save-status {
+    max-width: none;
+    text-align: left;
+  }
+
+  .science-inquiry-notebook__checklist ul,
+  .science-inquiry-notebook__field-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Activity card grid. `repeat(auto-fill, minmax(340px, 1fr))` pinned a 340px
+ * track and produced a measured 369px scrollWidth at a 320px viewport. */
+.science-lab-card-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+  min-width: 0;
+}
+
+.science-lab-card-grid > * {
+  min-width: 0;
+}
+
+@media (min-width: 720px) {
+  .science-lab-card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
+  }
+}
+
+/* Narrow phones: a 320px column renders scene diagrams at ~260 logical px,
+ * which scales a 12px SVG label down to roughly 7px. Rather than shrink the
+ * science below legibility, give the figure a legible floor and let it scroll
+ * horizontally inside its own container. The document itself must still not
+ * overflow, so the scrolling is scoped to the visual's direct parent. */
+@media (max-width: 520px) {
+  *:has(> .science-scene-svg),
+  *:has(> .science-scene-canvas) {
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .science-scene-svg,
+  .science-scene-canvas {
+    min-width: 380px;
+  }
+}
+
+
+/* ===== Markdown tables in question text =====
+ * Authored questions carry GFM pipe tables. They need the same treatment as the
+ * `data_table` diagram: real table semantics, readable cells, and scrolling
+ * inside their own frame rather than widening the page on a phone. */
+.markdown-table-wrapper {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 12px 0;
+}
+
+.markdown-table-wrapper > table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: max-content;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.markdown-table-wrapper th,
+.markdown-table-wrapper td {
+  border: 1px solid var(--border-color);
+  padding: 8px 10px;
+  text-align: left;
+  vertical-align: top;
+  color: var(--text-primary);
+}
+
+.markdown-table-wrapper th {
+  font-weight: 600;
+  background: rgba(59, 130, 246, 0.24);
+}
+
+.markdown-table-wrapper td {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+/* An authored table whose header row is empty (the scraper emitted `| | | |`)
+ * would otherwise show a blank blue band above the data. Collapse it instead of
+ * rewriting hundreds of authored records. */
+.markdown-table-wrapper thead:has(th:empty:only-child),
+.markdown-table-wrapper thead tr:has(th:empty) th:empty {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+
+/* ===== KaTeX: keep the MathML copy out of text selection =====
+ * `rehype-katex` runs in `htmlAndMathml` mode, so every expression is emitted
+ * twice: a MathML tree (which screen readers use, plus a LaTeX <annotation>)
+ * and a visual HTML tree. KaTeX's stylesheet hides the MathML visually but
+ * leaves it in the text layer, so selecting or copying a question produced
+ * every value three times — `$1$` copied as "111" and `$x^2$` as "x2x^2x2".
+ *
+ * `user-select: none` removes it from selection and copy without touching the
+ * accessibility tree, so assistive technology still reads the MathML. */
+.katex-mathml {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+/* ===== Target-screen usability refinements ===== */
+/* Modern browsers grow the field with its content; older browsers retain the
+   existing minimum height and manual vertical resize as a safe fallback. */
+.auto-growing-textarea {
+  field-sizing: content;
+  overflow-y: auto;
+}
+
+/* Use the dynamic viewport on iPad so browser chrome does not hide controls. */
+@supports (height: 100dvh) {
+  .app-container {
+    height: 100dvh;
+  }
+
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .sidebar-column {
+      height: 100dvh;
+    }
+  }
+}
+
+/* Preserve more working room in iPad portrait while keeping landscape roomy. */
+@media (min-width: 768px) and (max-width: 1200px) {
+  .tutor-feedback-column {
+    width: clamp(320px, 36vw, 380px) !important;
+  }
+}
+
+/* Includes common 14-inch 1440/1512px viewports. Inline user widths may be
+   narrower, but cannot squeeze the question column beyond this cap. */
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .tutor-feedback-column {
+    max-width: 400px;
+  }
+}
+
+
+/* Diagnostic results use the available desktop width and collapse naturally
+   on tablets, avoiding the previous 600px single-column scroll tunnel. */
+.diagnostic-results-panel {
+  width: calc(100% - 32px);
+  max-width: none;
+}
+
+.diagnostic-results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.diagnostic-result-card {
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+/* The light-mode white overlay turns grey on the dark theme and hides the band colours. */
+.dark .diagnostic-result-card {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+@media (max-width: 767px) {
+  .diagnostic-results-panel {
+    width: calc(100% - 20px);
+  }
+
+  .diagnostic-results-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* Speed Round keeps setup compact, but uses the available workspace while
+   answering and reviewing results. */
+.speed-round-play-shell,
+.speed-round-results-shell {
+  width: calc(100% - 32px);
+  max-width: 1400px;
+  margin: 32px auto;
+}
+
+.speed-round-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.speed-round-insight-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.speed-round-review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr));
+  gap: 10px;
+}
+
+@media (max-width: 900px) {
+  .speed-round-stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .speed-round-play-shell,
+  .speed-round-results-shell {
+    width: calc(100% - 20px);
+    margin: 20px auto;
+  }
+
+  .speed-round-question-panel,
+  .speed-round-results-panel {
+    padding: 20px !important;
+  }
+
+  .speed-round-review-grid {
+    grid-template-columns: 1fr;
+  }
+}

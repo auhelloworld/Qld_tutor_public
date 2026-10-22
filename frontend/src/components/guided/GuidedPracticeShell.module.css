@@ -1,0 +1,18 @@
+/* Laptop widths: a narrower progress column leaves room for the question. */
+@media (max-width: 1440px) {
+  .mainGrid {
+    grid-template-columns: 280px minmax(0, 1fr) !important;
+  }
+}
+
+@media (max-width: 1180px) {
+  .mainGrid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainGrid aside {
+    order: -1;
+  }
+}

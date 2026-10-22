@@ -1,0 +1,115 @@
+{
+  "core_rule": "Combine multiple ideas in one sentence using dependent and independent clauses to show relationships between thoughts.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do different parts of a sentence work together to connect your ideas?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find the <type of clause> that could stand alone, then look for the <type of clause> that depends on it."
+    },
+    {
+      "level": "analogy",
+      "template": "Complex sentences are like a main train with carriages attached - the train moves on its own but the carriages add extra passengers and cargo."
+    }
+  ],
+  "worked_example": {
+    "question": "Identify the clause types in this sentence: 'Although the storm approached quickly, families evacuated early and emergency services prepared for flooding.'",
+    "answer": "Complex-compound sentence with one dependent clause ('Although the storm approached quickly'), two independent clauses ('families evacuated early' and 'emergency services prepared for flooding').",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Find the clause that begins with 'Although' - this cannot stand alone.",
+        "result": "Dependent clause identified."
+      },
+      {
+        "step": 2,
+        "instruction": "Find the two complete thoughts that could be separate sentences.",
+        "result": "Two independent clauses found."
+      },
+      {
+        "step": 3,
+        "instruction": "Count total clauses and check if it combines complex and compound structures.",
+        "result": "Confirmed as complex-compound sentence."
+      }
+    ],
+    "explanation": "The sentence connects three related ideas smoothly, showing cause and effect while maintaining flow."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Simple sentences",
+      "Compound sentences",
+      "Complex sentences"
+    ],
+    "learning_objectives": [
+      "Identify dependent and independent clauses in complex and compound-complex sentences",
+      "Create compound-complex sentences to elaborate ideas with clear relationships"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is a Compound-Complex Sentence?",
+        "body": "A compound-complex sentence joins two or more independent clauses (complete thoughts) with at least one dependent clause (a clause that needs help). Think of it as a sentence with multiple rooms connected by corridors - each room stands alone but they're all linked together.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Build Better Sentences",
+        "body": "Step 1: Write your main ideas as separate simple sentences. Step 2: Add dependent clauses using words like 'although', 'because', 'when', or 'while'. Step 3: Connect your independent clauses with coordinating conjunctions (FANBOYS: for, and, nor, but, or, yet, so) or semicolons. Step 4: Check that each clause has a subject and verb.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Original: 'The team trained hard. They won the competition. Their coach was proud.' Improved: 'While the team trained hard for months, their coach remained confident, and when they won the competition, their families celebrated together.' The improved version shows timing, cause-effect, and adds emotional depth in one flowing sentence.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Run-on Sentences",
+        "body": "Many students mash too many ideas together without proper punctuation or connecting words. This creates confusing sentences that are hard to follow. Always use commas, semicolons, or conjunctions to properly join your clauses, and make sure each clause expresses one clear idea.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Independent clause",
+        "definition": "A clause with a subject and verb that can stand alone as a complete sentence."
+      },
+      {
+        "term": "Dependent clause",
+        "definition": "A clause with a subject and verb that cannot stand alone - it depends on an independent clause."
+      },
+      {
+        "term": "Coordinating conjunction",
+        "definition": "Words like 'and', 'but', 'or' that join equal parts of sentences together."
+      }
+    ],
+    "common_mistakes": [
+      "Joining clauses without punctuation or conjunctions, creating run-on sentences.",
+      "Forgetting that simple sentences can still express sophisticated ideas.",
+      "Using too many clauses and making sentences confusing instead of clear."
+    ],
+    "real_world_connections": [
+      "News reports use compound-complex sentences to pack lots of information into single paragraphs.",
+      "Novels use these structures to create suspense and show character thoughts.",
+      "Science reports combine multiple facts and causes in one sentence for precision."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Rewrite this passage using a compound-complex sentence: 'The festival started at noon. Many people arrived early. The weather was perfect.'",
+        "answer": "Although the festival started at noon, many people arrived early, and the perfect weather ensured everyone enjoyed the celebrations.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Choose which idea will be the dependent clause (the one that sets the scene).",
+            "result": "Weather becomes dependent clause."
+          },
+          {
+            "step": 2,
+            "instruction": "Connect the two independent clauses with appropriate conjunction.",
+            "result": "Complete compound-complex sentence formed."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

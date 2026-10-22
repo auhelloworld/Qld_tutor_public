@@ -1,0 +1,52 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "AUTHORED_BANK_GATE=production vitest --run",
+    "test:e2e": "playwright test",
+    "test:authoring": "AUTHORED_BANK_GATE=scratch vitest --run src/__tests__/diagram-authored-payload-shapes.test.tsx src/__tests__/authored-images-render.test.tsx src/__tests__/markdown-tables.test.tsx",
+    "test:watch": "AUTHORED_BANK_GATE=production vitest"
+  },
+  "dependencies": {
+    "katex": "^0.16.47",
+    "lucide-react": "^1.16.0",
+    "mafs": "^0.21.0",
+    "mathjs": "^15.2.0",
+    "next": "16.3.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "4.0.1",
+    "remark-math": "^6.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitest/coverage-v8": "4.1.11",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.5",
+    "jsdom": "^29.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "4.1.11",
+    "vitest-axe": "^0.1.0"
+  },
+  "overrides": {
+    "postcss": "8.5.25",
+    "sharp": "0.35.4",
+    "minimatch": "10.2.5",
+    "js-yaml": "4.3.2",
+    "nanoid": "3.3.18"
+  }
+}

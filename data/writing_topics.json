@@ -1,0 +1,2255 @@
+[
+  {
+    "id": "naplan-p-2024",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "Simply the Best",
+    "description": "Persuade others that a specific book, movie, or show is the absolute best.",
+    "prompt": "Select one thing you believe is \"the best\" (a movie, TV show, book, performance, etc.) and write a persuasive text to convince the reader why they should experience it.",
+    "stimulusText": "Everyone has a favourite. But what makes something truly the best? Is it the story, the characters, or how it makes you feel?",
+    "guidingQuestions": [
+      "What is your clear opinion?",
+      "What are three strong reasons to support your choice?",
+      "How can you use emotive language to hook your reader?"
+    ],
+    "thinkAbout": [
+      "Introduction with thesis",
+      "Body paragraphs with evidence",
+      "Conclusion that reinforces your position"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-uniforms",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "category": "NAPLAN Practice",
+    "title": "School Uniforms",
+    "description": "Argue your position on whether school uniforms should be mandatory.",
+    "prompt": "Should students be required to wear school uniforms? Write a persuasive text arguing your position.",
+    "guidingQuestions": [
+      "Does it promote equality or stifle individuality?",
+      "Is it cost-effective for parents?",
+      "Does it help with school discipline?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-2023",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "The Message",
+    "description": "Write a story based on the discovery or delivery of a mysterious message.",
+    "prompt": "Write a narrative about a character who discovers or receives a message that changes everything.",
+    "stimulusText": "It was hidden where no one had looked for years. A single envelope, slightly torn. Inside was a message that would change their life forever.",
+    "guidingQuestions": [
+      "Who is the main character?",
+      "How is the message delivered?",
+      "What is the complication that arises from the message?"
+    ],
+    "thinkAbout": [
+      "Orientation (setting/characters)",
+      "Complication (the problem)",
+      "Resolution (how it ends)"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "qcaa-ia2-disconnect",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA2 Practice",
+    "title": "The Right to Disconnect",
+    "description": "Feature article on whether employees should have the legal right to ignore work emails after hours.",
+    "context": "You are a cultural critic for \"The Conversation\". Your editor wants a feature article on work-life balance in the digital age.",
+    "prompt": "Analyse the \"Right to Disconnect\" debate. Evaluate whether current Australian workplace culture is sustainable and justify a position on proposed legislation.",
+    "targetAudience": "Working professionals, policy makers, and the general public.",
+    "mode": "Feature Article",
+    "writingTips": [
+      "Use a \"Hook\" lead (e.g., a personal anecdote of burnout).",
+      "Include a \"Nut Graph\" explaining why this is in the news now.",
+      "Maintain a formal yet engaging public register."
+    ],
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    }
+  },
+  {
+    "id": "qcaa-ia2-ai",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA2 Practice",
+    "title": "AI in the Classroom",
+    "description": "Analyse the ethical implications of Generative AI in secondary education.",
+    "context": "Write for an education technology blog aimed at teachers and parents.",
+    "prompt": "Analyse the impact of tools like ChatGPT on academic integrity. Is AI a threat to critical thinking or a necessary evolution in learning?",
+    "targetAudience": "Educators and parents.",
+    "mode": "Online Commentary",
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    }
+  },
+  {
+    "id": "qcaa-ia3-macbeth",
+    "type": "narrative",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA3 Practice",
+    "title": "The Sleepwalker’s Memory",
+    "description": "Imaginative response to Shakespeare’s Macbeth.",
+    "prescribedText": "Macbeth by William Shakespeare",
+    "prompt": "Create an interior monologue for Lady Macbeth during Act 5, Scene 1 (the sleepwalking scene). Intervene by revealing a specific repressed memory that explains her descent into guilt.",
+    "mode": "Imaginative Exam Response",
+    "writingTips": [
+      "Mirror the motif of blood and darkness from the original play.",
+      "Use stream-of-consciousness to show a fragmented mind.",
+      "Ensure the narrative voice matches the character’s established traits."
+    ],
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "qcaa-ea-gatsby",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice",
+    "title": "The Futility of the Dream",
+    "description": "External Assessment practice on F. Scott Fitzgerald’s The Great Gatsby.",
+    "prescribedText": "The Great Gatsby by F. Scott Fitzgerald",
+    "prompt": "How is the reader invited to view the concept of the \"American Dream\" in The Great Gatsby? Analyse how Fitzgerald uses aesthetic features to position the reader.",
+    "mode": "Analytical Essay (External Exam)",
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "naplan-p-phones",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Phones in School",
+    "description": "Argue whether mobile phones should be completely banned during school hours.",
+    "prompt": "Should mobile phones be banned in schools? Write a persuasive text to explain your opinion.",
+    "guidingQuestions": [
+      "Do phones distract students from learning?",
+      "Are they necessary for safety and contacting parents?",
+      "Do they contribute to online bullying at school?"
+    ],
+    "thinkAbout": [
+      "Introduction with a clear stance",
+      "Three arguments with evidence",
+      "Rebuttal of opposing view",
+      "Conclusion"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-weekends",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Three-Day Weekends",
+    "description": "Argue whether a three-day weekend would improve student productivity and wellbeing.",
+    "prompt": "Should weekends be three days instead of two? Write a persuasive text to convince your audience.",
+    "guidingQuestions": [
+      "Would students have more time to rest and study?",
+      "Would school days need to be longer to catch up?",
+      "How would it affect parents' work schedules?"
+    ],
+    "thinkAbout": [
+      "Introduction with thesis",
+      "Body paragraphs with arguments",
+      "Conclusion summarizing key points"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-homework",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Homework Debate",
+    "description": "Persuade readers on whether homework is beneficial or harmful for students.",
+    "prompt": "Should schools ban homework? Write a persuasive text arguing your point of view.",
+    "guidingQuestions": [
+      "Does homework reinforce classroom learning?",
+      "Does it cause excessive stress and take away family time?",
+      "Does it create inequality for students who lack help at home?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-recycling",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Mandatory Recycling",
+    "description": "Argue why recycling should be legally required for all households and schools.",
+    "prompt": "Should recycling be mandatory? Write a persuasive text defending your position.",
+    "guidingQuestions": [
+      "How does recycling protect the environment and wildlife?",
+      "Should people be fined for not recycling?",
+      "Is it easy enough for everyone to do?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-compulsory-pe",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Compulsory PE",
+    "description": "Argue whether physical education should be compulsory for every student every day.",
+    "prompt": "Should physical education be compulsory every day at school? Write a persuasive text.",
+    "guidingQuestions": [
+      "Does daily exercise improve academic focus and health?",
+      "Should students who dislike sports be forced to participate?",
+      "Is there enough time in the school day for daily PE?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-fastfood-ads",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Fast Food Advertising",
+    "description": "Argue whether advertisements for unhealthy fast food should be banned.",
+    "prompt": "Should fast food advertising aimed at children be banned? Write a persuasive text.",
+    "guidingQuestions": [
+      "Does advertising influence children to make unhealthy choices?",
+      "Is it the responsibility of parents or the government to control diet?",
+      "Would a ban help reduce childhood obesity rates?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-zoos",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Keeping Animals in Zoos",
+    "description": "Argue your position on whether keeping animals in zoos is ethical.",
+    "prompt": "Is it right to keep wild animals in zoos? Write a persuasive text arguing your stance.",
+    "guidingQuestions": [
+      "Do zoos help save endangered species through breeding programs?",
+      "Is it cruel to keep animals in confined spaces away from nature?",
+      "Do zoos educate the public about wildlife conservation?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-free-transit",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Free Public Transport",
+    "description": "Argue why school students should be allowed to ride public transit for free.",
+    "prompt": "Should public transport be free for all students? Write a persuasive text.",
+    "guidingQuestions": [
+      "Does it encourage independence and reduce school traffic?",
+      "Is it fair to taxpayers who do not have children?",
+      "Would it help low-income families save money?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-school-start",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Later School Start Times",
+    "description": "Persuade the audience on whether high schools should start later in the morning.",
+    "prompt": "Should the school day start later for teenagers? Write a persuasive text.",
+    "guidingQuestions": [
+      "Do teenagers need more sleep due to biological rhythms?",
+      "Would a later start improve alertness and grades?",
+      "How would it affect school bus schedules and parents' work?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-screen-time",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Screen Time Limits",
+    "description": "Argue whether parents should enforce strict screen time limits on teenagers.",
+    "prompt": "Should screen time be limited for teenagers? Write a persuasive text.",
+    "guidingQuestions": [
+      "Does screen time affect physical health and sleep?",
+      "Is technology vital for homework and staying social?",
+      "How should screen time be monitored fairly?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-locked-gate",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Locked Gate",
+    "description": "Write a story about discovering what lies behind a mysterious locked gate.",
+    "prompt": "Write a narrative about a character who finds a mysterious locked gate and decides to find the key.",
+    "guidingQuestions": [
+      "Where is the gate located, and why was it locked?",
+      "What obstacles does the character face to get the key?",
+      "What surprise or secret lies on the other side?"
+    ],
+    "thinkAbout": [
+      "Orientation to set the mood",
+      "Complication when the gate is opened",
+      "Climax and resolution"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-visitor",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "An Unexpected Visitor",
+    "description": "Write a narrative about a knock on the door that brings a surprising guest.",
+    "prompt": "Write a narrative about a character whose life is turned upside down by an unexpected visitor.",
+    "guidingQuestions": [
+      "Who is the visitor, and why have they arrived?",
+      "How does the main character react to their presence?",
+      "What adventure or change does the visitor bring?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-compass",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Lost Compass",
+    "description": "Write a story about a compass that points to secrets instead of North.",
+    "prompt": "Write a narrative about a character who finds an old compass that does not point North, but rather to something hidden.",
+    "guidingQuestions": [
+      "Where did the character find this strange compass?",
+      "What happens when they follow where the needle points?",
+      "What is the final discovery?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-storm",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Storm",
+    "description": "Write a story set during a wild storm that forces characters to make difficult decisions.",
+    "prompt": "Write a narrative about a group of characters caught in a severe storm who must work together to stay safe.",
+    "guidingQuestions": [
+      "Where are they trapped when the storm hits?",
+      "What danger arises during the storm?",
+      "How do they solve the problem and survive?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-attic",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "A Secret in the Attic",
+    "description": "Write a story about finding an object hidden in the attic of a relative's house.",
+    "prompt": "Write a narrative about a character who explores an old attic and finds something that belonged to their ancestors.",
+    "guidingQuestions": [
+      "Why is the character exploring the attic?",
+      "What is the object, and what mystery does it reveal?",
+      "How does this discovery affect the family?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-timecapsule",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Time Capsule",
+    "description": "Write a story about opening a time capsule buried fifty years ago.",
+    "prompt": "Write a narrative about opening a time capsule and finding an item that leads to a surprising mystery.",
+    "guidingQuestions": [
+      "Who buried the time capsule, and who digs it up?",
+      "What unusual item is inside it?",
+      "How does this item connect to a present-day mystery?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-midnight",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "A Midnight Adventure",
+    "description": "Write a narrative about a secret trip out of the house after midnight.",
+    "prompt": "Write a narrative about a character who sneaks out at midnight to investigate a strange noise or light.",
+    "guidingQuestions": [
+      "What makes the character leave the safety of their home?",
+      "What is the setting like in the middle of the night?",
+      "What do they discover, and how do they get back safely?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-key",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Mysterious Key",
+    "description": "Write a story about a key that fits no lock in the character's house.",
+    "prompt": "Write a narrative about finding a key and the journey to locate the lock it belongs to.",
+    "guidingQuestions": [
+      "How does the character obtain the key?",
+      "Where does the search for the lock take them?",
+      "What does the lock protect?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-mirror",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Through the Mirror",
+    "description": "Write a story about catching a glimpse of a different world in a mirror.",
+    "prompt": "Write a narrative about a character who looks in a mirror and sees a reflection that does not match reality.",
+    "guidingQuestions": [
+      "When does the reflection start changing?",
+      "What is different about the world in the reflection?",
+      "Can the character interact with that reflection world?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-map",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Forgotten Map",
+    "description": "Write a story about finding a map inside an old library book.",
+    "prompt": "Write a narrative about finding a hand-drawn map tucked inside an old book and following its path.",
+    "guidingQuestions": [
+      "What book was the map inside, and who left it there?",
+      "What landmarks are drawn on the map?",
+      "What does the final destination hold?"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "y7-p-community-garden",
+    "type": "persuasive",
+    "yearLevels": [
+      7
+    ],
+    "category": "NAPLAN Practice",
+    "title": "A School Community Garden",
+    "description": "Persuade your principal that the school should create a community garden.",
+    "prompt": "Write a persuasive text arguing whether your school should create and maintain a community garden for students and families.",
+    "guidingQuestions": [
+      "Who would benefit from the garden?",
+      "What practical concerns might the school have?",
+      "How can you use evidence and examples to persuade?"
+    ],
+    "thinkAbout": [
+      "Clear position",
+      "Reasons with evidence",
+      "Audience-aware conclusion"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    },
+    "targetAudience": "School principal and community"
+  },
+  {
+    "id": "y7-n-photo-at-the-jetty",
+    "type": "narrative",
+    "yearLevels": [
+      7
+    ],
+    "category": "NAPLAN Practice",
+    "title": "The Photo at the Jetty",
+    "description": "Write a narrative inspired by an old photograph found near the water.",
+    "prompt": "Write a story about a character who finds an old photograph at a jetty and discovers it is connected to their family.",
+    "stimulusText": "The photograph was faded at the edges. Behind the smiling faces was the same jetty I was standing on now.",
+    "guidingQuestions": [
+      "Who is in the photograph?",
+      "What secret or complication does it reveal?",
+      "How does the character change by the end?"
+    ],
+    "writingTips": [
+      "Establish setting early",
+      "Use sensory details",
+      "Build to a turning point"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "y7-a-poem-wind",
+    "type": "analytical",
+    "status": "active",
+    "yearLevels": [
+      7
+    ],
+    "category": "Analytical Paragraph",
+    "title": "The Wind in the Playground",
+    "description": "Practise a short analytical paragraph about imagery and mood.",
+    "prompt": "Read the short stimulus poem and write one analytical paragraph explaining how imagery creates mood.",
+    "stimulusText": "The wind chased wrappers across the court, / rattled the fence, / and whispered through empty swings.",
+    "guidingQuestions": [
+      "What mood is created?",
+      "Which words or images create that mood?",
+      "How can you explain the effect on the reader?"
+    ],
+    "thinkAbout": [
+      "Point",
+      "Evidence",
+      "Explanation",
+      "Link"
+    ],
+    "wordLimit": {
+      "min": 120,
+      "max": 250
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y8-a-two-characters",
+    "type": "analytical",
+    "status": "active",
+    "yearLevels": [
+      8
+    ],
+    "category": "Comparative Analysis",
+    "title": "Two Characters, Two Choices",
+    "description": "Compare how two characters respond to pressure.",
+    "prompt": "Write a comparative paragraph explaining how two characters respond differently to a challenge or pressure.",
+    "guidingQuestions": [
+      "What is similar about their situations?",
+      "How does each character respond?",
+      "What evidence shows the difference?"
+    ],
+    "thinkAbout": [
+      "Comparative topic sentence",
+      "Evidence for each character",
+      "Clear comparative language"
+    ],
+    "wordLimit": {
+      "min": 180,
+      "max": 350
+    },
+    "stimulusText": "Character A: Lina tightened the lid on the water bottle and handed it to the new student without a word. She stayed beside him until his breathing slowed.\n\nCharacter B: Max saw the same crowd gathering, but he laughed loudly and said, 'It's not my problem,' before walking away faster than usual.",
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y8-p-explain-tech-free-day",
+    "type": "expository",
+    "yearLevels": [
+      8
+    ],
+    "category": "Informative/Expository",
+    "title": "A Technology-Free Day",
+    "description": "Explain the possible benefits and drawbacks of one technology-free school day each term.",
+    "prompt": "Write an informative article explaining the benefits and challenges of a technology-free school day.",
+    "guidingQuestions": [
+      "What benefits could students experience?",
+      "What problems might arise?",
+      "How can the school make the day useful?"
+    ],
+    "writingTips": [
+      "Use balanced paragraphs",
+      "Define key terms",
+      "Use examples rather than exaggeration"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 700
+    }
+  },
+  {
+    "id": "y9-a-adaptation",
+    "type": "analytical",
+    "status": "active",
+    "yearLevels": [
+      9,
+      10
+    ],
+    "category": "Comparative Analysis",
+    "title": "Book to Screen Adaptation",
+    "description": "Compare how a scene changes between a written text and a film version.",
+    "prompt": "Write an analytical response comparing how a key scene is represented in a written text and a screen adaptation.",
+    "guidingQuestions": [
+      "What changes between versions?",
+      "How do language and film techniques shape meaning?",
+      "Which version is more effective and why?"
+    ],
+    "thinkAbout": [
+      "Comparison",
+      "Technique vocabulary",
+      "Judgement of effectiveness"
+    ],
+    "wordLimit": {
+      "min": 300,
+      "max": 600
+    },
+    "mode": "Comparative analytical response",
+    "stimulusText": "Written scene: The character enters the empty hall slowly, noticing the dust on the trophies and the echo of each footstep.\n\nScreen adaptation description: The film version uses a low camera angle, blue lighting and a close-up of the character's clenched hand before cutting to the dark trophy cabinet.",
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-p-explain-ai-study",
+    "type": "expository",
+    "yearLevels": [
+      9,
+      10
+    ],
+    "category": "Informative/Expository",
+    "title": "AI and Study Habits",
+    "description": "Explain how students can use AI tools responsibly for learning.",
+    "prompt": "Write an expository article explaining how students can use AI tools responsibly without replacing their own thinking.",
+    "guidingQuestions": [
+      "What are useful study purposes?",
+      "What risks should students avoid?",
+      "How can schools set fair expectations?"
+    ],
+    "writingTips": [
+      "Use clear subtopics",
+      "Include examples",
+      "Keep an informative tone"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 800
+    },
+    "targetAudience": "Students and parents"
+  },
+  {
+    "id": "y10-p-phone-free-learning",
+    "type": "persuasive",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Public Argument",
+    "title": "Phone-Free Learning?",
+    "description": "Argue whether phone-free learning time should be expanded in secondary schools.",
+    "prompt": "Write a public argument for a school or community audience arguing whether phone-free learning time should be expanded in secondary schools.",
+    "guidingQuestions": [
+      "What problem or benefit will your audience recognise?",
+      "Which evidence or examples will make the argument credible?",
+      "How will you address a fair counterargument?"
+    ],
+    "writingTips": [
+      "Establish a clear contention early",
+      "Use public-facing but precise language",
+      "Balance evidence, values and rebuttal"
+    ],
+    "thinkAbout": [
+      "Audience values",
+      "Counterargument",
+      "Public argument structure"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 900
+    },
+    "targetAudience": "School community",
+    "mode": "Public argument",
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-p-student-transport",
+    "type": "persuasive",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Public Argument",
+    "title": "Student Transport Costs",
+    "description": "Argue a position on free or discounted public transport for secondary students.",
+    "prompt": "Write a persuasive public argument for a local council audience arguing whether secondary students should receive free or discounted public transport.",
+    "guidingQuestions": [
+      "What social, environmental or fairness issues are involved?",
+      "What evidence could support your case?",
+      "How can you position council members and families as responsible decision-makers?"
+    ],
+    "writingTips": [
+      "Use a reasoned sequence of claims",
+      "Choose examples relevant to local communities",
+      "End with a practical call to action"
+    ],
+    "thinkAbout": [
+      "Public purpose",
+      "Evidence selection",
+      "Call to action"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 900
+    },
+    "targetAudience": "Local council and families",
+    "mode": "Public argument",
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y11-a-unseen-extract",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice",
+    "title": "Unseen Extract: Setting and Tension",
+    "description": "Practise analysing an unseen prose extract for QCAA-style external assessment.",
+    "prompt": "Analyse how the writer uses setting and stylistic features to create tension in the unseen extract.",
+    "stimulusText": "The hallway narrowed as the lights flickered. Every door was closed, but behind one of them something scraped slowly across the floor.",
+    "guidingQuestions": [
+      "How is tension established?",
+      "Which aesthetic features are most significant?",
+      "How do details position the reader?"
+    ],
+    "writingTips": [
+      "Use analytical verbs",
+      "Integrate short evidence",
+      "Evaluate effects, not just identify techniques"
+    ],
+    "wordLimit": {
+      "min": 600,
+      "max": 1000
+    },
+    "mode": "Analytical essay",
+    "prescribedText": "Unseen prose extract"
+  },
+  {
+    "id": "y11-p-public-speech-belonging",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA Public Audience",
+    "title": "Belonging in a Changing Australia",
+    "description": "Write a public persuasive speech about belonging and community responsibility.",
+    "prompt": "Write a persuasive speech for a youth forum arguing how communities can strengthen belonging in a changing Australia.",
+    "guidingQuestions": [
+      "Who is your public audience?",
+      "What cultural assumptions or values will you challenge?",
+      "Which rhetorical devices suit a speech?"
+    ],
+    "writingTips": [
+      "Establish a clear contention",
+      "Use inclusive language",
+      "Balance emotional appeal with evidence"
+    ],
+    "wordLimit": {
+      "min": 700,
+      "max": 1200
+    },
+    "targetAudience": "Youth forum audience",
+    "mode": "Persuasive speech"
+  },
+  {
+    "id": "qcaa-ia2-text-pair-belonging",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA2 Practice - Text Pair",
+    "title": "Belonging and Public Spaces",
+    "description": "Use a paired stimulus brief to write a public audience response about belonging in shared places.",
+    "prompt": "Write a public audience written response that argues how communities should design public spaces to strengthen belonging. Draw on ideas from both stimulus texts.",
+    "stimulusText": "Stimulus A summary: A local columnist argues that parks and libraries help young people feel visible when they offer quiet study areas, free events and places to meet safely.\n\nStimulus B summary: A community notice describes complaints that public spaces are becoming too regulated, with signs, cameras and time limits making some teenagers feel unwelcome.",
+    "guidingQuestions": [
+      "What representations of young people appear across both stimuli?",
+      "Which cultural assumptions about public space will you challenge or reinforce?",
+      "How will your genre choices suit a public audience?"
+    ],
+    "writingTips": [
+      "Synthesize ideas from both stimuli rather than summarising them separately",
+      "Shape a purposeful public voice",
+      "Use rhetorical choices that suit the audience and publication context"
+    ],
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    },
+    "targetAudience": "Readers of a community news site",
+    "mode": "Public audience written response",
+    "rubricProfile": "senior_qcaa_general",
+    "taskConditions": {
+      "label": "IA2-style formative practice",
+      "planningMinutes": 30,
+      "writingMinutes": 120,
+      "conditionsNote": "School IA2 instruments vary; use your task sheet and ISMG where provided."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - IA2 public audience guidance",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english/syllabus",
+      "note": "Original practice stimulus written for this tutor; not an official QCAA stimulus."
+    }
+  },
+  {
+    "id": "qcaa-ia2-text-pair-work-futures",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA2 Practice - Text Pair",
+    "title": "Work Futures and Human Skills",
+    "description": "Use two stimulus summaries to craft a public audience response about future work.",
+    "prompt": "Write a public audience feature article arguing which human skills schools should protect as workplaces change. Draw on ideas from both stimulus texts.",
+    "stimulusText": "Stimulus A summary: A technology report predicts that routine workplace tasks will increasingly be automated, but collaboration, ethical judgement and communication will remain valuable.\n\nStimulus B short excerpt: 'Students are told to become efficient, yet efficiency alone cannot teach them how to listen, disagree respectfully or imagine a fairer workplace.'",
+    "guidingQuestions": [
+      "What attitudes to technology and education are represented?",
+      "Which audience values can your article appeal to?",
+      "How will you integrate stimulus ideas without turning the response into a report?"
+    ],
+    "writingTips": [
+      "Develop a clear persuasive angle",
+      "Use the paired stimuli as springboards for your own argument",
+      "Control tone for a public but informed readership"
+    ],
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    },
+    "targetAudience": "Readers of a youth issues magazine",
+    "mode": "Public audience written response",
+    "rubricProfile": "senior_qcaa_general",
+    "taskConditions": {
+      "label": "IA2-style formative practice",
+      "planningMinutes": 30,
+      "writingMinutes": 120,
+      "conditionsNote": "School IA2 instruments vary; use your task sheet and ISMG where provided."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - IA2 public audience guidance",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english/syllabus",
+      "note": "Original practice stimulus written for this tutor; not an official QCAA stimulus."
+    }
+  },
+  {
+    "id": "qcaa-ea-unseen-rain-platform",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Unseen Extract",
+    "title": "Unseen Extract: Rain Platform",
+    "description": "Analyse an original unseen prose extract for aesthetic features and reader positioning.",
+    "prompt": "Analyse how the writer uses aesthetic features and stylistic devices to represent uncertainty in the unseen extract.",
+    "stimulusText": "The platform clock had stopped at 6:17, though the rain kept counting. Mara watched each drop strike the yellow line and break into smaller versions of itself. Across the tracks, a suitcase stood without an owner, patient as a question nobody wanted to ask.",
+    "guidingQuestions": [
+      "How does imagery create uncertainty?",
+      "What effects come from personification or symbolism?",
+      "How is the reader positioned to respond to Mara and the setting?"
+    ],
+    "writingTips": [
+      "Build a thesis about representation and effect",
+      "Use short embedded evidence",
+      "Analyse patterns across the extract, not isolated techniques"
+    ],
+    "wordLimit": {
+      "min": 600,
+      "max": 1000
+    },
+    "mode": "Analytical essay (unseen extract)",
+    "prescribedText": "Original unseen prose extract",
+    "rubricProfile": "senior_qcaa_general",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "External assessment conditions and text selections are set by QCAA; this is an original practice extract."
+    },
+    "officialSource": {
+      "label": "QCAA English external assessment guidance",
+      "url": "https://www.qcaa.qld.edu.au/senior/assessment/external-assessment",
+      "note": "Original extract written for this tutor; not an official QCAA extract."
+    }
+  },
+  {
+    "id": "qcaa-ea-unseen-glasshouse",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Unseen Extract",
+    "title": "Unseen Extract: Glasshouse",
+    "description": "Analyse an original unseen prose extract about memory, silence and family conflict.",
+    "prompt": "Analyse how the writer uses narrative perspective and imagery to shape ideas about memory in the unseen extract.",
+    "stimulusText": "In the glasshouse, every pane held a different afternoon. Leo could see his grandmother's hands in the soil, his father's shadow at the door, his own reflection split by a crack that ran from roof to floor. No one mentioned the broken pane. They watered around it.",
+    "guidingQuestions": [
+      "How does the glasshouse operate symbolically?",
+      "What does narrative perspective reveal or withhold?",
+      "How do small details suggest family tension?"
+    ],
+    "writingTips": [
+      "Connect imagery to broader ideas",
+      "Use analytical verbs such as positions, constructs and foregrounds",
+      "Explain how textual choices shape reader response"
+    ],
+    "wordLimit": {
+      "min": 600,
+      "max": 1000
+    },
+    "mode": "Analytical essay (unseen extract)",
+    "prescribedText": "Original unseen prose extract",
+    "rubricProfile": "senior_qcaa_general",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "External assessment conditions and text selections are set by QCAA; this is an original practice extract."
+    },
+    "officialSource": {
+      "label": "QCAA English external assessment guidance",
+      "url": "https://www.qcaa.qld.edu.au/senior/assessment/external-assessment",
+      "note": "Original extract written for this tutor; not an official QCAA extract."
+    }
+  },
+  {
+    "id": "y12-n-transformation-statement",
+    "type": "narrative",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA Imaginative",
+    "title": "Transforming a Minor Character",
+    "description": "Create an imaginative transformation with writer's statement notes.",
+    "prompt": "Write an imaginative transformation that retells a key moment from the perspective of a minor character, then explain your choices in a writer's statement.",
+    "guidingQuestions": [
+      "Which perspective will you transform?",
+      "What values or assumptions will your version reveal?",
+      "Which aesthetic features will you manipulate?"
+    ],
+    "writingTips": [
+      "Control voice and perspective",
+      "Use motifs from the original text",
+      "Connect your writer's statement to specific choices"
+    ],
+    "wordLimit": {
+      "min": 700,
+      "max": 1200
+    },
+    "mode": "Imaginative transformation with writer's statement",
+    "prescribedText": "Student-selected literary text"
+  },
+  {
+    "id": "y7-8-e-tech-free-day",
+    "type": "expository",
+    "yearLevels": [
+      7,
+      8
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Technology-Free School Day",
+    "description": "Explain how a technology-free school day could work and what students might learn from it.",
+    "prompt": "Write an informative/expository text explaining the benefits and challenges of a technology-free school day.",
+    "guidingQuestions": [
+      "What would the day look like?",
+      "What benefits could students gain?",
+      "What problems would need to be solved?"
+    ],
+    "thinkAbout": [
+      "Define the idea clearly",
+      "Use sections or paragraphs for each main point",
+      "Include examples rather than only opinions"
+    ],
+    "wordLimit": {
+      "min": 250,
+      "max": 700
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y7-8-e-healthy-sleep",
+    "type": "expository",
+    "yearLevels": [
+      7,
+      8
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Why Sleep Matters",
+    "description": "Explain why sleep is important for learning, mood, and health.",
+    "prompt": "Write an informative text explaining why healthy sleep habits matter for students.",
+    "guidingQuestions": [
+      "How does sleep affect concentration?",
+      "How can sleep affect emotions?",
+      "What practical habits help?"
+    ],
+    "thinkAbout": [
+      "Use cause-and-effect explanations",
+      "Give concrete examples",
+      "Organise ideas from most to least important"
+    ],
+    "wordLimit": {
+      "min": 250,
+      "max": 700
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y9-10-e-ai-learning",
+    "type": "expository",
+    "yearLevels": [
+      9,
+      10
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Artificial Intelligence and Learning",
+    "description": "Explain how AI tools can support learning and what limitations students should understand.",
+    "prompt": "Write an expository text explaining how artificial intelligence can support student learning, including both useful applications and important limitations.",
+    "guidingQuestions": [
+      "What can AI help students practise or understand?",
+      "What risks or limitations should students know?",
+      "How can students use AI responsibly?"
+    ],
+    "thinkAbout": [
+      "Separate explanation from persuasion",
+      "Define key terms",
+      "Use balanced examples"
+    ],
+    "wordLimit": {
+      "min": 350,
+      "max": 900
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y9-10-e-climate-adaptation",
+    "type": "expository",
+    "yearLevels": [
+      9,
+      10
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Adapting to Extreme Weather",
+    "description": "Explain practical ways communities can prepare for heatwaves, floods, or storms.",
+    "prompt": "Write an informative/expository text explaining how communities can adapt to more frequent extreme weather events.",
+    "guidingQuestions": [
+      "What kinds of extreme weather affect communities?",
+      "What can households, schools, and councils do?",
+      "Why does preparation reduce harm?"
+    ],
+    "thinkAbout": [
+      "Use clear subtopics",
+      "Explain cause and effect",
+      "Include specific examples"
+    ],
+    "wordLimit": {
+      "min": 350,
+      "max": 900
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y7-a-rain-poem",
+    "type": "analytical",
+    "yearLevels": [
+      7
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "The Rain Arrives",
+    "description": "Analyse how imagery and sound create mood in a short poem.",
+    "prompt": "Write a TEEL paragraph explaining how the poem uses imagery and sound to create a calm or hopeful mood.",
+    "stimulusText": "The rain tiptoed over the roof,\nsoft fingers tapping dust from leaves.\nIn the gutter, silver threads gathered,\nand the thirsty garden lifted its face.",
+    "guidingQuestions": [
+      "Which words make the rain seem alive?",
+      "What mood is created by soft sound words?",
+      "How does the garden image change the feeling of the poem?"
+    ],
+    "thinkAbout": [
+      "Topic sentence",
+      "Short quote",
+      "Explain the effect",
+      "Link back to mood"
+    ],
+    "wordLimit": {
+      "min": 120,
+      "max": 300
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y7-a-character-choice",
+    "type": "analytical",
+    "yearLevels": [
+      7
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Maya's Choice",
+    "description": "Analyse how action and dialogue reveal character.",
+    "prompt": "Write a TEEL paragraph explaining what Maya's actions and dialogue reveal about her character.",
+    "stimulusText": "Maya looked at the last seat on the bus, then at the younger boy clutching his heavy violin case. 'You take it,' she said, stepping back into the aisle. When the bus lurched, she grabbed the rail and smiled as if standing had been her plan all along.",
+    "guidingQuestions": [
+      "What does Maya choose to do?",
+      "How does her dialogue reveal values?",
+      "What does the final smile suggest?"
+    ],
+    "thinkAbout": [
+      "Use evidence from action and speech",
+      "Explain character traits",
+      "Avoid retelling only"
+    ],
+    "wordLimit": {
+      "min": 120,
+      "max": 300
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y7-a-persuasive-leaflet",
+    "type": "analytical",
+    "yearLevels": [
+      7
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Library Lunch Club",
+    "description": "Analyse how a school leaflet persuades students to join an activity.",
+    "prompt": "Write a TEEL paragraph explaining how the leaflet uses language to persuade students to join Library Lunch Club.",
+    "stimulusText": "Bored at lunch? Step into Library Lunch Club and discover games, graphic novels, puzzles and quiet corners. Bring a friend or make a new one. Every Tuesday, the library becomes your place to relax, read and recharge.",
+    "guidingQuestions": [
+      "Who is the audience?",
+      "Which words sound inviting?",
+      "How does the list of activities persuade?"
+    ],
+    "thinkAbout": [
+      "Audience",
+      "Persuasive word choice",
+      "Effect on reader"
+    ],
+    "wordLimit": {
+      "min": 120,
+      "max": 300
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y8-a-storm-setting",
+    "type": "analytical",
+    "yearLevels": [
+      8
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Storm at the Station",
+    "description": "Analyse how setting creates tension in a prose extract.",
+    "prompt": "Write a TEEL paragraph explaining how the writer uses setting details to build tension.",
+    "stimulusText": "The station lights flickered against the wet platform. Beyond the tracks, thunder rolled like a warning. Nina checked the timetable again, but the final train had vanished from the screen, leaving only her reflection and the rain behind it.",
+    "guidingQuestions": [
+      "Which setting details feel threatening?",
+      "How does the simile affect tension?",
+      "Why is the vanished train important?"
+    ],
+    "thinkAbout": [
+      "Setting evidence",
+      "Language feature",
+      "Reader effect"
+    ],
+    "wordLimit": {
+      "min": 150,
+      "max": 350
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y8-a-news-report-tone",
+    "type": "analytical",
+    "yearLevels": [
+      8
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Community Garden Report",
+    "description": "Analyse how tone and selection of detail shape a positive representation.",
+    "prompt": "Write a TEEL paragraph explaining how the report creates a positive view of the community garden.",
+    "stimulusText": "Volunteers transformed the vacant lot into a thriving community garden in just six months. Bright rows of spinach, herbs and tomatoes now fill the space where rubbish once collected. Local resident Mr Ali said the garden has become 'a meeting place, a classroom and a little patch of hope.'",
+    "guidingQuestions": [
+      "What contrast is created?",
+      "Which details are positive?",
+      "How does the quote shape the reader's view?"
+    ],
+    "thinkAbout": [
+      "Representation",
+      "Quote integration",
+      "Connotations"
+    ],
+    "wordLimit": {
+      "min": 150,
+      "max": 350
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y8-a-symbolic-object",
+    "type": "analytical",
+    "yearLevels": [
+      8
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "The Cracked Compass",
+    "description": "Analyse how an object can symbolise uncertainty.",
+    "prompt": "Write a TEEL paragraph explaining how the cracked compass symbolises the character's uncertainty.",
+    "stimulusText": "Jonah turned the cracked compass in his palm. The needle trembled north, then swung wildly east, as if it had forgotten the rules. He slipped it into his pocket anyway; broken or not, it was the only guide his grandfather had left him.",
+    "guidingQuestions": [
+      "What does the compass usually represent?",
+      "How does its broken movement connect to Jonah?",
+      "Why does he keep it?"
+    ],
+    "thinkAbout": [
+      "Symbolism",
+      "Character feelings",
+      "Evidence and explanation"
+    ],
+    "wordLimit": {
+      "min": 150,
+      "max": 350
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y9-a-camera-angle-ad",
+    "type": "analytical",
+    "yearLevels": [
+      9
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Bike Safety Advertisement",
+    "description": "Analyse how visual and verbal choices position an audience.",
+    "prompt": "Write a TEEL paragraph explaining how the advertisement positions teenagers to see bike helmets as necessary.",
+    "stimulusText": "Advertisement description: A close-up shows a cracked bike helmet on the road beside an unbroken phone. The headline reads, 'You protect your screen. Protect your skull.' Small text below says, 'A helmet can turn a crash into a story you survive.'",
+    "guidingQuestions": [
+      "What contrast is created by the helmet and phone?",
+      "How does the headline address teenagers?",
+      "What emotional response is encouraged?"
+    ],
+    "thinkAbout": [
+      "Visual symbolism",
+      "Direct address",
+      "Positioning"
+    ],
+    "wordLimit": {
+      "min": 180,
+      "max": 400
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y9-a-conflict-dialogue",
+    "type": "analytical",
+    "yearLevels": [
+      9
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Dialogue Under Pressure",
+    "description": "Analyse how dialogue and silence reveal conflict.",
+    "prompt": "Write a TEEL paragraph explaining how dialogue and silence reveal conflict between the characters.",
+    "stimulusText": "'You said you would wait,' Aria said. Tom looked at the floor tiles and counted three cracks before answering. 'I thought you weren't coming.' The room filled with the hum of the refrigerator, louder than either of them wanted it to be.",
+    "guidingQuestions": [
+      "What is unsaid between the characters?",
+      "How does Tom's action delay his answer?",
+      "Why does the refrigerator sound matter?"
+    ],
+    "thinkAbout": [
+      "Dialogue",
+      "Silence",
+      "Subtext"
+    ],
+    "wordLimit": {
+      "min": 180,
+      "max": 400
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y9-a-editorial-language",
+    "type": "analytical",
+    "yearLevels": [
+      9
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Plastic-Free Canteen Editorial",
+    "description": "Analyse how an editorial uses language to argue for change.",
+    "prompt": "Write a TEEL paragraph explaining how the editorial uses language to argue for a plastic-free school canteen.",
+    "stimulusText": "Every lunch break, our bins swallow a mountain of plastic forks, wrappers and bottles. A plastic-free canteen is not a fantasy; it is a practical step toward a cleaner school. If we can remember homework, uniforms and passwords, surely we can remember a reusable container.",
+    "guidingQuestions": [
+      "What metaphor is used?",
+      "How does the writer make the solution sound practical?",
+      "How does the final sentence challenge students?"
+    ],
+    "thinkAbout": [
+      "Metaphor",
+      "Tone",
+      "Argument"
+    ],
+    "wordLimit": {
+      "min": 180,
+      "max": 400
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-a-unseen-poem-threshold",
+    "type": "analytical",
+    "yearLevels": [
+      10
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "At the Threshold",
+    "description": "Analyse how a poem represents change and uncertainty.",
+    "prompt": "Write an analytical paragraph explaining how the poem represents change as both uncertain and necessary.",
+    "stimulusText": "At the threshold, dust gathers in the hinge.\nBehind me, rooms hold their breath.\nAhead, the road unrolls without a promise,\nbut the door, once opened, refuses to become a wall again.",
+    "guidingQuestions": [
+      "What does the threshold symbolise?",
+      "How is personification used?",
+      "How does the final line represent change?"
+    ],
+    "thinkAbout": [
+      "Symbolism",
+      "Personification",
+      "Abstract idea"
+    ],
+    "wordLimit": {
+      "min": 220,
+      "max": 500
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-a-feature-article-youth-voice",
+    "type": "analytical",
+    "yearLevels": [
+      10
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Youth Voice Feature Extract",
+    "description": "Analyse how a feature article constructs a representation of young people.",
+    "prompt": "Write an analytical paragraph explaining how the extract represents young people as capable of meaningful civic action.",
+    "stimulusText": "Teenagers are often described as distracted, but last Friday they were the most focused people in the council chamber. They arrived with annotated surveys, budget questions and stories from classmates who catch two buses to school. Their message was simple: decisions about young people should not be made without young people in the room.",
+    "guidingQuestions": [
+      "What stereotype is challenged?",
+      "Which details show preparation?",
+      "How does the final sentence shape the article's message?"
+    ],
+    "thinkAbout": [
+      "Representation",
+      "Contrast",
+      "Civic voice"
+    ],
+    "wordLimit": {
+      "min": 220,
+      "max": 500
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-a-comparative-settings",
+    "type": "analytical",
+    "yearLevels": [
+      10
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Two Settings, Two Moods",
+    "description": "Compare how two short extracts create different moods through setting.",
+    "prompt": "Write a comparative analytical paragraph explaining how the two extracts create contrasting moods through setting.",
+    "stimulusText": "Extract A: The classroom windows glowed with afternoon sun, and dust drifted lazily above the desks like tiny planets.\n\nExtract B: The classroom windows rattled in the wind, and the fluorescent lights buzzed over desks scratched with names no one remembered.",
+    "guidingQuestions": [
+      "Which words create warmth in Extract A?",
+      "Which details create unease in Extract B?",
+      "How can you compare effects rather than discuss separately?"
+    ],
+    "thinkAbout": [
+      "Comparative connectives",
+      "Mood words",
+      "Specific evidence from both extracts"
+    ],
+    "wordLimit": {
+      "min": 220,
+      "max": 500
+    },
+    "rubricProfile": "junior_curriculum"
+  },
+  {
+    "id": "y10-n-after-the-alert",
+    "type": "narrative",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Narrative Practice",
+    "title": "After the Alert",
+    "description": "Write a narrative that begins after an emergency alert changes the school day.",
+    "prompt": "Write a narrative that begins with the sentence: 'The alert ended, but nobody moved.'",
+    "guidingQuestions": [
+      "What has changed?",
+      "Who takes responsibility?",
+      "How will you build tension without explaining everything at once?"
+    ],
+    "thinkAbout": [
+      "Controlled pacing",
+      "Revealing information gradually",
+      "Character under pressure"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 1000
+    },
+    "rubricProfile": "naplan_style"
+  },
+  {
+    "id": "y10-n-the-last-ferry",
+    "type": "narrative",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Narrative Practice",
+    "title": "The Last Ferry",
+    "description": "Write a coastal narrative using setting and symbolism.",
+    "prompt": "Write a narrative about a character who must decide whether to board the last ferry before a storm arrives.",
+    "guidingQuestions": [
+      "What does the ferry symbolise?",
+      "What is the character leaving or returning to?",
+      "How can weather mirror inner conflict?"
+    ],
+    "thinkAbout": [
+      "Symbolism",
+      "Atmosphere",
+      "A decisive turning point"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 1000
+    },
+    "rubricProfile": "naplan_style"
+  },
+  {
+    "id": "y10-n-borrowed-voice",
+    "type": "narrative",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Narrative Practice",
+    "title": "Borrowed Voice",
+    "description": "Write a narrative experimenting with voice and perspective.",
+    "prompt": "Write a narrative in which the narrator finds a recording of someone telling a story that changes how they understand their family or community.",
+    "guidingQuestions": [
+      "Whose voice is recorded?",
+      "What truth or memory does it reveal?",
+      "How will the narrator's perspective shift?"
+    ],
+    "thinkAbout": [
+      "First-person voice",
+      "Flashback or embedded story",
+      "Reflection without over-explaining"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 1000
+    },
+    "rubricProfile": "naplan_style"
+  },
+  {
+    "id": "y10-n-the-room-next-door",
+    "type": "narrative",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Narrative Practice",
+    "title": "The Room Next Door",
+    "description": "Write a suspense narrative using implication rather than explicit explanation.",
+    "prompt": "Write a narrative about a character who hears something impossible from the room next door.",
+    "guidingQuestions": [
+      "What makes the sound impossible?",
+      "What does the character fear or hope it means?",
+      "How can you end with impact without explaining everything?"
+    ],
+    "thinkAbout": [
+      "Suspense",
+      "Sensory detail",
+      "Ambiguous but satisfying resolution"
+    ],
+    "wordLimit": {
+      "min": 400,
+      "max": 1000
+    },
+    "rubricProfile": "naplan_style"
+  },
+  {
+    "id": "naplan-p-too-much-money",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "Too Much Money",
+    "description": "Persuade readers whether too much money is spent on toys and games.",
+    "prompt": "Too much money is spent on toys and games. Write a persuasive text to convince your audience whether you agree or disagree with this statement.",
+    "stimulusText": "Every year, billions of dollars are spent on toys, video games, and entertainment. Some people believe this money is wasted and should be spent on essential needs, while others argue that play and entertainment are vital for learning, creativity, and wellbeing.",
+    "guidingQuestions": [
+      "What is your clear contention (agree or disagree)?",
+      "What are three compelling reasons supported by real-world examples?",
+      "How can you address and refute the counter-argument?"
+    ],
+    "thinkAbout": [
+      "Introduction with a sharp thesis",
+      "Body paragraphs with persuasive devices (statistics, rhetorical questions, emotive appeals)",
+      "Conclusion that leaves a lasting impression"
+    ],
+    "taskConditions": {
+      "label": "NAPLAN-style Timed Writing",
+      "planningMinutes": 5,
+      "writingMinutes": 35,
+      "conditionsNote": "40 minutes total test conditions including planning, writing, and editing."
+    },
+    "officialSource": {
+      "label": "ACARA NAPLAN 2011 Writing Assessment",
+      "url": "https://www.nap.edu.au",
+      "note": "Official national persuasive writing stimulus topic."
+    },
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-city-or-country",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "City or Country",
+    "description": "Argue whether it is better to live in the city or in the country.",
+    "prompt": "Is it better to live in the city or in the country? Write a persuasive text arguing your position to convince the reader.",
+    "stimulusText": "Cities offer bustling culture, public transport, and modern amenities. The countryside offers open spaces, clean air, and peaceful communities. Where is life truly better?",
+    "guidingQuestions": [
+      "Which lifestyle offers better quality of life and opportunities?",
+      "How do environmental, social, and economic factors compare?",
+      "What persuasive techniques will best engage your reader?"
+    ],
+    "thinkAbout": [
+      "Clear stance in the introduction",
+      "Well-structured PEEL/TEEL body paragraphs",
+      "Strong conclusion summarizing key arguments"
+    ],
+    "taskConditions": {
+      "label": "NAPLAN-style Timed Writing",
+      "planningMinutes": 5,
+      "writingMinutes": 35,
+      "conditionsNote": "40 minutes total test conditions."
+    },
+    "officialSource": {
+      "label": "ACARA NAPLAN Writing Stimulus",
+      "url": "https://www.nap.edu.au",
+      "note": "Official historical national test stimulus."
+    },
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-hard-work-talent",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Hard Work vs Talent",
+    "description": "Argue whether hard work or natural talent is the primary driver of success.",
+    "prompt": "Is hard work more important than natural talent for achieving success? Write a persuasive text convincing your audience of your viewpoint.",
+    "stimulusText": "We often admire naturally gifted athletes, musicians, and artists. Yet many argue that without dedication, discipline, and grit, talent is nothing. Which matters more?",
+    "guidingQuestions": [
+      "Can talent alone guarantee achievement without practice?",
+      "How does grit and persistence overcome natural limitations?",
+      "What examples from sport, science, or the arts support your case?"
+    ],
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-the-sign-said",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "The Sign Said",
+    "description": "Narrative story based on encountering a consequential sign.",
+    "prompt": "Write a narrative about a character who encounters a sign that leads to an unexpected adventure, mystery, or complication.",
+    "stimulusText": "The weathered sign was bolted to the fence, warning everyone who passed by. But today, the message had changed.",
+    "guidingQuestions": [
+      "Who is your protagonist and where does the story begin?",
+      "What did the sign say, and why did it prompt action?",
+      "What complication arises and how is it resolved?"
+    ],
+    "thinkAbout": [
+      "Atmospheric orientation establishing mood",
+      "Rising action and building suspense",
+      "Climax and meaningful resolution"
+    ],
+    "taskConditions": {
+      "label": "NAPLAN-style Timed Writing",
+      "planningMinutes": 5,
+      "writingMinutes": 35,
+      "conditionsNote": "40 minutes test conditions."
+    },
+    "officialSource": {
+      "label": "ACARA NAPLAN 2016 (Years 7 & 9) Writing Assessment",
+      "url": "https://www.nap.edu.au",
+      "note": "Official national narrative writing prompt for secondary cohorts."
+    },
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-n-the-box",
+    "type": "narrative",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "The Box",
+    "description": "Narrative story centered on an enigmatic box.",
+    "prompt": "Write a narrative story involving a mysterious box that holds an unexpected significance.",
+    "stimulusText": "It was no ordinary container. Crafted from dark metal and sealed with an intricate latch, the box had sat untouched for generations—until today.",
+    "guidingQuestions": [
+      "Who discovers the box and under what circumstances?",
+      "What is inside, or what power/secret does it represent?",
+      "How does opening it change the protagonist?"
+    ],
+    "taskConditions": {
+      "label": "NAPLAN-style Timed Writing",
+      "planningMinutes": 5,
+      "writingMinutes": 35,
+      "conditionsNote": "40 minutes test conditions."
+    },
+    "officialSource": {
+      "label": "ACARA NAPLAN 2022 Writing Assessment",
+      "url": "https://www.nap.edu.au",
+      "note": "Official national narrative writing prompt."
+    },
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "naplan-p-my-big-idea",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Official",
+    "title": "My Big Idea",
+    "description": "Persuasively pitch a transformative idea to improve society.",
+    "prompt": "We all have ideas that could change our schools, communities, or the world. Pitch your 'Big Idea' in a persuasive text to convince others to support it.",
+    "stimulusText": "Great inventions and social movements all started with a single thought. What is your big idea, and why does the world need it right now?",
+    "guidingQuestions": [
+      "What problem does your big idea solve?",
+      "Why is your solution practical, innovative, and beneficial?",
+      "How will you call your audience to action?"
+    ],
+    "taskConditions": {
+      "label": "NAPLAN-style Timed Writing",
+      "planningMinutes": 5,
+      "writingMinutes": 35,
+      "conditionsNote": "40 minutes test conditions."
+    },
+    "officialSource": {
+      "label": "ACARA NAPLAN 2018 Writing Assessment",
+      "url": "https://www.nap.edu.au",
+      "note": "Official national persuasive writing stimulus."
+    },
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 300,
+      "max": 800
+    }
+  },
+  {
+    "id": "qcaa-ia3-burial-rites",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Prescribed Text",
+    "title": "Agency and Patriarchy: Burial Rites",
+    "description": "EA-style analytical essay practice on Hannah Kent’s Burial Rites under exam conditions.",
+    "prescribedText": "Burial Rites by Hannah Kent",
+    "prompt": "Analyse how Hannah Kent uses narrative point of view and setting in Burial Rites to position the reader to empathise with Agnes Magnusdottir and critique the institutional and patriarchal oppression of 19th-century Iceland.",
+    "context": "EA-style practice (Unit 4): an analytical essay on a prescribed text under exam-style conditions.",
+    "mode": "Analytical Essay (Supervised Exam)",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "Exam-style practice: an unseen essay question on a prescribed text. QCAA sets the external assessment texts and conditions."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - external assessment (analytical response)",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english",
+      "note": "Original practice question written for this tutor; not an official QCAA task."
+    },
+    "rubricProfile": "senior_qcaa_general",
+    "writingTips": [
+      "Formulate a strong conceptual thesis addressing representation of agency and institutional power.",
+      "Integrate close textual evidence, analysing aesthetic features (motifs of ravens, stones, weather, shifting perspective).",
+      "Maintain a formal academic register and coherent paragraph progression."
+    ],
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "qcaa-ia3-things-fall-apart",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Prescribed Text",
+    "title": "Tragedy and Colonial Collision: Things Fall Apart",
+    "description": "EA-style analytical essay practice on Chinua Achebe’s Things Fall Apart.",
+    "prescribedText": "Things Fall Apart by Chinua Achebe",
+    "prompt": "Analyse how Chinua Achebe constructs the tragic trajectory of Okonkwo to challenge Eurocentric representations of pre-colonial African society and explore the destructive consequences of rigid masculinity.",
+    "context": "EA-style practice (Unit 4): an analytical essay on a prescribed text under exam-style conditions.",
+    "mode": "Analytical Essay (Supervised Exam)",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "Exam-style practice: an unseen essay question on a prescribed text. QCAA sets the external assessment texts and conditions."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - external assessment (analytical response)",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english",
+      "note": "Original practice question written for this tutor; not an official QCAA task."
+    },
+    "rubricProfile": "senior_qcaa_general",
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "qcaa-ia3-never-let-me-go",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Prescribed Text",
+    "title": "Conformity and Humanity: Never Let Me Go",
+    "description": "EA-style analytical essay practice on Kazuo Ishiguro’s Never Let Me Go.",
+    "prescribedText": "Never Let Me Go by Kazuo Ishiguro",
+    "prompt": "Analyse how Kazuo Ishiguro uses the retrospective first-person narrative voice of Kathy H. to position the reader to examine conformity, institutionalisation, and the preservation of human dignity in the face of inevitable mortality.",
+    "context": "EA-style practice (Unit 4): an analytical essay on a prescribed text under exam-style conditions.",
+    "mode": "Analytical Essay (Supervised Exam)",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "Exam-style practice: an unseen essay question on a prescribed text. QCAA sets the external assessment texts and conditions."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - external assessment (analytical response)",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english",
+      "note": "Original practice question written for this tutor; not an official QCAA task."
+    },
+    "rubricProfile": "senior_qcaa_general",
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "qcaa-ia3-the-crucible",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Prescribed Text",
+    "title": "Integrity and Hysteria: The Crucible",
+    "description": "EA-style analytical essay practice on Arthur Miller’s The Crucible.",
+    "prescribedText": "The Crucible by Arthur Miller",
+    "prompt": "How does Arthur Miller use dramatic tension, motif, and characterisation in The Crucible to position the audience to evaluate the conflict between institutional self-preservation and individual moral integrity?",
+    "context": "EA-style practice (Unit 4): an analytical essay on a prescribed text under exam-style conditions.",
+    "mode": "Analytical Essay (Supervised Exam)",
+    "taskConditions": {
+      "label": "EA-style formative practice",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "Exam-style practice: an unseen essay question on a prescribed text. QCAA sets the external assessment texts and conditions."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - external assessment (analytical response)",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english",
+      "note": "Original practice question written for this tutor; not an official QCAA task."
+    },
+    "rubricProfile": "senior_qcaa_general",
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "qcaa-ia2-fast-fashion",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA2 Practice",
+    "title": "The Hidden Cost of the Haul: Fast Fashion",
+    "description": "Feature article analysing the ethical and environmental dilemmas of fast fashion.",
+    "context": "You are an investigative cultural journalist writing for 'The Saturday Paper'. Your editor has commissioned a feature article on disposable consumerism.",
+    "prompt": "Write a feature article examining the ethical and environmental crises generated by ultra-fast fashion. Position your audience to reconsider disposable consumer culture and argue for sustainable systemic alternatives.",
+    "targetAudience": "Australian consumers, young adults, and retail policy advocates.",
+    "mode": "Feature Article",
+    "rubricProfile": "senior_qcaa_general",
+    "writingTips": [
+      "Open with an evocative narrative hook detailing the lifecycle of a $5 garment.",
+      "Incorporate evidence from Australian textile waste reports and international labour findings.",
+      "Maintain a nuanced public register that blends investigative journalism with persuasive critique."
+    ],
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    }
+  },
+  {
+    "id": "qcaa-ia2-urban-rewilding",
+    "type": "persuasive",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA IA1-style Practice - Spoken Script",
+    "title": "Rewilding the Concrete Jungle",
+    "description": "Public speech advocating for urban biodiversity in Australian cities.",
+    "context": "You have been invited to deliver a keynote public address at the Queensland Sustainable Cities Forum.",
+    "prompt": "Deliver a persuasive public address advocating for comprehensive urban rewilding initiatives across Australian metropolitan centers. Persuade local government leaders and urban planners to prioritize ecological connectivity.",
+    "targetAudience": "Urban planners, municipal councillors, community environmental leaders.",
+    "mode": "Public Address / Speech",
+    "rubricProfile": "senior_qcaa_general",
+    "writingTips": [
+      "Employ spoken rhetorical techniques (anaphora, direct address, triadic structure).",
+      "Establish strong ethos through scientific and socio-economic evidence.",
+      "Conclude with an urgent, inspiring call to civic action."
+    ],
+    "wordLimit": {
+      "min": 1000,
+      "max": 1500
+    },
+    "taskConditions": {
+      "label": "IA1-style formative practice (written script)",
+      "conditionsNote": "IA1 is a spoken persuasive response. Draft and check the script here; your school assesses the spoken delivery."
+    },
+    "officialSource": {
+      "label": "QCAA English 2025 syllabus - IA1 spoken persuasive response",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english/syllabus",
+      "note": "Original practice task written for this tutor; not an official QCAA task."
+    }
+  },
+  {
+    "id": "qcaa-ea-unseen-saltmarsh",
+    "type": "analytical",
+    "yearLevels": [
+      11,
+      12
+    ],
+    "category": "QCAA EA Practice - Unseen Extract",
+    "title": "Between Tides: Unseen Coastal Prose",
+    "description": "External exam practice on an unseen contemporary Australian fiction extract.",
+    "prompt": "Analyse how the author uses aesthetic features and stylistic devices in the unseen extract to construct representations of isolation, resilience, and the fragile intersection between human settlement and the natural landscape.",
+    "stimulusText": "Extract from \"The Estuary Ledger\" (Unseen Contemporary Fiction):\nThe mangroves did not yield; they held the mud in a knuckled embrace, filtering the brine with patient indifference. From the veranda of the weathered bait shed, Marcus watched the tide slacken. The rusted tin roof hummed under the midday sun—a dry, metallic vibrato that seemed to vibrate in the teeth. For thirty years the saltmarsh had absorbed the runoff of the highway expansion, swallowing the grease of haulage trucks and spitting back fiddler crabs and glasswort. The town planners called it wasteland on their glossy rezoning maps; Marcus called it the only honest boundary left between the asphalt and the ocean.",
+    "mode": "Analytical Essay (External Exam - Unseen Extract)",
+    "taskConditions": {
+      "label": "EA-style Supervised Examination",
+      "planningMinutes": 15,
+      "writingMinutes": 120,
+      "conditionsNote": "Supervised examination conditions responding to unseen extract."
+    },
+    "officialSource": {
+      "label": "QCAA General Senior English External Assessment Guidelines",
+      "url": "https://www.qcaa.qld.edu.au/senior/senior-subjects/english/english",
+      "note": "Modelled on QCAA External Examination Section 1 unseen extract specifications."
+    },
+    "rubricProfile": "senior_qcaa_general",
+    "wordLimit": {
+      "min": 800,
+      "max": 1000
+    }
+  },
+  {
+    "id": "y10-p-biometric-surveillance",
+    "type": "persuasive",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Public Argument",
+    "title": "Eyes on Campus: Biometrics in Schools",
+    "description": "Persuasive editorial examining facial recognition and biometric tracking in education.",
+    "prompt": "Should Australian secondary schools deploy facial recognition and biometric attendance systems? Write a persuasive opinion column for a state education journal arguing whether student security justifies the loss of digital privacy.",
+    "targetAudience": "Secondary school educators, parents, and civil liberties advocates.",
+    "mode": "Opinion Column / Editorial",
+    "rubricProfile": "junior_curriculum",
+    "writingTips": [
+      "Establish a clear contention regarding the proportionality of surveillance versus privacy rights.",
+      "Analyse real-world precedents in education data security.",
+      "Use persuasive appeals balanced with objective ethical analysis."
+    ],
+    "wordLimit": {
+      "min": 600,
+      "max": 1000
+    }
+  },
+  {
+    "id": "y10-a-indigenous-voice-sapphires",
+    "type": "analytical",
+    "yearLevels": [
+      10
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Harmony and Defiance: The Sapphires",
+    "description": "Analytical film essay on Wayne Blair’s The Sapphires.",
+    "prescribedText": "The Sapphires directed by Wayne Blair",
+    "prompt": "Analyse how director Wayne Blair uses cinematic techniques (soundtrack, framing, color grading) and dialogue in The Sapphires to represent Aboriginal resilience, sisterhood, and cultural identity against the backdrop of 1960s racial discrimination.",
+    "mode": "Analytical Film Essay",
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 600,
+      "max": 900
+    }
+  },
+  {
+    "id": "y10-e-digital-misinformation",
+    "type": "expository",
+    "yearLevels": [
+      10
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Dissecting the Echo Chamber: Misinformation",
+    "description": "Expository feature article explaining algorithms and online misinformation.",
+    "prompt": "Write an expository feature article explaining the psychological and technological mechanisms behind the spread of misinformation on social media platforms and evaluating strategies young Australians can use to build media literacy.",
+    "mode": "Expository Feature Article",
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 600,
+      "max": 900
+    }
+  },
+  {
+    "id": "y10-n-the-threshold",
+    "type": "narrative",
+    "yearLevels": [
+      10
+    ],
+    "category": "Year 10 Narrative Practice",
+    "title": "The Threshold",
+    "description": "Imaginative narrative exploring a pivotal life transition.",
+    "prompt": "Write an imaginative narrative exploring a protagonist standing on the threshold of a momentous life transition. Use sensory imagery and internal monologue to capture the tension between nostalgia and anticipation.",
+    "stimulusText": "The doorframe was scarred with pencil marks recording every summer growth since childhood. Stepping over the threshold meant leaving those measurements behind for good.",
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 500,
+      "max": 800
+    }
+  },
+  {
+    "id": "y9-p-youth-voting-age",
+    "type": "persuasive",
+    "yearLevels": [
+      8,
+      9,
+      10
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Ballots for 16-Year-Olds",
+    "description": "Persuade readers whether Australia should lower the voting age to 16.",
+    "prompt": "Should the legal voting age in Australia be lowered to 16? Write a persuasive text arguing your stance to convince the reader.",
+    "guidingQuestions": [
+      "Do 16- and 17-year-olds pay taxes and participate in society?",
+      "Are they mature enough to make informed political decisions?",
+      "Would early voting foster lifelong civic participation?"
+    ],
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 400,
+      "max": 800
+    }
+  },
+  {
+    "id": "y8-e-urban-heat-islands",
+    "type": "expository",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "Junior Informative Practice",
+    "title": "Cooling Our Cities: Urban Heat Islands",
+    "description": "Informative text explaining urban heat islands and environmental solutions.",
+    "prompt": "Write an expository text explaining the causes of the 'urban heat island' effect in modern towns and describing scientific and architectural solutions used to cool urban environments.",
+    "mode": "Informative Report / Article",
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 400,
+      "max": 700
+    }
+  },
+  {
+    "id": "y7-a-poetry-bushfire-imagery",
+    "type": "analytical",
+    "yearLevels": [
+      7,
+      8
+    ],
+    "category": "Junior Analytical Practice",
+    "title": "Embers in the Canopy: Analysing Poetic Imagery",
+    "description": "Analytical paragraph analysing poetic techniques in Australian nature poetry.",
+    "prompt": "Analyse how the poet uses sensory language, personification, and metaphor in the poem to construct a vivid representation of the Australian bushfire season.",
+    "stimulusText": "Poem Extract: \"Fire Season\"\nThe eucalyptus breathes out vapour in the baking noon,\nA blue haze shimmering beneath an iron sky.\nThe dry wind whispers through the scrub, a brittle tune,\nAnd dry bark curls like ancient parchment, crisp and dry.\nThen leap the sparks like predatory birds on crimson wings,\nDevouring shadows where the hidden cicada sings.",
+    "mode": "Analytical Response",
+    "rubricProfile": "junior_curriculum",
+    "wordLimit": {
+      "min": 300,
+      "max": 600
+    }
+  },
+  {
+    "id": "y8-p-fast-food-advertising-ban",
+    "type": "persuasive",
+    "yearLevels": [
+      7,
+      8,
+      9
+    ],
+    "category": "NAPLAN Practice",
+    "title": "Banning Junk Food Ads to Children",
+    "description": "Argue whether junk food advertising aimed at young people should be banned.",
+    "prompt": "Should advertising of unhealthy fast food and sugary drinks be banned during family viewing hours and on youth digital platforms? Write a persuasive text arguing your position.",
+    "guidingQuestions": [
+      "How does fast food marketing influence adolescent health and eating habits?",
+      "Is it the responsibility of parents or government regulations to protect young consumers?",
+      "What evidence from health research supports your view?"
+    ],
+    "rubricProfile": "naplan_style",
+    "wordLimit": {
+      "min": 350,
+      "max": 750
+    }
+  }
+]

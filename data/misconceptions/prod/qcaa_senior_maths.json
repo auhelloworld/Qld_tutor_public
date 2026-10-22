@@ -1,0 +1,228 @@
+{
+  "misconceptions": [
+    {
+      "misconception_id": "MC_MTHU3T4_integration_missing_constant_01",
+      "name": "Indefinite integral written without the constant",
+      "description": "Student produces the correct antiderivative but omits the arbitrary constant, treating an indefinite integral as if it had a single value.",
+      "student_facing_explanation": "An indefinite integral has infinitely many answers, because any constant differentiates to zero. Your antiderivative is right — finish it with $+c$ to show the whole family of functions.",
+      "topic_ids": [
+        "QCAA_METHODS_U3_T4",
+        "QCAA_SPECIALIST_U4_T1"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "integration_missing_constant",
+          "notes": "Only fires when the authored answer carries a constant and the rest of the expression matches, so definite integrals and other errors are excluded."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_MTH_integration_constant_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_MTHU1T5_probability_added_not_multiplied_01",
+      "name": "Adding probabilities of independent events",
+      "description": "Student adds the probabilities of two independent events when asked for the probability that both occur, instead of multiplying them.",
+      "student_facing_explanation": "Adding probabilities answers \"one or the other\". For both events you multiply: $P(A \\text{ and } B) = P(A) \\times P(B)$ when the events are independent. Adding can also give a value above 1, which is a useful check.",
+      "topic_ids": [
+        "QCAA_METHODS_U1_T5"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "probability_added_instead_of_multiplied",
+          "notes": "Requires the student's value to equal the sum and the authored answer the product of two probabilities in the question."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_MTH_independent_events_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_MTHU1T5_complement_confused_01",
+      "name": "Reporting the complement instead of the probability asked for",
+      "description": "Student computes the probability of the opposite event, typically missing a 'not', 'at least' or 'fails' in the question.",
+      "student_facing_explanation": "Your value is $1$ minus the answer, so the working is sound but it answers the opposite event. Re-read what is asked, then convert with $P(\\text{not } A) = 1 - P(A)$.",
+      "topic_ids": [
+        "QCAA_METHODS_U1_T5"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "complement_probability_confused",
+          "notes": "Both values must lie in [0,1] and sum to 1; 0.5 is excluded as indistinguishable from its own complement."
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_MTHU1T4_degrees_radians_confused_01",
+      "name": "Working in degrees where radians are required",
+      "description": "Student evaluates or reports an angle in the wrong angular unit, so the answer differs from the correct one by a factor of 180/pi.",
+      "student_facing_explanation": "Your number is the same angle in the other unit. Calculus and the unit circle use radians, where a full turn is $2\\pi$ rather than $360°$. Convert with $\\text{radians} = \\text{degrees} \\times \\frac{\\pi}{180}$, and check your calculator's mode.",
+      "topic_ids": [
+        "QCAA_METHODS_U1_T4",
+        "QCAA_SPECIALIST_U2_T4"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "degrees_radians_confused",
+          "notes": "Requires the student's value to equal the authored value scaled by exactly 180/pi or pi/180."
+        }
+      ],
+      "worked_example_ids": [],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_MTHU2T2_log_of_sum_split_01",
+      "name": "Log of a sum split into a sum of logs",
+      "description": "Student rewrites log(a + b) as log(a) + log(b), applying the product rule to a sum.",
+      "student_facing_explanation": "The product rule turns a *product* into a sum of logs: $\\log(ab) = \\log a + \\log b$. There is no rule that splits $\\log(a+b)$ — test it with numbers: $\\log(2+8) = \\log 10 = 1$, but $\\log 2 + \\log 8 \\approx 1.2$.",
+      "topic_ids": [
+        "QCAA_METHODS_U2_T2"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "log_of_sum_split",
+          "notes": "Checked symbolically: the student's expression must equal the sum of the logs of the authored argument's terms, and that argument must be a sum."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_MTH_log_sum_rule_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_SPEU1T1_permutation_combination_confused_01",
+      "name": "Counting arrangements when selections were asked for",
+      "description": "Student uses nPr where nCr is required (or the reverse), so order is counted when it does not matter, or ignored when it does.",
+      "student_facing_explanation": "Your value counts the other kind of outcome. Ask whether rearranging the same items gives a different result: if it does, order matters and you want $^nP_r$; if not, $^nC_r$. They differ by exactly $r!$, the number of ways to order each selection.",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U1_T1"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "permutation_combination_confused",
+          "notes": "Confirms the student's value is nPr and the authored value nCr for some n and r in the question, or the reverse."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_SPE_permutation_combination_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_SPEU2T1_i_squared_treated_positive_01",
+      "name": "Treating i squared as positive one",
+      "description": "Student simplifies a complex expression as though i squared were +1, so a negative result is reported with the wrong sign.",
+      "student_facing_explanation": "By definition $i^2 = -1$, not $+1$. That single sign propagates through the whole expansion, so check every place an $i \\times i$ appears before collecting like terms.",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U2_T1",
+        "QCAA_SPECIALIST_U3_T1"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "predicate",
+          "pattern": "negative_squared",
+          "notes": "The authored answer is negative and the student gives its positive counterpart, the signature of losing the i-squared sign."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_SPE_i_squared_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_SPEU3T2_induction_assumes_the_target_01",
+      "name": "Induction step assumes what it is meant to prove",
+      "description": "Student writes the inductive step by assuming the statement for n = k + 1, which is the very claim being proved, so the argument is circular.",
+      "student_facing_explanation": "The inductive step assumes the statement for $n = k$ and then *derives* it for $n = k + 1$. Assuming it for $k+1$ assumes what you are trying to show. Write the assumption for $k$, then substitute and manipulate until the $k+1$ form appears.",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U3_T2"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "(?:assum\\w+|suppose|let)(?:(?!n\\s*=\\s*k\\b(?!\\s*\\+))[^.]){0,40}?n\\s*=\\s*k\\s*\\+\\s*1",
+          "notes": "The gap may not contain a bare 'n = k', so a correct step that assumes k and then derives k+1 does not match."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_SPE_induction_step_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "misconception_id": "MC_SPEU4T5_confidence_interval_probability_01",
+      "name": "Confidence interval read as a probability about the parameter",
+      "description": "Student interprets a 95% confidence interval as a 95% probability that the population parameter lies inside this particular interval.",
+      "student_facing_explanation": "The population value is fixed, not random, so it does not have a 95% chance of being anywhere. The 95% describes the *method*: if many samples were taken and an interval built each time, about 95% of those intervals would contain the true value. This one either does or does not.",
+      "topic_ids": [
+        "QCAA_SPECIALIST_U4_T5"
+      ],
+      "detection_signatures": [
+        {
+          "kind": "regex",
+          "pattern": "(95|90|99)\\s*%?[^.]{0,40}(chance|probability|likely|likelihood)[^.]{0,40}(the\\s+)?(population|true|actual)?\\s*(mean|proportion|parameter|value)[^.]{0,30}(is|lies|falls|within|in|between)|(probability|chance)[^.]{0,30}(that\\s+)?the\\s+(population|true)\\s+(mean|proportion)[^.]{0,20}(is|lies|falls)",
+          "notes": "Fires on a probability claim about the parameter, not on the correct long-run statement about intervals."
+        }
+      ],
+      "worked_example_ids": [
+        "WE_SPE_confidence_interval_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "batch",
+        "approved_at": "2026-07-30T00:00:00+10:00",
+        "mined_from_run_id": null
+      }
+    }
+  ]
+}

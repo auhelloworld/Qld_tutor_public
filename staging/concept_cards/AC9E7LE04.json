@@ -1,0 +1,107 @@
+{
+  "core_rule": "Evaluate literary texts by naming aesthetic qualities and social values using precise metalanguage.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How does this text make you feel, and what specific words or images cause that reaction?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Identify one <literary device> and explain how it shapes the <theme> of the story."
+    },
+    {
+      "level": "analogy",
+      "template": "Judging a book is like being a food critic; you do not just say it tastes good, you describe the spices and cooking method."
+    }
+  ],
+  "worked_example": {
+    "question": "Read: 'The sun bled gold across the dying horizon.' Identify the aesthetic device and its effect.",
+    "answer": "Personification; creates a melancholic, beautiful mood.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Find the human action given to a non-human object.",
+        "result": "Sun 'bled'."
+      },
+      {
+        "step": 2,
+        "instruction": "Name the device.",
+        "result": "Personification."
+      },
+      {
+        "step": 3,
+        "instruction": "Explain the mood.",
+        "result": "Melancholic beauty."
+      }
+    ],
+    "explanation": "Personification gives human traits to nature, making the scene feel alive and emotional."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic literary devices",
+      "Sentence structure"
+    ],
+    "learning_objectives": [
+      "Identify aesthetic qualities using metalanguage.",
+      "Discuss social values within literary texts."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Aesthetic and Social Value?",
+        "body": "Aesthetic value is beauty or craft in writing. Social value is how a text teaches us about people, history, or right and wrong.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse",
+        "body": "1. Pick a device. 2. Name it. 3. Explain why author used it. 4. Connect to big ideas.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "The rusted gate groaned like an old man. Metaphor shows decay and history.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Vague Opinions",
+        "body": "Avoid 'I liked it'. Use 'The imagery creates a tense atmosphere'.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Metalanguage",
+        "definition": "Words used to talk about language."
+      },
+      {
+        "term": "Aesthetic",
+        "definition": "The beauty or artistic style of a text."
+      }
+    ],
+    "common_mistakes": [
+      "Saying 'it is good' without evidence.",
+      "Confusing theme with plot."
+    ],
+    "real_world_connections": [
+      "Film critics use these skills to review movies for audiences."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Compare a book scene to its film version.",
+        "answer": "Book uses internal thought; film uses lighting to show mood.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "List features of book.",
+            "result": "Internal monologue."
+          },
+          {
+            "step": 2,
+            "instruction": "List features of film.",
+            "result": "Cinematography."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

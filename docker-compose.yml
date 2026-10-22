@@ -1,0 +1,31 @@
+services:
+  tutor:
+    build:
+      context: .
+    init: true
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "9527:3000"   # Frontend and proxied API — access via http://YOUR_VPS_IP:9527
+    volumes:
+      - ./data:/app/data  # Persist SQLite DB, credentials.json, curriculum, logs, exams
+      - ./frontend/public:/app/frontend/public:ro  # Hot-update public assets without rebuilding the image
+    environment:
+      - LLM_API_KEY=${LLM_API_KEY:-}
+      - LLM_BASE_URL=${LLM_BASE_URL:-}
+      - LLM_MODEL=${LLM_MODEL:-}
+      - API_KEY=${API_KEY:-}
+      - JWT_SECRET=${JWT_SECRET:-}
+      # Parent dashboard password — validated server-side; gates parent-only actions.
+      - PARENT_PASSWORD=${PARENT_PASSWORD:-}
+      # IMPORTANT: Set CORS_ORIGINS to your frontend URL (e.g. http://123.45.67.89:9527)
+      # in the .env file or directly here.
+      - CORS_ORIGINS=${CORS_ORIGINS:-http://localhost:9527}
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "--show-error", "--max-time", "3", "http://127.0.0.1:8000/api/ready"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 120s
+    stop_grace_period: 30s
+    restart: unless-stopped

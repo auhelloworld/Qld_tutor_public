@@ -1,0 +1,112 @@
+{
+  "core_rule": "Technology changes how people write, read, and share. Tools shape language and meaning.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How does tool change message?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <feature> in <text>. Explain why used."
+    },
+    {
+      "level": "analogy",
+      "template": "Tech change like swapping stone tablet for smartphone."
+    }
+  ],
+  "worked_example": {
+    "question": "Compare 'OMG! 😱' (social media) to 'I am very surprised' (formal letter). How does technology change the message?",
+    "answer": "Social media uses emojis and caps for instant emotion. Formal letters use full sentences for professional tone.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify medium.",
+        "result": "Social media vs formal letter."
+      },
+      {
+        "step": 2,
+        "instruction": "Spot tech features.",
+        "result": "Emoji and capitalisation in social media."
+      },
+      {
+        "step": 3,
+        "instruction": "Link feature to effect.",
+        "result": "Speed and emotion vs formality."
+      }
+    ],
+    "explanation": "Medium dictates style. Digital tools prioritise speed and visual cues."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic text types",
+      "Purpose and audience"
+    ],
+    "learning_objectives": [
+      "Identify tech impact on language",
+      "Analyse interactive digital elements"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Tech Influence?",
+        "body": "Tech changes how we talk. SMS, GIFs, and emojis make writing faster and more visual. These tools let us show emotion without using many words.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse Tech Impact",
+        "body": "1. Spot tool (e.g., hyperlink). 2. Ask why used (e.g., fast info). 3. Compare to old way (e.g., index page). 4. Explain effect on reader.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Digital magazine: 'Click here for video interview!' Effect: Reader moves from reading to watching. Text becomes interactive, not just linear.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Context Blindness",
+        "body": "Students use 'text speak' (u, r, lol) in formal essays. Tech language is for specific contexts. Formal tasks need standard English.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Multimodal",
+        "definition": "Text using more than one mode (e.g., words and images)."
+      },
+      {
+        "term": "Interactive",
+        "definition": "Text reader can change or control (e.g., clicking links)."
+      },
+      {
+        "term": "Brevity",
+        "definition": "Using few words to be quick."
+      }
+    ],
+    "common_mistakes": [
+      "Using emojis in formal reports.",
+      "Ignoring how hyperlinks change reading order."
+    ],
+    "real_world_connections": [
+      "Social media algorithms change what news we see.",
+      "Emails replace letters for business speed."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "How does a hyperlink in a news article change the reading experience compared to a printed newspaper?",
+        "answer": "Hyperlinks allow non-linear reading. Readers jump to related stories instantly instead of searching pages.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Compare navigation.",
+            "result": "Clicking vs flipping pages."
+          },
+          {
+            "step": 2,
+            "instruction": "Determine effect.",
+            "result": "Faster access to evidence/context."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

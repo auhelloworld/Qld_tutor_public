@@ -1,0 +1,108 @@
+{
+  "core_rule": "Writers choose specific language features to shape meaning for target audiences and achieve clear purposes.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "Who reads this text and why did author write it?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <language feature> and explain how it affects <audience>."
+    },
+    {
+      "level": "analogy",
+      "template": "Choosing words is like choosing clothes; wear formal suit for job interview, wear boardshorts for beach."
+    }
+  ],
+  "worked_example": {
+    "question": "Advertisement says: 'Our new sneakers make you fly like eagle.' Identify feature and purpose.",
+    "answer": "Simile used to persuade young athletes.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify language feature.",
+        "result": "Simile 'like eagle'."
+      },
+      {
+        "step": 2,
+        "instruction": "Identify audience and purpose.",
+        "result": "Audience: young athletes. Purpose: persuade to buy."
+      },
+      {
+        "step": 3,
+        "instruction": "Connect feature to purpose.",
+        "result": "Simile creates image of speed and power to make product desirable."
+      }
+    ],
+    "explanation": "Simile links product to speed, convincing audience to purchase."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic parts of speech",
+      "Identifying audience"
+    ],
+    "learning_objectives": [
+      "Identify language features in diverse texts",
+      "Explain how features influence specific audiences"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What is Language Choice?",
+        "body": "Authors pick words and devices to control how reader feels. Every choice changes meaning.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Analyse",
+        "body": "1. Identify audience. 2. Find language features like metaphors or emotive words. 3. Explain why author used them for that audience.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "'Ancient land breathes under stars.' Personification makes land feel alive and respected, connecting reader to First Nations perspective.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Ignoring Purpose",
+        "body": "Students often list features without saying why author used them. Always link feature back to goal.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Language feature",
+        "definition": "Tools like metaphors, adjectives, or tone used to build meaning."
+      },
+      {
+        "term": "Purpose",
+        "definition": "Reason text exists, e.g., to inform, persuade, or entertain."
+      }
+    ],
+    "common_mistakes": [
+      "Listing features without explaining effect.",
+      "Guessing audience without evidence."
+    ],
+    "real_world_connections": [
+      "Social media posts use emojis and slang to target peers.",
+      "News reports use formal tone to build trust."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Why use emotive words in charity flyer?",
+        "answer": "To create empathy and encourage donations.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify emotive words.",
+            "result": "Words like 'struggling' or 'urgent'."
+          },
+          {
+            "step": 2,
+            "instruction": "Link to purpose.",
+            "result": "Emotive words trigger feelings, leading to action."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

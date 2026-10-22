@@ -1,0 +1,71 @@
+# Year 7 Mathematics: Australian Curriculum Version 9.0
+## Achievement Standard Aligned to Content Descriptions (ACIQ v9.0)
+
+**Source:** Queensland Curriculum & Assessment Authority (QCAA)  
+**Publication Date:** September 2023  
+**Target Audience:** For all Queensland schools  
+
+---
+
+## Overview
+This document outlines the alignment between specific aspects of the Year 7 Mathematics achievement standard and the corresponding content descriptions under the Australian Curriculum (AC) Version 9.0. 
+
+### Key to Content Description Codes
+Each content description is labeled with an alphanumeric code indicating its alignment, level, and structural strand. For example, in the code **AC9M7N01**:
+* **AC**: Australian Curriculum
+* **9**: Version 9.0
+* **M**: Mathematics
+* **7**: Year 7
+* **Strand Element**: Represents the specific domain area (e.g., `N` for Number)
+* **##**: Content description sequence number
+
+#### Curriculum Strands
+* **N** – Number
+* **A** – Algebra
+* **M** – Measurement
+* **SP** – Space
+* **ST** – Statistics
+* **P** – Probability
+
+---
+
+## Year 7 Mathematics Achievement Standard
+*By the end of Year 7, students are expected to demonstrate the following capabilities:*
+
+1. **Number & Financial Contexts:** Represent natural numbers in expanded form and as products of prime factors, using exponent notation. They solve problems involving squares of numbers and square roots of perfect square numbers. Students solve problems involving addition and subtraction of integers. They use all 4 operations in calculations involving positive fractions and decimals, choosing efficient calculation strategies. Students choose between equivalent representations of rational numbers and percentages to assist in calculations. They use mathematical modelling to solve practical problems involving rational numbers, percentages and ratios, in financial and other applied contexts, justifying choices of representation.
+2. **Algebraic Thinking:** Students use algebraic expressions to represent situations, describe the relationships between variables from authentic data and substitute values into formulas to determine unknown values. They solve linear equations with natural number solutions. Students create tables of values related to algebraic expressions and formulas, and describe the effect of variation.
+3. **Geometric & Measurement Relationships:** They apply knowledge of angle relationships and the sum of angles in a triangle to solve problems, giving reasons. Students use formulas for the areas of triangles and parallelograms and the volumes of rectangular and triangular prisms to solve problems. They describe the relationships between the radius, diameter and circumference of a circle.
+4. **Space & Shape Classification:** Students classify polygons according to their features and create an algorithm designed to sort and classify shapes. They represent objects two-dimensionally in different ways, describing the usefulness of these representations. Students use coordinates to describe transformations of points in the plane.
+5. **Statistics & Data Analysis:** They plan and conduct statistical investigations involving discrete and continuous numerical data, using appropriate displays. Students interpret data in terms of the shape of distribution and summary statistics, identifying possible outliers. They decide which measure of central tendency is most suitable and explain their reasoning.
+6. **Probability & Chance:** Students list sample spaces for single step experiments, assign probabilities to outcomes and predict relative frequencies for related events. They conduct repeated single-step chance experiments and run simulations using digital tools, giving reasons for differences between predicted and observed results.
+
+---
+
+## Alignment Matrix: Achievement Standard vs. Content Descriptions
+
+| Achievement Standard Aspect | Relevant Content Description/s (Students learn to...) | AC v9.0 Code |
+| :--- | :--- | :--- |
+| **Students represent natural numbers in expanded form and as products of prime factors, using exponent notation.** | • Represent natural numbers as products of powers of prime numbers using exponent notation<br>• Represent natural numbers in expanded notation using place value and powers of 10 | AC9M7N02<br>AC9M7N03 |
+| **They solve problems involving squares of numbers and square roots of perfect square numbers.** | • Describe the relationship between perfect square numbers and square roots, and use squares of numbers and square roots of perfect square numbers to solve problems | AC9M7N01 |
+| **They solve problems involving addition and subtraction of integers.** | • Compare, order and solve problems involving addition and subtraction of integers | AC9M7N07 |
+| **They use all 4 operations in calculations involving positive fractions and decimals, choosing efficient calculation strategies.**<br><br>**They choose between equivalent representations of rational numbers and percentages to assist in calculations.** | • Round decimals to a given accuracy appropriate to the context and use appropriate rounding and estimation to check the reasonableness of solutions<br>• Use the 4 operations with positive rational numbers including fractions, decimals and percentages to solve problems using efficient calculation strategies<br>• Find equivalent representations of rational numbers and represent rational numbers on a number line<br>• Use the 4 operations with positive rational numbers including fractions, decimals and percentages to solve problems using efficient calculation strategies | AC9M7N05<br>AC9M7N06<br>AC9M7N04<br>AC9M7N06 |
+| **They use mathematical modelling to solve practical problems involving rational numbers, percentages and ratios, in financial and other applied contexts, justifying choices of representation.** | • Find equivalent representations of rational numbers and represent rational numbers on a number line<br>• Use the 4 operations with positive rational numbers including fractions, decimals and percentages to solve problems using efficient calculation strategies<br>• Recognise, represent and solve problems involving ratios<br>• Use mathematical modelling to solve practical problems, involving rational numbers and percentages, including financial contexts, formulate problems, choosing representations and efficient calculation strategies, using digital tools as appropriate; interpret and communicate solutions in terms of the situation, justifying choices made about the representation<br>• Use mathematical modelling to solve practical problems involving ratios; formulate problems, interpret and communicate solutions in terms of the situation, justifying choices made about the representation | AC9M7N04<br>AC9M7N06<br>AC9M7N08<br>AC9M7N09<br>AC9M7M06 |
+| **They use algebraic expressions to represent situations, describe the relationships between variables from authentic data and substitute values into formulas to determine unknown values.** | • Recognise and use variables to represent everyday formulas algebraically and substitute values into formulas to determine an unknown<br>• Formulate algebraic expressions using constants, variables, operations and brackets<br>• Describe relationships between variables represented in graphs of functions from authentic data<br>• Manipulate formulas involving several variables using digital tools, and describe the effect of systematic variation in the values of the variables | AC9M7A01<br>AC9M7A02<br>AC9M7A04<br>AC9M7A06 |
+| **They solve linear equations with natural number solutions.** | • Solve one-variable linear equations with natural number solutions; verify the solution by substitution | AC9M7A03 |
+| **They create tables of values related to algebraic expressions and formulas, and describe the effect of variation.**<br><br>**They apply knowledge of angle relationships and the sum of angles in a triangle to solve problems, giving reasons.** | • Generate tables of values from visually growing patterns or the rule of a function; describe and plot these relationships on the Cartesian plane<br>• Manipulate formulas involving several variables using digital tools, and describe the effect of systematic variation in the values of the variables<br>• Identify corresponding, alternate and co-interior relationships between angles formed when parallel lines are crossed by a transversal; use them to solve problems and explain reasons<br>• Demonstrate that the interior angle sum of a triangle in the plane is 180° and apply this to determine the interior angle sum of other shapes and the size of unknown angles | AC9M7A05<br>AC9M7A06<br>AC9M7M04<br>AC9M7M05 |
+| **They use formulas for the areas of triangles and parallelograms and the volumes of rectangular and triangular prisms to solve problems.**<br><br>**They describe the relationships between the radius, diameter and circumference of a circle.** | • Recognise and use variables to represent everyday formulas algebraically and substitute values into formulas to determine an unknown<br>• Solve problems involving the area of triangles and parallelograms using established formulas and appropriate units<br>• Solve problems involving the volume of right prisms including rectangular and triangular prisms, using established formulas and appropriate units<br>• Describe the relationship between $\pi$ and the features of circles including the circumference, radius and diameter | AC9M7A01<br>AC9M7M01<br>AC9M7M02<br>AC9M7M03 |
+| **They classify polygons according to their features and create an algorithm designed to sort and classify shapes.**<br><br>**They represent objects two-dimensionally in different ways, describing the usefulness of these representations.** | • Classify triangles, quadrilaterals and other polygons according to their side and angle properties; identify and reason about relationships<br>• Design and create algorithms involving a sequence of steps and decisions that will sort and classify sets of shapes according to their attributes, and describe how the algorithms work<br>• Represent objects in 2 dimensions; discuss and reason about the advantages and disadvantages of different representations | AC9M7SP02<br>AC9M7SP04<br>AC9M7SP01 |
+| **They use coordinates to describe transformations of points in the plane.** | • Describe transformations of a set of points using coordinates in the Cartesian plane, translations and reflections on an axis, and rotations about a given point | AC9M7SP03 |
+| **They plan and conduct statistical investigations involving discrete and continuous numerical data, using appropriate displays.** | • Acquire data sets for discrete and continuous numerical variables and calculate the range, median, mean and mode; make and justify decisions about which measures of central tendency provide useful insights into the nature of the distribution of data<br>• Create different types of numerical data displays including stem-and-leaf plots using software where appropriate; describe and compare the distribution of data, commenting on the shape, centre and spread including outliers and determining the range, median, mean and mode<br>• Plan and conduct statistical investigations involving data for discrete and continuous numerical variables; analyse and interpret distributions of data and report findings in terms of shape and summary statistics | AC9M7ST01<br>AC9M7ST02<br>AC9M7ST03 |
+| **They interpret data in terms of the shape of distribution and summary statistics, identifying possible outliers.** | • Acquire data sets for discrete and continuous numerical variables and calculate the range, median, mean and mode; make and justify decisions about which measures of central tendency provide useful insights into the nature of the distribution of data<br>• Create different types of numerical data displays including stem-and-leaf plots using software where appropriate; describe and compare the distribution of data, commenting on the shape, centre and spread including outliers and determining the range, median, mean and mode | AC9M7ST01<br>AC9M7ST02 |
+| **They decide which measure of central tendency is most suitable and explain their reasoning.** | • Acquire data sets for discrete and continuous numerical variables and calculate the range, median, mean and mode; make and justify decisions about which measures of central tendency provide useful insights into the nature of the distribution of data<br>• Create different types of numerical data displays including stem-and-leaf plots using software where appropriate; describe and compare the distribution of data, commenting on the shape, centre and spread including outliers and determining the range, median, mean and mode | AC9M7ST01<br>AC9M7ST02 |
+| **They list sample spaces for single step experiments, assign probabilities to outcomes and predict relative frequencies for related events.** | • Identify the sample space for single-stage events; assign probabilities to the outcomes of these events and predict relative frequencies for related events | AC9M7P01 |
+| **They conduct repeated single-step chance experiments and run simulations using digital tools, giving reasons for differences between predicted and observed results.** | • Identify the sample space for single-stage events; assign probabilities to the outcomes of these events and predict relative frequencies for related events<br>• Conduct repeated chance experiments and run simulations with a large number of trials using digital tools; compare predictions about outcomes with observed results, explaining the difference. | AC9M7P01<br>AC9M7P02 |
+
+---
+
+## Additional Information & Licensing
+
+* **Inquiries:** For more details, visit the official QCAA website at [www.qcaa.qld.edu.au](https://www.qcaa.qld.edu.au) or contact the K-10 Curriculum and Assessment branch via email at `australiancurriculum@qcaa.qld.edu.au`.
+* **Copyright Notice:** © State of Queensland (Queensland Curriculum & Assessment Authority) 2023.
+* **Licensing:** Material is available under a Creative Commons Attribution 4.0 International license ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0)). Unless otherwise indicated, elements from the Australian Curriculum are © ACARA 2010–present.

@@ -1,0 +1,1107 @@
+{
+  "schema_version": "2.0",
+  "purpose": "Error taxonomy for a Year 7 mathematics AI-tutor system. Designed for classifying student responses, generating error summaries, selecting remediation, and tracking mastery over time.",
+  "usage_guidelines": {
+    "allow_multiple_errors_per_response": true,
+    "recommended_fields_for_response_diagnosis": [
+      "primary_error_code",
+      "secondary_error_codes",
+      "subtype_codes",
+      "confidence",
+      "evidence",
+      "recommended_action"
+    ],
+    "severity_levels": {
+      "low": "Minor slip; student likely understands the concept.",
+      "medium": "Recurring or meaningful procedural error; targeted practice recommended.",
+      "high": "Conceptual misunderstanding or repeated failure; reteaching/scaffolded remediation recommended."
+    },
+    "confidence_levels": {
+      "low": "Weak evidence; classification may be uncertain.",
+      "medium": "Reasonable evidence from answer/working.",
+      "high": "Clear evidence from answer/working or repeated pattern."
+    }
+  },
+  "error_types": [
+    {
+      "code": "calculation_error",
+      "label": "Calculation error",
+      "description": "Simple arithmetic slip such as addition, subtraction, multiplication, division, carrying, borrowing, or decimal-point placement.",
+      "typical_evidence": [
+        "Correct method is visible but one arithmetic step is wrong.",
+        "Answer is close to expected result but not exact.",
+        "Student uses correct formula/setup but computes incorrectly."
+      ],
+      "subtypes": [
+        {
+          "code": "addition_subtraction_slip",
+          "description": "Incorrect addition or subtraction despite correct setup."
+        },
+        {
+          "code": "multiplication_division_slip",
+          "description": "Incorrect multiplication or division despite correct setup."
+        },
+        {
+          "code": "decimal_place_error",
+          "description": "Decimal point placed incorrectly in a calculation."
+        },
+        {
+          "code": "copying_transcription_error",
+          "description": "Correct value copied incorrectly from one line to the next."
+        },
+        {
+          "code": "mental_arithmetic_slip",
+          "description": "Likely quick mental calculation error rather than conceptual issue."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Ask student to recalculate the marked step.",
+        "Encourage estimation to check reasonableness.",
+        "Assign one or two similar fluency questions if repeated."
+      ]
+    },
+    {
+      "code": "sign_error",
+      "label": "Sign error",
+      "description": "Mistake involving positive/negative signs, double negatives, directed numbers, or sign changes in algebraic manipulation.",
+      "typical_evidence": [
+        "Magnitude is correct but sign is wrong.",
+        "Student treats subtracting a negative as subtracting a positive.",
+        "Student loses a negative sign during substitution or equation solving."
+      ],
+      "subtypes": [
+        {
+          "code": "lost_negative_sign",
+          "description": "A negative sign is dropped during working."
+        },
+        {
+          "code": "double_negative_error",
+          "description": "Incorrectly handles expressions such as $-(-5)$."
+        },
+        {
+          "code": "integer_direction_error",
+          "description": "Moves the wrong direction on a number line."
+        },
+        {
+          "code": "negative_substitution_error",
+          "description": "Incorrectly substitutes a negative value into a formula/expression."
+        },
+        {
+          "code": "absolute_value_sign_error",
+          "description": "Misinterprets absolute value or distance from zero."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Prompt student to circle signs and rewrite double signs first.",
+        "Use a number-line explanation for directed-number contexts.",
+        "Assign targeted integer/sign-rule questions."
+      ]
+    },
+    {
+      "code": "order_of_ops",
+      "label": "Order of operations error",
+      "description": "Incorrect use of operation order, including brackets, powers, multiplication/division, addition/subtraction, or left-to-right rules.",
+      "typical_evidence": [
+        "Student adds before multiplying without brackets.",
+        "Student evaluates left-to-right when multiplication/division should be prioritised over addition/subtraction.",
+        "Student handles powers after multiplication instead of before."
+      ],
+      "subtypes": [
+        {
+          "code": "brackets_ignored",
+          "description": "Does not evaluate brackets first."
+        },
+        {
+          "code": "powers_wrong_order",
+          "description": "Does not evaluate powers before multiplication/division."
+        },
+        {
+          "code": "multiply_before_brackets",
+          "description": "Multiplies terms before resolving bracketed expression incorrectly."
+        },
+        {
+          "code": "left_to_right_md_error",
+          "description": "Mishandles left-to-right order for multiplication/division."
+        },
+        {
+          "code": "left_to_right_as_error",
+          "description": "Mishandles left-to-right order for addition/subtraction."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to annotate each step with BODMAS/BIDMAS priority.",
+        "Give a simpler expression with the same operation structure.",
+        "Review brackets and powers before mixed operations."
+      ]
+    },
+    {
+      "code": "fraction_error",
+      "label": "Fraction error",
+      "description": "Error involving fraction equivalence, operations, simplification, mixed numbers, reciprocals, or fraction-decimal-percentage conversion.",
+      "typical_evidence": [
+        "Student adds denominators directly.",
+        "Student uses no common denominator for addition/subtraction.",
+        "Student flips the wrong fraction when dividing.",
+        "Student converts mixed numbers incorrectly."
+      ],
+      "subtypes": [
+        {
+          "code": "adds_denominators",
+          "description": "Adds or subtracts denominators directly."
+        },
+        {
+          "code": "no_common_denominator",
+          "description": "Adds/subtracts unlike fractions without equivalent denominators."
+        },
+        {
+          "code": "wrong_common_denominator",
+          "description": "Finds or uses an incorrect common denominator."
+        },
+        {
+          "code": "reciprocal_error",
+          "description": "Uses reciprocal incorrectly in division of fractions."
+        },
+        {
+          "code": "mixed_number_conversion",
+          "description": "Incorrect conversion between mixed and improper fractions."
+        },
+        {
+          "code": "simplification_error",
+          "description": "Does not simplify correctly or simplifies by invalid cancellation."
+        },
+        {
+          "code": "fraction_decimal_conversion",
+          "description": "Incorrect conversion between fractions and decimals."
+        },
+        {
+          "code": "fraction_percentage_conversion",
+          "description": "Incorrect conversion between fractions and percentages."
+        },
+        {
+          "code": "negative_fraction_error",
+          "description": "Mishandles negative signs in fractions."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Identify whether the issue is equivalence, operation choice, or simplification.",
+        "Use visual fraction bars or number-line reasoning if conceptual weakness appears.",
+        "Assign targeted practice on the specific fraction subtype."
+      ]
+    },
+    {
+      "code": "decimal_percentage_error",
+      "label": "Decimal and percentage error",
+      "description": "Error converting, calculating, comparing, or interpreting decimals and percentages.",
+      "typical_evidence": [
+        "Student treats $0.05$ as $50\\%$ instead of $5\\%$.",
+        "Student uses $15$ instead of $0.15$ for $15\\%$.",
+        "Student misplaces decimal in money or measurement context."
+      ],
+      "subtypes": [
+        {
+          "code": "percent_to_decimal_error",
+          "description": "Incorrect conversion from percentage to decimal multiplier."
+        },
+        {
+          "code": "decimal_to_percent_error",
+          "description": "Incorrect conversion from decimal to percentage."
+        },
+        {
+          "code": "percentage_of_error",
+          "description": "Incorrectly calculates a percentage of a quantity."
+        },
+        {
+          "code": "percentage_increase_decrease_error",
+          "description": "Incorrect multiplier or direction for percentage increase/decrease."
+        },
+        {
+          "code": "money_decimal_error",
+          "description": "Incorrect handling of cents/dollars or two decimal places."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to write the percentage as a decimal multiplier first.",
+        "Use benchmark percentages such as $10\\%$, $25\\%$, $50\\%$ to estimate.",
+        "Assign financial-context percentage questions if repeated."
+      ]
+    },
+    {
+      "code": "rounding_error",
+      "label": "Rounding and estimation error",
+      "description": "Error involving rounding to required accuracy, premature rounding, estimation, or reasonableness checks.",
+      "typical_evidence": [
+        "Student rounds to wrong number of decimal places.",
+        "Student rounds too early and final answer is inaccurate.",
+        "Student gives exact answer when approximate answer is requested, or vice versa."
+      ],
+      "subtypes": [
+        {
+          "code": "wrong_decimal_places",
+          "description": "Rounds to incorrect number of decimal places."
+        },
+        {
+          "code": "wrong_significant_figures",
+          "description": "Rounds to incorrect number of significant figures."
+        },
+        {
+          "code": "premature_rounding",
+          "description": "Rounds intermediate values too early."
+        },
+        {
+          "code": "context_accuracy_error",
+          "description": "Does not choose accuracy appropriate to context."
+        },
+        {
+          "code": "reasonableness_check_missing",
+          "description": "Fails to estimate/check whether answer is sensible."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Prompt student to underline required accuracy in the question.",
+        "Use unrounded values until the final step.",
+        "Ask for an estimate before exact calculation."
+      ]
+    },
+    {
+      "code": "exponent_error",
+      "label": "Exponent error",
+      "description": "Error involving powers, exponent notation, square numbers, square roots, prime factorisation, or powers of ten.",
+      "typical_evidence": [
+        "Student calculates $2^3$ as $2\\times3$.",
+        "Student confuses $10^0$ with $0$.",
+        "Student incorrectly groups prime factors using exponents.",
+        "Student treats square root as dividing by $2$."
+      ],
+      "subtypes": [
+        {
+          "code": "base_exponent_confusion",
+          "description": "Confuses repeated multiplication with base times exponent."
+        },
+        {
+          "code": "zero_exponent_error",
+          "description": "Misunderstands $10^0$ or other zero powers."
+        },
+        {
+          "code": "prime_factor_exponent_error",
+          "description": "Incorrect exponent notation in prime factorisation."
+        },
+        {
+          "code": "square_root_error",
+          "description": "Incorrectly evaluates or estimates square roots."
+        },
+        {
+          "code": "perfect_square_error",
+          "description": "Fails to identify or use perfect squares correctly."
+        },
+        {
+          "code": "powers_of_ten_place_value_error",
+          "description": "Incorrect link between powers of ten and place value."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to expand powers as repeated multiplication.",
+        "Review square/square-root inverse relationship.",
+        "Use factor trees for prime factor exponent notation."
+      ]
+    },
+    {
+      "code": "formula_misuse",
+      "label": "Formula misuse",
+      "description": "Uses an incorrect formula, substitutes into the wrong formula, or confuses related formulas such as area/perimeter/circumference/volume.",
+      "typical_evidence": [
+        "Student uses area formula when perimeter is requested.",
+        "Student uses circumference formula for circle area or vice versa.",
+        "Student uses rectangle area formula for triangle without halving."
+      ],
+      "subtypes": [
+        {
+          "code": "area_perimeter_confusion",
+          "description": "Confuses area and perimeter formulas."
+        },
+        {
+          "code": "circle_area_circumference_confusion",
+          "description": "Confuses circumference and area relationships for circles."
+        },
+        {
+          "code": "volume_surface_area_confusion",
+          "description": "Confuses volume and surface area."
+        },
+        {
+          "code": "triangle_half_missing",
+          "description": "Forgets the $\\frac{1}{2}$ in triangle area."
+        },
+        {
+          "code": "wrong_formula_selected",
+          "description": "Selects a formula unrelated to the required quantity."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to identify what quantity is requested before choosing formula.",
+        "Compare units: length, square units, cubic units.",
+        "Use a formula-selection mini diagnostic."
+      ]
+    },
+    {
+      "code": "substitution_error",
+      "label": "Substitution error",
+      "description": "Incorrectly substitutes values into a formula or algebraic expression.",
+      "typical_evidence": [
+        "Student places values into wrong variables.",
+        "Student omits brackets for negative values.",
+        "Student substitutes correctly but evaluates powers/signs incorrectly."
+      ],
+      "subtypes": [
+        {
+          "code": "wrong_variable_substituted",
+          "description": "Value substituted for the wrong variable."
+        },
+        {
+          "code": "missing_brackets_negative",
+          "description": "Negative substitution performed without needed brackets."
+        },
+        {
+          "code": "partial_substitution",
+          "description": "Some variables substituted but others left unchanged incorrectly."
+        },
+        {
+          "code": "substitution_order_error",
+          "description": "Substitution leads to order-of-operations issue."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to write formula first, then substitution line, then calculation line.",
+        "Use brackets around substituted negative values.",
+        "Practise variable matching from context."
+      ]
+    },
+    {
+      "code": "algebra_setup",
+      "label": "Algebra setup error",
+      "description": "Incorrectly translates a context into an expression, equation, table, or rule.",
+      "typical_evidence": [
+        "Student writes equation with operations reversed.",
+        "Student omits fixed cost or starting value.",
+        "Student uses wrong variable or does not define variable."
+      ],
+      "subtypes": [
+        {
+          "code": "wrong_equation_from_words",
+          "description": "Incorrect equation formed from worded problem."
+        },
+        {
+          "code": "missing_variable_definition",
+          "description": "Variable is missing or not clearly defined."
+        },
+        {
+          "code": "fixed_term_missing",
+          "description": "Starting value/intercept/fixed cost omitted."
+        },
+        {
+          "code": "coefficient_rate_error",
+          "description": "Coefficient/rate chosen incorrectly."
+        },
+        {
+          "code": "expression_vs_equation_confusion",
+          "description": "Confuses expression with equation or rule."
+        }
+      ],
+      "default_severity": "high",
+      "recommended_actions": [
+        "Ask student to define variables and identify constants/rates first.",
+        "Use a table to connect context to equation.",
+        "Assign one-step translation practice before solving."
+      ]
+    },
+    {
+      "code": "equation_solving_error",
+      "label": "Equation solving error",
+      "description": "Error while solving one-variable equations, including inverse operations, balance method, or verification.",
+      "typical_evidence": [
+        "Equation setup is correct but solving steps are invalid.",
+        "Student performs operation on one side only.",
+        "Student fails to verify solution by substitution."
+      ],
+      "subtypes": [
+        {
+          "code": "inverse_operation_error",
+          "description": "Uses the wrong inverse operation while solving."
+        },
+        {
+          "code": "balance_error",
+          "description": "Does not apply same operation to both sides."
+        },
+        {
+          "code": "variable_isolation_error",
+          "description": "Incorrectly isolates the variable."
+        },
+        {
+          "code": "verification_missing",
+          "description": "Does not verify solution when required."
+        },
+        {
+          "code": "natural_solution_condition_ignored",
+          "description": "Ignores condition such as natural-number solution."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Use balance-scale language: do the same to both sides.",
+        "Ask student to write inverse operation above each step.",
+        "Require substitution check for final answer."
+      ]
+    },
+    {
+      "code": "distribution_error",
+      "label": "Distribution error",
+      "description": "Incorrect use of the distributive property when expanding or simplifying expressions.",
+      "typical_evidence": [
+        "Student multiplies only the first term in brackets.",
+        "Student mishandles negative coefficient outside brackets.",
+        "Student incorrectly combines expansion and like terms."
+      ],
+      "subtypes": [
+        {
+          "code": "second_term_not_multiplied",
+          "description": "Forgets to multiply the second or later term inside brackets."
+        },
+        {
+          "code": "negative_distribution_error",
+          "description": "Mishandles a negative outside brackets."
+        },
+        {
+          "code": "coefficient_distribution_error",
+          "description": "Incorrectly multiplies coefficient through brackets."
+        },
+        {
+          "code": "bracket_removal_error",
+          "description": "Removes brackets without valid distribution."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Use arrows from outside factor to every term inside brackets.",
+        "Practise negative distribution separately.",
+        "Ask student to check by substituting a simple value."
+      ]
+    },
+    {
+      "code": "like_terms_error",
+      "label": "Like terms error",
+      "description": "Incorrectly combines unlike terms or fails to combine like terms in algebraic expressions.",
+      "typical_evidence": [
+        "Student combines $3x+2y$ into $5xy$ or $5x$.",
+        "Student adds coefficients but changes variable part incorrectly.",
+        "Student does not simplify obvious like terms."
+      ],
+      "subtypes": [
+        {
+          "code": "combines_unlike_terms",
+          "description": "Combines terms with different variables or powers."
+        },
+        {
+          "code": "coefficient_combination_error",
+          "description": "Incorrectly adds/subtracts coefficients."
+        },
+        {
+          "code": "variable_part_changed",
+          "description": "Changes variable part when combining like terms."
+        },
+        {
+          "code": "like_terms_not_collected",
+          "description": "Fails to collect like terms when required."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to underline matching variable parts.",
+        "Use colour-coding for like terms.",
+        "Review coefficient vs variable part."
+      ]
+    },
+    {
+      "code": "scale_ratio_error",
+      "label": "Scale and ratio error",
+      "description": "Error setting up or solving ratio, rate, scale factor, proportion, or unitary-method problems.",
+      "typical_evidence": [
+        "Student reverses ratio order.",
+        "Student divides by wrong number of parts.",
+        "Student confuses map distance and real distance.",
+        "Student compares totals instead of unit rates."
+      ],
+      "subtypes": [
+        {
+          "code": "ratio_order_reversed",
+          "description": "Uses terms in the ratio in the wrong order."
+        },
+        {
+          "code": "total_parts_error",
+          "description": "Incorrectly calculates or uses total number of ratio parts."
+        },
+        {
+          "code": "unitary_method_error",
+          "description": "Incorrect unit rate or per-one calculation."
+        },
+        {
+          "code": "scale_conversion_error",
+          "description": "Incorrectly converts between scale drawing and real size."
+        },
+        {
+          "code": "best_buy_unit_rate_error",
+          "description": "Incorrect unit price/rate comparison."
+        },
+        {
+          "code": "direct_inverse_proportion_confusion",
+          "description": "Uses direct proportion when inverse or other relation is needed."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to label each ratio term with units/context.",
+        "Use unitary method: find one part or one unit first.",
+        "For best-buy problems, compare cost per item/unit."
+      ]
+    },
+    {
+      "code": "unit_error",
+      "label": "Unit error",
+      "description": "Wrong, missing, inconsistent, or incorrectly converted units in measurement, money, rate, or context problems.",
+      "typical_evidence": [
+        "Student calculates correctly but gives no units.",
+        "Student mixes cm and m without conversion.",
+        "Student gives area in linear units or volume in square units."
+      ],
+      "subtypes": [
+        {
+          "code": "missing_units",
+          "description": "Final answer has no units when units are required."
+        },
+        {
+          "code": "wrong_dimension_units",
+          "description": "Uses length units for area/volume or wrong power of unit."
+        },
+        {
+          "code": "metric_conversion_error",
+          "description": "Incorrect conversion between metric units."
+        },
+        {
+          "code": "rate_unit_error",
+          "description": "Incorrect or missing compound units such as km/h or dollars/item."
+        },
+        {
+          "code": "money_unit_error",
+          "description": "Incorrect dollars/cents formatting or conversion."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Prompt student to write units on every substituted value.",
+        "Use unit analysis to check dimension of answer.",
+        "Review metric conversion ladder if repeated."
+      ]
+    },
+    {
+      "code": "measurement_dimension_error",
+      "label": "Measurement dimension error",
+      "description": "Confuses length, area, surface area, volume, perimeter, circumference, or dimensions of 2D/3D objects.",
+      "typical_evidence": [
+        "Student adds side lengths when area is required.",
+        "Student multiplies all dimensions for surface area instead of volume.",
+        "Student treats diameter as radius."
+      ],
+      "subtypes": [
+        {
+          "code": "length_area_volume_confusion",
+          "description": "Confuses one-dimensional, two-dimensional, and three-dimensional measures."
+        },
+        {
+          "code": "radius_diameter_confusion",
+          "description": "Uses diameter when radius is required or vice versa."
+        },
+        {
+          "code": "height_base_confusion",
+          "description": "Uses wrong base/height pair in area formula."
+        },
+        {
+          "code": "surface_area_net_error",
+          "description": "Incorrectly counts or sizes faces in surface area/net problem."
+        },
+        {
+          "code": "prism_volume_error",
+          "description": "Incorrect prism volume setup or base area calculation."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to state whether answer should be length, area, or volume.",
+        "Draw or label the relevant dimensions before calculating.",
+        "Use units as a check: units, square units, or cubic units."
+      ]
+    },
+    {
+      "code": "geometry_reasoning_error",
+      "label": "Geometry reasoning error",
+      "description": "Incorrect use of angle, shape, polygon, congruence, transformation, or spatial reasoning properties.",
+      "typical_evidence": [
+        "Student applies wrong angle relationship for parallel lines.",
+        "Student uses triangle angle sum incorrectly.",
+        "Student misclassifies a polygon based on insufficient or incorrect properties."
+      ],
+      "subtypes": [
+        {
+          "code": "angle_sum_error",
+          "description": "Incorrect use of angles on a line, around a point, or triangle angle sum."
+        },
+        {
+          "code": "parallel_line_angle_error",
+          "description": "Confuses corresponding, alternate, co-interior, or vertically opposite angles."
+        },
+        {
+          "code": "triangle_inequality_error",
+          "description": "Does not apply triangle inequality correctly."
+        },
+        {
+          "code": "polygon_property_confusion",
+          "description": "Misclassifies shapes or confuses properties."
+        },
+        {
+          "code": "symmetry_error",
+          "description": "Incorrect line or rotational symmetry reasoning."
+        },
+        {
+          "code": "transformation_property_error",
+          "description": "Incorrect reasoning about reflection, rotation, translation, or congruence."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to name the geometry property used at each step.",
+        "Use a diagram annotation task before calculation.",
+        "Review relevant angle or shape property with a counterexample."
+      ]
+    },
+    {
+      "code": "graph_error",
+      "label": "Graph, table, and coordinate error",
+      "description": "Error reading, plotting, interpreting, or modelling data from graphs, tables, coordinates, or linear relationships.",
+      "typical_evidence": [
+        "Student swaps $x$ and $y$ coordinates.",
+        "Student misreads graph scale.",
+        "Student identifies wrong rate of change or intercept.",
+        "Student plots a point in the wrong quadrant."
+      ],
+      "subtypes": [
+        {
+          "code": "x_y_swapped",
+          "description": "Swaps horizontal and vertical coordinates or variables."
+        },
+        {
+          "code": "wrong_quadrant",
+          "description": "Plots or reads point in the wrong quadrant."
+        },
+        {
+          "code": "axis_scale_misread",
+          "description": "Misreads graph axis scale."
+        },
+        {
+          "code": "intercept_misread",
+          "description": "Misinterprets starting value or intercept."
+        },
+        {
+          "code": "rate_of_change_error",
+          "description": "Incorrectly determines or interprets rate of change."
+        },
+        {
+          "code": "table_pattern_error",
+          "description": "Incorrectly continues or generalises a table pattern."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to label axes and units before interpreting.",
+        "Use coordinate format $(x,y)$ explicitly.",
+        "Compare two rows/points to find rate of change."
+      ]
+    },
+    {
+      "code": "statistics_error",
+      "label": "Statistics error",
+      "description": "Error involving data collection, frequency tables, displays, mean, median, mode, range, spread, shape, outliers, or statistical interpretation.",
+      "typical_evidence": [
+        "Student calculates mean instead of median.",
+        "Student forgets to order data before finding median.",
+        "Student calculates range incorrectly.",
+        "Student ignores outlier when choosing measure of centre."
+      ],
+      "subtypes": [
+        {
+          "code": "mean_calculation_error",
+          "description": "Incorrect sum or division when calculating mean."
+        },
+        {
+          "code": "median_ordering_error",
+          "description": "Does not order data before finding median."
+        },
+        {
+          "code": "mode_identification_error",
+          "description": "Incorrectly identifies the mode or ignores multiple modes."
+        },
+        {
+          "code": "range_error",
+          "description": "Incorrectly calculates maximum minus minimum."
+        },
+        {
+          "code": "frequency_count_error",
+          "description": "Counts data frequencies incorrectly."
+        },
+        {
+          "code": "outlier_misinterpretation",
+          "description": "Fails to identify or interpret effect of outlier."
+        },
+        {
+          "code": "wrong_measure_of_centre",
+          "description": "Chooses mean/median/mode inappropriately for context."
+        },
+        {
+          "code": "data_display_error",
+          "description": "Constructs or interprets stem-and-leaf/dot/bar display incorrectly."
+        },
+        {
+          "code": "discrete_continuous_confusion",
+          "description": "Confuses discrete and continuous numerical data."
+        },
+        {
+          "code": "biased_question_error",
+          "description": "Uses or fails to detect a biased statistical question/sample."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to order data and mark centre/spread explicitly.",
+        "Use a small dataset to isolate the statistic being calculated.",
+        "Discuss whether outliers make median more appropriate than mean."
+      ]
+    },
+    {
+      "code": "probability_error",
+      "label": "Probability error",
+      "description": "Error involving sample spaces, chance events, theoretical probability, relative frequency, simulations, or expected frequency.",
+      "typical_evidence": [
+        "Student lists incomplete sample space.",
+        "Student assumes outcomes are equally likely when they are not.",
+        "Student confuses experimental relative frequency with theoretical probability.",
+        "Student incorrectly multiplies/adds probabilities in compound events."
+      ],
+      "subtypes": [
+        {
+          "code": "incorrect_sample_space",
+          "description": "Incomplete or incorrect list of possible outcomes."
+        },
+        {
+          "code": "equally_likely_assumption_error",
+          "description": "Assumes outcomes are equally likely when not justified."
+        },
+        {
+          "code": "favourable_outcome_count_error",
+          "description": "Counts favourable outcomes incorrectly."
+        },
+        {
+          "code": "probability_fraction_error",
+          "description": "Incorrect fraction for probability."
+        },
+        {
+          "code": "expected_frequency_error",
+          "description": "Incorrectly predicts expected number of outcomes."
+        },
+        {
+          "code": "relative_frequency_error",
+          "description": "Incorrectly calculates or interprets experimental probability."
+        },
+        {
+          "code": "compound_probability_error",
+          "description": "Incorrect handling of two-stage or compound events."
+        },
+        {
+          "code": "without_replacement_error",
+          "description": "Does not update totals after an outcome without replacement."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to list the full sample space first.",
+        "Identify total outcomes and favourable outcomes separately.",
+        "For repeated experiments, compare theoretical and observed frequencies."
+      ]
+    },
+    {
+      "code": "algorithmic_reasoning_error",
+      "label": "Algorithmic reasoning error",
+      "description": "Error designing, following, or interpreting step-by-step algorithms, decision trees, flowcharts, or classification rules.",
+      "typical_evidence": [
+        "Student’s decision tree misses a case.",
+        "Student uses steps in an order that gives wrong classification.",
+        "Student creates ambiguous or overlapping conditions."
+      ],
+      "subtypes": [
+        {
+          "code": "missing_case",
+          "description": "Algorithm fails for one or more possible cases."
+        },
+        {
+          "code": "wrong_branch_condition",
+          "description": "Decision condition sends item down wrong branch."
+        },
+        {
+          "code": "ambiguous_condition",
+          "description": "Condition is unclear or overlaps with another branch."
+        },
+        {
+          "code": "sequence_order_error",
+          "description": "Steps are in an ineffective or incorrect order."
+        },
+        {
+          "code": "classification_rule_error",
+          "description": "Algorithm uses incorrect mathematical property for classification."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Test the algorithm on edge cases and counterexamples.",
+        "Ask student to write yes/no decision points clearly.",
+        "Review the mathematical properties used in classification."
+      ]
+    },
+    {
+      "code": "reading_comprehension",
+      "label": "Reading comprehension error",
+      "description": "Student misreads the question, misses a condition, answers a different question, or overlooks required information.",
+      "typical_evidence": [
+        "Student solves only first part of a multi-part question.",
+        "Student uses wrong given value despite correct method.",
+        "Student ignores words such as 'difference', 'total', 'nearest tenth', or 'explain'."
+      ],
+      "subtypes": [
+        {
+          "code": "missed_key_condition",
+          "description": "A key constraint or condition is ignored."
+        },
+        {
+          "code": "answered_wrong_quantity",
+          "description": "Student calculates a related but wrong quantity."
+        },
+        {
+          "code": "multi_part_omission",
+          "description": "One or more required parts are not answered."
+        },
+        {
+          "code": "keyword_misinterpretation",
+          "description": "Misinterprets words such as more than, less than, difference, product, or ratio."
+        },
+        {
+          "code": "context_misread",
+          "description": "Misunderstands real-world situation or units in context."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Prompt student to restate what the question asks for.",
+        "Ask student to underline key conditions and final required output.",
+        "Use a short pre-solve checklist for word problems."
+      ]
+    },
+    {
+      "code": "visual_misread",
+      "label": "Visual misread",
+      "description": "Misreads a diagram, graph, table, chart, number line, geometric figure, or visual representation.",
+      "typical_evidence": [
+        "Student reads a value from the wrong axis or row/column.",
+        "Student assumes a diagram is to scale when it is not.",
+        "Student misidentifies equal sides/angles or orientation."
+      ],
+      "subtypes": [
+        {
+          "code": "diagram_not_to_scale_assumption",
+          "description": "Incorrectly assumes diagram is drawn to scale."
+        },
+        {
+          "code": "wrong_table_cell",
+          "description": "Reads value from wrong row or column."
+        },
+        {
+          "code": "wrong_graph_value",
+          "description": "Reads incorrect value from graph/chart."
+        },
+        {
+          "code": "orientation_error",
+          "description": "Misreads direction, rotation, reflection, or orientation."
+        },
+        {
+          "code": "label_misread",
+          "description": "Misreads or ignores diagram labels."
+        }
+      ],
+      "default_severity": "medium",
+      "recommended_actions": [
+        "Ask student to point to or quote the visual evidence used.",
+        "Have student label the diagram/table before solving.",
+        "Remind student not to assume scale unless stated."
+      ]
+    },
+    {
+      "code": "concept_gap",
+      "label": "Concept gap",
+      "description": "Student appears to lack the underlying concept, not merely making a procedural slip.",
+      "typical_evidence": [
+        "No relevant method is attempted.",
+        "Working shows a misunderstanding of the core idea.",
+        "Same conceptual mistake repeats across several questions."
+      ],
+      "subtypes": [
+        {
+          "code": "no_strategy",
+          "description": "No meaningful strategy is attempted."
+        },
+        {
+          "code": "misunderstood_concept",
+          "description": "Core concept is misunderstood."
+        },
+        {
+          "code": "prerequisite_gap",
+          "description": "Missing prerequisite knowledge blocks current topic."
+        },
+        {
+          "code": "procedural_memorisation_only",
+          "description": "Student follows memorised steps without conceptual understanding."
+        },
+        {
+          "code": "cannot_explain_reasoning",
+          "description": "Student cannot explain or justify method when required."
+        }
+      ],
+      "default_severity": "high",
+      "recommended_actions": [
+        "Route student to concept explanation or worked example.",
+        "Use simpler prerequisite diagnostic questions.",
+        "Provide scaffolded hints rather than another similar hard question."
+      ]
+    },
+    {
+      "code": "incomplete_answer",
+      "label": "Incomplete answer",
+      "description": "Answer is partial, missing a required step, not simplified, lacks conclusion, or does not answer all parts.",
+      "typical_evidence": [
+        "Student stops after intermediate value.",
+        "Student gives calculation but no final answer statement.",
+        "Student answers one part of a multi-part question."
+      ],
+      "subtypes": [
+        {
+          "code": "missing_final_step",
+          "description": "Work is nearly complete but final step is missing."
+        },
+        {
+          "code": "not_simplified",
+          "description": "Answer not simplified when required."
+        },
+        {
+          "code": "missing_explanation",
+          "description": "Numerical answer given but required explanation/reasoning omitted."
+        },
+        {
+          "code": "missing_units",
+          "description": "Correct numerical answer but units omitted."
+        },
+        {
+          "code": "multi_part_incomplete",
+          "description": "Not all sub-questions answered."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Prompt student: 'What does the question ask you to give finally?'",
+        "Ask student to write a final sentence with units/context.",
+        "Use checklist for multi-part questions."
+      ]
+    },
+    {
+      "code": "answer_format_error",
+      "label": "Answer format error",
+      "description": "Mathematically correct or close answer is not in the requested format, representation, order, accuracy, or form.",
+      "typical_evidence": [
+        "Student gives decimal when exact fraction is requested.",
+        "Student gives unordered list when ascending order requested.",
+        "Student gives unrounded answer when rounded answer requested."
+      ],
+      "subtypes": [
+        {
+          "code": "wrong_representation",
+          "description": "Answer not in requested fraction/decimal/percentage/algebraic form."
+        },
+        {
+          "code": "wrong_order",
+          "description": "Items not placed in requested order."
+        },
+        {
+          "code": "wrong_accuracy",
+          "description": "Answer not rounded to requested accuracy."
+        },
+        {
+          "code": "missing_context_sentence",
+          "description": "No contextual conclusion where required."
+        },
+        {
+          "code": "format_not_accepted",
+          "description": "Equivalent answer given but format does not match task requirements."
+        }
+      ],
+      "default_severity": "low",
+      "recommended_actions": [
+        "Prompt student to check the requested form of answer.",
+        "Accept as mathematically correct if system allows, but flag formatting for improvement.",
+        "Teach answer-format checking as final step."
+      ]
+    }
+  ],
+  "response_summary_template": {
+    "exercise_id": "string",
+    "student_answer": "string",
+    "is_correct": "boolean",
+    "primary_error_code": "string|null",
+    "primary_subtype_code": "string|null",
+    "secondary_error_codes": [
+      "string"
+    ],
+    "confidence": "low|medium|high",
+    "severity": "low|medium|high",
+    "evidence": "Short explanation of why this error was assigned.",
+    "feedback_to_student": "Student-friendly feedback message.",
+    "recommended_action": "Next tutoring action, hint, prerequisite review, or practice type."
+  },
+  "student_error_summary_template": {
+    "student_id": "string",
+    "period": "string",
+    "total_attempts": "number",
+    "total_incorrect": "number",
+    "top_error_patterns": [
+      {
+        "error_code": "string",
+        "subtype_code": "string|null",
+        "count": "number",
+        "severity": "low|medium|high",
+        "example_exercise_ids": [
+          "string"
+        ],
+        "likely_pattern": "string",
+        "recommended_action": "string"
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "core_rule": "Colons and brackets add extra information to sentences - colons introduce lists or explanations, brackets insert extra details that aren't essential to main meaning.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "What punctuation marks help you add extra details to a sentence without starting a new one?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Look at the <sentence>. Where could you add a colon to introduce <additional information>?"
+    },
+    {
+      "level": "analogy",
+      "template": "Colons are like a spotlight that says 'here comes the details'; brackets are like whispering extra gossip that's interesting but not necessary."
+    }
+  ],
+  "worked_example": {
+    "question": "Add a colon and brackets to this sentence to improve clarity: The ingredients needed are flour eggs sugar butter milk.",
+    "answer": "The ingredients needed are: flour, eggs, sugar, butter, and milk (all pantry staples).",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify where the list begins.",
+        "result": "After 'are' - perfect spot for colon."
+      },
+      {
+        "step": 2,
+        "instruction": "Add colon and format list properly.",
+        "result": "The ingredients needed are: flour, eggs, sugar, butter, and milk."
+      },
+      {
+        "step": 3,
+        "instruction": "Add extra detail in brackets.",
+        "result": "The ingredients needed are: flour, eggs, sugar, butter, and milk (all pantry staples)."
+      }
+    ],
+    "explanation": "Colon introduces the list clearly, commas separate items, and brackets add helpful context about ingredient type."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Basic sentence structure",
+      "Commas and lists"
+    ],
+    "learning_objectives": [
+      "Identify how colons introduce lists or explanations in informative texts.",
+      "Use brackets to add non-essential information that supports sentence meaning."
+    ],
+    "explanation_sections": [
+      {
+        "heading": "What are Colons and Brackets?",
+        "body": "Colons (:) are like a pause that says 'get ready for something important coming next' - usually a list or explanation. Brackets () are like side notes - they add extra information but you could remove them and the main sentence still makes sense. Think of colons as the main course announcement and brackets as the garnish on the side.",
+        "type": "concept"
+      },
+      {
+        "heading": "How to Use Colons and Brackets",
+        "body": "Step 1: Read the sentence and find where extra information should go. Step 2: If it's a complete list or explanation, use a colon before it. Step 3: If it's extra detail that's not crucial, wrap it in brackets. Step 4: Check that removing brackets doesn't break your main sentence.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text Example",
+        "body": "Original: The school offers many sports. Students can play soccer, netball, and basketball. They meet after school. Revised: The school offers many sports: soccer, netball, and basketball. Students meet after school (usually around 3:30pm). The colon introduces the list smoothly, and brackets tell us when without interrupting the main point.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Common Pitfall: Overloading with Brackets",
+        "body": "Students often put too much information in brackets, making them longer than the main sentence. Remember: brackets should add small, helpful details - not whole extra sentences. If your bracketed information is longer than a phrase, consider if it belongs in the main sentence instead.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Colon",
+        "definition": "Punctuation mark (:) that introduces a list, explanation, or emphasises what comes next."
+      },
+      {
+        "term": "Brackets",
+        "definition": "Parentheses () that add extra information which isn't essential to understanding the main sentence."
+      }
+    ],
+    "common_mistakes": [
+      "Using colons before incomplete sentences instead of complete thoughts.",
+      "Putting essential information in brackets that should be in the main sentence."
+    ],
+    "real_world_connections": [
+      "Recipe books use colons to introduce ingredient lists, and brackets to add cooking tips - this helps readers follow instructions easily."
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Identify what the brackets add in this sentence: The principal announced new rules (much to student dismay) for next term.",
+        "answer": "Brackets add the reaction of students, which gives emotional context but isn't needed to understand the main announcement.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Read the main sentence without brackets.",
+            "result": "The principal announced new rules for next term."
+          },
+          {
+            "step": 2,
+            "instruction": "Compare with full sentence to see added meaning.",
+            "result": "Brackets show student feelings about the rules."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

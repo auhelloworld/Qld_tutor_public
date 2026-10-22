@@ -1,0 +1,108 @@
+{
+  "core_rule": "Characters, settings, and events link to build theme. Change one part, change whole message.",
+  "hint_levels": [
+    {
+      "level": "concept_reminder",
+      "template": "How do person, place, and action work together to send message?"
+    },
+    {
+      "level": "step_prompt",
+      "template": "Find <character trait> and <setting detail>. Tell how <event> links them."
+    },
+    {
+      "level": "analogy",
+      "template": "Story elements like gears; one turn moves others to create power."
+    }
+  ],
+  "worked_example": {
+    "question": "Shy girl enters loud, crowded stadium to give speech. What is meaning?",
+    "answer": "Growth happens when leaving comfort zones.",
+    "steps": [
+      {
+        "step": 1,
+        "instruction": "Identify the character's main trait and the mood of the setting.",
+        "result": "Shyness vs public spotlight."
+      },
+      {
+        "step": 2,
+        "instruction": "Analyse how the event forces the character to interact with that setting.",
+        "result": "Talent quest forces action."
+      },
+      {
+        "step": 3,
+        "instruction": "Combine these observations to state the overall message or theme.",
+        "result": "Bravery through trial."
+      }
+    ],
+    "explanation": "Character trait (shy) clashes with setting (loud). Event (speech) forces change. This creates theme of courage."
+  },
+  "lesson_content": {
+    "prerequisite_topics": [
+      "Plot stages",
+      "Character traits"
+    ],
+    "learning_objectives": [
+      "Link character traits to setting",
+      "Explain how events reveal theme"
+    ],
+    "explanation_sections": [
+      {
+        "heading": "Narrative Meaning",
+        "body": "Stories use people, places, actions to show big ideas. Meaning is lesson or truth author shares.",
+        "type": "concept"
+      },
+      {
+        "heading": "Link Elements",
+        "body": "1. Find character trait. 2. See how setting affects them. 3. Watch how event changes world. Link all three.",
+        "type": "technique"
+      },
+      {
+        "heading": "Model Text",
+        "body": "'Aki held ancient scroll as temple bells rang.' Analysis: Aki (respectful) + Temple (tradition) + Bells (call to action) = Theme of duty.",
+        "type": "model_text"
+      },
+      {
+        "heading": "Pitfall: Listing",
+        "body": "Do not just list facts. Link them. 'It is cold' is fact. 'Cold wind chilled his hope' is meaning.",
+        "type": "warning"
+      }
+    ],
+    "key_vocabulary": [
+      {
+        "term": "Context",
+        "definition": "Background or environment."
+      },
+      {
+        "term": "Narrative",
+        "definition": "Story with sequence of events."
+      }
+    ],
+    "common_mistakes": [
+      "Listing details without linking",
+      "Ignoring how setting changes character mood"
+    ],
+    "real_world_connections": [
+      "Video game world-building",
+      "Film cinematography"
+    ],
+    "additional_worked_examples": [
+      {
+        "question": "Monkey King trapped under mountain for 500 years. Meaning?",
+        "answer": "Actions have long consequences; patience brings change.",
+        "steps": [
+          {
+            "step": 1,
+            "instruction": "Identify the character's status at the start of the story.",
+            "result": "Powerful but stuck."
+          },
+          {
+            "step": 2,
+            "instruction": "Link the setting's constraints to the event's duration.",
+            "result": "Mountain is prison for long time."
+          }
+        ]
+      }
+    ],
+    "external_resources": []
+  }
+}

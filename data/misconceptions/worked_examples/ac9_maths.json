@@ -1,0 +1,906 @@
+{
+  "worked_examples": [
+    {
+      "worked_example_id": "WE_M7N_negative_squared_01",
+      "name": "Evaluating (-3)² vs -(3²)",
+      "topic_ids": [
+        "AC9M7N04"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Evaluate (-3)²",
+      "final_answer": "9",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Identify what is being squared. The brackets tell us the ENTIRE expression (-3) is being squared.",
+          "math_latex": "(-3)^2",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Squaring means multiplying the number by itself.",
+          "math_latex": "(-3)^2 = (-3) \\times (-3)",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "A negative times a negative gives a positive result.",
+          "math_latex": "(-3) \\times (-3) = 9",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N04 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_negative_squared_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_fraction_addition_01",
+      "name": "Adding fractions with different denominators",
+      "topic_ids": [
+        "AC9M7N04",
+        "AC9M7N06"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Calculate 1/2 + 1/3",
+      "final_answer": "5/6",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Find the Lowest Common Denominator (LCD) of 2 and 3. The LCD is 6.",
+          "math_latex": "\\text{LCD}(2, 3) = 6",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Convert each fraction to have the LCD as denominator.",
+          "math_latex": "\\frac{1}{2} = \\frac{3}{6}, \\quad \\frac{1}{3} = \\frac{2}{6}",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Now add the numerators (the denominators stay the same).",
+          "math_latex": "\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N04, AC9M7N06 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_fraction_add_denom_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7M_area_perimeter_01",
+      "name": "Distinguishing area from perimeter of a rectangle",
+      "topic_ids": [
+        "AC9M7M01",
+        "AC9M7M02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A rectangle has length 8 cm and width 5 cm. Find its perimeter and area.",
+      "final_answer": "Perimeter = 26 cm, Area = 40 cm²",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Perimeter is the total distance around the outside. For a rectangle: P = 2 × (length + width).",
+          "math_latex": "P = 2 \\times (8 + 5) = 2 \\times 13 = 26 \\text{ cm}",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Area is the space inside the shape. For a rectangle: A = length × width.",
+          "math_latex": "A = 8 \\times 5 = 40 \\text{ cm}^2",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Notice: perimeter is measured in cm (a length), area is measured in cm² (a surface). They are different things!",
+          "math_latex": null,
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7M01, AC9M7M02 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7M_area_perimeter_swap_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_decimal_align_01",
+      "name": "Adding decimals with different decimal places",
+      "topic_ids": [
+        "AC9M7N06"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Calculate 1.5 + 2.35",
+      "final_answer": "3.85",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Write the numbers with decimal points aligned. Add a trailing zero to 1.5 so both have the same number of decimal places.",
+          "math_latex": "1.50 + 2.35",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Add column by column from right to left: hundredths (0+5=5), tenths (5+3=8), ones (1+2=3).",
+          "math_latex": "1.50 + 2.35 = 3.85",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "The decimal point in the answer lines up with the decimal points above.",
+          "math_latex": null,
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N06 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_decimal_misalign_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7A_inequality_flip_01",
+      "name": "Solving inequalities — when to flip the sign",
+      "topic_ids": [
+        "AC9M7A03"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Solve: -2x > 6",
+      "final_answer": "x < -3",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "We need to isolate x. Divide both sides by -2.",
+          "math_latex": "\\frac{-2x}{-2} \\quad ? \\quad \\frac{6}{-2}",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "IMPORTANT: When dividing by a negative number, FLIP the inequality sign. The > becomes <.",
+          "math_latex": "x < -3",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Check: try x = -4 (which is less than -3). Is -2(-4) > 6? That's 8 > 6 ✓. The sign flip was correct!",
+          "math_latex": "-2 \\times (-4) = 8 > 6 \\checkmark",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7A03 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7A_inequality_flip_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "seed",
+        "approved_at": "2025-01-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_prime_factorisation_exponents_01",
+      "name": "Writing prime factors with exponent notation",
+      "topic_ids": [
+        "AC9M7N02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Write 72 as a product of prime factors in exponent notation.",
+      "final_answer": "2^3 × 3^2",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Break 72 into factors until every end factor is prime.",
+          "math_latex": "72 = 8 \\times 9 = 2 \\times 2 \\times 2 \\times 3 \\times 3",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Group matching prime factors.",
+          "math_latex": "2 \\times 2 \\times 2 = 2^3, \\quad 3 \\times 3 = 3^2",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Write the grouped primes in ascending order.",
+          "math_latex": "72 = 2^3 \\times 3^2",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N02 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_prime_factorisation_exponents_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_square_root_halving_01",
+      "name": "Checking a square root by multiplication",
+      "topic_ids": [
+        "AC9M7N01"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Find √81 and explain why it is not 40.5.",
+      "final_answer": "9, because 9 × 9 = 81",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "A square root asks for the number that multiplies by itself to make 81.",
+          "math_latex": "\\sqrt{81} = ?",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Test the perfect square fact.",
+          "math_latex": "9 \\times 9 = 81",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Reject halving because 40.5 × 40.5 does not equal 81.",
+          "math_latex": "\\sqrt{81}=9",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N01 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_square_root_halving_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_ratio_additive_scaling_01",
+      "name": "Scaling a ratio multiplicatively",
+      "topic_ids": [
+        "AC9M7N08"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A cordial mix uses syrup and water in the ratio 2:5. Write an equivalent ratio with 21 total parts.",
+      "final_answer": "6:15",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Find the original total number of parts.",
+          "math_latex": "2+5=7",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Scale 7 parts to 21 parts by multiplying by 3.",
+          "math_latex": "21 \\div 7 = 3",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Multiply every part of the ratio by 3.",
+          "math_latex": "2:5 = 6:15",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7N08 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_ratio_additive_scaling_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7M_ratio_model_context_check_01",
+      "name": "Interpreting a ratio model in context",
+      "topic_ids": [
+        "AC9M7M06"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A 48 kg concrete mix uses cement:sand:gravel in the ratio 1:3:4. How many kilograms of each are needed?",
+      "final_answer": "6 kg cement, 18 kg sand, 24 kg gravel",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Add the ratio parts.",
+          "math_latex": "1+3+4=8",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Find the mass of one part.",
+          "math_latex": "48 \\div 8 = 6\\text{ kg}",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Multiply each part and check the total.",
+          "math_latex": "1(6)=6,\\;3(6)=18,\\;4(6)=24,\\;6+18+24=48",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7M06 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7M_ratio_model_no_context_check_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7A_expression_grouping_01",
+      "name": "Reading brackets in an expression",
+      "topic_ids": [
+        "AC9M7A02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Write an expression for 3 bags, each containing n marbles and 2 bonus marbles.",
+      "final_answer": "3(n + 2)",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Identify one group: each bag has n marbles plus 2 bonus marbles.",
+          "math_latex": "n+2",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "There are 3 identical groups, so multiply the whole group by 3.",
+          "math_latex": "3(n+2)",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Do not write 3n + 2 because that adds only one set of bonus marbles.",
+          "math_latex": "3(n+2)=3n+6",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7A02 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7A_brackets_not_grouping_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7A_pattern_missing_constant_01",
+      "name": "Finding the rule for a growing pattern",
+      "topic_ids": [
+        "AC9M7A05"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A tile pattern has 4 tiles in figure 1, 7 tiles in figure 2, and 10 tiles in figure 3. Find a rule for figure n.",
+      "final_answer": "3n + 1",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Find the repeated growth between figures.",
+          "math_latex": "7-4=3,\\quad 10-7=3",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Start with 3n and test figure 1.",
+          "math_latex": "3(1)=3",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Add the fixed extra tile so figure 1 gives 4 tiles.",
+          "math_latex": "3n+1",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7A05 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7A_pattern_additive_vs_multiplicative_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7M_parallel_angle_relationships_01",
+      "name": "Choosing the correct parallel-line angle rule",
+      "topic_ids": [
+        "AC9M7M04"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Two parallel lines are crossed by a transversal. A co-interior angle is 118°. Find the other co-interior angle.",
+      "final_answer": "62°",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Name the relationship before calculating: co-interior angles add to 180°.",
+          "math_latex": "a+118^\\circ=180^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Subtract 118° from 180°.",
+          "math_latex": "a=180^\\circ-118^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "State the angle with units.",
+          "math_latex": "a=62^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7M04 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7M_parallel_angle_relationship_confusion_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7M_triangle_angle_sum_01",
+      "name": "Using triangle angle sum with a reason",
+      "topic_ids": [
+        "AC9M7M05"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A triangle has angles 42° and 68°. Find the third angle and justify the method.",
+      "final_answer": "70°",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Use the triangle angle-sum fact.",
+          "math_latex": "42^\\circ+68^\\circ+x=180^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Add the known angles.",
+          "math_latex": "42^\\circ+68^\\circ=110^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Subtract from 180°.",
+          "math_latex": "x=180^\\circ-110^\\circ=70^\\circ",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7M05 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7M_triangle_angle_sum_not_180_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7ST_investigation_conclusion_01",
+      "name": "Writing a statistical conclusion with evidence",
+      "topic_ids": [
+        "AC9M7ST03"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A class investigates screen time for two groups. Group A has median 2.1 h and range 3.0 h; Group B has median 3.4 h and range 1.2 h. Write a conclusion.",
+      "final_answer": "Group B typically has higher and more consistent screen time; evidence: higher median and smaller range.",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Identify the centre for each group.",
+          "math_latex": "\\text{Median A}=2.1,\\quad \\text{Median B}=3.4",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Compare spread using range.",
+          "math_latex": "\\text{Range A}=3.0,\\quad \\text{Range B}=1.2",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Answer the investigation question using evidence.",
+          "math_latex": "3.4>2.1,\\quad 1.2<3.0",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7ST03 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7ST_conclusion_without_evidence_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7ST_mean_vs_median_01",
+      "name": "Choosing median when an outlier affects the mean",
+      "topic_ids": [
+        "AC9M7ST01"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "The data are 4, 5, 5, 6, 30. Which measure better describes a typical value: mean or median?",
+      "final_answer": "Median, because 30 pulls the mean upward.",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Find the median, the middle value.",
+          "math_latex": "4,5,\\boxed{5},6,30",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Notice the outlier 30 is far from the other values.",
+          "math_latex": "30 \\text{ is unusually high}",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Choose the more resistant measure for a typical value.",
+          "math_latex": "\\text{median}=5",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7ST01 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7ST_mean_vs_median_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7P_sample_space_partial_01",
+      "name": "Listing the complete sample space",
+      "topic_ids": [
+        "AC9M7P01"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A spinner has four equal sections labelled A, B, C and D. What is the probability of spinning a vowel?",
+      "final_answer": "1/4",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "List the complete sample space.",
+          "math_latex": "\\{A,B,C,D\\}",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Identify favourable outcomes. Only A is a vowel.",
+          "math_latex": "\\{A\\}",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Write favourable outcomes over total outcomes.",
+          "math_latex": "P(\\text{vowel})=\\frac{1}{4}",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7P01 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7P_sample_space_partial_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7P_simulation_variation_01",
+      "name": "Explaining simulation variation",
+      "topic_ids": [
+        "AC9M7P02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "A coin is tossed 20 times and lands heads 13 times. Does this prove the coin is unfair?",
+      "final_answer": "No; 13/20 differs from 1/2, but short-run results can vary.",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Find the observed relative frequency.",
+          "math_latex": "\\frac{13}{20}=0.65",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Compare it with the theoretical probability for heads.",
+          "math_latex": "P(H)=\\frac{1}{2}=0.5",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Interpret the difference using sample size and randomness.",
+          "math_latex": "20 \\text{ trials is a short run, so variation is expected}",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7P02 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7P_short_run_matches_theory_exactly_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7ST_stem_leaf_key_order_01",
+      "name": "Building a stem-and-leaf plot with a key",
+      "topic_ids": [
+        "AC9M7ST02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Create a stem-and-leaf plot for 64, 67, 71, 72, 72, 85.",
+      "final_answer": "6|4 7; 7|1 2 2; 8|5, key 6|4 = 64",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Order the data values.",
+          "math_latex": "64,67,71,72,72,85",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Use tens digits as stems and ones digits as leaves, keeping leaves ordered.",
+          "math_latex": "6|4\\;7,\\quad 7|1\\;2\\;2,\\quad 8|5",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Add a key so the place value is clear.",
+          "math_latex": "\\text{Key: }6|4=64",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try a related AC9M7ST02 question by naming the first decision before calculating.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7ST_stem_leaf_unsorted_or_no_key_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7N_hcf_lcm_exponent_choice_01",
+      "name": "Choosing prime powers for HCF and LCM",
+      "topic_ids": [
+        "AC9M7N02"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Use prime factorisation to find the HCF and LCM of 72 and 90.",
+      "final_answer": "HCF = 18; LCM = 360",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Write both numbers as prime powers.",
+          "math_latex": "72=2^3\\times3^2,\\quad 90=2\\times3^2\\times5",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "For HCF, choose only common primes with the smaller exponent.",
+          "math_latex": "\\text{HCF}=2^1\\times3^2=18",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "For LCM, choose all primes that appear, with the larger exponent.",
+          "math_latex": "\\text{LCM}=2^3\\times3^2\\times5=360",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try the original question by first asking: am I looking for a factor that fits in both numbers, or a multiple that contains both numbers?",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7N_hcf_lcm_exponent_choice_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    },
+    {
+      "worked_example_id": "WE_M7A_equation_balance_one_side_01",
+      "name": "Keeping an equation balanced",
+      "topic_ids": [
+        "AC9M7A03"
+      ],
+      "framework": "AC9_MATHS",
+      "question": "Solve x + 7 = 19 and explain why subtracting 7 from only the left side is invalid.",
+      "final_answer": "x = 12",
+      "steps": [
+        {
+          "step_number": 1,
+          "prose": "Identify the operation attached to x. The equation adds 7 to x.",
+          "math_latex": "x+7=19",
+          "image_path": null
+        },
+        {
+          "step_number": 2,
+          "prose": "Undo +7 by subtracting 7 from both sides, not just one side.",
+          "math_latex": "x+7-7=19-7",
+          "image_path": null
+        },
+        {
+          "step_number": 3,
+          "prose": "Simplify and check in the original equation.",
+          "math_latex": "x=12,\\quad 12+7=19",
+          "image_path": null
+        },
+        {
+          "step_number": 4,
+          "prose": "Transfer prompt: Now try the original question by naming the inverse operation and writing it on both sides before simplifying.",
+          "math_latex": null,
+          "image_path": null
+        }
+      ],
+      "targets_misconception_ids": [
+        "MC_M7A_equation_one_side_only_01"
+      ],
+      "provenance": {
+        "source": "hand_curated",
+        "approved_by": "content_audit",
+        "approved_at": "2026-06-15T00:00:00+00:00",
+        "mined_from_run_id": null
+      }
+    }
+  ]
+}
